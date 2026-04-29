@@ -237,11 +237,15 @@ def get_stanza_rows(raw: Dict[str, Any]) -> pd.DataFrame:
 
 
 def cleaned_records(df: pd.DataFrame, key_col: str) -> List[Dict[str, Any]]:
-    """Convert edited table to records, dropping rows without the main value."""
+    """Convert edited table to final gold records.
+
+    Rows marked remove are excluded from final_annotations, but remain available
+    through app.py's review_changes payload.
+    """
     if df is None or df.empty:
         return []
     result: List[Dict[str, Any]] = []
     for rec in df.fillna("").to_dict(orient="records"):
-        if str(rec.get(key_col, "")).strip():
+        if str(rec.get(key_col, "")).strip() and str(rec.get("review_action", "")).strip() != "remove":
             result.append(rec)
     return result

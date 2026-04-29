@@ -121,6 +121,7 @@ def records_df(records: List[Dict[str, Any]]) -> pd.DataFrame:
 def render_review(review: Dict[str, Any]) -> None:
     decision = review.get("reviewer_decision", {}) or {}
     annotations = review.get("final_annotations", {}) or {}
+    changes = review.get("review_changes", {}) or {}
 
     st.markdown(
         f"""
@@ -154,6 +155,16 @@ def render_review(review: Dict[str, Any]) -> None:
         st.dataframe(records_df(annotations.get("stanza_emotions", []) or []), use_container_width=True, hide_index=True)
     with st.expander("Visual motifs", expanded=True):
         st.dataframe(records_df(annotations.get("visual_motifs", []) or []), use_container_width=True, hide_index=True)
+
+    with st.expander("Reviewer changes: modified, removed, or added rows", expanded=False):
+        st.markdown("#### Culture entities")
+        st.dataframe(records_df(changes.get("culture_entities", []) or []), use_container_width=True, hide_index=True)
+        st.markdown("#### Metaphors")
+        st.dataframe(records_df(changes.get("metaphor_spans", []) or []), use_container_width=True, hide_index=True)
+        st.markdown("#### Stanza emotions")
+        st.dataframe(records_df(changes.get("stanza_emotions", []) or []), use_container_width=True, hide_index=True)
+        st.markdown("#### Visual motifs")
+        st.dataframe(records_df(changes.get("visual_motifs", []) or []), use_container_width=True, hide_index=True)
 
 
 reviews, storage_message = load_all_reviews()

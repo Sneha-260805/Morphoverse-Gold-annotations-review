@@ -11,6 +11,7 @@ from utils.io_utils import (
     append_audit_log,
     ensure_app_dirs,
     load_raw_poems,
+    load_review_queue,
     load_reviews_for_poem,
     load_reviewed_index,
     make_review_zip,
@@ -312,6 +313,14 @@ def has_review_edits(*tables: pd.DataFrame) -> bool:
     return False
 
 
+def changed_records(df: pd.DataFrame, key_col: str) -> List[Dict[str, Any]]:
+    changes: List[Dict[str, Any]] = []
+    for rec in review_records(df, key_col):
+        if str(rec.get("review_action", "")).strip() in {"modify", "remove", "add"}:
+            changes.append(rec)
+    return changes
+
+
 def table_preview(df: pd.DataFrame, columns: List[str]) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame(columns=columns)
@@ -453,6 +462,7 @@ ensure_app_dirs()
 data_dir = resolve_data_dir()
 poems = load_raw_poems(data_dir)
 reviewed_index = load_reviewed_index()
+review_queue_df = load_review_queue(data_dir)
 
 st.markdown(
     """
@@ -660,6 +670,29 @@ with st.expander(f"Visual motifs ({row_count(motif_df)})", expanded=row_count(mo
     )
     edited_motif_df = df_editor_motif(motif_df, key=f"motif_{poem_id}")
 
+if not review_queue_df.empty and "poem_id" in review_queue_df.columns:
+    poem_disagreements = review_queue_df[review_queue_df["poem_id"].astype(str) == poem_id]
+    if not poem_disagreements.empty:
+        with st.expander(f"Disagreement details ({len(poem_disagreements)})", expanded=True):
+            st.info(
+                "These are places where the source models disagreed. Use them as extra guidance while "
+                "checking the annotation tables above."
+            )
+            visible_cols = [
+                col
+                for col in [
+                    "field_path",
+                    "agreement",
+                    "resolved_value",
+                    "claude_value",
+                    "gpt_value",
+                    "gemini_value",
+                    "note",
+                ]
+                if col in poem_disagreements.columns
+            ]
+            st.dataframe(poem_disagreements[visible_cols], use_container_width=True, hide_index=True)
+
 with st.container():
     st.markdown("### Final Human Decision")
     st.info(
@@ -738,6 +771,12 @@ with st.container():
                     "metaphor_spans": cleaned_records(edited_metaphor_df, "source_text"),
                     "stanza_emotions": cleaned_records(edited_emotion_df, "stanza_index"),
                     "visual_motifs": cleaned_records(edited_motif_df, "motif"),
+                },
+                "review_changes": {
+                    "culture_entities": changed_records(edited_culture_df, "text"),
+                    "metaphor_spans": changed_records(edited_metaphor_df, "source_text"),
+                    "stanza_emotions": changed_records(edited_emotion_df, "stanza_index"),
+                    "visual_motifs": changed_records(edited_motif_df, "motif"),
                 },
                 "reviewer_decision": {
                     "decision": decision,
