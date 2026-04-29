@@ -1,0 +1,159 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0036",
+  "poem_title": "Bodo Gwsing",
+  "language": "Bodo",
+  "original_poem": "बोडो ग्वसिंग\nबोडो ग्वसिंग, तुमार धुन\nसंगीत भरी गुथा,\nमोर मनत ठोर ठोर\nसपना गितार उठी।",
+  "translated_poem": "Bodo Song\nBodo Gwsing, your tune\nWoven with music,\nIn my heart, every beat\nDreams rise like melodies.",
+  "status": "pending",
+  "agreement": "pending",
+  "vote_basis": "pending",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो ग्वसिंग",
+          "बोडो ग्वसिंग, तुमार धुन",
+          "संगीत भरी गुथा,",
+          "मोर मनत ठोर ठोर",
+          "सपना गितार उठी।"
+        ],
+        "translated_lines": [
+          "Bodo Song",
+          "Bodo Gwsing, your tune",
+          "Woven with music,",
+          "In my heart, every beat",
+          "Dreams rise like melodies."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "",
+      "agreement": "pending",
+      "source_model": null
+    },
+    "emotional_arc": {
+      "value": "",
+      "agreement": "pending",
+      "source_model": null
+    },
+    "translation_fidelity_score": 0.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "बोडो ग्वसिंग",
+          "बोडो ग्वसिंग, तुमार धुन",
+          "संगीत भरी गुथा,",
+          "मोर मनत ठोर ठोर",
+          "सपना गितार उठी।"
+        ],
+        "translated_lines": [
+          "Bodo Song",
+          "Bodo Gwsing, your tune",
+          "Woven with music,",
+          "In my heart, every beat",
+          "Dreams rise like melodies."
+        ],
+        "emotion": {
+          "value": "",
+          "agreement": "pending",
+          "source_model": null
+        },
+        "tone": {
+          "value": "",
+          "agreement": "pending",
+          "source_model": null
+        },
+        "translation_quality": {
+          "value": "",
+          "agreement": "pending",
+          "source_model": null
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "pending",
+          "source_model": null
+        },
+        "metaphor_spans": [],
+        "visual_motifs": []
+      }
+    ],
+    "cultural_entities": [],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_models_total": 0,
+      "valid_voting_models": 0,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 0,
+      "low_entity_count": 0,
+      "review_item_count": 0,
+      "vote_basis": "pending"
+    }
+  },
+  "review_items": [],
+  "_votes": {
+    "claude": {
+      "status": "pending",
+      "retry_count": 0,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "",
+      "comparison": null,
+      "is_voting_model": true,
+      "prompt_kind": ""
+    },
+    "gpt": {
+      "status": "pending",
+      "retry_count": 0,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "",
+      "comparison": null,
+      "is_voting_model": true,
+      "prompt_kind": ""
+    },
+    "gemini": {
+      "status": "pending",
+      "retry_count": 0,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "",
+      "comparison": null,
+      "is_voting_model": true,
+      "prompt_kind": ""
+    },
+    "gemini-3-flash": {
+      "status": "pending",
+      "retry_count": 0,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "",
+      "comparison": null,
+      "is_voting_model": false,
+      "prompt_kind": ""
+    }
+  }
+}

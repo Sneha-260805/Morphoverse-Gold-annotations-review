@@ -1,0 +1,1147 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0105",
+  "poem_title": "Saare Jahan Se Achha",
+  "language": "Hindi",
+  "original_poem": "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,  \nहम बुलबुलें हैं इसकी, ये गुलसितां हमारा।  \n\nग़ुर्बत में हों अगर हम, रहता है दिल वतन में,  \nसमझो वहीं हमें भी दिल हो जहाँ हमारा।  \n\nमज़हब नहीं सिखाता आपस में बैर रखना,  \nहिंदी हैं हम, वतन है हिन्दोस्तां हमारा।",
+  "translated_poem": "Better than the entire world, is our Hindustan,  \nWe are its nightingales, and it’s our garden land.  \n\nEven if we are in exile, our hearts reside at home,  \nWherever our hearts may be, there lies our homeland.  \n\nReligion does not teach us to harbor enmity,  \nWe are Indians, and India is our motherland.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,",
+          "हम बुलबुलें हैं इसकी, ये गुलसितां हमारा।"
+        ],
+        "translated_lines": [
+          "Better than the entire world, is our Hindustan,",
+          "We are its nightingales, and it’s our garden land."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ग़ुर्बत में हों अगर हम, रहता है दिल वतन में,",
+          "समझो वहीं हमें भी दिल हो जहाँ हमारा।"
+        ],
+        "translated_lines": [
+          "Even if we are in exile, our hearts reside at home,",
+          "Wherever our hearts may be, there lies our homeland."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "मज़हब नहीं सिखाता आपस में बैर रखना,",
+          "हिंदी हैं हम, वतन है हिन्दोस्तां हमारा।"
+        ],
+        "translated_lines": [
+          "Religion does not teach us to harbor enmity,",
+          "We are Indians, and India is our motherland."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "declarative",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "Opens with proud national celebration, deepens into tender longing in exile, and closes with a principled declaration of pluralistic identity",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 2,
+        "source_lines": [
+          "सारे जहाँ से अच्छा, हिन्दोसिता हमारा,",
+          "हम बुलबुलें हैं इसकी, ये गुलसितां हमारा।"
+        ],
+        "translated_lines": [
+          "Better than the entire world, is our Hindustan,",
+          "We are its nightingales, and it’s our garden land."
+        ],
+        "emotion": {
+          "value": "celebration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "बुलबुलें",
+            "abstract_meaning": "citizens as devoted singers belonging to their homeland",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "गुलसितां",
+            "abstract_meaning": "the nation as a flowering garden that nurtures its people",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "हम बुलबुलें हैं इसकी",
+            "abstract_meaning": "citizens as loving singers of the nation",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "ये गुलसितां हमारा",
+            "abstract_meaning": "the homeland as a cherished blooming garden",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a lush garden representing the Indian subcontinent",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "nightingales in a flower garden",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "nightingales perched in a blooming garden",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "nightingales singing in a blooming garden",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the homeland imagined as a blooming garden",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 2,
+        "source_lines": [
+          "ग़ुर्बत में हों अगर हम, रहता है दिल वतन में,",
+          "समझो वहीं हमें भी दिल हो जहाँ हमारा।"
+        ],
+        "translated_lines": [
+          "Even if we are in exile, our hearts reside at home,",
+          "Wherever our hearts may be, there lies our homeland."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "ग़ुर्बत",
+            "abstract_meaning": "the condition of being far from one's homeland while the heart remains tethered to it",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "दिल वतन में",
+            "abstract_meaning": "the heart remaining in the homeland while the body is in exile",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "रहता है दिल वतन में",
+            "abstract_meaning": "deep attachment that remains rooted in the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a heart residing in the homeland despite physical exile",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "a heart visually anchored to a map of the homeland",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a person far from home with heart turned toward the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a solitary figure in a foreign land gazing toward a distant horizon",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 2,
+        "source_lines": [
+          "मज़हब नहीं सिखाता आपस में बैर रखना,",
+          "हिंदी हैं हम, वतन है हिन्दोस्तां हमारा।"
+        ],
+        "translated_lines": [
+          "Religion does not teach us to harbor enmity,",
+          "We are Indians, and India is our motherland."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [],
+        "visual_motifs": [
+          {
+            "motif": "a figure proudly declaring identity before a crowd",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "people of different faiths standing together in the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "people of different faiths standing together under one banner",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "हिन्दोसिता",
+        "romanization": {
+          "value": "Hindosita",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Rendered as Hindustan, preserving the geographic-cultural identity of the subcontinent.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "वतन",
+        "romanization": {
+          "value": "watan",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "stanza_index": 2,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Translated as home or homeland; watan carries an emotionally charged patriotic-devotional weight in Urdu-Hindi tradition not fully conveyed.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "मज़हब",
+        "romanization": {
+          "value": "mazhab",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "stanza_index": 3,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Translated as religion, which is adequate but loses the specific Urdu connotation of sectarian religious identity.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "हिंदी",
+        "romanization": {
+          "value": "Hindi",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 3,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "Translated as Indians; here Hindi refers to inhabitants of Hind, not the language, a distinction the translation preserves contextually.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      },
+      {
+        "term": "हिन्दोस्तां",
+        "romanization": {
+          "value": "Hindustan",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 3,
+        "preserved": {
+          "value": true,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 1,
+      "medium_stanza_count": 2,
+      "low_entity_count": 5,
+      "review_item_count": 6,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[2].tone",
+      "agreement": "low",
+      "resolved_value": "whisper",
+      "claude_value": "whisper",
+      "gpt_value": "tenderness",
+      "gemini_value": "declaration",
+      "note": "majority_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[बुलबुल].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[गुलसितां].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[वतन].category",
+      "agreement": "low",
+      "resolved_value": "DEVOTIONAL_CONCEPT",
+      "claude_value": "DEVOTIONAL_CONCEPT",
+      "gpt_value": "REGIONAL_SYMBOL",
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[मज़हब].category",
+      "agreement": "low",
+      "resolved_value": "DEVOTIONAL_CONCEPT",
+      "claude_value": "DEVOTIONAL_CONCEPT",
+      "gpt_value": "SOCIAL_CUSTOM",
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[हिन्दोस्तां].preserved",
+      "agreement": "low",
+      "resolved_value": true,
+      "claude_value": true,
+      "gpt_value": false,
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"Opens with proud national celebration, deepens into tender longing in exile, and closes with a principled declaration of pluralistic identity\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"बुलबुलें\",\"abstract_meaning\":\"citizens as devoted singers belonging to their homeland\"},{\"source_term\":\"गुलसितां\",\"abstract_meaning\":\"the nation as a flowering garden that nurtures its people\"}],\"visual_motifs\":[\"nightingales perched in a blooming garden\",\"a lush garden representing the Indian subcontinent\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"ग़ुर्बत\",\"abstract_meaning\":\"the condition of being far from one's homeland while the heart remains tethered to it\"},{\"source_term\":\"दिल वतन में\",\"abstract_meaning\":\"the heart remaining in the homeland while the body is in exile\"}],\"visual_motifs\":[\"a solitary figure in a foreign land gazing toward a distant horizon\",\"a heart visually anchored to a map of the homeland\"]},{\"index\":3,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"people of different faiths standing together under one banner\",\"a figure proudly declaring identity before a crowd\"]}],\"cultural_entities\":[{\"term\":\"हिन्दोसिता\",\"romanization\":\"Hindosita\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Rendered as Hindustan, preserving the geographic-cultural identity of the subcontinent.\"},{\"term\":\"बुलबुल\",\"romanization\":\"bulbul\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as nightingale; bulbul carries specific South Asian poetic and cultural resonance lost in translation.\"},{\"term\":\"गुलसितां\",\"romanization\":\"gulistan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as garden land; gulistan is a Persian-rooted literary symbol of paradise-like homeland with deeper Urdu poetic weight.\"},{\"term\":\"वतन\",\"romanization\":\"watan\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Translated as home or homeland; watan carries an emotionally charged patriotic-devotional weight in Urdu-Hindi tradition not fully conveyed.\"},{\"term\":\"मज़हब\",\"romanization\":\"mazhab\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"Translated as religion, which is adequate but loses the specific Urdu connotation of sectarian religious identity.\"},{\"term\":\"हिंदी\",\"romanization\":\"Hindi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"Translated as Indians; here Hindi refers to inhabitants of Hind, not the language, a distinction the translation preserves contextually.\"},{\"term\":\"हिन्दोस्तां\",\"romanization\":\"Hindustan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "Opens with proud national celebration, deepens into tender longing in exile, and closes with a principled declaration of pluralistic identity",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "बुलबुलें",
+                "abstract_meaning": "citizens as devoted singers belonging to their homeland"
+              },
+              {
+                "source_term": "गुलसितां",
+                "abstract_meaning": "the nation as a flowering garden that nurtures its people"
+              }
+            ],
+            "visual_motifs": [
+              "nightingales perched in a blooming garden",
+              "a lush garden representing the Indian subcontinent"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "ग़ुर्बत",
+                "abstract_meaning": "the condition of being far from one's homeland while the heart remains tethered to it"
+              },
+              {
+                "source_term": "दिल वतन में",
+                "abstract_meaning": "the heart remaining in the homeland while the body is in exile"
+              }
+            ],
+            "visual_motifs": [
+              "a solitary figure in a foreign land gazing toward a distant horizon",
+              "a heart visually anchored to a map of the homeland"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "people of different faiths standing together under one banner",
+              "a figure proudly declaring identity before a crowd"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "romanization": "Hindosita",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Rendered as Hindustan, preserving the geographic-cultural identity of the subcontinent."
+          },
+          {
+            "term": "बुलबुल",
+            "romanization": "bulbul",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as nightingale; bulbul carries specific South Asian poetic and cultural resonance lost in translation."
+          },
+          {
+            "term": "गुलसितां",
+            "romanization": "gulistan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as garden land; gulistan is a Persian-rooted literary symbol of paradise-like homeland with deeper Urdu poetic weight."
+          },
+          {
+            "term": "वतन",
+            "romanization": "watan",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Translated as home or homeland; watan carries an emotionally charged patriotic-devotional weight in Urdu-Hindi tradition not fully conveyed."
+          },
+          {
+            "term": "मज़हब",
+            "romanization": "mazhab",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 3,
+            "preserved": true,
+            "translation_note": "Translated as religion, which is adequate but loses the specific Urdu connotation of sectarian religious identity."
+          },
+          {
+            "term": "हिंदी",
+            "romanization": "Hindi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": true,
+            "translation_note": "Translated as Indians; here Hindi refers to inhabitants of Hind, not the language, a distinction the translation preserves contextually."
+          },
+          {
+            "term": "हिन्दोस्तां",
+            "romanization": "Hindustan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "बुलबुलें",
+              "गुलसितां"
+            ],
+            "visual_motifs": [
+              "nightingales perched in a blooming garden",
+              "a lush garden representing the Indian subcontinent"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "ग़ुर्बत",
+              "दिल वतन में"
+            ],
+            "visual_motifs": [
+              "a solitary figure in a foreign land gazing toward a distant horizon",
+              "a heart visually anchored to a map of the homeland"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "people of different faiths standing together under one banner",
+              "a figure proudly declaring identity before a crowd"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "बुलबुल",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "गुलसितां",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "वतन",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "मज़हब",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          },
+          {
+            "term": "हिंदी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "हिन्दोस्तां",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"Begins in proud celebration of the homeland, turns inward through exile and longing, and resolves in a unifying civic declaration against mutual hatred.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"गुलसितां is rendered loosely as garden land, losing the Persianized image of a rose-garden.\",\"metaphor_spans\":[{\"source_term\":\"हम बुलबुलें हैं इसकी\",\"abstract_meaning\":\"citizens as loving singers of the nation\"},{\"source_term\":\"ये गुलसितां हमारा\",\"abstract_meaning\":\"the homeland as a cherished blooming garden\"}],\"visual_motifs\":[\"nightingales in a flower garden\",\"the homeland imagined as a blooming garden\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"रहता है दिल वतन में\",\"abstract_meaning\":\"deep attachment that remains rooted in the homeland\"}],\"visual_motifs\":[\"a person far from home with heart turned toward the homeland\"]},{\"index\":3,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"people of different faiths standing together in the homeland\"]}],\"cultural_entities\":[{\"term\":\"मज़हब\",\"romanization\":\"mazhab\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"\"},{\"term\":\"हिंदी\",\"romanization\":\"hindi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":false,\"translation_note\":\"Rendered as Indians, losing the period self-designation in the source.\"},{\"term\":\"हिन्दोस्तां\",\"romanization\":\"Hindostan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as Hindustan/India rather than preserving the original form.\"},{\"term\":\"वतन\",\"romanization\":\"vatan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Rendered as home or homeland, losing the source term's resonance.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "Begins in proud celebration of the homeland, turns inward through exile and longing, and resolves in a unifying civic declaration against mutual hatred.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "गुलसितां is rendered loosely as garden land, losing the Persianized image of a rose-garden.",
+            "metaphor_spans": [
+              {
+                "source_term": "हम बुलबुलें हैं इसकी",
+                "abstract_meaning": "citizens as loving singers of the nation"
+              },
+              {
+                "source_term": "ये गुलसितां हमारा",
+                "abstract_meaning": "the homeland as a cherished blooming garden"
+              }
+            ],
+            "visual_motifs": [
+              "nightingales in a flower garden",
+              "the homeland imagined as a blooming garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "रहता है दिल वतन में",
+                "abstract_meaning": "deep attachment that remains rooted in the homeland"
+              }
+            ],
+            "visual_motifs": [
+              "a person far from home with heart turned toward the homeland"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "people of different faiths standing together in the homeland"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "मज़हब",
+            "romanization": "mazhab",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 3,
+            "preserved": true,
+            "translation_note": ""
+          },
+          {
+            "term": "हिंदी",
+            "romanization": "hindi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": false,
+            "translation_note": "Rendered as Indians, losing the period self-designation in the source."
+          },
+          {
+            "term": "हिन्दोस्तां",
+            "romanization": "Hindostan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as Hindustan/India rather than preserving the original form."
+          },
+          {
+            "term": "वतन",
+            "romanization": "vatan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Rendered as home or homeland, losing the source term's resonance."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "हम बुलबुलें हैं इसकी",
+              "ये गुलसितां हमारा"
+            ],
+            "visual_motifs": [
+              "nightingales in a flower garden",
+              "the homeland imagined as a blooming garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "रहता है दिल वतन में"
+            ],
+            "visual_motifs": [
+              "a person far from home with heart turned toward the homeland"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "people of different faiths standing together in the homeland"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "मज़हब",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "हिंदी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "हिन्दोस्तां",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "वतन",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"pride to longing to unity\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"बुलबुलें\",\"abstract_meaning\":\"citizens who love and sing praises of their nation\"},{\"source_term\":\"गुलसितां\",\"abstract_meaning\":\"a beautiful and flourishing homeland\"}],\"visual_motifs\":[\"nightingales singing in a blooming garden\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"a heart residing in the homeland despite physical exile\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The term 'हिंदी' (Hindi) historically meant 'inhabitants of Hind', translated here as 'Indians', losing the specific historical and poetic resonance.\",\"metaphor_spans\":[],\"visual_motifs\":[]}],\"cultural_entities\":[{\"term\":\"हिन्दोसिता\",\"romanization\":\"Hindosita\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as Hindustan, preserving the historical name of the Indian subcontinent.\"},{\"term\":\"हिंदी\",\"romanization\":\"Hindi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":false,\"translation_note\":\"Translated as 'Indians', which conveys the modern nationality but loses the classical poetic usage of 'Hindi' meaning 'people of Hind'.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "pride to longing to unity",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "बुलबुलें",
+                "abstract_meaning": "citizens who love and sing praises of their nation"
+              },
+              {
+                "source_term": "गुलसितां",
+                "abstract_meaning": "a beautiful and flourishing homeland"
+              }
+            ],
+            "visual_motifs": [
+              "nightingales singing in a blooming garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "a heart residing in the homeland despite physical exile"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The term 'हिंदी' (Hindi) historically meant 'inhabitants of Hind', translated here as 'Indians', losing the specific historical and poetic resonance.",
+            "metaphor_spans": [],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "romanization": "Hindosita",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as Hindustan, preserving the historical name of the Indian subcontinent."
+          },
+          {
+            "term": "हिंदी",
+            "romanization": "Hindi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": false,
+            "translation_note": "Translated as 'Indians', which conveys the modern nationality but loses the classical poetic usage of 'Hindi' meaning 'people of Hind'."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "बुलबुलें",
+              "गुलसितां"
+            ],
+            "visual_motifs": [
+              "nightingales singing in a blooming garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "a heart residing in the homeland despite physical exile"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "हिंदी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"A progression from patriotic pride and belonging to a philosophical assertion of communal harmony.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"बुलबुलें\",\"abstract_meaning\":\"citizens or inhabitants who sing the praises of their land\"},{\"source_term\":\"गुलसितां\",\"abstract_meaning\":\"a beautiful, nurtured, and flourishing homeland\"}],\"visual_motifs\":[\"nightingale\",\"garden\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"heart\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[]}],\"cultural_entities\":[{\"term\":\"हिन्दोसिता\",\"romanization\":\"Hindosita\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"A poetic variation of Hindustan, referring to the Indian subcontinent.\"},{\"term\":\"मज़हब\",\"romanization\":\"Mazhab\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":3,\"preserved\":false,\"translation_note\":\"Refers to organized religion or faith systems.\"},{\"term\":\"हिंदी\",\"romanization\":\"Hindi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"In this historical context, it refers to the people of Hind (India) rather than the language.\"}]}",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "A progression from patriotic pride and belonging to a philosophical assertion of communal harmony.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "बुलबुलें",
+                "abstract_meaning": "citizens or inhabitants who sing the praises of their land"
+              },
+              {
+                "source_term": "गुलसितां",
+                "abstract_meaning": "a beautiful, nurtured, and flourishing homeland"
+              }
+            ],
+            "visual_motifs": [
+              "nightingale",
+              "garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "heart"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "romanization": "Hindosita",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "A poetic variation of Hindustan, referring to the Indian subcontinent."
+          },
+          {
+            "term": "मज़हब",
+            "romanization": "Mazhab",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 3,
+            "preserved": false,
+            "translation_note": "Refers to organized religion or faith systems."
+          },
+          {
+            "term": "हिंदी",
+            "romanization": "Hindi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": true,
+            "translation_note": "In this historical context, it refers to the people of Hind (India) rather than the language."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "बुलबुलें",
+              "गुलसितां"
+            ],
+            "visual_motifs": [
+              "nightingale",
+              "garden"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "heart"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "हिन्दोसिता",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "मज़हब",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "हिंदी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": false
+    }
+  }
+}

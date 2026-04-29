@@ -1,0 +1,366 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1197",
+  "poem_title": "Maze Mrityu",
+  "language": "Marathi",
+  "original_poem": "माझं मृत्यू  \nजगात किती गूढता आहे,  \nते प्रत्येक क्षणात आहे,  \nअशा गूढता त्यात,  \nमाझं मृत्यू सजवून आलं आहे.",
+  "translated_poem": "My death,  \nHow much mystery exists in the world,  \nIt is present in every moment,  \nIn such mystery,  \nMy death has come adorned.",
+  "status": "completed",
+  "agreement": "high",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "माझं मृत्यू",
+          "जगात किती गूढता आहे,",
+          "ते प्रत्येक क्षणात आहे,",
+          "अशा गूढता त्यात,",
+          "माझं मृत्यू सजवून आलं आहे."
+        ],
+        "translated_lines": [
+          "My death,",
+          "How much mystery exists in the world,",
+          "It is present in every moment,",
+          "In such mystery,",
+          "My death has come adorned."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "quiet acceptance of death's mystery, moving from cosmic wonder to personal adornment of mortality",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "माझं मृत्यू",
+          "जगात किती गूढता आहे,",
+          "ते प्रत्येक क्षणात आहे,",
+          "अशा गूढता त्यात,",
+          "माझं मृत्यू सजवून आलं आहे."
+        ],
+        "translated_lines": [
+          "My death,",
+          "How much mystery exists in the world,",
+          "It is present in every moment,",
+          "In such mystery,",
+          "My death has come adorned."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "माझं मृत्यू सजवून आलं आहे",
+            "abstract_meaning": "death arriving as a decorated, welcomed presence rather than a feared end",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "गूढता",
+            "abstract_meaning": "the unfathomable mystery woven into every living moment as a precursor to death",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "सजवून आलं आहे",
+            "abstract_meaning": "Death is personified as a guest arriving beautifully adorned, indicating acceptance rather than fear.",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "adorned death",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "death arriving adorned within an atmosphere of mystery",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "death arriving adorned, as if dressed for a ceremony",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 0,
+      "low_entity_count": 0,
+      "review_item_count": 0,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"reflective\",\n  \"emotional_arc\": \"quiet acceptance of death's mystery, moving from cosmic wonder to personal adornment of mortality\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"peace\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"माझं मृत्यू सजवून आलं आहे\",\n          \"abstract_meaning\": \"death arriving as a decorated, welcomed presence rather than a feared end\"\n        },\n        {\n          \"source_term\": \"गूढता\",\n          \"abstract_meaning\": \"the unfathomable mystery woven into every living moment as a precursor to death\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"death arriving adorned, as if dressed for a ceremony\"\n      ]\n    }\n  ],\n  \"cultural_entities\": []\n}\n```",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "quiet acceptance of death's mystery, moving from cosmic wonder to personal adornment of mortality",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "माझं मृत्यू सजवून आलं आहे",
+                "abstract_meaning": "death arriving as a decorated, welcomed presence rather than a feared end"
+              },
+              {
+                "source_term": "गूढता",
+                "abstract_meaning": "the unfathomable mystery woven into every living moment as a precursor to death"
+              }
+            ],
+            "visual_motifs": [
+              "death arriving adorned, as if dressed for a ceremony"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "माझं मृत्यू सजवून आलं आहे",
+              "गूढता"
+            ],
+            "visual_motifs": [
+              "death arriving adorned, as if dressed for a ceremony"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"wondering reflection on worldly mystery culminates in an intimate, adorned vision of death.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"माझं मृत्यू सजवून आलं आहे\",\"abstract_meaning\":\"death appears as a ceremonially beautified arrival\"}],\"visual_motifs\":[\"death arriving adorned within an atmosphere of mystery\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "wondering reflection on worldly mystery culminates in an intimate, adorned vision of death.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "माझं मृत्यू सजवून आलं आहे",
+                "abstract_meaning": "death appears as a ceremonially beautified arrival"
+              }
+            ],
+            "visual_motifs": [
+              "death arriving adorned within an atmosphere of mystery"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "माझं मृत्यू सजवून आलं आहे"
+            ],
+            "visual_motifs": [
+              "death arriving adorned within an atmosphere of mystery"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सजवून आलं आहे\",\"abstract_meaning\":\"Death is personified as a guest arriving beautifully adorned, indicating acceptance rather than fear.\"}],\"visual_motifs\":[\"adorned death\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सजवून आलं आहे",
+                "abstract_meaning": "Death is personified as a guest arriving beautifully adorned, indicating acceptance rather than fear."
+              }
+            ],
+            "visual_motifs": [
+              "adorned death"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सजवून आलं आहे"
+            ],
+            "visual_motifs": [
+              "adorned death"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"मृत्यू सजवून आलं आहे\",\"abstract_meaning\":\"The personification of death as a decorated or welcomed arrival, suggesting acceptance and the beauty of the unknown.\"}],\"visual_motifs\":[\"Death arriving in ceremonial adornment\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "मृत्यू सजवून आलं आहे",
+                "abstract_meaning": "The personification of death as a decorated or welcomed arrival, suggesting acceptance and the beauty of the unknown."
+              }
+            ],
+            "visual_motifs": [
+              "Death arriving in ceremonial adornment"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "मृत्यू सजवून आलं आहे"
+            ],
+            "visual_motifs": [
+              "Death arriving in ceremonial adornment"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

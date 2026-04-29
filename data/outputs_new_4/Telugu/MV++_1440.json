@@ -1,0 +1,1132 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1440",
+  "poem_title": "Oh neeli Chandamama",
+  "language": "Telugu",
+  "original_poem": "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది\n\nనేనెందుకు వచ్చానో తెలుసా, ఐతే నా దారి వైపు గా చూడు యని\n\nతిరిగి చూసిన ఆ క్షణం, ఏ జీవితానికి అదే మధుర క్షణం\n\nకను రెప్పలకే మాటలు వస్తే , ఛెబుతాయేమో నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని\n\nమనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి.. అ౦తలోనే మాయమై పోయావు\n\nఓ నీలి చ౦ద్రమా … ఇది నీ మాయే సుమా..!!",
+  "translated_poem": "A cold wind suddenly hit me\n\nYou know why I came, but look my way\n\nThat moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes.\n\nYou shook the mind coldly, knocked and woke up... you disappeared in the end\n\nO blue moon... this is your Maye Suma..!!",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "reduced_2_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 6,
+    "source_stanza_count": 6,
+    "translated_stanza_count": 5,
+    "alignment_status": "translated_shorter",
+    "alignment_note": "Translation had 1 fewer stanza(s); missing translations were padded with empty lists.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 1,
+        "source_lines": [
+          "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది"
+        ],
+        "translated_lines": [
+          "A cold wind suddenly hit me"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 1,
+        "source_lines": [
+          "నేనెందుకు వచ్చానో తెలుసా, ఐతే నా దారి వైపు గా చూడు యని"
+        ],
+        "translated_lines": [
+          "You know why I came, but look my way"
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 1,
+        "source_lines": [
+          "తిరిగి చూసిన ఆ క్షణం, ఏ జీవితానికి అదే మధుర క్షణం"
+        ],
+        "translated_lines": [
+          "That moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 1,
+        "source_lines": [
+          "కను రెప్పలకే మాటలు వస్తే , ఛెబుతాయేమో నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని"
+        ],
+        "translated_lines": [
+          "You shook the mind coldly, knocked and woke up... you disappeared in the end"
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 1,
+        "source_lines": [
+          "మనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి.. అ౦తలోనే మాయమై పోయావు"
+        ],
+        "translated_lines": [
+          "O blue moon... this is your Maye Suma..!!"
+        ]
+      },
+      {
+        "stanza_index": 6,
+        "line_count": 1,
+        "source_lines": [
+          "ఓ నీలి చ౦ద్రమా … ఇది నీ మాయే సుమా..!!"
+        ],
+        "translated_lines": []
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "medium",
+      "source_model": "gpt",
+      "resolution_basis": "reduced_2_vote"
+    },
+    "emotional_arc": {
+      "value": "A sudden encounter stirs longing and wonder, then turns into the ache of disappearance and bewilderment before a blue moon-like presence.",
+      "agreement": "low",
+      "source_model": "gpt",
+      "resolution_basis": "fallback_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 1,
+        "source_lines": [
+          "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది"
+        ],
+        "translated_lines": [
+          "A cold wind suddenly hit me"
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "The source personifies the wind as speaking, which the translation omits.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "గాలి... చెప్పింది",
+            "abstract_meaning": "the wind becomes a messenger to the speaker",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "చల్లగా వీచే గాలి... చెప్పింది",
+            "abstract_meaning": "personification of the breeze as a messenger",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a cold breeze suddenly touching the speaker",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "cold wind blowing",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 1,
+        "source_lines": [
+          "నేనెందుకు వచ్చానో తెలుసా, ఐతే నా దారి వైపు గా చూడు యని"
+        ],
+        "translated_lines": [
+          "You know why I came, but look my way"
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [],
+        "visual_motifs": [
+          {
+            "motif": "looking towards a path",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the speaker turning to look toward a beckoning path",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 1,
+        "source_lines": [
+          "తిరిగి చూసిన ఆ క్షణం, ఏ జీవితానికి అదే మధుర క్షణం"
+        ],
+        "translated_lines": [
+          "That moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "The translation adds lines that belong to the next stanza.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "ఏ జీవితానికి అదే మధుర క్షణం",
+            "abstract_meaning": "that glance is imagined as life's sweetest instant",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a person turning back in a single sweet moment",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "looking back in retrospect",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 1,
+        "source_lines": [
+          "కను రెప్పలకే మాటలు వస్తే , ఛెబుతాయేమో నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని"
+        ],
+        "translated_lines": [
+          "You shook the mind coldly, knocked and woke up... you disappeared in the end"
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "lost",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "The translation is replaced by lines from the next stanza and misses the eye-lightning image.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "నా కళ్ళను కమ్మిన మెరుపు నువ్వే",
+            "abstract_meaning": "the beloved is the dazzling flash filling the speaker's eyes",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "కళ్ళను కమ్మిన మెరుపు",
+            "abstract_meaning": "a sudden, overwhelming and blinding presence",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "eyelids speaking",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "lightning covering the eyes",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "lightning filling the speaker's eyes",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "words rising to the eyelids",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 1,
+        "source_lines": [
+          "మనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి.. అ౦తలోనే మాయమై పోయావు"
+        ],
+        "translated_lines": [
+          "O blue moon... this is your Maye Suma..!!"
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "మనసుని చల్లగా కదిలి౦చి",
+            "abstract_meaning": "gently stirring emotions",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a presence stirring the heart gently and vanishing at once",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "knocking and waking the mind",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "sudden disappearance",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 6,
+        "line_count": 1,
+        "source_lines": [
+          "ఓ నీలి చ౦ద్రమా … ఇది నీ మాయే సుమా..!!"
+        ],
+        "translated_lines": [],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "lost",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "No translation is provided for the source line.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "నీలి చ౦ద్రమా",
+            "abstract_meaning": "the beloved is addressed as a blue moon-like enchanter",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "ఇది నీ మాయే సుమా",
+            "abstract_meaning": "the experience is framed as the beloved's enchanting illusion",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "నీ మాయే",
+            "abstract_meaning": "the captivating and elusive nature of the subject",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a blue moon addressed in wonder",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "blue moon",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "మాయే",
+        "romanization": {
+          "value": "maaye",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 6,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "The source invokes maya, but no translation is given.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 2,
+      "low_stanza_count": 5,
+      "medium_stanza_count": 1,
+      "low_entity_count": 0,
+      "review_item_count": 5,
+      "vote_basis": "reduced_2_vote",
+      "valid_models_total": 3,
+      "effective_voting_sources": {
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].emotion",
+      "agreement": "low",
+      "resolved_value": "longing",
+      "claude_value": "",
+      "gpt_value": "longing",
+      "gemini_value": "peace",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[2].translation_quality",
+      "agreement": "low",
+      "resolved_value": "faithful",
+      "claude_value": "",
+      "gpt_value": "faithful",
+      "gemini_value": "partial",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[3].emotion",
+      "agreement": "low",
+      "resolved_value": "peace",
+      "claude_value": "",
+      "gpt_value": "peace",
+      "gemini_value": "longing",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[4].tone",
+      "agreement": "low",
+      "resolved_value": "wonder",
+      "claude_value": "",
+      "gpt_value": "wonder",
+      "gemini_value": "tenderness",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[5].translation_quality",
+      "agreement": "low",
+      "resolved_value": "faithful",
+      "claude_value": "",
+      "gpt_value": "faithful",
+      "gemini_value": "lost",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem opens with a sudden sensory encounter with a cold wind, moves through a mysterious beckoning and a moment of turning back, deepens into the sweetness of that recalled instant, then shifts to the eyelids speaking of lightning-like presence, before the beloved vanishes after stirring the mind, closing with an address to the blue moon as the source of this enchanting illusion.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"The Telugu conveys an intimate, almost personified wind that speaks to the speaker; the translation loses the communicative agency of the wind.\",\"metaphor_spans\":[{\"source_term\":\"చల్లగా వీచే గాలి\",\"abstract_meaning\":\"A gentle cold wind as a messenger carrying an unspoken emotional signal to the speaker\"}],\"visual_motifs\":[\"a cold wind brushing against a solitary person standing still\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"The Telugu includes a direct address and a plea to look toward the wind's path; the translation flattens the urgency of the beckoning.\",\"metaphor_spans\":[{\"source_term\":\"నా దారి వైపు గా చూడు\",\"abstract_meaning\":\"Looking toward a path as an act of acknowledging the presence or call of the other\"}],\"visual_motifs\":[\"a figure gesturing toward a road asking another to turn and look\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation conflates two distinct images from the stanza; the retrospective sweetness and the lightning-bitten eyes are separate lines that the translation merges imprecisely.\",\"metaphor_spans\":[{\"source_term\":\"మధుర క్షణం\",\"abstract_meaning\":\"A sweet moment recalled in retrospect as the defining peak of lived experience\"},{\"source_term\":\"మెరుపు నువ్వే అని\",\"abstract_meaning\":\"The beloved as lightning that strikes and blinds the eyes in an instant of overwhelming recognition\"}],\"visual_motifs\":[\"a person turning back to look at a single luminous moment frozen in memory\",\"a flash of lightning illuminating a face seen only for an instant\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"The translation provided corresponds to stanza 5 content, not stanza 4; the actual Telugu of stanza 4 describes eyelids speaking and naming the beloved as lightning, which is entirely absent from the given translation.\",\"metaphor_spans\":[{\"source_term\":\"కను రెప్పలకే మాటలు వస్తే\",\"abstract_meaning\":\"Eyelids given the power of speech as a figure for emotions too intense to be voiced aloud\"},{\"source_term\":\"నా కళ్ళను కమ్మిన మెరుపు\",\"abstract_meaning\":\"Lightning that covers the eyes as an image of a dazzling presence that overwhelms sight and reason\"}],\"visual_motifs\":[\"eyelids trembling as if about to speak a secret\",\"a bolt of lightning filling the entire field of vision of a watching face\"]},{\"index\":5,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"lost\",\"loss_note\":\"The translation provided corresponds to stanza 6 content; the actual Telugu of stanza 5 describes the beloved gently stirring the mind, knocking it awake, and then vanishing, which is not reflected in the given translation.\",\"metaphor_spans\":[{\"source_term\":\"మనసుని చల్లగా కదిలించి\",\"abstract_meaning\":\"Stirring the mind with a cool touch as a figure for a presence that disturbs emotional stillness without violence\"},{\"source_term\":\"మాయమై పోయావు\",\"abstract_meaning\":\"Vanishing completely as a figure for sudden abandonment or the elusiveness of a beloved presence\"}],\"visual_motifs\":[\"a hand gently tapping a sleeping figure who then wakes to find no one present\",\"a silhouette dissolving into empty air leaving the speaker alone\"]},{\"index\":6,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"No translation is available",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting ',' delimiter: line 1 column 3762 (char 3761)",
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"A sudden encounter stirs longing and wonder, then turns into the ache of disappearance and bewilderment before a blue moon-like presence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"The source personifies the wind as speaking, which the translation omits.\",\"metaphor_spans\":[{\"source_term\":\"గాలి... చెప్పింది\",\"abstract_meaning\":\"the wind becomes a messenger to the speaker\"}],\"visual_motifs\":[\"a cold breeze suddenly touching the speaker\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"the speaker turning to look toward a beckoning path\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation adds lines that belong to the next stanza.\",\"metaphor_spans\":[{\"source_term\":\"ఏ జీవితానికి అదే మధుర క్షణం\",\"abstract_meaning\":\"that glance is imagined as life's sweetest instant\"}],\"visual_motifs\":[\"a person turning back in a single sweet moment\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"The translation is replaced by lines from the next stanza and misses the eye-lightning image.\",\"metaphor_spans\":[{\"source_term\":\"నా కళ్ళను కమ్మిన మెరుపు నువ్వే\",\"abstract_meaning\":\"the beloved is the dazzling flash filling the speaker's eyes\"}],\"visual_motifs\":[\"lightning filling the speaker's eyes\",\"words rising to the eyelids\"]},{\"index\":5,\"emotion\":\"longing\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"a presence stirring the heart gently and vanishing at once\"]},{\"index\":6,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"No translation is provided for the source line.\",\"metaphor_spans\":[{\"source_term\":\"నీలి చ౦ద్రమా\",\"abstract_meaning\":\"the beloved is addressed as a blue moon-like enchanter\"},{\"source_term\":\"ఇది నీ మాయే సుమా\",\"abstract_meaning\":\"the experience is framed as the beloved's enchanting illusion\"}],\"visual_motifs\":[\"a blue moon addressed in wonder\"]}],\"cultural_entities\":[{\"term\":\"మాయే\",\"romanization\":\"maaye\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":6,\"preserved\":false,\"translation_note\":\"The source invokes maya, but no translation is given.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A sudden encounter stirs longing and wonder, then turns into the ache of disappearance and bewilderment before a blue moon-like presence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "The source personifies the wind as speaking, which the translation omits.",
+            "metaphor_spans": [
+              {
+                "source_term": "గాలి... చెప్పింది",
+                "abstract_meaning": "the wind becomes a messenger to the speaker"
+              }
+            ],
+            "visual_motifs": [
+              "a cold breeze suddenly touching the speaker"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "the speaker turning to look toward a beckoning path"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation adds lines that belong to the next stanza.",
+            "metaphor_spans": [
+              {
+                "source_term": "ఏ జీవితానికి అదే మధుర క్షణం",
+                "abstract_meaning": "that glance is imagined as life's sweetest instant"
+              }
+            ],
+            "visual_motifs": [
+              "a person turning back in a single sweet moment"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "loss_note": "The translation is replaced by lines from the next stanza and misses the eye-lightning image.",
+            "metaphor_spans": [
+              {
+                "source_term": "నా కళ్ళను కమ్మిన మెరుపు నువ్వే",
+                "abstract_meaning": "the beloved is the dazzling flash filling the speaker's eyes"
+              }
+            ],
+            "visual_motifs": [
+              "lightning filling the speaker's eyes",
+              "words rising to the eyelids"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "a presence stirring the heart gently and vanishing at once"
+            ]
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "loss_note": "No translation is provided for the source line.",
+            "metaphor_spans": [
+              {
+                "source_term": "నీలి చ౦ద్రమా",
+                "abstract_meaning": "the beloved is addressed as a blue moon-like enchanter"
+              },
+              {
+                "source_term": "ఇది నీ మాయే సుమా",
+                "abstract_meaning": "the experience is framed as the beloved's enchanting illusion"
+              }
+            ],
+            "visual_motifs": [
+              "a blue moon addressed in wonder"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "మాయే",
+            "romanization": "maaye",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 6,
+            "preserved": false,
+            "translation_note": "The source invokes maya, but no translation is given."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "గాలి... చెప్పింది"
+            ],
+            "visual_motifs": [
+              "a cold breeze suddenly touching the speaker"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "the speaker turning to look toward a beckoning path"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "ఏ జీవితానికి అదే మధుర క్షణం"
+            ],
+            "visual_motifs": [
+              "a person turning back in a single sweet moment"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "నా కళ్ళను కమ్మిన మెరుపు నువ్వే"
+            ],
+            "visual_motifs": [
+              "lightning filling the speaker's eyes",
+              "words rising to the eyelids"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "a presence stirring the heart gently and vanishing at once"
+            ]
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "నీలి చ౦ద్రమా",
+              "ఇది నీ మాయే సుమా"
+            ],
+            "visual_motifs": [
+              "a blue moon addressed in wonder"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "మాయే",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"Begins with peaceful wonder at the breeze, transitions to romantic longing, and ends in a melancholic realization of illusion.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"Misses the personification of the wind speaking ('చెప్పింది').\",\"metaphor_spans\":[{\"source_term\":\"చల్లగా వీచే గాలి... చెప్పింది\",\"abstract_meaning\":\"personification of the breeze as a messenger\"}],\"visual_motifs\":[\"cold wind blowing\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"Misses the quotative marker 'యని' indicating the wind is speaking.\",\"metaphor_spans\":[],\"visual_motifs\":[\"looking towards a path\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation incorrectly includes the translation for the next stanza.\",\"metaphor_spans\":[],\"visual_motifs\":[\"looking back in retrospect\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"lost\",\"loss_note\":\"The provided translation is completely mismatched and belongs to the next stanza.\",\"metaphor_spans\":[{\"source_term\":\"కళ్ళను కమ్మిన మెరుపు\",\"abstract_meaning\":\"a sudden, overwhelming and blinding presence\"}],\"visual_motifs\":[\"eyelids speaking\",\"lightning covering the eyes\"]},{\"index\":5,\"emotion\":\"longing\",\"tone\":\"lament\",\"translation_quality\":\"lost\",\"loss_note\":\"The provided translation is mismatched and belongs to the final stanza.\",\"metaphor_spans\":[{\"source_term\":\"మనసుని చల్లగా కదిలి౦చి\",\"abstract_meaning\":\"gently stirring emotions\"}],\"visual_motifs\":[\"knocking and waking the mind\",\"sudden disappearance\"]},{\"index\":6,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"No translation is provided for this stanza.\",\"metaphor_spans\":[{\"source_term\":\"నీ మాయే\",\"abstract_meaning\":\"the captivating and elusive nature of the subject\"}],\"visual_motifs\":[\"blue moon\"]}],\"cultural_entities\":[{\"term\":\"మాయే\",\"romanization\":\"Maaye\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":6,\"preserved\":false,\"translation_note\":\"Maya refers to the cosmic illusion or magic, often used in Indian poetry to describe captivating but transient phenomena.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "Begins with peaceful wonder at the breeze, transitions to romantic longing, and ends in a melancholic realization of illusion.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "Misses the personification of the wind speaking ('చెప్పింది').",
+            "metaphor_spans": [
+              {
+                "source_term": "చల్లగా వీచే గాలి... చెప్పింది",
+                "abstract_meaning": "personification of the breeze as a messenger"
+              }
+            ],
+            "visual_motifs": [
+              "cold wind blowing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "Misses the quotative marker 'యని' indicating the wind is speaking.",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "looking towards a path"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation incorrectly includes the translation for the next stanza.",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "looking back in retrospect"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "lost",
+            "loss_note": "The provided translation is completely mismatched and belongs to the next stanza.",
+            "metaphor_spans": [
+              {
+                "source_term": "కళ్ళను కమ్మిన మెరుపు",
+                "abstract_meaning": "a sudden, overwhelming and blinding presence"
+              }
+            ],
+            "visual_motifs": [
+              "eyelids speaking",
+              "lightning covering the eyes"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "lost",
+            "loss_note": "The provided translation is mismatched and belongs to the final stanza.",
+            "metaphor_spans": [
+              {
+                "source_term": "మనసుని చల్లగా కదిలి౦చి",
+                "abstract_meaning": "gently stirring emotions"
+              }
+            ],
+            "visual_motifs": [
+              "knocking and waking the mind",
+              "sudden disappearance"
+            ]
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "loss_note": "No translation is provided for this stanza.",
+            "metaphor_spans": [
+              {
+                "source_term": "నీ మాయే",
+                "abstract_meaning": "the captivating and elusive nature of the subject"
+              }
+            ],
+            "visual_motifs": [
+              "blue moon"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "మాయే",
+            "romanization": "Maaye",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 6,
+            "preserved": false,
+            "translation_note": "Maya refers to the cosmic illusion or magic, often used in Indian poetry to describe captivating but transient phenomena."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "చల్లగా వీచే గాలి... చెప్పింది"
+            ],
+            "visual_motifs": [
+              "cold wind blowing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "looking towards a path"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "looking back in retrospect"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "కళ్ళను కమ్మిన మెరుపు"
+            ],
+            "visual_motifs": [
+              "eyelids speaking",
+              "lightning covering the eyes"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "మనసుని చల్లగా కదిలి౦చి"
+            ],
+            "visual_motifs": [
+              "knocking and waking the mind",
+              "sudden disappearance"
+            ]
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "నీ మాయే"
+            ],
+            "visual_motifs": [
+              "blue moon"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "మాయే",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem begins with a gentle sensory encounter with nature, transitions into a deep personal realization of beauty, and concludes with a philosophical recognition of the illusory nature of the divine presence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"చల్లగా వీచే గాలి (cool blowing wind)\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation provided includes lines belonging to the subsequent stanza.\",\"metaphor_spans\":[],\"visual_motifs\":[]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"మెరుపు\",\"abstract_meaning\":\"sudden epiphany or overwhelming beauty\"}],\"visual_motifs\":[\"కళ్ళను కమ్మిన మెరుపు (lightning covering the eyes)\"]},{\"index\":5,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation provided includes lines belonging to the final stanza.\",\"metaphor_spans\":[],\"visual_motifs\":[]},{\"index\":6,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"lost\",\"loss_note\":\"The translation field is empty in the source input.\",\"metaphor_spans\":[{\"source_term\":\"మాయే\",\"abstract_meaning\":\"the deceptive yet enchanting nature of the divine play\"}],\"visual_motifs\":[\"నీలి చ౦ద్రమా (blue moon)\"]}],\"cultural_entities\":[{\"term\":\"చ౦ద్రమా\",\"romanization\":\"Chandamama\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":6,\"preserved\":true,\"translation_note\":\"The moon is personified as 'Chandamama', a common affectionate term in Telugu culture.\"},{\"term\":\"మాయే\",\"romanization\":\"Maaye\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":6,\"preserved\":true,\"translation_note\":\"Refers to Maya, the philosophical concept of the world as a divine illusion or play.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem begins with a gentle sensory encounter with nature, transitions into a deep personal realization of beauty, and concludes with a philosophical recognition of the illusory nature of the divine presence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "చల్లగా వీచే గాలి (cool blowing wind)"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "The translation provided includes lines belonging to the subsequent stanza.",
+            "metaphor_spans": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "మెరుపు",
+                "abstract_meaning": "sudden epiphany or overwhelming beauty"
+              }
+            ],
+            "visual_motifs": [
+              "కళ్ళను కమ్మిన మెరుపు (lightning covering the eyes)"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation provided includes lines belonging to the final stanza.",
+            "metaphor_spans": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "loss_note": "The translation field is empty in the source input.",
+            "metaphor_spans": [
+              {
+                "source_term": "మాయే",
+                "abstract_meaning": "the deceptive yet enchanting nature of the divine play"
+              }
+            ],
+            "visual_motifs": [
+              "నీలి చ౦ద్రమా (blue moon)"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "చ౦ద్రమా",
+            "romanization": "Chandamama",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 6,
+            "preserved": true,
+            "translation_note": "The moon is personified as 'Chandamama', a common affectionate term in Telugu culture."
+          },
+          {
+            "term": "మాయే",
+            "romanization": "Maaye",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 6,
+            "preserved": true,
+            "translation_note": "Refers to Maya, the philosophical concept of the world as a divine illusion or play."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "చల్లగా వీచే గాలి (cool blowing wind)"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "మెరుపు"
+            ],
+            "visual_motifs": [
+              "కళ్ళను కమ్మిన మెరుపు (lightning covering the eyes)"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [],
+            "visual_motifs": []
+          },
+          {
+            "index": 6,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "lost",
+            "metaphor_terms": [
+              "మాయే"
+            ],
+            "visual_motifs": [
+              "నీలి చ౦ద్రమా (blue moon)"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "చ౦ద్రమా",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "మాయే",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

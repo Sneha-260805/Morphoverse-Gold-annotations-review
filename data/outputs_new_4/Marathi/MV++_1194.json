@@ -1,0 +1,538 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1194",
+  "poem_title": "Mi Zaad Boltoy",
+  "language": "Marathi",
+  "original_poem": "मी झाड बोलतोय  \nआसमानाच्या छायेत,  \nपानांच्या आभाळात  \nसंपूर्ण जगणं अनुभवतोय,  \nमी रुखमाई फुलते.",
+  "translated_poem": "I am a talking tree  \nIn the shade of the sky,  \nIn the canopy of leaves  \nI experience all of life,  \nAs the flowers bloom.",
+  "status": "completed",
+  "agreement": "medium",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "मी झाड बोलतोय",
+          "आसमानाच्या छायेत,",
+          "पानांच्या आभाळात",
+          "संपूर्ण जगणं अनुभवतोय,",
+          "मी रुखमाई फुलते."
+        ],
+        "translated_lines": [
+          "I am a talking tree",
+          "In the shade of the sky,",
+          "In the canopy of leaves",
+          "I experience all of life,",
+          "As the flowers bloom."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "medium",
+      "source_model": "gpt",
+      "resolution_basis": "majority_vote"
+    },
+    "emotional_arc": {
+      "value": "A tree speaks with quiet authority, moving from sheltered existence under sky and leaf canopy to a full embrace of life, culminating in a flowering self-identification with Rukhmabai.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "मी झाड बोलतोय",
+          "आसमानाच्या छायेत,",
+          "पानांच्या आभाळात",
+          "संपूर्ण जगणं अनुभवतोय,",
+          "मी रुखमाई फुलते."
+        ],
+        "translated_lines": [
+          "I am a talking tree",
+          "In the shade of the sky,",
+          "In the canopy of leaves",
+          "I experience all of life,",
+          "As the flowers bloom."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "रुखमाई is rendered as generic 'flowers bloom', erasing the specific deity name and its devotional resonance.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "मी झाड बोलतोय",
+            "abstract_meaning": "the tree as a living witness voicing its own rooted existence",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "पानांच्या आभाळात",
+            "abstract_meaning": "the leaf canopy as a self-contained sky sheltering all of life's experience",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "मी रुखमाई फुलते",
+            "abstract_meaning": "the speaker's identity blossoming into the divine feminine of Rukhmabai",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "संपूर्ण जगणं अनुभवतोय",
+            "abstract_meaning": "tree-life holds the fullness of existence",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a dense canopy of leaves like a sky overhead",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a flowering tree identified with रुखमाई",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a speaking tree standing beneath an open sky",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a speaking tree under the sky's shade",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "blooming tree",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "dense green leaf canopy spread like a second sky overhead",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "expansive canopy of leaves",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "flowers blooming on a tree in the image of Rukhmabai",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "shade of the sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "रुखमाई",
+        "romanization": {
+          "value": "Rukhmabai",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEITY",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "Rukhmabai, the consort of Vitthal venerated in Varkari tradition, is replaced by the generic phrase 'flowers bloom'.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 0,
+      "review_item_count": 0,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"declarative\",\n  \"emotional_arc\": \"A tree speaks with quiet authority, moving from sheltered existence under sky and leaf canopy to a full embrace of life, culminating in a flowering self-identification with Rukhmabai.\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"peace\",\n      \"tone\": \"declaration\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"रुखमाई is rendered as generic 'flowers bloom', erasing the specific deity name and its devotional resonance.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"मी झाड बोलतोय\",\n          \"abstract_meaning\": \"the tree as a living witness voicing its own rooted existence\"\n        },\n        {\n          \"source_term\": \"पानांच्या आभाळात\",\n          \"abstract_meaning\": \"the leaf canopy as a self-contained sky sheltering all of life's experience\"\n        },\n        {\n          \"source_term\": \"मी रुखमाई फुलते\",\n          \"abstract_meaning\": \"the speaker's identity blossoming into the divine feminine of Rukhmabai\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"a speaking tree standing beneath an open sky\",\n        \"dense green leaf canopy spread like a second sky overhead\",\n        \"flowers blooming on a tree in the image of Rukhmabai\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"रुखमाई\",\n      \"romanization\": \"Rukhmabai\",\n      \"category\": \"DEITY\",\n      \"stanza_index\": 1,\n      \"preserved\": false,\n      \"translation_note\": \"Rukhmabai, the consort of Vitthal venerated in Varkari tradition, is replaced by the generic phrase 'flowers bloom'.\"\n    }\n  ]\n}\n```",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "A tree speaks with quiet authority, moving from sheltered existence under sky and leaf canopy to a full embrace of life, culminating in a flowering self-identification with Rukhmabai.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "रुखमाई is rendered as generic 'flowers bloom', erasing the specific deity name and its devotional resonance.",
+            "metaphor_spans": [
+              {
+                "source_term": "मी झाड बोलतोय",
+                "abstract_meaning": "the tree as a living witness voicing its own rooted existence"
+              },
+              {
+                "source_term": "पानांच्या आभाळात",
+                "abstract_meaning": "the leaf canopy as a self-contained sky sheltering all of life's experience"
+              },
+              {
+                "source_term": "मी रुखमाई फुलते",
+                "abstract_meaning": "the speaker's identity blossoming into the divine feminine of Rukhmabai"
+              }
+            ],
+            "visual_motifs": [
+              "a speaking tree standing beneath an open sky",
+              "dense green leaf canopy spread like a second sky overhead",
+              "flowers blooming on a tree in the image of Rukhmabai"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "romanization": "Rukhmabai",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rukhmabai, the consort of Vitthal venerated in Varkari tradition, is replaced by the generic phrase 'flowers bloom'."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "मी झाड बोलतोय",
+              "पानांच्या आभाळात",
+              "मी रुखमाई फुलते"
+            ],
+            "visual_motifs": [
+              "a speaking tree standing beneath an open sky",
+              "dense green leaf canopy spread like a second sky overhead",
+              "flowers blooming on a tree in the image of Rukhmabai"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "category": "DEITY",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"A self-declaration opens into expansive wonder and serene fullness through tree-life imagery.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"'रुखमाई' is not preserved in translation.\",\"metaphor_spans\":[{\"source_term\":\"मी झाड बोलतोय\",\"abstract_meaning\":\"the speaker becomes a tree-voice rooted in lived experience\"},{\"source_term\":\"पानांच्या आभाळात\",\"abstract_meaning\":\"the leafy canopy becomes a whole sky of being\"},{\"source_term\":\"संपूर्ण जगणं अनुभवतोय\",\"abstract_meaning\":\"tree-life holds the fullness of existence\"},{\"source_term\":\"मी रुखमाई फुलते\",\"abstract_meaning\":\"the self flowers in a sacred feminine form\"}],\"visual_motifs\":[\"a speaking tree under the sky's shade\",\"a dense canopy of leaves like a sky overhead\",\"a flowering tree identified with रुखमाई\"]}],\"cultural_entities\":[{\"term\":\"रुखमाई\",\"romanization\":\"Rukhmāī\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"The deity name is reduced to generic blooming flowers.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A self-declaration opens into expansive wonder and serene fullness through tree-life imagery.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "'रुखमाई' is not preserved in translation.",
+            "metaphor_spans": [
+              {
+                "source_term": "मी झाड बोलतोय",
+                "abstract_meaning": "the speaker becomes a tree-voice rooted in lived experience"
+              },
+              {
+                "source_term": "पानांच्या आभाळात",
+                "abstract_meaning": "the leafy canopy becomes a whole sky of being"
+              },
+              {
+                "source_term": "संपूर्ण जगणं अनुभवतोय",
+                "abstract_meaning": "tree-life holds the fullness of existence"
+              },
+              {
+                "source_term": "मी रुखमाई फुलते",
+                "abstract_meaning": "the self flowers in a sacred feminine form"
+              }
+            ],
+            "visual_motifs": [
+              "a speaking tree under the sky's shade",
+              "a dense canopy of leaves like a sky overhead",
+              "a flowering tree identified with रुखमाई"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "romanization": "Rukhmāī",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "The deity name is reduced to generic blooming flowers."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "मी झाड बोलतोय",
+              "पानांच्या आभाळात",
+              "संपूर्ण जगणं अनुभवतोय",
+              "मी रुखमाई फुलते"
+            ],
+            "visual_motifs": [
+              "a speaking tree under the sky's shade",
+              "a dense canopy of leaves like a sky overhead",
+              "a flowering tree identified with रुखमाई"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "category": "DEITY",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation completely omits the reference to 'Rakhumai' (Goddess Rukmini), translating 'मी रुखमाई फुलते' generically as 'As the flowers bloom'.\",\"metaphor_spans\":[{\"source_term\":\"पानांच्या आभाळात\",\"abstract_meaning\":\"The expansive, encompassing nature of the tree's canopy likened to a sky\"},{\"source_term\":\"मी रुखमाई फुलते\",\"abstract_meaning\":\"Divine grace and sacred feminine energy manifesting through the blooming of nature\"}],\"visual_motifs\":[\"shade of the sky\",\"expansive canopy of leaves\",\"blooming tree\"]}],\"cultural_entities\":[{\"term\":\"रुखमाई\",\"romanization\":\"Rakhumai\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated generically as 'flowers', losing the specific reference to Goddess Rukmini (Rakhumai), the consort of Lord Vitthal.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The translation completely omits the reference to 'Rakhumai' (Goddess Rukmini), translating 'मी रुखमाई फुलते' generically as 'As the flowers bloom'.",
+            "metaphor_spans": [
+              {
+                "source_term": "पानांच्या आभाळात",
+                "abstract_meaning": "The expansive, encompassing nature of the tree's canopy likened to a sky"
+              },
+              {
+                "source_term": "मी रुखमाई फुलते",
+                "abstract_meaning": "Divine grace and sacred feminine energy manifesting through the blooming of nature"
+              }
+            ],
+            "visual_motifs": [
+              "shade of the sky",
+              "expansive canopy of leaves",
+              "blooming tree"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "romanization": "Rakhumai",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated generically as 'flowers', losing the specific reference to Goddess Rukmini (Rakhumai), the consort of Lord Vitthal."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "पानांच्या आभाळात",
+              "मी रुखमाई फुलते"
+            ],
+            "visual_motifs": [
+              "shade of the sky",
+              "expansive canopy of leaves",
+              "blooming tree"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "category": "DEITY",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"आसमानाच्या छायेत\",\"abstract_meaning\":\"The protective and vast expanse of the universe sheltering life.\"},{\"source_term\":\"पानांच्या आभाळात\",\"abstract_meaning\":\"The dense canopy of leaves as a personal, life-sustaining horizon.\"}],\"visual_motifs\":[\"A solitary tree under a vast sky\",\"A dense green canopy of leaves\",\"Blooming flowers on branches\"]}],\"cultural_entities\":[{\"term\":\"रुखमाई\",\"romanization\":\"Rukmai\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Rukmai refers to Goddess Rukmini, the consort of Vitthal; here used to personify the tree's blooming as a divine or sacred act.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "आसमानाच्या छायेत",
+                "abstract_meaning": "The protective and vast expanse of the universe sheltering life."
+              },
+              {
+                "source_term": "पानांच्या आभाळात",
+                "abstract_meaning": "The dense canopy of leaves as a personal, life-sustaining horizon."
+              }
+            ],
+            "visual_motifs": [
+              "A solitary tree under a vast sky",
+              "A dense green canopy of leaves",
+              "Blooming flowers on branches"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "romanization": "Rukmai",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Rukmai refers to Goddess Rukmini, the consort of Vitthal; here used to personify the tree's blooming as a divine or sacred act."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "आसमानाच्या छायेत",
+              "पानांच्या आभाळात"
+            ],
+            "visual_motifs": [
+              "A solitary tree under a vast sky",
+              "A dense green canopy of leaves",
+              "Blooming flowers on branches"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "रुखमाई",
+            "category": "DEITY",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

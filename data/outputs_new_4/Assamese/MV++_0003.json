@@ -1,0 +1,472 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0003",
+  "poem_title": "Nadi",
+  "language": "Assamese",
+  "original_poem": "নদী\nনদী, তুঁতৰ বাণী বহে\nপ্ৰবাহিত শান্তিৰ বাটে,\nমোৰ বুকুত তোমাৰ সুৰ\nসাজে যুগে যুগে।",
+  "translated_poem": "The River\nO River, your voice flows\nAlong the path of peace,\nIn my heart, your melody\nPlays through the ages.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "নদী",
+          "নদী, তুঁতৰ বাণী বহে",
+          "প্ৰবাহিত শান্তিৰ বাটে,",
+          "মোৰ বুকুত তোমাৰ সুৰ",
+          "সাজে যুগে যুগে।"
+        ],
+        "translated_lines": [
+          "The River",
+          "O River, your voice flows",
+          "Along the path of peace,",
+          "In my heart, your melody",
+          "Plays through the ages."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "A quiet, sustained sense of peace deepening into timeless devotion as the river's voice becomes an inner melody across ages.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "নদী",
+          "নদী, তুঁতৰ বাণী বহে",
+          "প্ৰবাহিত শান্তিৰ বাটে,",
+          "মোৰ বুকুত তোমাৰ সুৰ",
+          "সাজে যুগে যুগে।"
+        ],
+        "translated_lines": [
+          "The River",
+          "O River, your voice flows",
+          "Along the path of peace,",
+          "In my heart, your melody",
+          "Plays through the ages."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "তুঁতৰ বাণী",
+            "abstract_meaning": "the river's voice as fine and continuous as a silkworm's thread",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "মোৰ বুকুত তোমাৰ সুৰ",
+            "abstract_meaning": "the river's melody absorbed into the speaker's innermost self across lifetimes",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "তুঁতৰ বাণী বহে",
+            "abstract_meaning": "the river is heard as a flowing intimate utterance",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "শান্তিৰ বাটে",
+            "abstract_meaning": "the river's course is imagined as a way of peace",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "মোৰ বুকুত তোমাৰ সুৰ সাজে",
+            "abstract_meaning": "the river's presence becomes an inner lasting melody",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "তোমাৰ সুৰ",
+            "abstract_meaning": "The emotional or spiritual resonance of nature within the human soul",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a melody resonating within a human chest across successive ages",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a river flowing along a peaceful path",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a river flowing along a quiet path",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "flowing river",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "path",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the river's melody resounding in the speaker's heart",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[নদী].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"A quiet, sustained sense of peace deepening into timeless devotion as the river's voice becomes an inner melody across ages.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"তুঁতৰ বাণী loses its specific resonance of a silkworm-thread-like delicate voice, rendered flatly as 'your voice'.\",\"metaphor_spans\":[{\"source_term\":\"তুঁতৰ বাণী\",\"abstract_meaning\":\"the river's voice as fine and continuous as a silkworm's thread\"},{\"source_term\":\"মোৰ বুকুত তোমাৰ সুৰ\",\"abstract_meaning\":\"the river's melody absorbed into the speaker's innermost self across lifetimes\"}],\"visual_motifs\":[\"a river flowing along a quiet path\",\"a melody resonating within a human chest across successive ages\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A quiet, sustained sense of peace deepening into timeless devotion as the river's voice becomes an inner melody across ages.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "তুঁতৰ বাণী loses its specific resonance of a silkworm-thread-like delicate voice, rendered flatly as 'your voice'.",
+            "metaphor_spans": [
+              {
+                "source_term": "তুঁতৰ বাণী",
+                "abstract_meaning": "the river's voice as fine and continuous as a silkworm's thread"
+              },
+              {
+                "source_term": "মোৰ বুকুত তোমাৰ সুৰ",
+                "abstract_meaning": "the river's melody absorbed into the speaker's innermost self across lifetimes"
+              }
+            ],
+            "visual_motifs": [
+              "a river flowing along a quiet path",
+              "a melody resonating within a human chest across successive ages"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "তুঁতৰ বাণী",
+              "মোৰ বুকুত তোমাৰ সুৰ"
+            ],
+            "visual_motifs": [
+              "a river flowing along a quiet path",
+              "a melody resonating within a human chest across successive ages"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem moves from serene address to enduring inward resonance.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তুঁতৰ বাণী বহে\",\"abstract_meaning\":\"the river is heard as a flowing intimate utterance\"},{\"source_term\":\"শান্তিৰ বাটে\",\"abstract_meaning\":\"the river's course is imagined as a way of peace\"},{\"source_term\":\"মোৰ বুকুত তোমাৰ সুৰ সাজে\",\"abstract_meaning\":\"the river's presence becomes an inner lasting melody\"}],\"visual_motifs\":[\"a river flowing along a peaceful path\",\"the river's melody resounding in the speaker's heart\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem moves from serene address to enduring inward resonance.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তুঁতৰ বাণী বহে",
+                "abstract_meaning": "the river is heard as a flowing intimate utterance"
+              },
+              {
+                "source_term": "শান্তিৰ বাটে",
+                "abstract_meaning": "the river's course is imagined as a way of peace"
+              },
+              {
+                "source_term": "মোৰ বুকুত তোমাৰ সুৰ সাজে",
+                "abstract_meaning": "the river's presence becomes an inner lasting melody"
+              }
+            ],
+            "visual_motifs": [
+              "a river flowing along a peaceful path",
+              "the river's melody resounding in the speaker's heart"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তুঁতৰ বাণী বহে",
+              "শান্তিৰ বাটে",
+              "মোৰ বুকুত তোমাৰ সুৰ সাজে"
+            ],
+            "visual_motifs": [
+              "a river flowing along a peaceful path",
+              "the river's melody resounding in the speaker's heart"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"Moves from observing the peaceful flow of the river to feeling its eternal resonance within.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"শান্তিৰ বাটে\",\"abstract_meaning\":\"The calming and continuous journey of the river representing tranquility\"},{\"source_term\":\"তোমাৰ সুৰ\",\"abstract_meaning\":\"The emotional or spiritual resonance of nature within the human soul\"}],\"visual_motifs\":[\"flowing river\",\"path\"]}],\"cultural_entities\":[{\"term\":\"নদী\",\"romanization\":\"Nadi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated literally as 'River', though rivers like the Brahmaputra hold deep cultural and life-giving significance in Assamese literature.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "Moves from observing the peaceful flow of the river to feeling its eternal resonance within.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "শান্তিৰ বাটে",
+                "abstract_meaning": "The calming and continuous journey of the river representing tranquility"
+              },
+              {
+                "source_term": "তোমাৰ সুৰ",
+                "abstract_meaning": "The emotional or spiritual resonance of nature within the human soul"
+              }
+            ],
+            "visual_motifs": [
+              "flowing river",
+              "path"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নদী",
+            "romanization": "Nadi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated literally as 'River', though rivers like the Brahmaputra hold deep cultural and life-giving significance in Assamese literature."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "শান্তিৰ বাটে",
+              "তোমাৰ সুৰ"
+            ],
+            "visual_motifs": [
+              "flowing river",
+              "path"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নদী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem moves from observing the external flow of the river to internalizing its peaceful melody as a timeless spiritual presence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তুঁতৰ বাণী\",\"abstract_meaning\":\"The personification of the river's sound as a communicative and wise voice.\"},{\"source_term\":\"শান্তিৰ বাটে\",\"abstract_meaning\":\"The river's physical course as a metaphorical journey toward spiritual tranquility.\"},{\"source_term\":\"তোমাৰ সুৰ\",\"abstract_meaning\":\"The internalization of natural rhythm as a personal emotional harmony.\"}],\"visual_motifs\":[\"A river flowing along a tranquil path\",\"The resonance of music within the human heart\"]}],\"cultural_entities\":[{\"term\":\"নদী\",\"romanization\":\"Nadi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Rivers, particularly the Brahmaputra, are central to Assamese identity, spirituality, and literature, often personified as life-giving forces.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem moves from observing the external flow of the river to internalizing its peaceful melody as a timeless spiritual presence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তুঁতৰ বাণী",
+                "abstract_meaning": "The personification of the river's sound as a communicative and wise voice."
+              },
+              {
+                "source_term": "শান্তিৰ বাটে",
+                "abstract_meaning": "The river's physical course as a metaphorical journey toward spiritual tranquility."
+              },
+              {
+                "source_term": "তোমাৰ সুৰ",
+                "abstract_meaning": "The internalization of natural rhythm as a personal emotional harmony."
+              }
+            ],
+            "visual_motifs": [
+              "A river flowing along a tranquil path",
+              "The resonance of music within the human heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নদী",
+            "romanization": "Nadi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Rivers, particularly the Brahmaputra, are central to Assamese identity, spirituality, and literature, often personified as life-giving forces."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তুঁতৰ বাণী",
+              "শান্তিৰ বাটে",
+              "তোমাৰ সুৰ"
+            ],
+            "visual_motifs": [
+              "A river flowing along a tranquil path",
+              "The resonance of music within the human heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নদী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

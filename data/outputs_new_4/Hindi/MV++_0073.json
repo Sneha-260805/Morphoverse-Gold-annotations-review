@@ -1,0 +1,1305 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0073",
+  "poem_title": "Ek Chadar Maili Si",
+  "language": "Hindi",
+  "original_poem": "एक चादर मैली सी\nकोई खड़ी है बगिया में\nबगिया में फूलों से भरी\nबगिया में खुशबू है\nपर चादर की धारियां\nकुचली कुचली सी हैं।\n\nचादर में है धूल\nबगिया की हसीन सुबह में\nसूरज की किरणों में\nचादर की सिलाई को\nवो सब देख रही है।\n\nउसके हाथ में छड़ी\nआँखों में आंसू\nदिमाग में ख्याल\nफूलों की पंखुड़ियों पर\nचादर का साम्राज्य है।\n\nएक चादर मैली सी\nधुंधला सा चेहरा लिए\nहाथ में खुशबू की साड़ी लिए\nहंसने की ख्वाहिश लिए\nसोने की ख्वाहिश लिए।\n\nबगिया की खुशबू में\nधुंधला सा चेहरा है\nचादर की पहचान है\nवो तो एक कहानी है।",
+  "translated_poem": "A dirty blanket\nstands in the garden,\nthe garden filled with flowers,\nthe garden full of fragrance,\nbut the stripes of the blanket\nare crumpled and crushed.\n\nThe blanket is dusty\nin the beautiful morning of the garden,\nin the rays of the sun,\nthe seams of the blanket\nare being watched by all.\n\nIn her hand is a stick,\ntears in her eyes,\nthoughts in her mind,\non the petals of the flowers,\nlies the empire of the blanket.\n\nA dirty blanket\nwith a blurred face,\nholding a fragrant sari\nwith a wish to laugh,\nwith a desire to shine.\n\nIn the fragrance of the garden,\nthere is a blurred face,\nthe blanket has an identity,\nit tells a story.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "gemini_flash_fallback",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "एक चादर मैली सी",
+          "कोई खड़ी है बगिया में",
+          "बगिया में फूलों से भरी",
+          "बगिया में खुशबू है",
+          "पर चादर की धारियां",
+          "कुचली कुचली सी हैं।"
+        ],
+        "translated_lines": [
+          "A dirty blanket",
+          "stands in the garden,",
+          "the garden filled with flowers,",
+          "the garden full of fragrance,",
+          "but the stripes of the blanket",
+          "are crumpled and crushed."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 5,
+        "source_lines": [
+          "चादर में है धूल",
+          "बगिया की हसीन सुबह में",
+          "सूरज की किरणों में",
+          "चादर की सिलाई को",
+          "वो सब देख रही है।"
+        ],
+        "translated_lines": [
+          "The blanket is dusty",
+          "in the beautiful morning of the garden,",
+          "in the rays of the sun,",
+          "the seams of the blanket",
+          "are being watched by all."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 5,
+        "source_lines": [
+          "उसके हाथ में छड़ी",
+          "आँखों में आंसू",
+          "दिमाग में ख्याल",
+          "फूलों की पंखुड़ियों पर",
+          "चादर का साम्राज्य है।"
+        ],
+        "translated_lines": [
+          "In her hand is a stick,",
+          "tears in her eyes,",
+          "thoughts in her mind,",
+          "on the petals of the flowers,",
+          "lies the empire of the blanket."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 5,
+        "source_lines": [
+          "एक चादर मैली सी",
+          "धुंधला सा चेहरा लिए",
+          "हाथ में खुशबू की साड़ी लिए",
+          "हंसने की ख्वाहिश लिए",
+          "सोने की ख्वाहिश लिए।"
+        ],
+        "translated_lines": [
+          "A dirty blanket",
+          "with a blurred face,",
+          "holding a fragrant sari",
+          "with a wish to laugh,",
+          "with a desire to shine."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "बगिया की खुशबू में",
+          "धुंधला सा चेहरा है",
+          "चादर की पहचान है",
+          "वो तो एक कहानी है।"
+        ],
+        "translated_lines": [
+          "In the fragrance of the garden,",
+          "there is a blurred face,",
+          "the blanket has an identity,",
+          "it tells a story."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "Opens with quiet degradation of a woman symbolized by a soiled blanket amid beauty, deepens into witnessed shame and inner sorrow, and closes with quiet assertion that her worn identity carries a story worth telling.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.9,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "एक चादर मैली सी",
+          "कोई खड़ी है बगिया में",
+          "बगिया में फूलों से भरी",
+          "बगिया में खुशबू है",
+          "पर चादर की धारियां",
+          "कुचली कुचली सी हैं।"
+        ],
+        "translated_lines": [
+          "A dirty blanket",
+          "stands in the garden,",
+          "the garden filled with flowers,",
+          "the garden full of fragrance,",
+          "but the stripes of the blanket",
+          "are crumpled and crushed."
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "एक चादर मैली सी",
+            "abstract_meaning": "a woman's life worn down by neglect and social marginalization",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "चादर की धारियां कुचली कुचली सी हैं",
+            "abstract_meaning": "the repeated crushing of her dignity and selfhood",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "चादर की धारियां | कुचली कुचली सी हैं",
+            "abstract_meaning": "a worn dignity marked by hardship",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "A crushed dirty blanket in a blooming garden",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "a dirty blanket standing in a flower-filled garden",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a fragrant garden surrounding a crushed and dirty cloth",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a soiled blanket with crumpled stripes standing upright in a flower-filled garden",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "crumpled stripes on a stained blanket amid fragrance",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "Fragrant flowers",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 5,
+        "source_lines": [
+          "चादर में है धूल",
+          "बगिया की हसीन सुबह में",
+          "सूरज की किरणों में",
+          "चादर की सिलाई को",
+          "वो सब देख रही है।"
+        ],
+        "translated_lines": [
+          "The blanket is dusty",
+          "in the beautiful morning of the garden,",
+          "in the rays of the sun,",
+          "the seams of the blanket",
+          "are being watched by all."
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "चादर की सिलाई",
+            "abstract_meaning": "the visible stitched-together wounds and repairs of her life exposed to public scrutiny",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "चादर में है धूल",
+            "abstract_meaning": "a life covered in neglect or suffering",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a dusty blanket illuminated by morning sunlight while onlookers stare at its seams",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a dusty blanket in the garden's beautiful morning",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "Dusty blanket in morning sunlight",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "Exposed seams of a cloth",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "sunlight falling on the seams of the blanket",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 5,
+        "source_lines": [
+          "उसके हाथ में छड़ी",
+          "आँखों में आंसू",
+          "दिमाग में ख्याल",
+          "फूलों की पंखुड़ियों पर",
+          "चादर का साम्राज्य है।"
+        ],
+        "translated_lines": [
+          "In her hand is a stick,",
+          "tears in her eyes,",
+          "thoughts in her mind,",
+          "on the petals of the flowers,",
+          "lies the empire of the blanket."
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "चादर का साम्राज्य है",
+            "abstract_meaning": "the ironic sovereignty of her suffering spread even over delicate beauty",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "फूलों की पंखुड़ियों पर",
+            "abstract_meaning": "the fragile beautiful spaces her sorrow has come to occupy",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "फूलों की पंखुड़ियों पर | चादर का साम्राज्य है",
+            "abstract_meaning": "the blanket's sorrowful presence spreads over beauty",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "चादर का साम्राज्य",
+            "abstract_meaning": "The overwhelming dominance of one's suffering over the beauty of the world.",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "A blanket covering flower petals",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "a blanket draped over flower petals as if claiming dominion over them",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a woman holding a stick with tears in her eyes",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "an old woman holding a stick with tears in her eyes standing among flower petals",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "An old woman with a stick and tears",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the blanket's presence spread across flower petals",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 5,
+        "source_lines": [
+          "एक चादर मैली सी",
+          "धुंधला सा चेहरा लिए",
+          "हाथ में खुशबू की साड़ी लिए",
+          "हंसने की ख्वाहिश लिए",
+          "सोने की ख्वाहिश लिए।"
+        ],
+        "translated_lines": [
+          "A dirty blanket",
+          "with a blurred face,",
+          "holding a fragrant sari",
+          "with a wish to laugh,",
+          "with a desire to shine."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "'Sone ki khwahish' means a wish to sleep or rest, not to shine; the translation misreads the verb.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "हाथ में खुशबू की साड़ी लिए",
+            "abstract_meaning": "clinging to a remnant of grace and femininity she has not yet surrendered",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "धुंधला सा चेहरा",
+            "abstract_meaning": "an identity eroded and made indistinct by years of hardship",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "सोने की ख्वाहिश",
+            "abstract_meaning": "The deep-seated desire for dignity and a brighter, untarnished future.",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "A blurred face",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "a blurred-faced woman holding a fragrant sari with a soiled blanket around her",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a dirty blanket with a blurred face",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a figure carrying a wish to laugh and a wish to sleep amid surrounding beauty",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a figure holding a fragrant sari",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "A fragrant sari held in hand",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "बगिया की खुशबू में",
+          "धुंधला सा चेहरा है",
+          "चादर की पहचान है",
+          "वो तो एक कहानी है।"
+        ],
+        "translated_lines": [
+          "In the fragrance of the garden,",
+          "there is a blurred face,",
+          "the blanket has an identity,",
+          "it tells a story."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "चादर की पहचान है",
+            "abstract_meaning": "the soiled blanket as a bearer of a distinct and irreducible personal history",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "वो to एक कहानी है",
+            "abstract_meaning": "the figure's condition holds a lived history",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "चादर की पहचान",
+            "abstract_meaning": "The acceptance of one's lived experience and suffering as a definitive narrative.",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a blurred face emerging from the fragrance of a garden",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "A blurred face in a fragrant garden",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "a blurred face within the garden's fragrance",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a worn blanket standing as the emblem of an untold story",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "the blanket as a figure with an identity",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "चादर",
+        "romanization": {
+          "value": "chadar",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "SOCIAL_CUSTOM",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Chadar as a garment of modesty and social covering carries gendered cultural weight beyond the generic 'blanket'.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "साड़ी",
+        "romanization": {
+          "value": "sari",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 4,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Sari as a marker of feminine identity and dignity is rendered as generic 'sari' in translation, preserving the term but not its cultural resonance.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 1,
+      "medium_stanza_count": 3,
+      "low_entity_count": 1,
+      "review_item_count": 2,
+      "vote_basis": "gemini_flash_fallback",
+      "valid_models_total": 3,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini-3-flash"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[4].tone",
+      "agreement": "low",
+      "resolved_value": "whisper",
+      "claude_value": "whisper",
+      "gpt_value": "tenderness",
+      "gemini_value": "wonder",
+      "note": "majority_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[चादर].category",
+      "agreement": "low",
+      "resolved_value": "SOCIAL_CUSTOM",
+      "claude_value": "SOCIAL_CUSTOM",
+      "gpt_value": "",
+      "gemini_value": "REGIONAL_SYMBOL",
+      "note": "claude_tiebreak_no_third_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"Opens with quiet degradation of a woman symbolized by a soiled blanket amid beauty, deepens into witnessed shame and inner sorrow, and closes with quiet assertion that her worn identity carries a story worth telling.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"एक चादर मैली सी\",\"abstract_meaning\":\"a woman's life worn down by neglect and social marginalization\"},{\"source_term\":\"चादर की धारियां कुचली कुचली सी हैं\",\"abstract_meaning\":\"the repeated crushing of her dignity and selfhood\"}],\"visual_motifs\":[\"a soiled blanket with crumpled stripes standing upright in a flower-filled garden\",\"a fragrant garden surrounding a crushed and dirty cloth\"]},{\"index\":2,\"emotion\":\"fear\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर की सिलाई\",\"abstract_meaning\":\"the visible stitched-together wounds and repairs of her life exposed to public scrutiny\"}],\"visual_motifs\":[\"a dusty blanket illuminated by morning sunlight while onlookers stare at its seams\"]},{\"index\":3,\"emotion\":\"grief\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"'Samrajya' carries a weight of dominion or reign that 'empire' partially captures but loses the ironic smallness of its domain being flower petals.\",\"metaphor_spans\":[{\"source_term\":\"चादर का साम्राज्य है\",\"abstract_meaning\":\"the ironic sovereignty of her suffering spread even over delicate beauty\"},{\"source_term\":\"फूलों की पंखुड़ियों पर\",\"abstract_meaning\":\"the fragile beautiful spaces her sorrow has come to occupy\"}],\"visual_motifs\":[\"an old woman holding a stick with tears in her eyes standing among flower petals\",\"a blanket draped over flower petals as if claiming dominion over them\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"'Sone ki khwahish' means a wish to sleep or rest, not to shine; the translation misreads the verb.\",\"metaphor_spans\":[{\"source_term\":\"हाथ में खुशबू की साड़ी लिए\",\"abstract_meaning\":\"clinging to a remnant of grace and femininity she has not yet surrendered\"},{\"source_term\":\"धुंधला सा चेहरा\",\"abstract_meaning\":\"an identity eroded and made indistinct by years of hardship\"}],\"visual_motifs\":[\"a blurred-faced woman holding a fragrant sari with a soiled blanket around her\",\"a figure carrying a wish to laugh and a wish to sleep amid surrounding beauty\"]},{\"index\":5,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर की पहचान है\",\"abstract_meaning\":\"the soiled blanket as a bearer of a distinct and irreducible personal history\"}],\"visual_motifs\":[\"a blurred face emerging from the fragrance of a garden\",\"a worn blanket standing as the emblem of an untold story\"]}],\"cultural_entities\":[{\"term\":\"चादर\",\"romanization\":\"chadar\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Chadar as a garment of modesty and social covering carries gendered cultural weight beyond the generic 'blanket'.\"},{\"term\":\"साड़ी\",\"romanization\":\"sari\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":4,\"preserved\":true,\"translation_note\":\"Sari as a marker of feminine identity and dignity is rendered as generic 'sari' in translation, preserving the term but not its cultural resonance.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "Opens with quiet degradation of a woman symbolized by a soiled blanket amid beauty, deepens into witnessed shame and inner sorrow, and closes with quiet assertion that her worn identity carries a story worth telling.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "एक चादर मैली सी",
+                "abstract_meaning": "a woman's life worn down by neglect and social marginalization"
+              },
+              {
+                "source_term": "चादर की धारियां कुचली कुचली सी हैं",
+                "abstract_meaning": "the repeated crushing of her dignity and selfhood"
+              }
+            ],
+            "visual_motifs": [
+              "a soiled blanket with crumpled stripes standing upright in a flower-filled garden",
+              "a fragrant garden surrounding a crushed and dirty cloth"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "fear",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर की सिलाई",
+                "abstract_meaning": "the visible stitched-together wounds and repairs of her life exposed to public scrutiny"
+              }
+            ],
+            "visual_motifs": [
+              "a dusty blanket illuminated by morning sunlight while onlookers stare at its seams"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "grief",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "'Samrajya' carries a weight of dominion or reign that 'empire' partially captures but loses the ironic smallness of its domain being flower petals.",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर का साम्राज्य है",
+                "abstract_meaning": "the ironic sovereignty of her suffering spread even over delicate beauty"
+              },
+              {
+                "source_term": "फूलों की पंखुड़ियों पर",
+                "abstract_meaning": "the fragile beautiful spaces her sorrow has come to occupy"
+              }
+            ],
+            "visual_motifs": [
+              "an old woman holding a stick with tears in her eyes standing among flower petals",
+              "a blanket draped over flower petals as if claiming dominion over them"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "'Sone ki khwahish' means a wish to sleep or rest, not to shine; the translation misreads the verb.",
+            "metaphor_spans": [
+              {
+                "source_term": "हाथ में खुशबू की साड़ी लिए",
+                "abstract_meaning": "clinging to a remnant of grace and femininity she has not yet surrendered"
+              },
+              {
+                "source_term": "धुंधला सा चेहरा",
+                "abstract_meaning": "an identity eroded and made indistinct by years of hardship"
+              }
+            ],
+            "visual_motifs": [
+              "a blurred-faced woman holding a fragrant sari with a soiled blanket around her",
+              "a figure carrying a wish to laugh and a wish to sleep amid surrounding beauty"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर की पहचान है",
+                "abstract_meaning": "the soiled blanket as a bearer of a distinct and irreducible personal history"
+              }
+            ],
+            "visual_motifs": [
+              "a blurred face emerging from the fragrance of a garden",
+              "a worn blanket standing as the emblem of an untold story"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चादर",
+            "romanization": "chadar",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Chadar as a garment of modesty and social covering carries gendered cultural weight beyond the generic 'blanket'."
+          },
+          {
+            "term": "साड़ी",
+            "romanization": "sari",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 4,
+            "preserved": true,
+            "translation_note": "Sari as a marker of feminine identity and dignity is rendered as generic 'sari' in translation, preserving the term but not its cultural resonance."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "एक चादर मैली सी",
+              "चादर की धारियां कुचली कुचली सी हैं"
+            ],
+            "visual_motifs": [
+              "a soiled blanket with crumpled stripes standing upright in a flower-filled garden",
+              "a fragrant garden surrounding a crushed and dirty cloth"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "fear",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर की सिलाई"
+            ],
+            "visual_motifs": [
+              "a dusty blanket illuminated by morning sunlight while onlookers stare at its seams"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "grief",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "चादर का साम्राज्य है",
+              "फूलों की पंखुड़ियों पर"
+            ],
+            "visual_motifs": [
+              "an old woman holding a stick with tears in her eyes standing among flower petals",
+              "a blanket draped over flower petals as if claiming dominion over them"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "हाथ में खुशबू की साड़ी लिए",
+              "धुंधला सा चेहरा"
+            ],
+            "visual_motifs": [
+              "a blurred-faced woman holding a fragrant sari with a soiled blanket around her",
+              "a figure carrying a wish to laugh and a wish to sleep amid surrounding beauty"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर की पहचान है"
+            ],
+            "visual_motifs": [
+              "a blurred face emerging from the fragrance of a garden",
+              "a worn blanket standing as the emblem of an untold story"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चादर",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "साड़ी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From quiet observation of stainedness and damage, the poem moves through exposure and sorrow toward a faintly dignified sense of identity and story.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"एक चादर मैली सी\",\"abstract_meaning\":\"a stained life or self standing exposed\"},{\"source_term\":\"चादर की धारियां | कुचली कुचली सी हैं\",\"abstract_meaning\":\"a worn dignity marked by hardship\"}],\"visual_motifs\":[\"a dirty blanket standing in a flower-filled garden\",\"crumpled stripes on a stained blanket amid fragrance\"]},{\"index\":2,\"emotion\":\"grief\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"वो सब देख रही है is rendered as being watched by all, shifting the watcher.\",\"metaphor_spans\":[{\"source_term\":\"चादर में है धूल\",\"abstract_meaning\":\"a life covered in neglect or suffering\"},{\"source_term\":\"चादर की सिलाई\",\"abstract_meaning\":\"the fragile stitching of a damaged self\"}],\"visual_motifs\":[\"a dusty blanket in the garden's beautiful morning\",\"sunlight falling on the seams of the blanket\"]},{\"index\":3,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"फूलों की पंखुड़ियों पर | चादर का साम्राज्य है\",\"abstract_meaning\":\"the blanket's sorrowful presence spreads over beauty\"}],\"visual_motifs\":[\"a woman holding a stick with tears in her eyes\",\"the blanket's presence spread across flower petals\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"सोने की ख्वाहिश is translated as desire to shine, though it can also suggest desire for gold or preciousness.\",\"metaphor_spans\":[{\"source_term\":\"धुंधला सा चेहरा\",\"abstract_meaning\":\"an obscured identity\"},{\"source_term\":\"हाथ में खुशबू की साड़ी लिए\",\"abstract_meaning\":\"holding a dream of grace and freshness\"}],\"visual_motifs\":[\"a dirty blanket with a blurred face\",\"a figure holding a fragrant sari\"]},{\"index\":5,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर की पहचान है\",\"abstract_meaning\":\"the stained covering still carries a distinct selfhood\"},{\"source_term\":\"वो to एक कहानी है\",\"abstract_meaning\":\"the figure's condition holds a lived history\"}],\"visual_motifs\":[\"a blurred face within the garden's fragrance\",\"the blanket as a figure with an identity\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From quiet observation of stainedness and damage, the poem moves through exposure and sorrow toward a faintly dignified sense of identity and story.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "एक चादर मैली सी",
+                "abstract_meaning": "a stained life or self standing exposed"
+              },
+              {
+                "source_term": "चादर की धारियां | कुचली कुचली सी हैं",
+                "abstract_meaning": "a worn dignity marked by hardship"
+              }
+            ],
+            "visual_motifs": [
+              "a dirty blanket standing in a flower-filled garden",
+              "crumpled stripes on a stained blanket amid fragrance"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "grief",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "वो सब देख रही है is rendered as being watched by all, shifting the watcher.",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर में है धूल",
+                "abstract_meaning": "a life covered in neglect or suffering"
+              },
+              {
+                "source_term": "चादर की सिलाई",
+                "abstract_meaning": "the fragile stitching of a damaged self"
+              }
+            ],
+            "visual_motifs": [
+              "a dusty blanket in the garden's beautiful morning",
+              "sunlight falling on the seams of the blanket"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "फूलों की पंखुड़ियों पर | चादर का साम्राज्य है",
+                "abstract_meaning": "the blanket's sorrowful presence spreads over beauty"
+              }
+            ],
+            "visual_motifs": [
+              "a woman holding a stick with tears in her eyes",
+              "the blanket's presence spread across flower petals"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "सोने की ख्वाहिश is translated as desire to shine, though it can also suggest desire for gold or preciousness.",
+            "metaphor_spans": [
+              {
+                "source_term": "धुंधला सा चेहरा",
+                "abstract_meaning": "an obscured identity"
+              },
+              {
+                "source_term": "हाथ में खुशबू की साड़ी लिए",
+                "abstract_meaning": "holding a dream of grace and freshness"
+              }
+            ],
+            "visual_motifs": [
+              "a dirty blanket with a blurred face",
+              "a figure holding a fragrant sari"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर की पहचान है",
+                "abstract_meaning": "the stained covering still carries a distinct selfhood"
+              },
+              {
+                "source_term": "वो to एक कहानी है",
+                "abstract_meaning": "the figure's condition holds a lived history"
+              }
+            ],
+            "visual_motifs": [
+              "a blurred face within the garden's fragrance",
+              "the blanket as a figure with an identity"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "एक चादर मैली सी",
+              "चादर की धारियां | कुचली कुचली सी हैं"
+            ],
+            "visual_motifs": [
+              "a dirty blanket standing in a flower-filled garden",
+              "crumpled stripes on a stained blanket amid fragrance"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "grief",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "चादर में है धूल",
+              "चादर की सिलाई"
+            ],
+            "visual_motifs": [
+              "a dusty blanket in the garden's beautiful morning",
+              "sunlight falling on the seams of the blanket"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "फूलों की पंखुड़ियों पर | चादर का साम्राज्य है"
+            ],
+            "visual_motifs": [
+              "a woman holding a stick with tears in her eyes",
+              "the blanket's presence spread across flower petals"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "धुंधला सा चेहरा",
+              "हाथ में खुशबू की साड़ी लिए"
+            ],
+            "visual_motifs": [
+              "a dirty blanket with a blurred face",
+              "a figure holding a fragrant sari"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर की पहचान है",
+              "वो to एक कहानी है"
+            ],
+            "visual_motifs": [
+              "a blurred face within the garden's fragrance",
+              "the blanket as a figure with an identity"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"Transitioning from grief and societal scrutiny to a longing for joy, ending in a resilient acceptance of one's identity and story.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"एक चादर मैली सी\",\"abstract_meaning\":\"A tarnished, burdened existence or compromised societal status\"}],\"visual_motifs\":[\"dirty blanket\",\"garden filled with flowers\",\"crumpled stripes\"]},{\"index\":2,\"emotion\":\"fear\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"The Hindi 'वो सब देख रही है' implies an active female subject watching, whereas the translation 'are being watched by all' incorrectly uses a passive voice.\",\"metaphor_spans\":[],\"visual_motifs\":[\"dusty blanket\",\"morning sun rays\",\"seams of the blanket\"]},{\"index\":3,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर का साम्राज्य\",\"abstract_meaning\":\"The overwhelming dominance of societal burdens over natural beauty and personal freedom\"}],\"visual_motifs\":[\"",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting ',' delimiter: line 1 column 1107 (char 1106)",
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"longing\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"एक चादर मैली सी\",\"abstract_meaning\":\"A life or reputation stained by hardship and societal neglect.\"}],\"visual_motifs\":[\"A crushed dirty blanket in a blooming garden\",\"Fragrant flowers\"]},{\"index\":2,\"emotion\":\"grief\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर की सिलाई\",\"abstract_meaning\":\"The fragile seams of one's existence being scrutinized by the world.\"}],\"visual_motifs\":[\"Dusty blanket in morning sunlight\",\"Exposed seams of a cloth\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर का साम्राज्य\",\"abstract_meaning\":\"The overwhelming dominance of one's suffering over the beauty of the world.\"}],\"visual_motifs\":[\"An old woman with a stick and tears\",\"A blanket covering flower petals\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सोने की ख्वाहिश\",\"abstract_meaning\":\"The deep-seated desire for dignity and a brighter, untarnished future.\"}],\"visual_motifs\":[\"A blurred face\",\"A fragrant sari held in hand\"]},{\"index\":5,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चादर की पहचान\",\"abstract_meaning\":\"The acceptance of one's lived experience and suffering as a definitive narrative.\"}],\"visual_motifs\":[\"A blurred face in a fragrant garden\"]}],\"cultural_entities\":[{\"term\":\"चादर\",\"romanization\":\"Chadar\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"In South Asian literature, a 'chadar' (blanket/shroud) often symbolizes one's life, modesty, or the burden of existence.\"},{\"term\":\"साड़ी\",\"romanization\":\"Sari\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":4,\"preserved\":true,\"translation_note\":\"Traditional South Asian attire representing womanhood, grace, and social identity.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "longing",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "एक चादर मैली सी",
+                "abstract_meaning": "A life or reputation stained by hardship and societal neglect."
+              }
+            ],
+            "visual_motifs": [
+              "A crushed dirty blanket in a blooming garden",
+              "Fragrant flowers"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "grief",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर की सिलाई",
+                "abstract_meaning": "The fragile seams of one's existence being scrutinized by the world."
+              }
+            ],
+            "visual_motifs": [
+              "Dusty blanket in morning sunlight",
+              "Exposed seams of a cloth"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर का साम्राज्य",
+                "abstract_meaning": "The overwhelming dominance of one's suffering over the beauty of the world."
+              }
+            ],
+            "visual_motifs": [
+              "An old woman with a stick and tears",
+              "A blanket covering flower petals"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सोने की ख्वाहिश",
+                "abstract_meaning": "The deep-seated desire for dignity and a brighter, untarnished future."
+              }
+            ],
+            "visual_motifs": [
+              "A blurred face",
+              "A fragrant sari held in hand"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चादर की पहचान",
+                "abstract_meaning": "The acceptance of one's lived experience and suffering as a definitive narrative."
+              }
+            ],
+            "visual_motifs": [
+              "A blurred face in a fragrant garden"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चादर",
+            "romanization": "Chadar",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "In South Asian literature, a 'chadar' (blanket/shroud) often symbolizes one's life, modesty, or the burden of existence."
+          },
+          {
+            "term": "साड़ी",
+            "romanization": "Sari",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 4,
+            "preserved": true,
+            "translation_note": "Traditional South Asian attire representing womanhood, grace, and social identity."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "एक चादर मैली सी"
+            ],
+            "visual_motifs": [
+              "A crushed dirty blanket in a blooming garden",
+              "Fragrant flowers"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "grief",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर की सिलाई"
+            ],
+            "visual_motifs": [
+              "Dusty blanket in morning sunlight",
+              "Exposed seams of a cloth"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर का साम्राज्य"
+            ],
+            "visual_motifs": [
+              "An old woman with a stick and tears",
+              "A blanket covering flower petals"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सोने की ख्वाहिश"
+            ],
+            "visual_motifs": [
+              "A blurred face",
+              "A fragrant sari held in hand"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चादर की पहचान"
+            ],
+            "visual_motifs": [
+              "A blurred face in a fragrant garden"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चादर",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "साड़ी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

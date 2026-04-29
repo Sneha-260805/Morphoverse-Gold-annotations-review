@@ -1,0 +1,479 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0001",
+  "poem_title": "O Mur Apunar Desh",
+  "language": "Assamese",
+  "original_poem": "ও মুর আপোনাৰ দেশ\nও মুর আপোনাৰ দেশ,\nতাত শান্তি আৰু স্নেহ।\nমোৰ হৃদয়ৰ গহীনত\nমোৰ পুৰণি সপোন।",
+  "translated_poem": "O My Native Land\nO my native land,\nThere is peace and love there.\nIn the depths of my heart,\nLie my old dreams.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ও মুর আপোনাৰ দেশ",
+          "ও মুর আপোনাৰ দেশ,",
+          "তাত শান্তি আৰু স্নেহ।",
+          "মোৰ হৃদয়ৰ গহীনত",
+          "মোৰ পুৰণি সপোন।"
+        ],
+        "translated_lines": [
+          "O My Native Land",
+          "O my native land,",
+          "There is peace and love there.",
+          "In the depths of my heart,",
+          "Lie my old dreams."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "A quiet, inward movement from nostalgic invocation of the homeland to the tender ache of old dreams buried deep in the heart.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ও মুর আপোনাৰ দেশ",
+          "ও মুর আপোনাৰ দেশ,",
+          "তাত শান্তি আৰু স্নেহ।",
+          "মোৰ হৃদয়ৰ গহীনত",
+          "মোৰ পুৰণি সপোন।"
+        ],
+        "translated_lines": [
+          "O My Native Land",
+          "O my native land,",
+          "There is peace and love there.",
+          "In the depths of my heart,",
+          "Lie my old dreams."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "হৃদয়ৰ গহীনত",
+            "abstract_meaning": "the unreachable interior where suppressed longing for home is stored",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "মোৰ হৃদয়ৰ গহীনত",
+            "abstract_meaning": "the innermost place where attachment to the homeland endures",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "মোৰ পুৰণি সপোন",
+            "abstract_meaning": "cherished past hopes bound to the native land",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a peaceful, love-filled native land seen from a distance",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "depths of the heart holding old dreams",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "old dreams lying deep within the heart",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "old dreams lying in the depths of a heart",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "peace and love dwelling in the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "the speaker addressing the native land",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "আপোনাৰ দেশ",
+        "romanization": {
+          "value": "apunar desh",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Rendered as native land, softening the intimate Assamese sense of one's own land.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[আপোনাৰ দেশ].preserved",
+      "agreement": "low",
+      "resolved_value": false,
+      "claude_value": "",
+      "gpt_value": false,
+      "gemini_value": true,
+      "note": "preferred_model_tiebreak_no_third_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"A quiet, inward movement from nostalgic invocation of the homeland to the tender ache of old dreams buried deep in the heart.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ৰ গহীনত\",\"abstract_meaning\":\"the unreachable interior where suppressed longing for home is stored\"}],\"visual_motifs\":[\"old dreams lying in the depths of a heart\",\"a peaceful, love-filled native land seen from a distance\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A quiet, inward movement from nostalgic invocation of the homeland to the tender ache of old dreams buried deep in the heart.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ৰ গহীনত",
+                "abstract_meaning": "the unreachable interior where suppressed longing for home is stored"
+              }
+            ],
+            "visual_motifs": [
+              "old dreams lying in the depths of a heart",
+              "a peaceful, love-filled native land seen from a distance"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ৰ গহীনত"
+            ],
+            "visual_motifs": [
+              "old dreams lying in the depths of a heart",
+              "a peaceful, love-filled native land seen from a distance"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"An intimate address to the native land moves from affectionate invocation to remembered peace and inwardly held old dreams.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"মোৰ হৃদয়ৰ গহীনত\",\"abstract_meaning\":\"the innermost place where attachment to the homeland endures\"},{\"source_term\":\"মোৰ পুৰণি সপোন\",\"abstract_meaning\":\"cherished past hopes bound to the native land\"}],\"visual_motifs\":[\"the speaker addressing the native land\",\"peace and love dwelling in the homeland\",\"old dreams lying deep within the heart\"]}],\"cultural_entities\":[{\"term\":\"আপোনাৰ দেশ\",\"romanization\":\"apunar desh\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as native land, softening the intimate Assamese sense of one's own land.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "An intimate address to the native land moves from affectionate invocation to remembered peace and inwardly held old dreams.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "মোৰ হৃদয়ৰ গহীনত",
+                "abstract_meaning": "the innermost place where attachment to the homeland endures"
+              },
+              {
+                "source_term": "মোৰ পুৰণি সপোন",
+                "abstract_meaning": "cherished past hopes bound to the native land"
+              }
+            ],
+            "visual_motifs": [
+              "the speaker addressing the native land",
+              "peace and love dwelling in the homeland",
+              "old dreams lying deep within the heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "romanization": "apunar desh",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as native land, softening the intimate Assamese sense of one's own land."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "মোৰ হৃদয়ৰ গহীনত",
+              "মোৰ পুৰণি সপোন"
+            ],
+            "visual_motifs": [
+              "the speaker addressing the native land",
+              "peace and love dwelling in the homeland",
+              "old dreams lying deep within the heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From deep reverence for the motherland to nostalgic reflection on cherished dreams.\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ৰ গহীনত\",\"abstract_meaning\":\"profound emotional attachment and inner consciousness\"}],\"visual_motifs\":[\"depths of the heart holding old dreams\"]}],\"cultural_entities\":[{\"term\":\"আপোনাৰ দেশ\",\"romanization\":\"Apunar Desh\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated literally as 'native land', but culturally evokes the specific Assamese identity and reverence for Assam as a motherland.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From deep reverence for the motherland to nostalgic reflection on cherished dreams.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ৰ গহীনত",
+                "abstract_meaning": "profound emotional attachment and inner consciousness"
+              }
+            ],
+            "visual_motifs": [
+              "depths of the heart holding old dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "romanization": "Apunar Desh",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated literally as 'native land', but culturally evokes the specific Assamese identity and reverence for Assam as a motherland."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ৰ গহীনত"
+            ],
+            "visual_motifs": [
+              "depths of the heart holding old dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The stanza moves from an outward address to the motherland to an inward reflection on peace, love, and long-held personal aspirations.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ৰ গহীনত\",\"abstract_meaning\":\"the innermost core of personal identity and emotional memory\"},{\"source_term\":\"পুৰণি সপোন\",\"abstract_meaning\":\"foundational aspirations and nostalgic connection to one's roots\"}],\"visual_motifs\":[\"a peaceful native landscape\",\"the profound depths of the human heart\"]}],\"cultural_entities\":[{\"term\":\"আপোনাৰ দেশ\",\"romanization\":\"Apunar Desh\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Literally 'one's own country'; in this context, it specifically refers to the motherland of Assam as personified in the state anthem.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The stanza moves from an outward address to the motherland to an inward reflection on peace, love, and long-held personal aspirations.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ৰ গহীনত",
+                "abstract_meaning": "the innermost core of personal identity and emotional memory"
+              },
+              {
+                "source_term": "পুৰণি সপোন",
+                "abstract_meaning": "foundational aspirations and nostalgic connection to one's roots"
+              }
+            ],
+            "visual_motifs": [
+              "a peaceful native landscape",
+              "the profound depths of the human heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "romanization": "Apunar Desh",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Literally 'one's own country'; in this context, it specifically refers to the motherland of Assam as personified in the state anthem."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ৰ গহীনত",
+              "পুৰণি সপোন"
+            ],
+            "visual_motifs": [
+              "a peaceful native landscape",
+              "the profound depths of the human heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আপোনাৰ দেশ",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

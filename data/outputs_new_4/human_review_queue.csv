@@ -1,0 +1,64 @@
+poem_id,poem_title,language,status,vote_basis,field_path,agreement,resolved_value,claude_value,gpt_value,gemini_value,note
+MV++_0001,O Mur Apunar Desh,Assamese,completed,full_3_vote,annotation.cultural_entities[আপোনাৰ দেশ].preserved,low,False,,False,True,preferred_model_tiebreak_no_third_vote
+MV++_0003,Nadi,Assamese,completed,full_3_vote,annotation.cultural_entities[নদী].presence,low,excluded,absent,absent,present,presence_count=1/3
+MV++_0004,Brahmaputra,Assamese,completed,full_3_vote,annotation.stanzas[1].tone,low,whisper,whisper,wonder,prayer,majority_vote
+MV++_0006,Jibon,Assamese,completed,full_3_vote,annotation.cultural_entities[বাঁহী].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_0007,Pratima,Assamese,completed,full_3_vote,annotation.cultural_entities[প্রতিমা].preserved,low,False,False,,True,claude_tiebreak_no_third_vote
+MV++_0007,Pratima,Assamese,completed,full_3_vote,annotation.cultural_entities[প্ৰতিমা].presence,low,excluded,absent,present,absent,presence_count=1/3
+MV++_0008,Chitto Jetha Bhayshunyo,Bengali,completed,full_3_vote,annotation.cultural_entities[ভারত].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_0008,Chitto Jetha Bhayshunyo,Bengali,completed,full_3_vote,annotation.cultural_entities[পৌরুষ].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[1].tone,low,lament,,lament,whisper,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[2].tone,low,whisper,,whisper,wonder,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[2].translation_quality,low,faithful,,faithful,partial,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[3].tone,low,tenderness,,tenderness,wonder,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[3].translation_quality,low,partial,,partial,faithful,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[4].emotion,low,resilience,,resilience,peace,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[5].emotion,low,resilience,,resilience,peace,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.stanzas[5].tone,low,declaration,,declaration,prayer,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.cultural_entities[শ্রাবণী].category,low,FESTIVAL,,FESTIVAL,REGIONAL_SYMBOL,preferred_model_tiebreak_no_third_vote
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.cultural_entities[শালিক].presence,low,excluded,absent,absent,present,presence_count=1/2
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.cultural_entities[শারদ].presence,low,excluded,absent,absent,present,presence_count=1/2
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.cultural_entities[নিশাতীর্থে].presence,low,excluded,absent,absent,present,presence_count=1/2
+MV++_0009,Banalata Sen,Bengali,completed,reduced_2_vote,annotation.cultural_entities[মুক্তি].presence,low,excluded,absent,absent,present,presence_count=1/2
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.stanzas[1].translation_quality,low,partial,,partial,faithful,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.stanzas[3].tone,low,tenderness,,tenderness,declaration,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.stanzas[3].translation_quality,low,faithful,,faithful,partial,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.stanzas[4].emotion,low,grief,,grief,devotion,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.stanzas[4].tone,low,lament,,lament,prayer,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.cultural_entities[দেশের মাটি].preserved,low,False,,False,True,preferred_model_tiebreak_no_third_vote
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,annotation.cultural_entities[মা].presence,low,excluded,absent,present,absent,presence_count=1/2
+MV++_0011,O Amar Desher Mati,Bengali,completed,reduced_2_vote,"annotation.cultural_entities[মা তুমি, মাটি তুমি].presence",low,excluded,absent,absent,present,presence_count=1/2
+MV++_0013,Anondolokey,Bengali,completed,full_3_vote,annotation.cultural_entities[আনন্দলোক].preserved,low,True,True,,False,claude_tiebreak_no_third_vote
+MV++_0013,Anondolokey,Bengali,completed,full_3_vote,annotation.cultural_entities[মূর্ছনাতে].presence,low,excluded,absent,absent,present,presence_count=1/3
+MV++_0061,Agnibeena,Hindi,completed,full_3_vote,annotation.cultural_entities[वीणा].presence,low,excluded,absent,present,absent,presence_count=1/3
+MV++_0073,Ek Chadar Maili Si,Hindi,completed,gemini_flash_fallback,annotation.stanzas[4].tone,low,whisper,whisper,tenderness,wonder,majority_vote
+MV++_0073,Ek Chadar Maili Si,Hindi,completed,gemini_flash_fallback,annotation.cultural_entities[चादर].category,low,SOCIAL_CUSTOM,SOCIAL_CUSTOM,,REGIONAL_SYMBOL,claude_tiebreak_no_third_vote
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.stanzas[2].tone,low,whisper,whisper,tenderness,declaration,majority_vote
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.cultural_entities[बुलबुल].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.cultural_entities[गुलसितां].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.cultural_entities[वतन].category,low,DEVOTIONAL_CONCEPT,DEVOTIONAL_CONCEPT,REGIONAL_SYMBOL,,claude_tiebreak_no_third_vote
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.cultural_entities[मज़हब].category,low,DEVOTIONAL_CONCEPT,DEVOTIONAL_CONCEPT,SOCIAL_CUSTOM,,claude_tiebreak_no_third_vote
+MV++_0105,Saare Jahan Se Achha,Hindi,completed,full_3_vote,annotation.cultural_entities[हिन्दोस्तां].preserved,low,True,True,False,,claude_tiebreak_no_third_vote
+MV++_0108,Tumhare Haath Ki Chudiyan,Hindi,completed,full_3_vote,annotation.cultural_entities[सावन].category,low,FESTIVAL,FESTIVAL,,REGIONAL_SYMBOL,claude_tiebreak_no_third_vote
+MV++_0108,Tumhare Haath Ki Chudiyan,Hindi,completed,full_3_vote,annotation.cultural_entities[सावन].preserved,low,True,True,,False,claude_tiebreak_no_third_vote
+MV++_1190,Nakoshi,Marathi,completed,full_3_vote,annotation.cultural_entities[उंबरठ्यावर].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_1191,Gandhi Mala Bhetla,Marathi,completed,full_3_vote,annotation.cultural_entities[इंद्रधनुष्य].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_1196,Aakashacha Paay,Marathi,completed,full_3_vote,annotation.cultural_entities[धरणा].presence,low,excluded,absent,absent,present,presence_count=1/3
+MV++_1433,Vasanta Rutu,Telugu,completed,full_3_vote,annotation.cultural_entities[మల్లెలు].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[అనుమంత వంశం].category,low,REGIONAL_SYMBOL,REGIONAL_SYMBOL,DEVOTIONAL_CONCEPT,,claude_tiebreak_no_third_vote
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[అనుమంత వంశం].preserved,low,True,True,False,,claude_tiebreak_no_third_vote
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[పితామహుల].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[అనుమంత].presence,low,included,absent,absent,present,presence_count=1/3; explicit_deity_preserved
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[అనుమంత].category,low,DEITY,,,DEITY,majority_vote
+MV++_1434,Anumantha Vamsam,Telugu,completed,full_3_vote,annotation.cultural_entities[అనుమంత].preserved,low,False,,,False,majority_vote
+MV++_1440,Oh neeli Chandamama,Telugu,completed,reduced_2_vote,annotation.stanzas[1].emotion,low,longing,,longing,peace,preferred_model_tiebreak_no_third_vote
+MV++_1440,Oh neeli Chandamama,Telugu,completed,reduced_2_vote,annotation.stanzas[2].translation_quality,low,faithful,,faithful,partial,preferred_model_tiebreak_no_third_vote
+MV++_1440,Oh neeli Chandamama,Telugu,completed,reduced_2_vote,annotation.stanzas[3].emotion,low,peace,,peace,longing,preferred_model_tiebreak_no_third_vote
+MV++_1440,Oh neeli Chandamama,Telugu,completed,reduced_2_vote,annotation.stanzas[4].tone,low,wonder,,wonder,tenderness,preferred_model_tiebreak_no_third_vote
+MV++_1440,Oh neeli Chandamama,Telugu,completed,reduced_2_vote,annotation.stanzas[5].translation_quality,low,faithful,,faithful,lost,preferred_model_tiebreak_no_third_vote
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[భారతావని].preserved,low,True,True,False,,claude_tiebreak_no_third_vote
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[వందనం].presence,low,excluded,present,absent,absent,presence_count=1/3
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[భూమి తల్లి].category,low,DEVOTIONAL_CONCEPT,,DEVOTIONAL_CONCEPT,DEITY,preferred_model_tiebreak_no_third_vote
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[భూమి తల్లి].preserved,low,False,,False,True,preferred_model_tiebreak_no_third_vote
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[పుడమి తల్లి].presence,low,excluded,absent,present,absent,presence_count=1/3
+MV++_1445,Thali Neku Padabivandanam,Telugu,completed,full_3_vote,annotation.cultural_entities[కాటికి].presence,low,excluded,absent,absent,present,presence_count=1/3

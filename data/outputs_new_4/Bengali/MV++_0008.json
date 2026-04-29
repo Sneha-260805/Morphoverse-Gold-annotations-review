@@ -1,0 +1,777 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0008",
+  "poem_title": "Chitto Jetha Bhayshunyo",
+  "language": "Bengali",
+  "original_poem": "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,\nজ্ঞান যেথা মুক্ত, যেথা গৃহের প্রাচীর\nআপন প্রাঙ্গণতলে দিবসশর্বরী\nবসুধারে রাখে নাই খণ্ড ক্ষুদ্র করি,\nযেথা বাক্য হৃদয়ের উৎসমুখ হতে\nউচ্ছ্বসিয়া উঠে, যেথা নির্বারিত স্রোতে\nদেশে দেশে দিশে দিশে কর্মধারা ধায়\nঅজস্র সহস্রবিধ চরিতার্থতায়,\nযেথা তুচ্ছ আচারের মরুবালুরাশি\nবিচারের স্রোতঃপথ ফেলে নাই গ্রাসি,\nপৌরুষেরে করে নি শতধা, নিত্য যেথা\nতুমি সর্ব কর্ম চিন্তা আনন্দের নেতা,\nনিজ হস্তে নির্দয় আঘাত করি, পিতঃ;\nভারতেরে সেই স্বর্গে করো জাগরিত৷",
+  "translated_poem": "Where the mind is without fear and the head is held high;\nWhere knowledge is free;\nWhere the world has not been broken up into fragments by narrow domestic walls;\nWhere words come out from the depth of truth;\nWhere tireless striving stretches its arms towards perfection;\nWhere the clear stream of reason has not lost its way into the dreary desert sand of dead habit;\nWhere the mind is led forward by thee into ever-widening thought and action—\nInto that heaven of freedom, my Father, let my country awake.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 14,
+        "source_lines": [
+          "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,",
+          "জ্ঞান যেথা মুক্ত, যেথা গৃহের প্রাচীর",
+          "আপন প্রাঙ্গণতলে দিবসশর্বরী",
+          "বসুধারে রাখে নাই খণ্ড ক্ষুদ্র করি,",
+          "যেথা বাক্য হৃদয়ের উৎসমুখ হতে",
+          "উচ্ছ্বসিয়া উঠে, যেথা নির্বারিত স্রোতে",
+          "দেশে দেশে দিশে দিশে কর্মধারা ধায়",
+          "অজস্র সহস্রবিধ চরিতার্থতায়,",
+          "যেথা তুচ্ছ আচারের মরুবালুরাশি",
+          "বিচারের স্রোতঃপথ ফেলে নাই গ্রাসি,",
+          "পৌরুষেরে করে নি শতধা, নিত্য যেথা",
+          "তুমি সর্ব কর্ম চিন্তা আনন্দের নেতা,",
+          "নিজ হস্তে নির্দয় আঘাত করি, পিতঃ;",
+          "ভারতেরে সেই স্বর্গে করো জাগরিত৷"
+        ],
+        "translated_lines": [
+          "Where the mind is without fear and the head is held high;",
+          "Where knowledge is free;",
+          "Where the world has not been broken up into fragments by narrow domestic walls;",
+          "Where words come out from the depth of truth;",
+          "Where tireless striving stretches its arms towards perfection;",
+          "Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;",
+          "Where the mind is led forward by thee into ever-widening thought and action—",
+          "Into that heaven of freedom, my Father, let my country awake."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "declarative",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "begins with visionary longing for a free and enlightened nation and rises to a fervent prayer for India's awakening into that ideal",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 14,
+        "source_lines": [
+          "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,",
+          "জ্ঞান যেথা মুক্ত, যেথা গৃহের প্রাচীর",
+          "আপন প্রাঙ্গণতলে দিবসশর্বরী",
+          "বসুধারে রাখে নাই খণ্ড ক্ষুদ্র করি,",
+          "যেথা বাক্য হৃদয়ের উৎসমুখ হতে",
+          "উচ্ছ্বসিয়া উঠে, যেথা নির্বারিত স্রোতে",
+          "দেশে দেশে দিশে দিশে কর্মধারা ধায়",
+          "অজস্র সহস্রবিধ চরিতার্থতায়,",
+          "যেথা তুচ্ছ আচারের মরুবালুরাশি",
+          "বিচারের স্রোতঃপথ ফেলে নাই গ্রাসি,",
+          "পৌরুষেরে করে নি শতধা, নিত্য যেথা",
+          "তুমি সর্ব কর্ম চিন্তা আনন্দের নেতা,",
+          "নিজ হস্তে নির্দয় আঘাত করি, পিতঃ;",
+          "ভারতেরে সেই স্বর্গে করো জাগরিত৷"
+        ],
+        "translated_lines": [
+          "Where the mind is without fear and the head is held high;",
+          "Where knowledge is free;",
+          "Where the world has not been broken up into fragments by narrow domestic walls;",
+          "Where words come out from the depth of truth;",
+          "Where tireless striving stretches its arms towards perfection;",
+          "Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;",
+          "Where the mind is led forward by thee into ever-widening thought and action—",
+          "Into that heaven of freedom, my Father, let my country awake."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "prayer",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "The translation omits several specific Bengali images: 'দিবসশর্বরী' (day and night), 'মরুবালুরাশি' (desert sand of dead habit), 'পৌরুষেরে করে নি শতধা' (manhood not shattered into fragments), and 'নির্দয় আঘাত' (merciless blow), all of which carry distinct moral and political weight absent in the English rendering.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "গৃহের প্রাচীর",
+            "abstract_meaning": "narrow communal and sectarian divisions that fragment the nation",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "মরুবালুরাশি",
+            "abstract_meaning": "dead custom and blind habit that choke rational thought",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "নির্বারিত স্রোতে",
+            "abstract_meaning": "unobstructed flow of purposeful national endeavour",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "উৎসমুখ হতে উচ্ছ্বসিয়া উঠে",
+            "abstract_meaning": "speech welling up from genuine inner truth rather than convention",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "সেই স্বর্গে",
+            "abstract_meaning": "the ideal free India envisioned as a heaven of liberated consciousness",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "হৃদয়ের উৎসমুখ",
+            "abstract_meaning": "inner truth as the living source of speech",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "নির্বারিত স্রোতে কর্মধারা ধায়",
+            "abstract_meaning": "human effort flowing freely across the world",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "তুচ্ছ আচারের মরুবালুরাশি",
+            "abstract_meaning": "dead custom as barren force that chokes thought",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "বিচারের স্রোতঃপথ",
+            "abstract_meaning": "reason as a clear current seeking its course",
+            "agreement": "medium",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a clear stream cutting through a desert of sand",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a father's merciless hand striking to awaken a sleeping nation",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a fearless mind with the head held high",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a stream of reason swallowed by desert sand",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "an unbarred stream of action rushing in all directions",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "broken fragments",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "clear stream",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "desert sand",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "domestic walls crumbling to open a boundless courtyard",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "domestic walls enclosing a courtyard day and night",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "head held high",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "head held high against a vast open sky",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "the country awakening into a heaven of freedom",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "words surging up from the mouth of a spring",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "পিতঃ",
+        "romanization": {
+          "value": "Pitah",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "Rendered as 'my Father', preserving the devotional address to the divine as cosmic father.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      },
+      {
+        "term": "ভারতেরে",
+        "romanization": {
+          "value": "Bharatere",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Translated as 'my country,' losing the explicit naming of India/Bharat.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 0,
+      "low_entity_count": 2,
+      "review_item_count": 2,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[ভারত].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[পৌরুষ].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"declarative\",\n  \"emotional_arc\": \"begins with visionary longing for a free and enlightened nation and rises to a fervent prayer for India's awakening into that ideal\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"longing\",\n      \"tone\": \"prayer\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"The translation omits several specific Bengali images: 'দিবসশর্বরী' (day and night), 'মরুবালুরাশি' (desert sand of dead habit), 'পৌরুষেরে করে নি শতধা' (manhood not shattered into fragments), and 'নির্দয় আঘাত' (merciless blow), all of which carry distinct moral and political weight absent in the English rendering.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"গৃহের প্রাচীর\",\n          \"abstract_meaning\": \"narrow communal and sectarian divisions that fragment the nation\"\n        },\n        {\n          \"source_term\": \"মরুবালুরাশি\",\n          \"abstract_meaning\": \"dead custom and blind habit that choke rational thought\"\n        },\n        {\n          \"source_term\": \"নির্বারিত স্রোতে\",\n          \"abstract_meaning\": \"unobstructed flow of purposeful national endeavour\"\n        },\n        {\n          \"source_term\": \"উৎসমুখ হতে উচ্ছ্বসিয়া উঠে\",\n          \"abstract_meaning\": \"speech welling up from genuine inner truth rather than convention\"\n        },\n        {\n          \"source_term\": \"সেই স্বর্গে\",\n          \"abstract_meaning\": \"the ideal free India envisioned as a heaven of liberated consciousness\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"head held high against a vast open sky\",\n        \"a clear stream cutting through a desert of sand\",\n        \"domestic walls crumbling to open a boundless courtyard\",\n        \"a father's merciless hand striking to awaken a sleeping nation\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"ভারত\",\n      \"romanization\": \"Bharat\",\n      \"category\": \"REGIONAL_SYMBOL\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"Translated as 'my country', losing the specific invocation of India by its Sanskrit name Bharat.\"\n    },\n    {\n      \"term\": \"পিতঃ\",\n      \"romanization\": \"Pitah\",\n      \"category\": \"DEVOTIONAL_CONCEPT\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"Rendered as 'my Father', preserving the devotional address to the divine as cosmic father.\"\n    },\n    {\n      \"term\": \"পৌরুষ\",\n      \"romanization\": \"Pourush\",\n      \"category\": \"DEVOTIONAL_CONCEPT\",\n      \"stanza_index\": 1,\n      \"preserved\": false,\n      \"translation_note\": \"'Pourush' (manly virtue or moral vigour) is omitted entirely from the English translation.\"\n    }\n  ]\n}\n```",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "begins with visionary longing for a free and enlightened nation and rises to a fervent prayer for India's awakening into that ideal",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The translation omits several specific Bengali images: 'দিবসশর্বরী' (day and night), 'মরুবালুরাশি' (desert sand of dead habit), 'পৌরুষেরে করে নি শতধা' (manhood not shattered into fragments), and 'নির্দয় আঘাত' (merciless blow), all of which carry distinct moral and political weight absent in the English rendering.",
+            "metaphor_spans": [
+              {
+                "source_term": "গৃহের প্রাচীর",
+                "abstract_meaning": "narrow communal and sectarian divisions that fragment the nation"
+              },
+              {
+                "source_term": "মরুবালুরাশি",
+                "abstract_meaning": "dead custom and blind habit that choke rational thought"
+              },
+              {
+                "source_term": "নির্বারিত স্রোতে",
+                "abstract_meaning": "unobstructed flow of purposeful national endeavour"
+              },
+              {
+                "source_term": "উৎসমুখ হতে উচ্ছ্বসিয়া উঠে",
+                "abstract_meaning": "speech welling up from genuine inner truth rather than convention"
+              },
+              {
+                "source_term": "সেই স্বর্গে",
+                "abstract_meaning": "the ideal free India envisioned as a heaven of liberated consciousness"
+              }
+            ],
+            "visual_motifs": [
+              "head held high against a vast open sky",
+              "a clear stream cutting through a desert of sand",
+              "domestic walls crumbling to open a boundless courtyard",
+              "a father's merciless hand striking to awaken a sleeping nation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ভারত",
+            "romanization": "Bharat",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'my country', losing the specific invocation of India by its Sanskrit name Bharat."
+          },
+          {
+            "term": "পিতঃ",
+            "romanization": "Pitah",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Rendered as 'my Father', preserving the devotional address to the divine as cosmic father."
+          },
+          {
+            "term": "পৌরুষ",
+            "romanization": "Pourush",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "'Pourush' (manly virtue or moral vigour) is omitted entirely from the English translation."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "গৃহের প্রাচীর",
+              "মরুবালুরাশি",
+              "নির্বারিত স্রোতে",
+              "উৎসমুখ হতে উচ্ছ্বসিয়া উঠে",
+              "সেই স্বর্গে"
+            ],
+            "visual_motifs": [
+              "head held high against a vast open sky",
+              "a clear stream cutting through a desert of sand",
+              "domestic walls crumbling to open a boundless courtyard",
+              "a father's merciless hand striking to awaken a sleeping nation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ভারত",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "পিতঃ",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          },
+          {
+            "term": "পৌরুষ",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"from urgent moral invocation to a prayer for national awakening into fearless freedom\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation omits images like 'head held high,' 'home walls,' and 'Father' as 'পিতঃ' with direct address to India.\",\"metaphor_spans\":[{\"source_term\":\"গৃহের প্রাচীর\",\"abstract_meaning\":\"narrow social divisions that fragment humanity\"},{\"source_term\":\"হৃদয়ের উৎসমুখ\",\"abstract_meaning\":\"inner truth as the living source of speech\"},{\"source_term\":\"নির্বারিত স্রোতে কর্মধারা ধায়\",\"abstract_meaning\":\"human effort flowing freely across the world\"},{\"source_term\":\"তুচ্ছ আচারের মরুবালুরাশি\",\"abstract_meaning\":\"dead custom as barren force that chokes thought\"},{\"source_term\":\"বিচারের স্রোতঃপথ\",\"abstract_meaning\":\"reason as a clear current seeking its course\"},{\"source_term\":\"সেই স্বর্গে\",\"abstract_meaning\":\"an ideal state of freedom and awakened national life\"}],\"visual_motifs\":[\"a fearless mind with the head held high\",\"domestic walls enclosing a courtyard day and night\",\"words surging up from the mouth of a spring\",\"an unbarred stream of action rushing in all directions\",\"a stream of reason swallowed by desert sand\",\"the country awakening into a heaven of freedom\"]}],\"cultural_entities\":[{\"term\":\"পিতঃ\",\"romanization\":\"pitah\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as 'my Father,' but the Sanskritic vocative force is softened.\"},{\"term\":\"ভারতেরে\",\"romanization\":\"Bharatere\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as 'my country,' losing the explicit naming of India/Bharat.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "from urgent moral invocation to a prayer for national awakening into fearless freedom",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The translation omits images like 'head held high,' 'home walls,' and 'Father' as 'পিতঃ' with direct address to India.",
+            "metaphor_spans": [
+              {
+                "source_term": "গৃহের প্রাচীর",
+                "abstract_meaning": "narrow social divisions that fragment humanity"
+              },
+              {
+                "source_term": "হৃদয়ের উৎসমুখ",
+                "abstract_meaning": "inner truth as the living source of speech"
+              },
+              {
+                "source_term": "নির্বারিত স্রোতে কর্মধারা ধায়",
+                "abstract_meaning": "human effort flowing freely across the world"
+              },
+              {
+                "source_term": "তুচ্ছ আচারের মরুবালুরাশি",
+                "abstract_meaning": "dead custom as barren force that chokes thought"
+              },
+              {
+                "source_term": "বিচারের স্রোতঃপথ",
+                "abstract_meaning": "reason as a clear current seeking its course"
+              },
+              {
+                "source_term": "সেই স্বর্গে",
+                "abstract_meaning": "an ideal state of freedom and awakened national life"
+              }
+            ],
+            "visual_motifs": [
+              "a fearless mind with the head held high",
+              "domestic walls enclosing a courtyard day and night",
+              "words surging up from the mouth of a spring",
+              "an unbarred stream of action rushing in all directions",
+              "a stream of reason swallowed by desert sand",
+              "the country awakening into a heaven of freedom"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "romanization": "pitah",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as 'my Father,' but the Sanskritic vocative force is softened."
+          },
+          {
+            "term": "ভারতেরে",
+            "romanization": "Bharatere",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as 'my country,' losing the explicit naming of India/Bharat."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "গৃহের প্রাচীর",
+              "হৃদয়ের উৎসমুখ",
+              "নির্বারিত স্রোতে কর্মধারা ধায়",
+              "তুচ্ছ আচারের মরুবালুরাশি",
+              "বিচারের স্রোতঃপথ",
+              "সেই স্বর্গে"
+            ],
+            "visual_motifs": [
+              "a fearless mind with the head held high",
+              "domestic walls enclosing a courtyard day and night",
+              "words surging up from the mouth of a spring",
+              "an unbarred stream of action rushing in all directions",
+              "a stream of reason swallowed by desert sand",
+              "the country awakening into a heaven of freedom"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "ভারতেরে",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"Moves from a visionary longing for freedom and truth to a passionate plea for national awakening.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"The English translation omits several vivid Bengali phrases such as 'দিবসশর্বরী' (day and night), 'পৌরুষেরে করে নি শতধা' (has not shattered manhood into a hundred pieces), and 'নিজ হস্তে নির্দয় আঘাত করি' (striking mercilessly with your own hands).\",\"metaphor_spans\":[{\"source_term\":\"গৃহের প্রাচীর\",\"abstract_meaning\":\"narrow-mindedness and societal divisions\"},{\"source_term\":\"তুচ্ছ আচারের মরুবালুরাশি\",\"abstract_meaning\":\"stagnant, meaningless rituals and dead habits\"},{\"source_term\":\"বিচারের স্রোতঃপথ\",\"abstract_meaning\":\"progressive, logical, and clear thinking\"}],\"visual_motifs\":[\"head held high\",\"broken fragments\",\"desert sand\",\"clear stream\"]}],\"cultural_entities\":[{\"term\":\"পিতঃ\",\"romanization\":\"Pitah\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as 'my Father', referring to the Divine.\"},{\"term\":\"ভারতেরে\",\"romanization\":\"Bharatere\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"The specific name of the country 'Bharat' (India) is generalized to 'my country' in the English translation.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "Moves from a visionary longing for freedom and truth to a passionate plea for national awakening.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The English translation omits several vivid Bengali phrases such as 'দিবসশর্বরী' (day and night), 'পৌরুষেরে করে নি শতধা' (has not shattered manhood into a hundred pieces), and 'নিজ হস্তে নির্দয় আঘাত করি' (striking mercilessly with your own hands).",
+            "metaphor_spans": [
+              {
+                "source_term": "গৃহের প্রাচীর",
+                "abstract_meaning": "narrow-mindedness and societal divisions"
+              },
+              {
+                "source_term": "তুচ্ছ আচারের মরুবালুরাশি",
+                "abstract_meaning": "stagnant, meaningless rituals and dead habits"
+              },
+              {
+                "source_term": "বিচারের স্রোতঃপথ",
+                "abstract_meaning": "progressive, logical, and clear thinking"
+              }
+            ],
+            "visual_motifs": [
+              "head held high",
+              "broken fragments",
+              "desert sand",
+              "clear stream"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "romanization": "Pitah",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'my Father', referring to the Divine."
+          },
+          {
+            "term": "ভারতেরে",
+            "romanization": "Bharatere",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "The specific name of the country 'Bharat' (India) is generalized to 'my country' in the English translation."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "গৃহের প্রাচীর",
+              "তুচ্ছ আচারের মরুবালুরাশি",
+              "বিচারের স্রোতঃপথ"
+            ],
+            "visual_motifs": [
+              "head held high",
+              "broken fragments",
+              "desert sand",
+              "clear stream"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          },
+          {
+            "term": "ভারতেরে",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"A transition from a vision of intellectual and social freedom to a fervent prayer for national awakening.\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"গৃহের প্রাচীর\",\"abstract_meaning\":\"social and sectarian divisions that fragment humanity\"},{\"source_term\":\"মরুবালুরাশি\",\"abstract_meaning\":\"lifeless and stagnant traditional habits\"},{\"source_term\":\"বিচারের স্রোতঃপথ\",\"abstract_meaning\":\"the flow of rational and logical thought\"},{\"source_term\":\"হৃদয়ের উৎসমুখ\",\"abstract_meaning\":\"the core of truth and sincerity\"}],\"visual_motifs\":[\"head held high\",\"narrow domestic walls\",\"clear stream of reason\",\"dreary desert sand\"]}],\"cultural_entities\":[{\"term\":\"পিতঃ\",\"romanization\":\"Pitah\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the Divine Father or Supreme Being in a universalist prayer context.\"},{\"term\":\"ভারত\",\"romanization\":\"Bharata\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the Indian nation.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "A transition from a vision of intellectual and social freedom to a fervent prayer for national awakening.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "গৃহের প্রাচীর",
+                "abstract_meaning": "social and sectarian divisions that fragment humanity"
+              },
+              {
+                "source_term": "মরুবালুরাশি",
+                "abstract_meaning": "lifeless and stagnant traditional habits"
+              },
+              {
+                "source_term": "বিচারের স্রোতঃপথ",
+                "abstract_meaning": "the flow of rational and logical thought"
+              },
+              {
+                "source_term": "হৃদয়ের উৎসমুখ",
+                "abstract_meaning": "the core of truth and sincerity"
+              }
+            ],
+            "visual_motifs": [
+              "head held high",
+              "narrow domestic walls",
+              "clear stream of reason",
+              "dreary desert sand"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "romanization": "Pitah",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the Divine Father or Supreme Being in a universalist prayer context."
+          },
+          {
+            "term": "ভারত",
+            "romanization": "Bharata",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the Indian nation."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "গৃহের প্রাচীর",
+              "মরুবালুরাশি",
+              "বিচারের স্রোতঃপথ",
+              "হৃদয়ের উৎসমুখ"
+            ],
+            "visual_motifs": [
+              "head held high",
+              "narrow domestic walls",
+              "clear stream of reason",
+              "dreary desert sand"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "পিতঃ",
+            "category": "DEITY",
+            "preserved": true
+          },
+          {
+            "term": "ভারত",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

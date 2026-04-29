@@ -1,0 +1,1206 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0009",
+  "poem_title": "Banalata Sen",
+  "language": "Bengali",
+  "original_poem": "শ্রাবণী নিশার গভীর নীরবতা,\nশালিকের বীণায়, একটি শুদ্ধ গানের সুরে।\nএত দীর্ঘ দিনের ক্লান্তি, এত রাতে,\nবিরুদ্ধ প্রান্তর, বিস্তৃত শূন্যতার ঢাল।\n \nবহু রাত আমার বিশ্রামহীন,\nবহু শারদ অতিক্রান্ত।\nসেই রাতে, অচেতন চরণ,\nবহু পথে পায়ে মাড়িয়ে যাওয়ার পরে,\nবহু দগ্ধ নিশাতীর্থে ফিরে আসার পরে,\nসেই রাতে, মায়াবী চেনা,\nবদলে যায় সব কিছু,\nপাল্টে যায় চারদিকের সমুদ্র।\n\nসন্ধ্যার পূর্ণিমা স্নিগ্ধতা,\nঅথবা অগ্নি পতঙ্গ উড়াল।\nবিরক্তির মাঝে, এমন এক রূপ-চোখ,\nতুমি নিঃশব্দে,\nগহন গহনে, সামনে।\n \nআমি আবার ফিরে আসবো,\nএই বিচিত্র দেশে।\nযেখানে প্রেম, আশা, সুগন্ধ।\n\nমাঝে মাঝে ফিরে আসবো,\nসেই অন্ধকার পথে,\nযেখানে মুক্তির সূচনা।",
+  "translated_poem": "In the deep silence of the rainy night,\nIn the melody of the oriole's lute,\nThe weariness of so many days,\nIn the vast emptiness of a divided landscape.\n\nMany nights I have spent restless,\nMany autumns have passed.\nThat night, in an unconscious step,\nAfter treading many paths,\nAfter returning from many burning shores,\nThat night, a familiar spell,\nEverything changes,\nThe sea around me shifts.\n\nThe evening full moon's serenity,\nOr the fluttering of fireflies.\nIn the midst of annoyance, such a lovely gaze,\nYou, in silence,\nIn the depth of the void, stand before me.\n\nI will return again,\nTo this diverse land.\nWhere love, hope, fragrance abound.\n\nFrom time to time, I will return,\nAlong that dark path,\nWhere the dawn of liberation begins.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "reduced_2_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "শ্রাবণী নিশার গভীর নীরবতা,",
+          "শালিকের বীণায়, একটি শুদ্ধ গানের সুরে।",
+          "এত দীর্ঘ দিনের ক্লান্তি, এত রাতে,",
+          "বিরুদ্ধ প্রান্তর, বিস্তৃত শূন্যতার ঢাল।"
+        ],
+        "translated_lines": [
+          "In the deep silence of the rainy night,",
+          "In the melody of the oriole's lute,",
+          "The weariness of so many days,",
+          "In the vast emptiness of a divided landscape."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 8,
+        "source_lines": [
+          "বহু রাত আমার বিশ্রামহীন,",
+          "বহু শারদ অতিক্রান্ত।",
+          "সেই রাতে, অচেতন চরণ,",
+          "বহু পথে পায়ে মাড়িয়ে যাওয়ার পরে,",
+          "বহু দগ্ধ নিশাতীর্থে ফিরে আসার পরে,",
+          "সেই রাতে, মায়াবী চেনা,",
+          "বদলে যায় সব কিছু,",
+          "পাল্টে যায় চারদিকের সমুদ্র।"
+        ],
+        "translated_lines": [
+          "Many nights I have spent restless,",
+          "Many autumns have passed.",
+          "That night, in an unconscious step,",
+          "After treading many paths,",
+          "After returning from many burning shores,",
+          "That night, a familiar spell,",
+          "Everything changes,",
+          "The sea around me shifts."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 5,
+        "source_lines": [
+          "সন্ধ্যার পূর্ণিমা স্নিগ্ধতা,",
+          "অথবা অগ্নি পতঙ্গ উড়াল।",
+          "বিরক্তির মাঝে, এমন এক রূপ-চোখ,",
+          "তুমি নিঃশব্দে,",
+          "গহন গহনে, সামনে।"
+        ],
+        "translated_lines": [
+          "The evening full moon's serenity,",
+          "Or the fluttering of fireflies.",
+          "In the midst of annoyance, such a lovely gaze,",
+          "You, in silence,",
+          "In the depth of the void, stand before me."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 3,
+        "source_lines": [
+          "আমি আবার ফিরে আসবো,",
+          "এই বিচিত্র দেশে।",
+          "যেখানে প্রেম, আশা, সুগন্ধ।"
+        ],
+        "translated_lines": [
+          "I will return again,",
+          "To this diverse land.",
+          "Where love, hope, fragrance abound."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "মাঝে মাঝে ফিরে আসবো,",
+          "সেই অন্ধকার পথে,",
+          "যেখানে মুক্তির সূচনা।"
+        ],
+        "translated_lines": [
+          "From time to time, I will return,",
+          "Along that dark path,",
+          "Where the dawn of liberation begins."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "medium",
+      "source_model": "gpt",
+      "resolution_basis": "reduced_2_vote"
+    },
+    "emotional_arc": {
+      "value": "From exhausted wandering through silence and estrangement, the poem moves toward a hushed encounter of solace and ends in a quiet vow of return and release.",
+      "agreement": "low",
+      "source_model": "gpt",
+      "resolution_basis": "fallback_free_text"
+    },
+    "translation_fidelity_score": 0.8,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "শ্রাবণী নিশার গভীর নীরবতা,",
+          "শালিকের বীণায়, একটি শুদ্ধ গানের সুরে।",
+          "এত দীর্ঘ দিনের ক্লান্তি, এত রাতে,",
+          "বিরুদ্ধ প্রান্তর, বিস্তৃত শূন্যতার ঢাল।"
+        ],
+        "translated_lines": [
+          "In the deep silence of the rainy night,",
+          "In the melody of the oriole's lute,",
+          "The weariness of so many days,",
+          "In the vast emptiness of a divided landscape."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "'শালিকের বীণায়' is rendered as 'oriole's lute,' changing the bird and image.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "শালিকের বীণায়",
+            "abstract_meaning": "nature sounding a pure inward music",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "বিস্তৃত শূন্যতার ঢাল",
+            "abstract_meaning": "emptiness as an engulfing expanse pressing on the speaker",
+            "agreement": "medium",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a myna-like bird imagined with a lute",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a vast divided empty landscape",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "deep silence of a rainy night",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "oriole with a lute",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "rainy night",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "vast empty landscape",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 8,
+        "source_lines": [
+          "বহু রাত আমার বিশ্রামহীন,",
+          "বহু শারদ অতিক্রান্ত।",
+          "সেই রাতে, অচেতন চরণ,",
+          "বহু পথে পায়ে মাড়িয়ে যাওয়ার পরে,",
+          "বহু দগ্ধ নিশাতীর্থে ফিরে আসার পরে,",
+          "সেই রাতে, মায়াবী চেনা,",
+          "বদলে যায় সব কিছু,",
+          "পাল্টে যায় চারদিকের সমুদ্র।"
+        ],
+        "translated_lines": [
+          "Many nights I have spent restless,",
+          "Many autumns have passed.",
+          "That night, in an unconscious step,",
+          "After treading many paths,",
+          "After returning from many burning shores,",
+          "That night, a familiar spell,",
+          "Everything changes,",
+          "The sea around me shifts."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "বহু দগ্ধ নিশাতীর্থে",
+            "abstract_meaning": "night journeys figured as scorched pilgrimage-sites of suffering",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "পাল্টে যায় চারদিকের সমুদ্র",
+            "abstract_meaning": "the speaker's whole surrounding world suddenly transformed",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "দগ্ধ নিশাতীর্থে",
+            "abstract_meaning": "sacred sites of past suffering or spiritual trials",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a weary traveler treading many roads at night",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "autumn landscape",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "burning shores at night",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "return from burning night-shores",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "shifting sea",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the sea on all sides shifting",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 5,
+        "source_lines": [
+          "সন্ধ্যার পূর্ণিমা স্নিগ্ধতা,",
+          "অথবা অগ্নি পতঙ্গ উড়াল।",
+          "বিরক্তির মাঝে, এমন এক রূপ-চোখ,",
+          "তুমি নিঃশব্দে,",
+          "গহন গহনে, সামনে।"
+        ],
+        "translated_lines": [
+          "The evening full moon's serenity,",
+          "Or the fluttering of fireflies.",
+          "In the midst of annoyance, such a lovely gaze,",
+          "You, in silence,",
+          "In the depth of the void, stand before me."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "'গহন গহনে' is translated as 'depth of the void,' losing the sense of dense inward depth.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "সন্ধ্যার পূর্ণিমা স্নিগ্ধতা",
+            "abstract_meaning": "a cooling fullness of calm presence",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "অগ্নি পতঙ্গ উড়াল",
+            "abstract_meaning": "brief flickering radiance against inner irritation",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "রূপ-চোখ",
+            "abstract_meaning": "a gaze that gathers beauty into sudden relief",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "অগ্নি পতঙ্গ",
+            "abstract_meaning": "fleeting and potentially self-destructive desires or thoughts",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "গহন গহনে",
+            "abstract_meaning": "the deepest layers of the subconscious or the void",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a silent figure standing before the speaker in deep darkness",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a silent gaze",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "fire-insects fluttering",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "full moon",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "serene full moonlight of evening",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "swarming fireflies",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 3,
+        "source_lines": [
+          "আমি আবার ফিরে আসবো,",
+          "এই বিচিত্র দেশে।",
+          "যেখানে প্রেম, আশা, সুগন্ধ।"
+        ],
+        "translated_lines": [
+          "I will return again,",
+          "To this diverse land.",
+          "Where love, hope, fragrance abound."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "সুগন্ধ",
+            "abstract_meaning": "the lingering essence of memory and hope",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "fragrant diverse landscape",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "return to a diverse land filled with love hope and fragrance",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 3,
+        "source_lines": [
+          "মাঝে মাঝে ফিরে আসবো,",
+          "সেই অন্ধকার পথে,",
+          "যেখানে মুক্তির সূচনা।"
+        ],
+        "translated_lines": [
+          "From time to time, I will return,",
+          "Along that dark path,",
+          "Where the dawn of liberation begins."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "অন্ধকার পথে",
+            "abstract_meaning": "the difficult route through obscurity toward release",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "মুক্তির সূচনা",
+            "abstract_meaning": "liberation imagined as a beginning point on the path",
+            "agreement": "medium",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a dark path leading toward the beginning of liberation",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "dark winding path",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "first light of liberation",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "শ্রাবণী",
+        "romanization": {
+          "value": "Shrabani",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "FESTIVAL",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Rendered only as 'rainy night,' losing the Bengali month-season resonance.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 2,
+      "low_stanza_count": 5,
+      "medium_stanza_count": 0,
+      "low_entity_count": 5,
+      "review_item_count": 13,
+      "vote_basis": "reduced_2_vote",
+      "valid_models_total": 2,
+      "effective_voting_sources": {
+        "gpt": "gpt",
+        "gemini": "gemini-3-flash"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].tone",
+      "agreement": "low",
+      "resolved_value": "lament",
+      "claude_value": "",
+      "gpt_value": "lament",
+      "gemini_value": "whisper",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[2].tone",
+      "agreement": "low",
+      "resolved_value": "whisper",
+      "claude_value": "",
+      "gpt_value": "whisper",
+      "gemini_value": "wonder",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[2].translation_quality",
+      "agreement": "low",
+      "resolved_value": "faithful",
+      "claude_value": "",
+      "gpt_value": "faithful",
+      "gemini_value": "partial",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[3].tone",
+      "agreement": "low",
+      "resolved_value": "tenderness",
+      "claude_value": "",
+      "gpt_value": "tenderness",
+      "gemini_value": "wonder",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[3].translation_quality",
+      "agreement": "low",
+      "resolved_value": "partial",
+      "claude_value": "",
+      "gpt_value": "partial",
+      "gemini_value": "faithful",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[4].emotion",
+      "agreement": "low",
+      "resolved_value": "resilience",
+      "claude_value": "",
+      "gpt_value": "resilience",
+      "gemini_value": "peace",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[5].emotion",
+      "agreement": "low",
+      "resolved_value": "resilience",
+      "claude_value": "",
+      "gpt_value": "resilience",
+      "gemini_value": "peace",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[5].tone",
+      "agreement": "low",
+      "resolved_value": "declaration",
+      "claude_value": "",
+      "gpt_value": "declaration",
+      "gemini_value": "prayer",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[শ্রাবণী].category",
+      "agreement": "low",
+      "resolved_value": "FESTIVAL",
+      "claude_value": "",
+      "gpt_value": "FESTIVAL",
+      "gemini_value": "REGIONAL_SYMBOL",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[শালিক].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/2"
+    },
+    {
+      "field_path": "annotation.cultural_entities[শারদ].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/2"
+    },
+    {
+      "field_path": "annotation.cultural_entities[নিশাতীর্থে].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/2"
+    },
+    {
+      "field_path": "annotation.cultural_entities[মুক্তি].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/2"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"Opens in exhausted nocturnal silence, deepens through restless wandering and transformation, briefly illuminates with a luminous presence, then resolves into quiet vows of return and liberation\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"বিরুদ্ধ প্রান্তর loses its adversarial connotation; শূন্যতার ঢাল as sloping void is flattened to divided landscape\",\"metaphor_spans\":[{\"source_term\":\"শালিকের বীণায়\",\"abstract_meaning\":\"the oriole as instrument of pure song suggests nature as the sole bearer of spiritual clarity amid exhaustion\"},{\"source_term\":\"শূন্যতার ঢাল\",\"abstract_meaning\":\"the sloping expanse of emptiness figures the psychic terrain of desolation after prolonged struggle\"}],\"visual_motifs\":[\"a solitary oriole perched in rain-soaked darkness singing into silence\",\"a vast tilted plain dissolving into fog under a moonless Shravan sky\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"নিশাতীর্থে carries sacred pilgrimage resonance of night-shrines that burning shores does not convey; মায়াবী চেনা as familiar spell loses the Bengali sense of enchanted recognition\",\"metaphor_spans\":[{\"source_term\":\"বহু শারদ অতিক্রান্ত\",\"abstract_meaning\":\"the passing of many autumns marks cyclical time as a measure of accumulated loss rather than seasonal change\"},{\"source_term\":\"দগ্ধ নিশাতীর্থে\",\"abstract_meaning\":\"burning night-pilgrimage sites figure the speaker's repeated returns to sites of spiritual and emotional scorching\"},{\"source_term\":\"পাল্টে যায় চারদিকের সমুদ্র\",\"abstract_meaning\":\"the sea shifting around the speaker figures a total reorientation of the self's world following a moment of recognition\"}],\"visual_motifs\":[\"a wanderer with bare feet crossing ash-covered ground toward a distant flame\",\"the sea surface rippling and rearranging itself under a transforming night sky\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"গহন গহনে as doubled depth is reduced to a single void; the repetition enacts an intensifying descent that the translation does not preserve\",\"metaphor_spans\":[{\"source_term\":\"সন্ধ্যার পূর্ণিমা স্নিগ্ধতা\",\"abstract_meaning\":\"the full moon at dusk figures a rare convergence of softness and fullness as the quality of the beloved's presence\"},{\"source_term\":\"অগ্নি পতঙ্গ উড়াল\",\"abstract_meaning\":\"fireflies in flight figure brief luminous presences that illuminate without burning, contrasting with the dgdha imagery of stanza two\"},{\"source_term\":\"গহন গহনে\",\"abstract_meaning\":\"the doubled depth figures an abyss within an abyss, locating the beloved at the most interior and unreachable point of the speaker's consciousness\"}],\"visual_motifs\":[\"a full moon rising at dusk over still water while fireflies scatter across the foreground\",\"a figure standing motionless in layered darkness visible only as a silhouette\"]},{\"index\":4,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"বিচিত্র দেশে\",\"abstract_meaning\":\"the diverse or strange land figures a homeland that is simultaneously familiar and transformed, evoking post-partition or post-exile return\"}],\"visual_motifs\":[\"a traveler pausing at a threshold looking toward a fragrant flowering landscape\",\"open land suffused with warm light suggesting abundance and welcome\"]},{\"index\":5,\"emotion\":\"resilience\",\"tone\":\"defiance\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"অন্ধকার পথে\",\"abstract_meaning\":\"the dark path figures",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting ',' delimiter: line 1 column 3454 (char 3453)",
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From exhausted wandering through silence and estrangement, the poem moves toward a hushed encounter of solace and ends in a quiet vow of return and release.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"'শালিকের বীণায়' is rendered as 'oriole's lute,' changing the bird and image.\",\"metaphor_spans\":[{\"source_term\":\"শালিকের বীণায়\",\"abstract_meaning\":\"nature sounding a pure inward music\"},{\"source_term\":\"বিস্তৃত শূন্যতার ঢাল\",\"abstract_meaning\":\"emptiness as an engulfing expanse pressing on the speaker\"}],\"visual_motifs\":[\"deep silence of a rainy night\",\"a myna-like bird imagined with a lute\",\"a vast divided empty landscape\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"বহু দগ্ধ নিশাতীর্থে\",\"abstract_meaning\":\"night journeys figured as scorched pilgrimage-sites of suffering\"},{\"source_term\":\"পাল্টে যায় চারদিকের সমুদ্র\",\"abstract_meaning\":\"the speaker's whole surrounding world suddenly transformed\"}],\"visual_motifs\":[\"a weary traveler treading many roads at night\",\"return from burning night-shores\",\"the sea on all sides shifting\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"'গহন গহনে' is translated as 'depth of the void,' losing the sense of dense inward depth.\",\"metaphor_spans\":[{\"source_term\":\"সন্ধ্যার পূর্ণিমা স্নিগ্ধতা\",\"abstract_meaning\":\"a cooling fullness of calm presence\"},{\"source_term\":\"অগ্নি পতঙ্গ উড়াল\",\"abstract_meaning\":\"brief flickering radiance against inner irritation\"},{\"source_term\":\"রূপ-চোখ\",\"abstract_meaning\":\"a gaze that gathers beauty into sudden relief\"}],\"visual_motifs\":[\"serene full moonlight of evening\",\"fire-insects fluttering\",\"a silent figure standing before the speaker in deep darkness\"]},{\"index\":4,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"return to a diverse land filled with love hope and fragrance\"]},{\"index\":5,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"অন্ধকার পথে\",\"abstract_meaning\":\"the difficult route through obscurity toward release\"},{\"source_term\":\"মুক্তির সূচনা\",\"abstract_meaning\":\"liberation imagined as a beginning point on the path\"}],\"visual_motifs\":[\"a dark path leading toward the beginning of liberation\"]}],\"cultural_entities\":[{\"term\":\"শ্রাবণী\",\"romanization\":\"Shrabani\",\"category\":\"FESTIVAL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered only as 'rainy night,' losing the Bengali month-season resonance.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From exhausted wandering through silence and estrangement, the poem moves toward a hushed encounter of solace and ends in a quiet vow of return and release.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "'শালিকের বীণায়' is rendered as 'oriole's lute,' changing the bird and image.",
+            "metaphor_spans": [
+              {
+                "source_term": "শালিকের বীণায়",
+                "abstract_meaning": "nature sounding a pure inward music"
+              },
+              {
+                "source_term": "বিস্তৃত শূন্যতার ঢাল",
+                "abstract_meaning": "emptiness as an engulfing expanse pressing on the speaker"
+              }
+            ],
+            "visual_motifs": [
+              "deep silence of a rainy night",
+              "a myna-like bird imagined with a lute",
+              "a vast divided empty landscape"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "বহু দগ্ধ নিশাতীর্থে",
+                "abstract_meaning": "night journeys figured as scorched pilgrimage-sites of suffering"
+              },
+              {
+                "source_term": "পাল্টে যায় চারদিকের সমুদ্র",
+                "abstract_meaning": "the speaker's whole surrounding world suddenly transformed"
+              }
+            ],
+            "visual_motifs": [
+              "a weary traveler treading many roads at night",
+              "return from burning night-shores",
+              "the sea on all sides shifting"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "'গহন গহনে' is translated as 'depth of the void,' losing the sense of dense inward depth.",
+            "metaphor_spans": [
+              {
+                "source_term": "সন্ধ্যার পূর্ণিমা স্নিগ্ধতা",
+                "abstract_meaning": "a cooling fullness of calm presence"
+              },
+              {
+                "source_term": "অগ্নি পতঙ্গ উড়াল",
+                "abstract_meaning": "brief flickering radiance against inner irritation"
+              },
+              {
+                "source_term": "রূপ-চোখ",
+                "abstract_meaning": "a gaze that gathers beauty into sudden relief"
+              }
+            ],
+            "visual_motifs": [
+              "serene full moonlight of evening",
+              "fire-insects fluttering",
+              "a silent figure standing before the speaker in deep darkness"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "return to a diverse land filled with love hope and fragrance"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "অন্ধকার পথে",
+                "abstract_meaning": "the difficult route through obscurity toward release"
+              },
+              {
+                "source_term": "মুক্তির সূচনা",
+                "abstract_meaning": "liberation imagined as a beginning point on the path"
+              }
+            ],
+            "visual_motifs": [
+              "a dark path leading toward the beginning of liberation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "শ্রাবণী",
+            "romanization": "Shrabani",
+            "category": "FESTIVAL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered only as 'rainy night,' losing the Bengali month-season resonance."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "শালিকের বীণায়",
+              "বিস্তৃত শূন্যতার ঢাল"
+            ],
+            "visual_motifs": [
+              "deep silence of a rainy night",
+              "a myna-like bird imagined with a lute",
+              "a vast divided empty landscape"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "বহু দগ্ধ নিশাতীর্থে",
+              "পাল্টে যায় চারদিকের সমুদ্র"
+            ],
+            "visual_motifs": [
+              "a weary traveler treading many roads at night",
+              "return from burning night-shores",
+              "the sea on all sides shifting"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "সন্ধ্যার পূর্ণিমা স্নিগ্ধতা",
+              "অগ্নি পতঙ্গ উড়াল",
+              "রূপ-চোখ"
+            ],
+            "visual_motifs": [
+              "serene full moonlight of evening",
+              "fire-insects fluttering",
+              "a silent figure standing before the speaker in deep darkness"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "return to a diverse land filled with love hope and fragrance"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "অন্ধকার পথে",
+              "মুক্তির সূচনা"
+            ],
+            "visual_motifs": [
+              "a dark path leading toward the beginning of liberation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "শ্রাবণী",
+            "category": "FESTIVAL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":[\"longing\",\"longing\",\"peace\",\"resilience\",\"resilience\"],\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"'শ্রাবণী' (Srabani) evokes the specific monsoon month of Shravan, losing its deep cultural association with longing and rain in the generic 'rainy'.\",\"metaphor_spans\":[{\"source_term\":\"শালিকের বীণায়\",\"abstract_meaning\":\"the natural, rustic music of the environment\"},{\"source_term\":\"শূন্যতার ঢাল\",\"abstract_meaning\":\"the overwhelming feeling of emotional desolation\"}],\"visual_motifs\":[\"rainy night\",\"oriole\",\"lute\",\"vast emptiness\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"'নিশাতীর্থে' (Nishatirtha) combines night and pilgrimage, translated merely as 'shores', losing the spiritual undertone of the journey.\",\"metaphor_spans\":[{\"source_term\":\"দগ্ধ নিশাতীর্থে\",\"abstract_meaning\":\"painful, exhausting spiritual or life journeys\"},{\"source_term\":\"চারদিকের সমুদ্র\",\"abstract_meaning\":\"the overwhelming surrounding reality\"}],\"visual_motifs\":[\"autumns\",\"paths\",\"burning shores\",\"sea\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"full moon\",\"fireflies\",\"gaze\",\"void\"]},{\"index\":4,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"diverse land\"]},{\"index\":5,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"'মুক্তির' (Mukti) carries deep spiritual connotations of salvation or moksha, which 'liberation' only partially captures.\",\"metaphor_spans\":[{\"source_term\":\"অন্ধকার পথে\",\"abstract_meaning\":\"the difficult or unknown journey of life\"}],\"visual_motifs\":[\"dark path\",\"dawn\"]}],\"cultural_entities\":[{\"term\":\"শ্রাবণী\",\"romanization\":\"Srabani\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting ',' delimiter: line 1 column 1845 (char 1844)",
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"longing to peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"whisper\",\"translation_quality\":\"partial\",\"loss_note\":\"The specific cultural resonance of the month of Shravan (Shrabani) as a season of longing is generalized to 'rainy night'.\",\"metaphor_spans\":[{\"source_term\":\"শালিকের বীণায়\",\"abstract_meaning\":\"the inherent musicality and harmony of the natural world\"},{\"source_term\":\"বিস্তৃত শূন্যতার ঢাল\",\"abstract_meaning\":\"the overwhelming weight of existential isolation\"}],\"visual_motifs\":[\"rainy night\",\"oriole with a lute\",\"vast empty landscape\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"'Nishatirthe' carries a connotation of a sacred pilgrimage site of the night, which 'burning shores' only partially captures.\",\"metaphor_spans\":[{\"source_term\":\"দগ্ধ নিশাতীর্থে\",\"abstract_meaning\":\"sacred sites of past suffering or spiritual trials\"},{\"source_term\":\"পাল্টে যায় চারদিকের সমুদ্র\",\"abstract_meaning\":\"the fluid and shifting nature of perceived reality\"}],\"visual_motifs\":[\"burning shores at night\",\"shifting sea\",\"autumn landscape\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"অগ্নি পতঙ্গ\",\"abstract_meaning\":\"fleeting and potentially self-destructive desires or thoughts\"},{\"source_term\":\"গহন গহনে\",\"abstract_meaning\":\"the deepest layers of the subconscious or the void\"}],\"visual_motifs\":[\"full moon\",\"swarming fireflies\",\"a silent gaze\"]},{\"index\":4,\"emotion\":\"peace\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"সুগন্ধ\",\"abstract_meaning\":\"the lingering essence of memory and hope\"}],\"visual_motifs\":[\"fragrant diverse landscape\"]},{\"index\":5,\"emotion\":\"peace\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"অন্ধকার পথে\",\"abstract_meaning\":\"the journey through the unknown or the transition to the afterlife\"},{\"source_term\":\"মুক্তির সূচনা\",\"abstract_meaning\":\"the beginning of spiritual or existential liberation\"}],\"visual_motifs\":[\"dark winding path\",\"first light of liberation\"]}],\"cultural_entities\":[{\"term\":\"শ্রাবণী\",\"romanization\":\"Shrabani\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Refers to the monsoon month of Shravan, deeply associated with romantic longing in Bengali poetry.\"},{\"term\":\"শালিক\",\"romanization\":\"Shalik\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"The Common Myna, a bird central to the rural Bengali landscape.\"},{\"term\":\"শারদ\",\"romanization\":\"Sharod\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Refers to the Sharad/Autumn season, the time of major Bengali festivals.\"},{\"term\":\"নিশাতীর্থে\",\"romanization\":\"Nishatirthe\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Tirtha refers to a sacred pilgrimage site; the term implies the night itself is a holy destination.\"},{\"term\":\"মুক্তি\",\"romanization\":\"Mukti\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":5,\"preserved\":true,\"translation_note\":\"The Indic concept of spiritual liberation or release from the cycle of suffering.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "longing to peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "loss_note": "The specific cultural resonance of the month of Shravan (Shrabani) as a season of longing is generalized to 'rainy night'.",
+            "metaphor_spans": [
+              {
+                "source_term": "শালিকের বীণায়",
+                "abstract_meaning": "the inherent musicality and harmony of the natural world"
+              },
+              {
+                "source_term": "বিস্তৃত শূন্যতার ঢাল",
+                "abstract_meaning": "the overwhelming weight of existential isolation"
+              }
+            ],
+            "visual_motifs": [
+              "rainy night",
+              "oriole with a lute",
+              "vast empty landscape"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "'Nishatirthe' carries a connotation of a sacred pilgrimage site of the night, which 'burning shores' only partially captures.",
+            "metaphor_spans": [
+              {
+                "source_term": "দগ্ধ নিশাতীর্থে",
+                "abstract_meaning": "sacred sites of past suffering or spiritual trials"
+              },
+              {
+                "source_term": "পাল্টে যায় চারদিকের সমুদ্র",
+                "abstract_meaning": "the fluid and shifting nature of perceived reality"
+              }
+            ],
+            "visual_motifs": [
+              "burning shores at night",
+              "shifting sea",
+              "autumn landscape"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "অগ্নি পতঙ্গ",
+                "abstract_meaning": "fleeting and potentially self-destructive desires or thoughts"
+              },
+              {
+                "source_term": "গহন গহনে",
+                "abstract_meaning": "the deepest layers of the subconscious or the void"
+              }
+            ],
+            "visual_motifs": [
+              "full moon",
+              "swarming fireflies",
+              "a silent gaze"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "সুগন্ধ",
+                "abstract_meaning": "the lingering essence of memory and hope"
+              }
+            ],
+            "visual_motifs": [
+              "fragrant diverse landscape"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "peace",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "অন্ধকার পথে",
+                "abstract_meaning": "the journey through the unknown or the transition to the afterlife"
+              },
+              {
+                "source_term": "মুক্তির সূচনা",
+                "abstract_meaning": "the beginning of spiritual or existential liberation"
+              }
+            ],
+            "visual_motifs": [
+              "dark winding path",
+              "first light of liberation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "শ্রাবণী",
+            "romanization": "Shrabani",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Refers to the monsoon month of Shravan, deeply associated with romantic longing in Bengali poetry."
+          },
+          {
+            "term": "শালিক",
+            "romanization": "Shalik",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "The Common Myna, a bird central to the rural Bengali landscape."
+          },
+          {
+            "term": "শারদ",
+            "romanization": "Sharod",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Refers to the Sharad/Autumn season, the time of major Bengali festivals."
+          },
+          {
+            "term": "নিশাতীর্থে",
+            "romanization": "Nishatirthe",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Tirtha refers to a sacred pilgrimage site; the term implies the night itself is a holy destination."
+          },
+          {
+            "term": "মুক্তি",
+            "romanization": "Mukti",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 5,
+            "preserved": true,
+            "translation_note": "The Indic concept of spiritual liberation or release from the cycle of suffering."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "whisper",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "শালিকের বীণায়",
+              "বিস্তৃত শূন্যতার ঢাল"
+            ],
+            "visual_motifs": [
+              "rainy night",
+              "oriole with a lute",
+              "vast empty landscape"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "দগ্ধ নিশাতীর্থে",
+              "পাল্টে যায় চারদিকের সমুদ্র"
+            ],
+            "visual_motifs": [
+              "burning shores at night",
+              "shifting sea",
+              "autumn landscape"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "অগ্নি পতঙ্গ",
+              "গহন গহনে"
+            ],
+            "visual_motifs": [
+              "full moon",
+              "swarming fireflies",
+              "a silent gaze"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "peace",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "সুগন্ধ"
+            ],
+            "visual_motifs": [
+              "fragrant diverse landscape"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "peace",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "অন্ধকার পথে",
+              "মুক্তির সূচনা"
+            ],
+            "visual_motifs": [
+              "dark winding path",
+              "first light of liberation"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "শ্রাবণী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "শালিক",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "শারদ",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "নিশাতীর্থে",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "মুক্তি",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

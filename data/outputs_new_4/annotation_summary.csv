@@ -1,0 +1,26 @@
+schema_version,prompt_version,poem_id,poem_title,language,status,agreement,vote_basis,needs_human_review,valid_models_total,valid_voting_models,stanza_count,low_stanza_count,medium_stanza_count,low_entity_count,translation_fidelity_score,alignment_status,alignment_note
+4,5,MV++_0001,O Mur Apunar Desh,Assamese,completed,low,full_3_vote,True,4,3,1,0,1,1,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_0003,Nadi,Assamese,completed,low,full_3_vote,True,4,3,1,0,1,1,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_0004,Brahmaputra,Assamese,completed,low,full_3_vote,True,4,3,1,1,0,0,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_0006,Jibon,Assamese,completed,low,full_3_vote,True,4,3,1,0,1,1,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_0007,Pratima,Assamese,completed,low,full_3_vote,True,3,3,1,0,1,2,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_0008,Chitto Jetha Bhayshunyo,Bengali,completed,low,full_3_vote,True,4,3,1,0,0,2,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_0009,Banalata Sen,Bengali,completed,low,reduced_2_vote,True,2,2,5,5,0,5,0.8,aligned,Source and translation stanza counts match.
+4,5,MV++_0010,Aaj Nover Sukh,Bengali,completed,medium,full_3_vote,False,4,3,5,0,4,0,0.9,aligned,Source and translation stanza counts match.
+4,5,MV++_0011,O Amar Desher Mati,Bengali,completed,low,reduced_2_vote,True,3,2,4,3,1,3,0.75,aligned,Source and translation stanza counts match.
+4,5,MV++_0013,Anondolokey,Bengali,completed,low,full_3_vote,True,4,3,3,0,2,2,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_0061,Agnibeena,Hindi,completed,low,full_3_vote,True,3,3,2,0,2,1,0.75,aligned,Source and translation stanza counts match.
+4,5,MV++_0073,Ek Chadar Maili Si,Hindi,completed,low,gemini_flash_fallback,True,3,3,5,1,3,1,0.9,aligned,Source and translation stanza counts match.
+4,5,MV++_0084,Sitaron Se Aage Jahan,Hindi,completed,medium,full_3_vote,False,4,3,2,0,2,0,0.75,aligned,Source and translation stanza counts match.
+4,5,MV++_0105,Saare Jahan Se Achha,Hindi,completed,low,full_3_vote,True,4,3,3,1,2,5,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_0108,Tumhare Haath Ki Chudiyan,Hindi,completed,low,full_3_vote,True,4,3,2,0,2,2,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_1190,Nakoshi,Marathi,completed,low,full_3_vote,True,4,3,1,0,0,1,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_1191,Gandhi Mala Bhetla,Marathi,completed,low,full_3_vote,True,4,3,1,0,0,1,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_1194,Mi Zaad Boltoy,Marathi,completed,medium,full_3_vote,False,4,3,1,0,1,0,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_1196,Aakashacha Paay,Marathi,completed,low,full_3_vote,True,4,3,1,0,1,1,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_1197,Maze Mrityu,Marathi,completed,high,full_3_vote,False,4,3,1,0,0,0,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_1433,Vasanta Rutu,Telugu,completed,low,full_3_vote,True,4,3,1,0,0,1,0.5,aligned,Source and translation stanza counts match.
+4,5,MV++_1434,Anumantha Vamsam,Telugu,completed,low,full_3_vote,True,4,3,1,0,1,6,1.0,aligned,Source and translation stanza counts match.
+4,5,MV++_1440,Oh neeli Chandamama,Telugu,completed,low,reduced_2_vote,True,3,2,6,5,1,0,0.5,translated_shorter,Translation had 1 fewer stanza(s); missing translations were padded with empty lists.
+4,5,MV++_1443,Oh Jabilamma,Telugu,failed,pending,insufficient_vote_coverage,False,0,0,12,0,0,0,0.0,aligned,Source and translation stanza counts match.
+4,5,MV++_1445,Thali Neku Padabivandanam,Telugu,completed,low,full_3_vote,True,4,3,2,0,1,6,0.75,aligned,Source and translation stanza counts match.

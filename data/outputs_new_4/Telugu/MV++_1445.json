@@ -1,0 +1,1036 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1445",
+  "poem_title": "Thali Neku Padabivandanam",
+  "language": "Telugu",
+  "original_poem": "పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం ఐతే మరణం తల్లికి పుత్రుడు ఇచ్చే శాపం శాపం అనటం కంటే గర్భశోకం అనటం న్యాయం ఏమో దేశం కోసం మరణించే ఎంతో మంది సైనికులు తల్లులకు ఇలాంటి గర్భశోకాలని మిగులుస్తుంటే ఆ తల్బి శోకం ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి పేగు తెంచిన బంధం కాటికి పయనం అవుతుంటే ఉబికి వస్తున్న కంటనీరు ఆవిరైపోతుంటే దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ ఆ తల్లి చెపుతుంది నా గుండెలపై సేద తీరిని నిన్ను ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా అని బిడ్డలని కన్నతల్లీ నీకు వందనం\n\nఆ బిడ్డలని దేశం కోసం పుడమి తల్లికి అంకితమిచ్చిన తల్లీ నీకు పాదాభివందనం..",
+  "translated_poem": "Birth is a blessing given by a mother to a child, but death is a curse given by a son to a mother, rather than a curse, it is fair to call pregnancy grief rather than a curse.\nThey are bringing, if the broken bond of the intestine is traveling to Kati, if the water coming to Ubi evaporates, the child who gave light to the country is dragged into the dark, the mother says, \"Seda Terini on my heart, send you to the lap of this mother earth.\"Salutations to the mother who sees the children as sleeping\n\nSalutations to the mother who dedicated those children for the country.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 1,
+        "source_lines": [
+          "పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం ఐతే మరణం తల్లికి పుత్రుడు ఇచ్చే శాపం శాపం అనటం కంటే గర్భశోకం అనటం న్యాయం ఏమో దేశం కోసం మరణించే ఎంతో మంది సైనికులు తల్లులకు ఇలాంటి గర్భశోకాలని మిగులుస్తుంటే ఆ తల్బి శోకం ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి పేగు తెంచిన బంధం కాటికి పయనం అవుతుంటే ఉబికి వస్తున్న కంటనీరు ఆవిరైపోతుంటే దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ ఆ తల్లి చెపుతుంది నా గుండెలపై సేద తీరిని నిన్ను ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా అని బిడ్డలని కన్నతల్లీ నీకు వందనం"
+        ],
+        "translated_lines": [
+          "Birth is a blessing given by a mother to a child, but death is a curse given by a son to a mother, rather than a curse, it is fair to call pregnancy grief rather than a curse.",
+          "They are bringing, if the broken bond of the intestine is traveling to Kati, if the water coming to Ubi evaporates, the child who gave light to the country is dragged into the dark, the mother says, \"Seda Terini on my heart, send you to the lap of this mother earth.\"Salutations to the mother who sees the children as sleeping"
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 1,
+        "source_lines": [
+          "ఆ బిడ్డలని దేశం కోసం పుడమి తల్లికి అంకితమిచ్చిన తల్లీ నీకు పాదాభివందనం.."
+        ],
+        "translated_lines": [
+          "Salutations to the mother who dedicated those children for the country."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "lament",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "majority_vote"
+    },
+    "emotional_arc": {
+      "value": "Opens in raw maternal grief over a soldier son's death, moves through the paradox of curse and glory, and resolves in a solemn salutation to the sacrificing mother",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.75,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 1,
+        "source_lines": [
+          "పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం ఐతే మరణం తల్లికి పుత్రుడు ఇచ్చే శాపం శాపం అనటం కంటే గర్భశోకం అనటం న్యాయం ఏమో దేశం కోసం మరణించే ఎంతో మంది సైనికులు తల్లులకు ఇలాంటి గర్భశోకాలని మిగులుస్తుంటే ఆ తల్బి శోకం ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి పేగు తెంచిన బంధం కాటికి పయనం అవుతుంటే ఉబికి వస్తున్న కంటనీరు ఆవిరైపోతుంటే దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ ఆ తల్లి చెపుతుంది నా గుండెలపై సేద తీరిని నిన్ను ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా అని బిడ్డలని కన్నతల్లీ నీకు వందనం"
+        ],
+        "translated_lines": [
+          "Birth is a blessing given by a mother to a child, but death is a curse given by a son to a mother, rather than a curse, it is fair to call pregnancy grief rather than a curse.",
+          "They are bringing, if the broken bond of the intestine is traveling to Kati, if the water coming to Ubi evaporates, the child who gave light to the country is dragged into the dark, the mother says, \"Seda Terini on my heart, send you to the lap of this mother earth.\"Salutations to the mother who sees the children as sleeping"
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "The Telugu phrase 'గర్భశోకం' carries the specific weight of womb-grief, untranslatable as mere pregnancy grief; 'పేగు తెంచిన బంధం' literally means the bond of severed intestines, a visceral Telugu idiom for the mother-child bond that is flattened in translation; 'సేద తీరిని' meaning one who rested and found solace on my chest is reduced to a generic phrase",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "గర్భశోకం",
+            "abstract_meaning": "The irreversible grief a mother carries in her womb-memory when her child dies, deeper than ordinary mourning",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "పేగు తెంచిన బంధం",
+            "abstract_meaning": "The biological and emotional bond between mother and child, here severed by the son's death in war",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "కాటికి పయనం",
+            "abstract_meaning": "The journey to the cremation ground, used as a euphemism for death and final departure",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డ",
+            "abstract_meaning": "The soldier son as a source of national light, whose death plunges the mother into personal darkness",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "భూమి తల్లి ఒడి",
+            "abstract_meaning": "The earth as a maternal lap receiving the dead soldier, transforming burial into a return to a greater mother",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి",
+            "abstract_meaning": "maternal grief transformed into the nation's undying honor",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ",
+            "abstract_meaning": "a fallen soldier who illuminated the nation being sent into death's darkness",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా",
+            "abstract_meaning": "entrusting the dead son to Mother Earth as if laying him to sleep",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి",
+            "abstract_meaning": "The stark contrast between the glory the martyr brought to the nation and the darkness of death.",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా",
+            "abstract_meaning": "Death and burial/cremation framed as returning the child to the comforting lap of Mother Earth to sleep.",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a child who gave light to the nation being carried into unseen darkness",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "A grieving mother pressing her dead soldier son to her chest one last time",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a mother sending her dead soldier-son into the lap of Mother Earth",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "A mother standing at the threshold between domestic light and the darkness into which her son disappears",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "A soldier's body being lowered into dark earth while his mother watches in silence",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "child resting on mother's chest",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "child sent into unseen darkness",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "child sleeping in Mother Earth's lap",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "Tears rising and evaporating before they can fall, leaving the mother's face dry and hollow",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "tears welling up and drying as the body is taken away",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "welling tears evaporating",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 1,
+        "source_lines": [
+          "ఆ బిడ్డలని దేశం కోసం పుడమి తల్లికి అంకితమిచ్చిన తల్లీ నీకు పాదాభివందనం.."
+        ],
+        "translated_lines": [
+          "Salutations to the mother who dedicated those children for the country."
+        ],
+        "emotion": {
+          "value": "devotion",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "పుడమి తల్లికి అంకితమిచ్చిన తల్లి",
+            "abstract_meaning": "The human mother who surrenders her child to the earth-mother, framing sacrifice as a sacred offering rather than a loss",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "పుడమి తల్లికి అంకితమిచ్చిన",
+            "abstract_meaning": "offering one's children to the motherland in sacrifice",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "పాదాభివందనం",
+            "abstract_meaning": "reverential bowing at the feet of the mother",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "A mother bowing her head in dignified surrender as her son's name is inscribed on a memorial",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a mother dedicating her children to the motherland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bowing at a mother's feet in reverence",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bowing at the mother's feet",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "Folded hands offered in salutation toward a mother standing alone against an open sky",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "భారతావని",
+        "romanization": {
+          "value": "Bhaarataaavani",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Refers to the sacred land of India personified as a mother-goddess; translated generically as country, losing the devotional personification",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "పాదాభివందనం",
+        "romanization": {
+          "value": "paadaabhivandanam",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "SOCIAL_CUSTOM",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 2,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "A formal prostration at the feet as the highest mark of reverence; translated as salutations, which loses the physical act of touching feet",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      },
+      {
+        "term": "భూమి తల్లి",
+        "romanization": {
+          "value": "Bhumi talli",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Translated as mother earth, but the maternal-sacral resonance is reduced.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 6,
+      "review_item_count": 6,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[భారతావని].preserved",
+      "agreement": "low",
+      "resolved_value": true,
+      "claude_value": true,
+      "gpt_value": false,
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[వందనం].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[భూమి తల్లి].category",
+      "agreement": "low",
+      "resolved_value": "DEVOTIONAL_CONCEPT",
+      "claude_value": "",
+      "gpt_value": "DEVOTIONAL_CONCEPT",
+      "gemini_value": "DEITY",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[భూమి తల్లి].preserved",
+      "agreement": "low",
+      "resolved_value": false,
+      "claude_value": "",
+      "gpt_value": false,
+      "gemini_value": true,
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[పుడమి తల్లి].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "present",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[కాటికి].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"Opens in raw maternal grief over a soldier son's death, moves through the paradox of curse and glory, and resolves in a solemn salutation to the sacrificing mother\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The Telugu phrase 'గర్భశోకం' carries the specific weight of womb-grief, untranslatable as mere pregnancy grief; 'పేగు తెంచిన బంధం' literally means the bond of severed intestines, a visceral Telugu idiom for the mother-child bond that is flattened in translation; 'సేద తీరిని' meaning one who rested and found solace on my chest is reduced to a generic phrase\",\"metaphor_spans\":[{\"source_term\":\"గర్భశోకం\",\"abstract_meaning\":\"The irreversible grief a mother carries in her womb-memory when her child dies, deeper than ordinary mourning\"},{\"source_term\":\"పేగు తెంచిన బంధం\",\"abstract_meaning\":\"The biological and emotional bond between mother and child, here severed by the son's death in war\"},{\"source_term\":\"కాటికి పయనం\",\"abstract_meaning\":\"The journey to the cremation ground, used as a euphemism for death and final departure\"},{\"source_term\":\"దేశానికి వెలుగునిచ్చిన బిడ్డ\",\"abstract_meaning\":\"The soldier son as a source of national light, whose death plunges the mother into personal darkness\"},{\"source_term\":\"భూమి తల్లి ఒడి\",\"abstract_meaning\":\"The earth as a maternal lap receiving the dead soldier, transforming burial into a return to a greater mother\"}],\"visual_motifs\":[\"A grieving mother pressing her dead soldier son to her chest one last time\",\"Tears rising and evaporating before they can fall, leaving the mother's face dry and hollow\",\"A soldier's body being lowered into dark earth while his mother watches in silence\",\"A mother standing at the threshold between domestic light and the darkness into which her son disappears\"]},{\"index\":2,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"పుడమి తల్లికి అంకితమిచ్చిన తల్లి\",\"abstract_meaning\":\"The human mother who surrenders her child to the earth-mother, framing sacrifice as a sacred offering rather than a loss\"}],\"visual_motifs\":[\"A mother bowing her head in dignified surrender as her son's name is inscribed on a memorial\",\"Folded hands offered in salutation toward a mother standing alone against an open sky\"]}],\"cultural_entities\":[{\"term\":\"భారతావని\",\"romanization\":\"Bhaarataaavani\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the sacred land of India personified as a mother-goddess; translated generically as country, losing the devotional personification\"},{\"term\":\"పాదాభివందనం\",\"romanization\":\"paadaabhivandanam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"A formal prostration at the feet as the highest mark of reverence; translated as salutations, which loses the physical act of touching feet\"},{\"term\":\"వందనం\",\"romanization\":\"vandanam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"A reverential salutation with folded hands; translated as salutations, partially preserved\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "Opens in raw maternal grief over a soldier son's death, moves through the paradox of curse and glory, and resolves in a solemn salutation to the sacrificing mother",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The Telugu phrase 'గర్భశోకం' carries the specific weight of womb-grief, untranslatable as mere pregnancy grief; 'పేగు తెంచిన బంధం' literally means the bond of severed intestines, a visceral Telugu idiom for the mother-child bond that is flattened in translation; 'సేద తీరిని' meaning one who rested and found solace on my chest is reduced to a generic phrase",
+            "metaphor_spans": [
+              {
+                "source_term": "గర్భశోకం",
+                "abstract_meaning": "The irreversible grief a mother carries in her womb-memory when her child dies, deeper than ordinary mourning"
+              },
+              {
+                "source_term": "పేగు తెంచిన బంధం",
+                "abstract_meaning": "The biological and emotional bond between mother and child, here severed by the son's death in war"
+              },
+              {
+                "source_term": "కాటికి పయనం",
+                "abstract_meaning": "The journey to the cremation ground, used as a euphemism for death and final departure"
+              },
+              {
+                "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డ",
+                "abstract_meaning": "The soldier son as a source of national light, whose death plunges the mother into personal darkness"
+              },
+              {
+                "source_term": "భూమి తల్లి ఒడి",
+                "abstract_meaning": "The earth as a maternal lap receiving the dead soldier, transforming burial into a return to a greater mother"
+              }
+            ],
+            "visual_motifs": [
+              "A grieving mother pressing her dead soldier son to her chest one last time",
+              "Tears rising and evaporating before they can fall, leaving the mother's face dry and hollow",
+              "A soldier's body being lowered into dark earth while his mother watches in silence",
+              "A mother standing at the threshold between domestic light and the darkness into which her son disappears"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "పుడమి తల్లికి అంకితమిచ్చిన తల్లి",
+                "abstract_meaning": "The human mother who surrenders her child to the earth-mother, framing sacrifice as a sacred offering rather than a loss"
+              }
+            ],
+            "visual_motifs": [
+              "A mother bowing her head in dignified surrender as her son's name is inscribed on a memorial",
+              "Folded hands offered in salutation toward a mother standing alone against an open sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "romanization": "Bhaarataaavani",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the sacred land of India personified as a mother-goddess; translated generically as country, losing the devotional personification"
+          },
+          {
+            "term": "పాదాభివందనం",
+            "romanization": "paadaabhivandanam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "A formal prostration at the feet as the highest mark of reverence; translated as salutations, which loses the physical act of touching feet"
+          },
+          {
+            "term": "వందనం",
+            "romanization": "vandanam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "A reverential salutation with folded hands; translated as salutations, partially preserved"
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "గర్భశోకం",
+              "పేగు తెంచిన బంధం",
+              "కాటికి పయనం",
+              "దేశానికి వెలుగునిచ్చిన బిడ్డ",
+              "భూమి తల్లి ఒడి"
+            ],
+            "visual_motifs": [
+              "A grieving mother pressing her dead soldier son to her chest one last time",
+              "Tears rising and evaporating before they can fall, leaving the mother's face dry and hollow",
+              "A soldier's body being lowered into dark earth while his mother watches in silence",
+              "A mother standing at the threshold between domestic light and the darkness into which her son disappears"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "పుడమి తల్లికి అంకితమిచ్చిన తల్లి"
+            ],
+            "visual_motifs": [
+              "A mother bowing her head in dignified surrender as her son's name is inscribed on a memorial",
+              "Folded hands offered in salutation toward a mother standing alone against an open sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "పాదాభివందనం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "వందనం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"from the unbearable grief of a mother losing her son to solemn reverence for mothers who offer their children to the nation\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"Key phrases like గర్భశోకం and the mother's final address are awkwardly rendered and partly lost.\",\"metaphor_spans\":[{\"source_term\":\"గర్భశోకం\",\"abstract_meaning\":\"the mother's deepest bereavement at losing the child she bore\"},{\"source_term\":\"ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి\",\"abstract_meaning\":\"maternal grief transformed into the nation's undying honor\"},{\"source_term\":\"దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ\",\"abstract_meaning\":\"a fallen soldier who illuminated the nation being sent into death's darkness\"},{\"source_term\":\"ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా\",\"abstract_meaning\":\"entrusting the dead son to Mother Earth as if laying him to sleep\"}],\"visual_motifs\":[\"a mother sending her dead soldier-son into the lap of Mother Earth\",\"tears welling up and drying as the body is taken away\",\"a child who gave light to the nation being carried into unseen darkness\"]},{\"index\":2,\"emotion\":\"devotion\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"పుడమి తల్లికి అంకితమిచ్చిన\",\"abstract_meaning\":\"offering one's children to the motherland in sacrifice\"},{\"source_term\":\"పాదాభివందనం\",\"abstract_meaning\":\"reverential bowing at the feet of the mother\"}],\"visual_motifs\":[\"a mother dedicating her children to the motherland\",\"bowing at a mother's feet in reverence\"]}],\"cultural_entities\":[{\"term\":\"భారతావని\",\"romanization\":\"Bharatavani\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered only as country/India, losing the poetic personification of the land.\"},{\"term\":\"భూమి తల్లి\",\"romanization\":\"Bhumi talli\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as mother earth, but the maternal-sacral resonance is reduced.\"},{\"term\":\"పుడమి తల్లి\",\"romanization\":\"Pudami talli\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"The translation omits the explicit mother-earth expression.\"},{\"term\":\"పాదాభివందనం\",\"romanization\":\"padabhivandanam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "from the unbearable grief of a mother losing her son to solemn reverence for mothers who offer their children to the nation",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "Key phrases like గర్భశోకం and the mother's final address are awkwardly rendered and partly lost.",
+            "metaphor_spans": [
+              {
+                "source_term": "గర్భశోకం",
+                "abstract_meaning": "the mother's deepest bereavement at losing the child she bore"
+              },
+              {
+                "source_term": "ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి",
+                "abstract_meaning": "maternal grief transformed into the nation's undying honor"
+              },
+              {
+                "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ",
+                "abstract_meaning": "a fallen soldier who illuminated the nation being sent into death's darkness"
+              },
+              {
+                "source_term": "ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా",
+                "abstract_meaning": "entrusting the dead son to Mother Earth as if laying him to sleep"
+              }
+            ],
+            "visual_motifs": [
+              "a mother sending her dead soldier-son into the lap of Mother Earth",
+              "tears welling up and drying as the body is taken away",
+              "a child who gave light to the nation being carried into unseen darkness"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "పుడమి తల్లికి అంకితమిచ్చిన",
+                "abstract_meaning": "offering one's children to the motherland in sacrifice"
+              },
+              {
+                "source_term": "పాదాభివందనం",
+                "abstract_meaning": "reverential bowing at the feet of the mother"
+              }
+            ],
+            "visual_motifs": [
+              "a mother dedicating her children to the motherland",
+              "bowing at a mother's feet in reverence"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "romanization": "Bharatavani",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered only as country/India, losing the poetic personification of the land."
+          },
+          {
+            "term": "భూమి తల్లి",
+            "romanization": "Bhumi talli",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as mother earth, but the maternal-sacral resonance is reduced."
+          },
+          {
+            "term": "పుడమి తల్లి",
+            "romanization": "Pudami talli",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "The translation omits the explicit mother-earth expression."
+          },
+          {
+            "term": "పాదాభివందనం",
+            "romanization": "padabhivandanam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "గర్భశోకం",
+              "ఈ భారతావనికి శాపంలా కాకుండా అఖండ కీర్తిని తెచ్చిపెడుతున్నాయి",
+              "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి సాగనంపుతూ",
+              "ఈ భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా"
+            ],
+            "visual_motifs": [
+              "a mother sending her dead soldier-son into the lap of Mother Earth",
+              "tears welling up and drying as the body is taken away",
+              "a child who gave light to the nation being carried into unseen darkness"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "పుడమి తల్లికి అంకితమిచ్చిన",
+              "పాదాభివందనం"
+            ],
+            "visual_motifs": [
+              "a mother dedicating her children to the motherland",
+              "bowing at a mother's feet in reverence"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "భూమి తల్లి",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "పుడమి తల్లి",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "పాదాభివందనం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From profound grief over a martyred son to deep reverence for the mother's sacrifice.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation literally translates idioms like 'pegu tenchina bandham' (umbilical cord) as 'broken bond of the intestine' and misses the cultural nuance of 'kaatiki' (cremation ground) and 'garbhashokam' (womb-grief).\",\"metaphor_spans\":[{\"source_term\":\"పేగు తెంచిన బంధం\",\"abstract_meaning\":\"The deep biological and emotional bond between mother and child, symbolized by the umbilical cord.\"},{\"source_term\":\"దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి\",\"abstract_meaning\":\"The stark contrast between the glory the martyr brought to the nation and the darkness of death.\"},{\"source_term\":\"భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా\",\"abstract_meaning\":\"Death and burial/cremation framed as returning the child to the comforting lap of Mother Earth to sleep.\"}],\"visual_motifs\":[\"welling tears evaporating\",\"child sent into unseen darkness\",\"child resting on mother's chest\",\"child sleeping in Mother Earth's lap\"]},{\"index\":2,\"emotion\":\"devotion\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation omits 'padabivandanam' (bowing to the feet) and 'pudami talliki' (to Mother Earth), losing the deep cultural reverence.\",\"metaphor_spans\":[{\"source_term\":\"పుడమి తల్లికి అంకితమిచ్చిన\",\"abstract_meaning\":\"Sacrificing one's child to the nation and earth as a sacred, selfless offering.\"}],\"visual_motifs\":[\"bowing at the mother's feet\"]}],\"cultural_entities\":[{\"term\":\"కాటికి\",\"romanization\":\"Kaatiki\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated literally as 'Kati' instead of the cremation ground or pyre.\"},{\"term\":\"పాదాభివందనం\",\"romanization\":\"Padabivandanam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Translated simply as 'salutations', losing the cultural gesture of bowing to touch the feet in reverence.\"},{\"term\":\"భూమి తల్లి\",\"romanization\":\"Bhoomi Talli\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as 'mother earth', capturing the personification of the earth as a mother goddess.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From profound grief over a martyred son to deep reverence for the mother's sacrifice.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The translation literally translates idioms like 'pegu tenchina bandham' (umbilical cord) as 'broken bond of the intestine' and misses the cultural nuance of 'kaatiki' (cremation ground) and 'garbhashokam' (womb-grief).",
+            "metaphor_spans": [
+              {
+                "source_term": "పేగు తెంచిన బంధం",
+                "abstract_meaning": "The deep biological and emotional bond between mother and child, symbolized by the umbilical cord."
+              },
+              {
+                "source_term": "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి",
+                "abstract_meaning": "The stark contrast between the glory the martyr brought to the nation and the darkness of death."
+              },
+              {
+                "source_term": "భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా",
+                "abstract_meaning": "Death and burial/cremation framed as returning the child to the comforting lap of Mother Earth to sleep."
+              }
+            ],
+            "visual_motifs": [
+              "welling tears evaporating",
+              "child sent into unseen darkness",
+              "child resting on mother's chest",
+              "child sleeping in Mother Earth's lap"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The translation omits 'padabivandanam' (bowing to the feet) and 'pudami talliki' (to Mother Earth), losing the deep cultural reverence.",
+            "metaphor_spans": [
+              {
+                "source_term": "పుడమి తల్లికి అంకితమిచ్చిన",
+                "abstract_meaning": "Sacrificing one's child to the nation and earth as a sacred, selfless offering."
+              }
+            ],
+            "visual_motifs": [
+              "bowing at the mother's feet"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "కాటికి",
+            "romanization": "Kaatiki",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated literally as 'Kati' instead of the cremation ground or pyre."
+          },
+          {
+            "term": "పాదాభివందనం",
+            "romanization": "Padabivandanam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Translated simply as 'salutations', losing the cultural gesture of bowing to touch the feet in reverence."
+          },
+          {
+            "term": "భూమి తల్లి",
+            "romanization": "Bhoomi Talli",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'mother earth', capturing the personification of the earth as a mother goddess."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "పేగు తెంచిన బంధం",
+              "దేశానికి వెలుగునిచ్చిన బిడ్డని కానరాని చీకటిలోకి",
+              "భూమి తల్లి ఒడిలోకి పంపి నిద్రపుచ్చుతున్నా"
+            ],
+            "visual_motifs": [
+              "welling tears evaporating",
+              "child sent into unseen darkness",
+              "child resting on mother's chest",
+              "child sleeping in Mother Earth's lap"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "పుడమి తల్లికి అంకితమిచ్చిన"
+            ],
+            "visual_motifs": [
+              "bowing at the mother's feet"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "కాటికి",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          },
+          {
+            "term": "పాదాభివందనం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          },
+          {
+            "term": "భూమి తల్లి",
+            "category": "DEITY",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"grief to devotion\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The phrase 'pegu tenchina bandham' refers to the visceral umbilical connection, which the translation renders literally as 'broken bond of the intestine', losing the emotional weight of the maternal bond.\",\"metaphor_spans\":[{\"source_term\":\"పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం\",\"abstract_meaning\":\"Life as a maternal gift\"},{\"source_term\":\"పేగు తెంచిన బంధం\",\"abstract_meaning\":\"The inseparable biological and emotional link between mother and child\"},{\"source_term\":\"భూమి తల్లి ఒడి\",\"abstract_meaning\":\"The grave as a return to nature's embrace\"}],\"visual_motifs\":[\"a mother holding a child\",\"tears evaporating into the air\",\"the dark void of death\"]},{\"index\":2,\"emotion\":\"devotion\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"పుడమి తల్లికి అంకితం\",\"abstract_meaning\":\"Sacrificing one's life for the nation's soil\"}],\"visual_motifs\":[\"prostrating at a mother's feet\"]}],\"cultural_entities\":[{\"term\":\"భారతావని\",\"romanization\":\"Bharathavani\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Personification of India as a mother goddess.\"},{\"term\":\"పాదాభివందనం\",\"romanization\":\"Padabhivandanam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"The act of touching feet as a mark of supreme respect.\"},{\"term\":\"పుడమి తల్లి\",\"romanization\":\"Pudami Talli\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"Mother Earth, specifically the soil of the homeland.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "grief to devotion",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The phrase 'pegu tenchina bandham' refers to the visceral umbilical connection, which the translation renders literally as 'broken bond of the intestine', losing the emotional weight of the maternal bond.",
+            "metaphor_spans": [
+              {
+                "source_term": "పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం",
+                "abstract_meaning": "Life as a maternal gift"
+              },
+              {
+                "source_term": "పేగు తెంచిన బంధం",
+                "abstract_meaning": "The inseparable biological and emotional link between mother and child"
+              },
+              {
+                "source_term": "భూమి తల్లి ఒడి",
+                "abstract_meaning": "The grave as a return to nature's embrace"
+              }
+            ],
+            "visual_motifs": [
+              "a mother holding a child",
+              "tears evaporating into the air",
+              "the dark void of death"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "పుడమి తల్లికి అంకితం",
+                "abstract_meaning": "Sacrificing one's life for the nation's soil"
+              }
+            ],
+            "visual_motifs": [
+              "prostrating at a mother's feet"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "romanization": "Bharathavani",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Personification of India as a mother goddess."
+          },
+          {
+            "term": "పాదాభివందనం",
+            "romanization": "Padabhivandanam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "The act of touching feet as a mark of supreme respect."
+          },
+          {
+            "term": "పుడమి తల్లి",
+            "romanization": "Pudami Talli",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "Mother Earth, specifically the soil of the homeland."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "పుట్టుక బిడ్డకి తల్లి ఇచ్చే వరం",
+              "పేగు తెంచిన బంధం",
+              "భూమి తల్లి ఒడి"
+            ],
+            "visual_motifs": [
+              "a mother holding a child",
+              "tears evaporating into the air",
+              "the dark void of death"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "పుడమి తల్లికి అంకితం"
+            ],
+            "visual_motifs": [
+              "prostrating at a mother's feet"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "భారతావని",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "పాదాభివందనం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "పుడమి తల్లి",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

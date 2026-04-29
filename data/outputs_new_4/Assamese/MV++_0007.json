@@ -1,0 +1,518 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0007",
+  "poem_title": "Pratima",
+  "language": "Assamese",
+  "original_poem": "প্রতিমা\nপ্রতিমা, তুমি এক নিবেদনে\nস্নেহৰ পবনে আহা,\nমোৰ মনৰ প্ৰতিধ্বনি,\nআকাশত বেজে ওঠা।",
+  "translated_poem": "The Idol\nIdol, you come in a dedication\nWith the breeze of affection,\nThe echo of my heart,\nResounding in the sky.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "প্রতিমা",
+          "প্রতিমা, তুমি এক নিবেদনে",
+          "স্নেহৰ পবনে আহা,",
+          "মোৰ মনৰ প্ৰতিধ্বনি,",
+          "আকাশত বেজে ওঠা।"
+        ],
+        "translated_lines": [
+          "The Idol",
+          "Idol, you come in a dedication",
+          "With the breeze of affection,",
+          "The echo of my heart,",
+          "Resounding in the sky."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "devotional",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "A quiet, inward movement from dedicated offering toward transcendent resonance, as personal longing dissolves into an echo filling the sky.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "প্রতিমা",
+          "প্রতিমা, তুমি এক নিবেদনে",
+          "স্নেহৰ পবনে আহা,",
+          "মোৰ মনৰ প্ৰতিধ্বনি,",
+          "আকাশত বেজে ওঠা।"
+        ],
+        "translated_lines": [
+          "The Idol",
+          "Idol, you come in a dedication",
+          "With the breeze of affection,",
+          "The echo of my heart,",
+          "Resounding in the sky."
+        ],
+        "emotion": {
+          "value": "devotion",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "prayer",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "নিবেদনে carries the specific weight of a consecrated devotional offering, flattened to 'dedication' in translation.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "স্নেহৰ পবনে",
+            "abstract_meaning": "affection as a gentle, invisible force that carries the beloved into presence",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "মোৰ মনৰ প্ৰতিধ্বনি",
+            "abstract_meaning": "the idol as the speaker's own inner longing made audible and external",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "আকাশত বেজে ওঠা",
+            "abstract_meaning": "personal devotion expanding beyond the self into boundless, cosmic space",
+            "agreement": "medium",
+            "source_model": "claude"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a breeze of affection around the addressed figure",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a consecrated idol approached by a soft breeze",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a solitary echo rising and spreading across an open sky",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "an echo resounding across the sky",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "an idol approached in offering",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "breeze of affection",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "echo resounding in the sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "প্রতিমা",
+        "romanization": {
+          "value": "Pratima",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Pratima denotes a ritually consecrated image or divine form; rendered as generic 'idol', losing its sacred installation nuance.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "নিবেদনে",
+        "romanization": {
+          "value": "nibedane",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Nibedane means a formal devotional offering or surrender to the divine, reduced to 'dedication' in translation.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 2,
+      "review_item_count": 2,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 3,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[প্রতিমা].preserved",
+      "agreement": "low",
+      "resolved_value": false,
+      "claude_value": false,
+      "gpt_value": "",
+      "gemini_value": true,
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[প্ৰতিমা].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "present",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"devotional\",\n  \"emotional_arc\": \"A quiet, inward movement from dedicated offering toward transcendent resonance, as personal longing dissolves into an echo filling the sky.\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"devotion\",\n      \"tone\": \"prayer\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"নিবেদনে carries the specific weight of a consecrated devotional offering, flattened to 'dedication' in translation.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"স্নেহৰ পবনে\",\n          \"abstract_meaning\": \"affection as a gentle, invisible force that carries the beloved into presence\"\n        },\n        {\n          \"source_term\": \"মোৰ মনৰ প্ৰতিধ্বনি\",\n          \"abstract_meaning\": \"the idol as the speaker's own inner longing made audible and external\"\n        },\n        {\n          \"source_term\": \"আকাশত বেজে ওঠা\",\n          \"abstract_meaning\": \"personal devotion expanding beyond the self into boundless, cosmic space\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"a consecrated idol approached by a soft breeze\",\n        \"a solitary echo rising and spreading across an open sky\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"প্রতিমা\",\n      \"romanization\": \"Pratima\",\n      \"category\": \"DEVOTIONAL_CONCEPT\",\n      \"stanza_index\": 1,\n      \"preserved\": false,\n      \"translation_note\": \"Pratima denotes a ritually consecrated image or divine form; rendered as generic 'idol', losing its sacred installation nuance.\"\n    },\n    {\n      \"term\": \"নিবেদনে\",\n      \"romanization\": \"nibedane\",\n      \"category\": \"DEVOTIONAL_CONCEPT\",\n      \"stanza_index\": 1,\n      \"preserved\": false,\n      \"translation_note\": \"Nibedane means a formal devotional offering or surrender to the divine, reduced to 'dedication' in translation.\"\n    }\n  ]\n}\n```",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "A quiet, inward movement from dedicated offering toward transcendent resonance, as personal longing dissolves into an echo filling the sky.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "নিবেদনে carries the specific weight of a consecrated devotional offering, flattened to 'dedication' in translation.",
+            "metaphor_spans": [
+              {
+                "source_term": "স্নেহৰ পবনে",
+                "abstract_meaning": "affection as a gentle, invisible force that carries the beloved into presence"
+              },
+              {
+                "source_term": "মোৰ মনৰ প্ৰতিধ্বনি",
+                "abstract_meaning": "the idol as the speaker's own inner longing made audible and external"
+              },
+              {
+                "source_term": "আকাশত বেজে ওঠা",
+                "abstract_meaning": "personal devotion expanding beyond the self into boundless, cosmic space"
+              }
+            ],
+            "visual_motifs": [
+              "a consecrated idol approached by a soft breeze",
+              "a solitary echo rising and spreading across an open sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্রতিমা",
+            "romanization": "Pratima",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Pratima denotes a ritually consecrated image or divine form; rendered as generic 'idol', losing its sacred installation nuance."
+          },
+          {
+            "term": "নিবেদনে",
+            "romanization": "nibedane",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Nibedane means a formal devotional offering or surrender to the divine, reduced to 'dedication' in translation."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "স্নেহৰ পবনে",
+              "মোৰ মনৰ প্ৰতিধ্বনি",
+              "আকাশত বেজে ওঠা"
+            ],
+            "visual_motifs": [
+              "a consecrated idol approached by a soft breeze",
+              "a solitary echo rising and spreading across an open sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্রতিমা",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "নিবেদনে",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"devotional address rises from tender offering into expansive inner resonance.\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"Pratima and nibedane carry stronger devotional-consecratory nuance than the English.\",\"metaphor_spans\":[{\"source_term\":\"মোৰ মনৰ প্ৰতিধ্বনি\",\"abstract_meaning\":\"the idol as the returning resonance of the speaker's inner being\"},{\"source_term\":\"আকাশত বেজে ওঠা\",\"abstract_meaning\":\"devotion expanding into a vast cosmic sounding\"}],\"visual_motifs\":[\"an idol approached in offering\",\"a breeze of affection around the addressed figure\",\"an echo resounding across the sky\"]}],\"cultural_entities\":[{\"term\":\"প্ৰতিমা\",\"romanization\":\"Pratima\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as generic idol, weakening devotional image-concept.\"},{\"term\":\"নিবেদনে\",\"romanization\":\"nibedane\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Dedication only partly conveys devotional offering or consecration.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "devotional address rises from tender offering into expansive inner resonance.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "Pratima and nibedane carry stronger devotional-consecratory nuance than the English.",
+            "metaphor_spans": [
+              {
+                "source_term": "মোৰ মনৰ প্ৰতিধ্বনি",
+                "abstract_meaning": "the idol as the returning resonance of the speaker's inner being"
+              },
+              {
+                "source_term": "আকাশত বেজে ওঠা",
+                "abstract_meaning": "devotion expanding into a vast cosmic sounding"
+              }
+            ],
+            "visual_motifs": [
+              "an idol approached in offering",
+              "a breeze of affection around the addressed figure",
+              "an echo resounding across the sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্ৰতিমা",
+            "romanization": "Pratima",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as generic idol, weakening devotional image-concept."
+          },
+          {
+            "term": "নিবেদনে",
+            "romanization": "nibedane",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Dedication only partly conveys devotional offering or consecration."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "মোৰ মনৰ প্ৰতিধ্বনি",
+              "আকাশত বেজে ওঠা"
+            ],
+            "visual_motifs": [
+              "an idol approached in offering",
+              "a breeze of affection around the addressed figure",
+              "an echo resounding across the sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্ৰতিমা",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "নিবেদনে",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"devotion\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"স্নেহৰ পবনে\",\"abstract_meaning\":\"the gentle and comforting presence of love\"},{\"source_term\":\"মোৰ মনৰ প্ৰতিধ্বনি\",\"abstract_meaning\":\"the divine reflecting the poet's inner spiritual state\"}],\"visual_motifs\":[\"breeze of affection\",\"echo resounding in the sky\"]}],\"cultural_entities\":[{\"term\":\"প্রতিমা\",\"romanization\":\"Pratima\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as 'Idol', which conveys the physical image but may understate the sacred reverence of the murti in Hindu worship.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "devotion",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "স্নেহৰ পবনে",
+                "abstract_meaning": "the gentle and comforting presence of love"
+              },
+              {
+                "source_term": "মোৰ মনৰ প্ৰতিধ্বনি",
+                "abstract_meaning": "the divine reflecting the poet's inner spiritual state"
+              }
+            ],
+            "visual_motifs": [
+              "breeze of affection",
+              "echo resounding in the sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্রতিমা",
+            "romanization": "Pratima",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'Idol', which conveys the physical image but may understate the sacred reverence of the murti in Hindu worship."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "স্নেহৰ পবনে",
+              "মোৰ মনৰ প্ৰতিধ্বনি"
+            ],
+            "visual_motifs": [
+              "breeze of affection",
+              "echo resounding in the sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "প্রতিমা",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "request_error",
+      "retry_count": 0,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

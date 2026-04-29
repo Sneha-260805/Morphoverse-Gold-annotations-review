@@ -1,0 +1,527 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1190",
+  "poem_title": "Nakoshi",
+  "language": "Marathi",
+  "original_poem": "नकोशी  \nजगण्याच्या उंबरठ्यावर  \nनकोशी जन्मली,  \nउजाडून गेलेला तो काळोख  \nसर्वत्र नाचत राहतोय.",
+  "translated_poem": "Unwanted,  \nBorn at the threshold of life,  \nThe darkness that dawned  \nKeeps dancing  \nEverywhere.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "नकोशी",
+          "जगण्याच्या उंबरठ्यावर",
+          "नकोशी जन्मली,",
+          "उजाडून गेलेला तो काळोख",
+          "सर्वत्र नाचत राहतोय."
+        ],
+        "translated_lines": [
+          "Unwanted,",
+          "Born at the threshold of life,",
+          "The darkness that dawned",
+          "Keeps dancing",
+          "Everywhere."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "lament",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "Opens with the stark social fact of an unwanted girl child's birth and deepens into pervasive, unresolved darkness that continues to spread without end.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "नकोशी",
+          "जगण्याच्या उंबरठ्यावर",
+          "नकोशी जन्मली,",
+          "उजाडून गेलेला तो काळोख",
+          "सर्वत्र नाचत राहतोय."
+        ],
+        "translated_lines": [
+          "Unwanted,",
+          "Born at the threshold of life,",
+          "The darkness that dawned",
+          "Keeps dancing",
+          "Everywhere."
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "'नकोशी' carries the specific Marathi social practice of naming unwanted girl children; 'Unwanted' loses this cultural weight.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "जगण्याच्या उंबरठ्यावर",
+            "abstract_meaning": "the precarious moment of entry into a life already marked for rejection",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "उजाडून गेलेला तो काळोख",
+            "abstract_meaning": "a darkness that does not lift even as day breaks, signifying the persistence of social stigma after birth",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "सर्वत्र नाचत राहतोय",
+            "abstract_meaning": "that darkness keeps actively spreading everywhere",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a newborn girl child lying at a threshold",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "an unwanted girl child at the threshold of life",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "dancing darkness",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "darkness dancing everywhere",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "darkness spreading and dancing across an open landscape at dawn",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "threshold",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "नकोशी",
+        "romanization": {
+          "value": "Nakoshi",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "SOCIAL_CUSTOM",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "'Nakoshi' is a Marathi social practice of naming unwanted girl children to signal parental rejection; 'Unwanted' omits this named custom.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 0,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[उंबरठ्यावर].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"Opens with the stark social fact of an unwanted girl child's birth and deepens into pervasive, unresolved darkness that continues to spread without end.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"'नकोशी' carries the specific Marathi social practice of naming unwanted girl children; 'Unwanted' loses this cultural weight.\",\"metaphor_spans\":[{\"source_term\":\"जगण्याच्या उंबरठ्यावर\",\"abstract_meaning\":\"the precarious moment of entry into a life already marked for rejection\"},{\"source_term\":\"उजाडून गेलेला तो काळोख\",\"abstract_meaning\":\"a darkness that does not lift even as day breaks, signifying the persistence of social stigma after birth\"}],\"visual_motifs\":[\"a newborn girl child lying at a threshold\",\"darkness spreading and dancing across an open landscape at dawn\"]}],\"cultural_entities\":[{\"term\":\"नकोशी\",\"romanization\":\"Nakoshi\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"'Nakoshi' is a Marathi social practice of naming unwanted girl children to signal parental rejection; 'Unwanted' omits this named custom.\"},{\"term\":\"उंबरठ्यावर\",\"romanization\":\"umbarthyavar\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The threshold carries ritual and social significance in Marathi culture as a liminal boundary; 'threshold of life' partially preserves this.\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "Opens with the stark social fact of an unwanted girl child's birth and deepens into pervasive, unresolved darkness that continues to spread without end.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "'नकोशी' carries the specific Marathi social practice of naming unwanted girl children; 'Unwanted' loses this cultural weight.",
+            "metaphor_spans": [
+              {
+                "source_term": "जगण्याच्या उंबरठ्यावर",
+                "abstract_meaning": "the precarious moment of entry into a life already marked for rejection"
+              },
+              {
+                "source_term": "उजाडून गेलेला तो काळोख",
+                "abstract_meaning": "a darkness that does not lift even as day breaks, signifying the persistence of social stigma after birth"
+              }
+            ],
+            "visual_motifs": [
+              "a newborn girl child lying at a threshold",
+              "darkness spreading and dancing across an open landscape at dawn"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "romanization": "Nakoshi",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "'Nakoshi' is a Marathi social practice of naming unwanted girl children to signal parental rejection; 'Unwanted' omits this named custom."
+          },
+          {
+            "term": "उंबरठ्यावर",
+            "romanization": "umbarthyavar",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The threshold carries ritual and social significance in Marathi culture as a liminal boundary; 'threshold of life' partially preserves this."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "जगण्याच्या उंबरठ्यावर",
+              "उजाडून गेलेला तो काळोख"
+            ],
+            "visual_motifs": [
+              "a newborn girl child lying at a threshold",
+              "darkness spreading and dancing across an open landscape at dawn"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          },
+          {
+            "term": "उंबरठ्यावर",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"From the unwanted birth of a girl to the lingering spread of social darkness.\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The social meaning of Nakoshi as an unwanted girl child is weakened.\",\"metaphor_spans\":[{\"source_term\":\"जगण्याच्या उंबरठ्यावर\",\"abstract_meaning\":\"at the very threshold of entering life\"},{\"source_term\":\"उजाडून गेलेला तो काळोख\",\"abstract_meaning\":\"an engulfing social darkness unleashed by her unwanted birth\"},{\"source_term\":\"सर्वत्र नाचत राहतोय\",\"abstract_meaning\":\"that darkness keeps actively spreading everywhere\"}],\"visual_motifs\":[\"an unwanted girl child at the threshold of life\",\"darkness dancing everywhere\"]}],\"cultural_entities\":[{\"term\":\"नकोशी\",\"romanization\":\"Nakoshi\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"The specific social label for an unwanted girl child is not retained.\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "From the unwanted birth of a girl to the lingering spread of social darkness.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The social meaning of Nakoshi as an unwanted girl child is weakened.",
+            "metaphor_spans": [
+              {
+                "source_term": "जगण्याच्या उंबरठ्यावर",
+                "abstract_meaning": "at the very threshold of entering life"
+              },
+              {
+                "source_term": "उजाडून गेलेला तो काळोख",
+                "abstract_meaning": "an engulfing social darkness unleashed by her unwanted birth"
+              },
+              {
+                "source_term": "सर्वत्र नाचत राहतोय",
+                "abstract_meaning": "that darkness keeps actively spreading everywhere"
+              }
+            ],
+            "visual_motifs": [
+              "an unwanted girl child at the threshold of life",
+              "darkness dancing everywhere"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "romanization": "Nakoshi",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "The specific social label for an unwanted girl child is not retained."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "जगण्याच्या उंबरठ्यावर",
+              "उजाडून गेलेला तो काळोख",
+              "सर्वत्र नाचत राहतोय"
+            ],
+            "visual_motifs": [
+              "an unwanted girl child at the threshold of life",
+              "darkness dancing everywhere"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"grief\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The term Nakoshi carries deep social weight in Maharashtra referring specifically to unwanted female infants which the literal translation Unwanted fails to fully capture.\",\"metaphor_spans\":[{\"source_term\":\"जगण्याच्या उंबरठ्यावर\",\"abstract_meaning\":\"the very beginning of existence or birth\"},{\"source_term\":\"उजाडून गेलेला तो काळोख\",\"abstract_meaning\":\"the sorrow and gloom that replaces the expected joy of a new birth\"}],\"visual_motifs\":[\"threshold\",\"dancing darkness\"]}],\"cultural_entities\":[{\"term\":\"नकोशी\",\"romanization\":\"Nakoshi\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated literally as Unwanted, losing the specific Maharashtrian cultural context of naming unwanted female children Nakoshi.\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "grief",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The term Nakoshi carries deep social weight in Maharashtra referring specifically to unwanted female infants which the literal translation Unwanted fails to fully capture.",
+            "metaphor_spans": [
+              {
+                "source_term": "जगण्याच्या उंबरठ्यावर",
+                "abstract_meaning": "the very beginning of existence or birth"
+              },
+              {
+                "source_term": "उजाडून गेलेला तो काळोख",
+                "abstract_meaning": "the sorrow and gloom that replaces the expected joy of a new birth"
+              }
+            ],
+            "visual_motifs": [
+              "threshold",
+              "dancing darkness"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "romanization": "Nakoshi",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated literally as Unwanted, losing the specific Maharashtrian cultural context of naming unwanted female children Nakoshi."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "जगण्याच्या उंबरठ्यावर",
+              "उजाडून गेलेला तो काळोख"
+            ],
+            "visual_motifs": [
+              "threshold",
+              "dancing darkness"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"lament\",\"emotional_arc\":\"grief\",\"stanzas\":[{\"index\":1,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"जगण्याच्या उंबरठ्यावर\",\"abstract_meaning\":\"The moment of birth and the entry into human existence.\"},{\"source_term\":\"उजाडून गेलेला तो काळोख\",\"abstract_meaning\":\"The irony of a birth that brings social gloom instead of light.\"},{\"source_term\":\"काळोख सर्वत्र नाचत राहतोय\",\"abstract_meaning\":\"The pervasive and mocking nature of social rejection and despair.\"}],\"visual_motifs\":[\"A child at a threshold\",\"Dancing shadows of darkness\"]}],\"cultural_entities\":[{\"term\":\"नकोशी\",\"romanization\":\"Nakoshi\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"A name traditionally given to unwanted girl children in Maharashtra, reflecting a social custom rooted in gender bias where the name itself signifies 'unwanted'.\"}]}",
+      "parsed": {
+        "recitation_style": "lament",
+        "emotional_arc": "grief",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "जगण्याच्या उंबरठ्यावर",
+                "abstract_meaning": "The moment of birth and the entry into human existence."
+              },
+              {
+                "source_term": "उजाडून गेलेला तो काळोख",
+                "abstract_meaning": "The irony of a birth that brings social gloom instead of light."
+              },
+              {
+                "source_term": "काळोख सर्वत्र नाचत राहतोय",
+                "abstract_meaning": "The pervasive and mocking nature of social rejection and despair."
+              }
+            ],
+            "visual_motifs": [
+              "A child at a threshold",
+              "Dancing shadows of darkness"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "romanization": "Nakoshi",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "A name traditionally given to unwanted girl children in Maharashtra, reflecting a social custom rooted in gender bias where the name itself signifies 'unwanted'."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "lament",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "जगण्याच्या उंबरठ्यावर",
+              "उजाडून गेलेला तो काळोख",
+              "काळोख सर्वत्र नाचत राहतोय"
+            ],
+            "visual_motifs": [
+              "A child at a threshold",
+              "Dancing shadows of darkness"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "नकोशी",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

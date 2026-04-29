@@ -1,0 +1,1256 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0010",
+  "poem_title": "Aaj Nover Sukh",
+  "language": "Bengali",
+  "original_poem": "আজ নবের সুখ,\nবাতাসে বহে।\nমনেতে আশা,\nনব উদয়েতে আসে।\n \nহৃদয়ে গুনগুন,\nচোখে আনন্দ।\nনব জগতের সুখে,\nআমি উঠে দেখি আনন্দ।\n\nআকাশে নীলাভ, \nপৃথিবীতে সোনালী।\nআমি চাই, \nঅন্তহীন সুখে হর্ষে।\n\nতুমি আজকে আমার,\nএমনকি পাশে থাকো।\nভালোবাসা দিয়ে,\nআমার হৃদয়ে থাকো।\n\nআমার জীবন হলো,\nনবের শুরু।\nআমি তোমাকে চাই,\nসাথে আমার যুগল।",
+  "translated_poem": "Today is the happiness of a new dawn,\nBlowing in the breeze.\nHope in the heart,\nWith the new sunrise comes.\n\nA humming in the heart,\nJoy in the eyes.\nIn the bliss of the new world,\nI rise and see the joy.\n\nIn the sky is blue,\nOn earth is gold.\nI wish for,\nEndless happiness and cheer.\n\nYou are with me today,\nEven standing by my side.\nWith love,\nStay in my heart.\n\nMy life has become,\nThe beginning of a new.\nI want you,\nBy my side, my love.",
+  "status": "completed",
+  "agreement": "medium",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 5,
+    "source_stanza_count": 5,
+    "translated_stanza_count": 5,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আজ নবের সুখ,",
+          "বাতাসে বহে।",
+          "মনেতে আশা,",
+          "নব উদয়েতে আসে।"
+        ],
+        "translated_lines": [
+          "Today is the happiness of a new dawn,",
+          "Blowing in the breeze.",
+          "Hope in the heart,",
+          "With the new sunrise comes."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "হৃদয়ে গুনগুন,",
+          "চোখে আনন্দ।",
+          "নব জগতের সুখে,",
+          "আমি উঠে দেখি আনন্দ।"
+        ],
+        "translated_lines": [
+          "A humming in the heart,",
+          "Joy in the eyes.",
+          "In the bliss of the new world,",
+          "I rise and see the joy."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "আকাশে নীলাভ,",
+          "পৃথিবীতে সোনালী।",
+          "আমি চাই,",
+          "অন্তহীন সুখে হর্ষে।"
+        ],
+        "translated_lines": [
+          "In the sky is blue,",
+          "On earth is gold.",
+          "I wish for,",
+          "Endless happiness and cheer."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "তুমি আজকে আমার,",
+          "এমনকি পাশে থাকো।",
+          "ভালোবাসা দিয়ে,",
+          "আমার হৃদয়ে থাকো।"
+        ],
+        "translated_lines": [
+          "You are with me today,",
+          "Even standing by my side.",
+          "With love,",
+          "Stay in my heart."
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "আমার জীবন হলো,",
+          "নবের শুরু।",
+          "আমি তোমাকে চাই,",
+          "সাথে আমার যুগল।"
+        ],
+        "translated_lines": [
+          "My life has become,",
+          "The beginning of a new.",
+          "I want you,",
+          "By my side, my love."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "celebratory",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "Opens with collective joy at a new dawn, moves through personal wonder and desire, then settles into intimate romantic declaration of togetherness and new beginnings",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.9,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আজ নবের সুখ,",
+          "বাতাসে বহে।",
+          "মনেতে আশা,",
+          "নব উদয়েতে আসে।"
+        ],
+        "translated_lines": [
+          "Today is the happiness of a new dawn,",
+          "Blowing in the breeze.",
+          "Hope in the heart,",
+          "With the new sunrise comes."
+        ],
+        "emotion": {
+          "value": "celebration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "নব উদয়েতে আসে",
+            "abstract_meaning": "hope arriving with the renewal of a fresh start",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "নবের সুখ",
+            "abstract_meaning": "the felt joy of a fresh beginning",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "বাতাসে বহে",
+            "abstract_meaning": "happiness permeating the physical environment",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a new sunrise arriving",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "breeze blowing",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "breeze carrying happiness at the break of a new dawn",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "breeze carrying the happiness of a new beginning",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "hope rising with the new sunrise",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "new sunrise",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "হৃদয়ে গুনগুন,",
+          "চোখে আনন্দ।",
+          "নব জগতের সুখে,",
+          "আমি উঠে দেখি আনন্দ।"
+        ],
+        "translated_lines": [
+          "A humming in the heart,",
+          "Joy in the eyes.",
+          "In the bliss of the new world,",
+          "I rise and see the joy."
+        ],
+        "emotion": {
+          "value": "celebration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "হৃদয়ে গুনগুন",
+            "abstract_meaning": "inner contentment expressed as a quiet involuntary hum",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "নব জগতের সুখে",
+            "abstract_meaning": "life experienced as a newly renewed world",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a person rising to behold joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "eyes bright with joy as the speaker rises to greet the new world",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "joy in the eyes",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "joy shining in the eyes",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "rising to see the new world",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "আকাশে নীলাভ,",
+          "পৃথিবীতে সোনালী।",
+          "আমি চাই,",
+          "অন্তহীন সুখে হর্ষে।"
+        ],
+        "translated_lines": [
+          "In the sky is blue,",
+          "On earth is gold.",
+          "I wish for,",
+          "Endless happiness and cheer."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "আকাশে নীলাভ",
+            "abstract_meaning": "vast open sky as the expanse of unbounded possibility",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "পৃথিবীতে সোনালী",
+            "abstract_meaning": "golden earth as the richness of a life fully lived",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "অন্তহীন সুখে হর্ষে",
+            "abstract_meaning": "a wish for unending gladness",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "blue sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "blue sky above golden earth",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "blue sky arching over a golden earth",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "golden earth",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "speaker gazing upward with arms open in longing for endless joy",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "তুমি আজকে আমার,",
+          "এমনকি পাশে থাকো।",
+          "ভালোবাসা দিয়ে,",
+          "আমার হৃদয়ে থাকো।"
+        ],
+        "translated_lines": [
+          "You are with me today,",
+          "Even standing by my side.",
+          "With love,",
+          "Stay in my heart."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "আমার হৃদয়ে থাকো",
+            "abstract_meaning": "beloved's presence as permanent dwelling within the speaker's inner self",
+            "agreement": "high",
+            "source_model": "claude"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "beloved standing close beside the speaker",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "love held within the chest like a kept flame",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "standing by my side",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the beloved dwelling in the speaker's heart",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "the beloved standing close by",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 5,
+        "line_count": 4,
+        "source_lines": [
+          "আমার জীবন হলো,",
+          "নবের শুরু।",
+          "আমি তোমাকে চাই,",
+          "সাথে আমার যুগল।"
+        ],
+        "translated_lines": [
+          "My life has become,",
+          "The beginning of a new.",
+          "I want you,",
+          "By my side, my love."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "'যুগল' means a pair or couple and carries a sense of matched union that 'my love' in the translation does not fully capture.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "নবের শুরু",
+            "abstract_meaning": "life reborn through the union with the beloved",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "সাথে আমার যুগল",
+            "abstract_meaning": "the beloved as the completing half of an inseparable pair",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "আমার জীবন হলো, নবের শুরু",
+            "abstract_meaning": "life transformed into a new beginning",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "life opening into a new beginning",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "the beloved beside the speaker as a pair",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "two figures walking together at the threshold of a new beginning",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 4,
+      "low_entity_count": 0,
+      "review_item_count": 0,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"celebratory\",\n  \"emotional_arc\": \"Opens with collective joy at a new dawn, moves through personal wonder and desire, then settles into intimate romantic declaration of togetherness and new beginnings\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"celebration\",\n      \"tone\": \"declaration\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"নব উদয়েতে আসে\",\n          \"abstract_meaning\": \"hope arriving with the renewal of a fresh start\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"breeze carrying happiness at the break of a new dawn\",\n        \"hope rising with the new sunrise\"\n      ]\n    },\n    {\n      \"index\": 2,\n      \"emotion\": \"celebration\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"হৃদয়ে গুনগুন\",\n          \"abstract_meaning\": \"inner contentment expressed as a quiet involuntary hum\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"eyes bright with joy as the speaker rises to greet the new world\"\n      ]\n    },\n    {\n      \"index\": 3,\n      \"emotion\": \"peace\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"আকাশে নীলাভ\",\n          \"abstract_meaning\": \"vast open sky as the expanse of unbounded possibility\"\n        },\n        {\n          \"source_term\": \"পৃথিবীতে সোনালী\",\n          \"abstract_meaning\": \"golden earth as the richness of a life fully lived\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"blue sky arching over a golden earth\",\n        \"speaker gazing upward with arms open in longing for endless joy\"\n      ]\n    },\n    {\n      \"index\": 4,\n      \"emotion\": \"longing\",\n      \"tone\": \"tenderness\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"'এমনকি পাশে থাকো' carries a nuance of 'even so, stay beside me' implying vulnerability not fully conveyed in the translation.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"আমার হৃদয়ে থাকো\",\n          \"abstract_meaning\": \"beloved's presence as permanent dwelling within the speaker's inner self\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"beloved standing close beside the speaker\",\n        \"love held within the chest like a kept flame\"\n      ]\n    },\n    {\n      \"index\": 5,\n      \"emotion\": \"celebration\",\n      \"tone\": \"declaration\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"'যুগল' means a pair or couple and carries a sense of matched union that 'my love' in the translation does not fully capture.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"নবের শুরু\",\n          \"abstract_meaning\": \"life reborn through the union with the beloved\"\n        },\n        {\n          \"source_term\": \"সাথে আমার যুগল\",\n          \"abstract_meaning\": \"the beloved as the completing half of an inseparable pair\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"two figures walking together at the threshold of a new beginning\"\n      ]\n    }\n  ],\n  \"cultural_entities\": []\n}\n```",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "Opens with collective joy at a new dawn, moves through personal wonder and desire, then settles into intimate romantic declaration of togetherness and new beginnings",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "নব উদয়েতে আসে",
+                "abstract_meaning": "hope arriving with the renewal of a fresh start"
+              }
+            ],
+            "visual_motifs": [
+              "breeze carrying happiness at the break of a new dawn",
+              "hope rising with the new sunrise"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ে গুনগুন",
+                "abstract_meaning": "inner contentment expressed as a quiet involuntary hum"
+              }
+            ],
+            "visual_motifs": [
+              "eyes bright with joy as the speaker rises to greet the new world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "আকাশে নীলাভ",
+                "abstract_meaning": "vast open sky as the expanse of unbounded possibility"
+              },
+              {
+                "source_term": "পৃথিবীতে সোনালী",
+                "abstract_meaning": "golden earth as the richness of a life fully lived"
+              }
+            ],
+            "visual_motifs": [
+              "blue sky arching over a golden earth",
+              "speaker gazing upward with arms open in longing for endless joy"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "'এমনকি পাশে থাকো' carries a nuance of 'even so, stay beside me' implying vulnerability not fully conveyed in the translation.",
+            "metaphor_spans": [
+              {
+                "source_term": "আমার হৃদয়ে থাকো",
+                "abstract_meaning": "beloved's presence as permanent dwelling within the speaker's inner self"
+              }
+            ],
+            "visual_motifs": [
+              "beloved standing close beside the speaker",
+              "love held within the chest like a kept flame"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "'যুগল' means a pair or couple and carries a sense of matched union that 'my love' in the translation does not fully capture.",
+            "metaphor_spans": [
+              {
+                "source_term": "নবের শুরু",
+                "abstract_meaning": "life reborn through the union with the beloved"
+              },
+              {
+                "source_term": "সাথে আমার যুগল",
+                "abstract_meaning": "the beloved as the completing half of an inseparable pair"
+              }
+            ],
+            "visual_motifs": [
+              "two figures walking together at the threshold of a new beginning"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "নব উদয়েতে আসে"
+            ],
+            "visual_motifs": [
+              "breeze carrying happiness at the break of a new dawn",
+              "hope rising with the new sunrise"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ে গুনগুন"
+            ],
+            "visual_motifs": [
+              "eyes bright with joy as the speaker rises to greet the new world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "আকাশে নীলাভ",
+              "পৃথিবীতে সোনালী"
+            ],
+            "visual_motifs": [
+              "blue sky arching over a golden earth",
+              "speaker gazing upward with arms open in longing for endless joy"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "আমার হৃদয়ে থাকো"
+            ],
+            "visual_motifs": [
+              "beloved standing close beside the speaker",
+              "love held within the chest like a kept flame"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "celebration",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "নবের শুরু",
+              "সাথে আমার যুগল"
+            ],
+            "visual_motifs": [
+              "two figures walking together at the threshold of a new beginning"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"The poem moves from hopeful renewal and sensory joy into intimate love and a shared new beginning.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"নবের সুখ\",\"abstract_meaning\":\"the felt joy of a fresh beginning\"},{\"source_term\":\"নব উদয়েতে আসে\",\"abstract_meaning\":\"renewal arriving like sunrise\"}],\"visual_motifs\":[\"breeze carrying the happiness of a new beginning\",\"a new sunrise arriving\"]},{\"index\":2,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ে গুনগুন\",\"abstract_meaning\":\"inner joy vibrating like a soft hum\"},{\"source_term\":\"নব জগতের সুখে\",\"abstract_meaning\":\"life experienced as a newly renewed world\"}],\"visual_motifs\":[\"joy shining in the eyes\",\"a person rising to behold joy\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The phrasing of the last line is awkward and slightly incomplete in translation.\",\"metaphor_spans\":[{\"source_term\":\"পৃথিবীতে সোনালী\",\"abstract_meaning\":\"the world appearing radiant with promise\"},{\"source_term\":\"অন্তহীন সুখে হর্ষে\",\"abstract_meaning\":\"a wish for unending gladness\"}],\"visual_motifs\":[\"blue sky above golden earth\"]},{\"index\":4,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"আমার হৃদয়ে থাকো\",\"abstract_meaning\":\"beloved held as an inward constant presence\"}],\"visual_motifs\":[\"the beloved standing close by\",\"the beloved dwelling in the speaker's heart\"]},{\"index\":5,\"emotion\":\"longing\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The final phrase 'সাথে আমার যুগল' is rendered loosely as 'my love.'\",\"metaphor_spans\":[{\"source_term\":\"আমার জীবন হলো, নবের শুরু\",\"abstract_meaning\":\"life transformed into a new beginning\"}],\"visual_motifs\":[\"life opening into a new beginning\",\"the beloved beside the speaker as a pair\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "The poem moves from hopeful renewal and sensory joy into intimate love and a shared new beginning.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "নবের সুখ",
+                "abstract_meaning": "the felt joy of a fresh beginning"
+              },
+              {
+                "source_term": "নব উদয়েতে আসে",
+                "abstract_meaning": "renewal arriving like sunrise"
+              }
+            ],
+            "visual_motifs": [
+              "breeze carrying the happiness of a new beginning",
+              "a new sunrise arriving"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ে গুনগুন",
+                "abstract_meaning": "inner joy vibrating like a soft hum"
+              },
+              {
+                "source_term": "নব জগতের সুখে",
+                "abstract_meaning": "life experienced as a newly renewed world"
+              }
+            ],
+            "visual_motifs": [
+              "joy shining in the eyes",
+              "a person rising to behold joy"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The phrasing of the last line is awkward and slightly incomplete in translation.",
+            "metaphor_spans": [
+              {
+                "source_term": "পৃথিবীতে সোনালী",
+                "abstract_meaning": "the world appearing radiant with promise"
+              },
+              {
+                "source_term": "অন্তহীন সুখে হর্ষে",
+                "abstract_meaning": "a wish for unending gladness"
+              }
+            ],
+            "visual_motifs": [
+              "blue sky above golden earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "আমার হৃদয়ে থাকো",
+                "abstract_meaning": "beloved held as an inward constant presence"
+              }
+            ],
+            "visual_motifs": [
+              "the beloved standing close by",
+              "the beloved dwelling in the speaker's heart"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The final phrase 'সাথে আমার যুগল' is rendered loosely as 'my love.'",
+            "metaphor_spans": [
+              {
+                "source_term": "আমার জীবন হলো, নবের শুরু",
+                "abstract_meaning": "life transformed into a new beginning"
+              }
+            ],
+            "visual_motifs": [
+              "life opening into a new beginning",
+              "the beloved beside the speaker as a pair"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "নবের সুখ",
+              "নব উদয়েতে আসে"
+            ],
+            "visual_motifs": [
+              "breeze carrying the happiness of a new beginning",
+              "a new sunrise arriving"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ে গুনগুন",
+              "নব জগতের সুখে"
+            ],
+            "visual_motifs": [
+              "joy shining in the eyes",
+              "a person rising to behold joy"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "পৃথিবীতে সোনালী",
+              "অন্তহীন সুখে হর্ষে"
+            ],
+            "visual_motifs": [
+              "blue sky above golden earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "আমার হৃদয়ে থাকো"
+            ],
+            "visual_motifs": [
+              "the beloved standing close by",
+              "the beloved dwelling in the speaker's heart"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "আমার জীবন হলো, নবের শুরু"
+            ],
+            "visual_motifs": [
+              "life opening into a new beginning",
+              "the beloved beside the speaker as a pair"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"Begins with the joyous celebration of a new dawn and transitions into a tender, devoted longing for a partner's companionship.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"বাতাসে বহে\",\"abstract_meaning\":\"happiness permeating the physical environment\"}],\"visual_motifs\":[\"new sunrise\",\"breeze blowing\"]},{\"index\":2,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ে গুনগুন\",\"abstract_meaning\":\"inner resonance and vibration of joy\"}],\"visual_motifs\":[\"joy in the eyes\",\"rising to see the new world\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"পৃথিবীতে সোনালী\",\"abstract_meaning\":\"radiance, warmth, and prosperity of the earth\"}],\"visual_motifs\":[\"blue sky\",\"golden earth\"]},{\"index\":4,\"emotion\":\"devotion\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"আমার হৃদয়ে থাকো\",\"abstract_meaning\":\"emotional permanence and deep affection\"}],\"visual_motifs\":[\"standing by my side\"]},{\"index\":5,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"The term 'যুগল' (jugal) specifically means a pair or couple, emphasizing a unified partnership, which is slightly diluted in the translation 'my love'.\",\"metaphor_spans\":[{\"source_term\":\"নবের শুরু\",\"abstract_meaning\":\"life as a fresh start or rebirth\"}],\"visual_motifs\":[]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "Begins with the joyous celebration of a new dawn and transitions into a tender, devoted longing for a partner's companionship.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "বাতাসে বহে",
+                "abstract_meaning": "happiness permeating the physical environment"
+              }
+            ],
+            "visual_motifs": [
+              "new sunrise",
+              "breeze blowing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ে গুনগুন",
+                "abstract_meaning": "inner resonance and vibration of joy"
+              }
+            ],
+            "visual_motifs": [
+              "joy in the eyes",
+              "rising to see the new world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "পৃথিবীতে সোনালী",
+                "abstract_meaning": "radiance, warmth, and prosperity of the earth"
+              }
+            ],
+            "visual_motifs": [
+              "blue sky",
+              "golden earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "আমার হৃদয়ে থাকো",
+                "abstract_meaning": "emotional permanence and deep affection"
+              }
+            ],
+            "visual_motifs": [
+              "standing by my side"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "The term 'যুগল' (jugal) specifically means a pair or couple, emphasizing a unified partnership, which is slightly diluted in the translation 'my love'.",
+            "metaphor_spans": [
+              {
+                "source_term": "নবের শুরু",
+                "abstract_meaning": "life as a fresh start or rebirth"
+              }
+            ],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "বাতাসে বহে"
+            ],
+            "visual_motifs": [
+              "new sunrise",
+              "breeze blowing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ে গুনগুন"
+            ],
+            "visual_motifs": [
+              "joy in the eyes",
+              "rising to see the new world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "পৃথিবীতে সোনালী"
+            ],
+            "visual_motifs": [
+              "blue sky",
+              "golden earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "আমার হৃদয়ে থাকো"
+            ],
+            "visual_motifs": [
+              "standing by my side"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "নবের শুরু"
+            ],
+            "visual_motifs": []
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace to devotion\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"নব উদয়\",\"abstract_meaning\":\"The arrival of a new chapter in life or a fresh perspective\"}],\"visual_motifs\":[\"A gentle breeze blowing\",\"The first light of a new sunrise\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ে গুনগুন\",\"abstract_meaning\":\"The internal, quiet resonance of contentment\"}],\"visual_motifs\":[\"A person waking up to a bright world\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"A vast blue sky\",\"Golden sunlight illuminating the earth\"]},{\"index\":4,\"emotion\":\"devotion\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"Two figures standing side by side\"]},{\"index\":5,\"emotion\":\"devotion\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[],\"visual_motifs\":[\"A couple beginning a journey together\"]}],\"cultural_entities\":[{\"term\":\"নব উদয়\",\"romanization\":\"Nobo Uday\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the cultural significance of 'new beginnings' often associated with the Bengali New Year or Poila Baisakh.\"},{\"term\":\"যুগল\",\"romanization\":\"Jugol\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":5,\"preserved\":true,\"translation_note\":\"A term for a 'divine pair' or couple, deeply rooted in the Vaishnava tradition of Radha-Krishna, here applied to human companionship.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace to devotion",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "নব উদয়",
+                "abstract_meaning": "The arrival of a new chapter in life or a fresh perspective"
+              }
+            ],
+            "visual_motifs": [
+              "A gentle breeze blowing",
+              "The first light of a new sunrise"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ে গুনগুন",
+                "abstract_meaning": "The internal, quiet resonance of contentment"
+              }
+            ],
+            "visual_motifs": [
+              "A person waking up to a bright world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "A vast blue sky",
+              "Golden sunlight illuminating the earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "Two figures standing side by side"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [],
+            "visual_motifs": [
+              "A couple beginning a journey together"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নব উদয়",
+            "romanization": "Nobo Uday",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the cultural significance of 'new beginnings' often associated with the Bengali New Year or Poila Baisakh."
+          },
+          {
+            "term": "যুগল",
+            "romanization": "Jugol",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 5,
+            "preserved": true,
+            "translation_note": "A term for a 'divine pair' or couple, deeply rooted in the Vaishnava tradition of Radha-Krishna, here applied to human companionship."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "নব উদয়"
+            ],
+            "visual_motifs": [
+              "A gentle breeze blowing",
+              "The first light of a new sunrise"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ে গুনগুন"
+            ],
+            "visual_motifs": [
+              "A person waking up to a bright world"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "A vast blue sky",
+              "Golden sunlight illuminating the earth"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "Two figures standing side by side"
+            ]
+          },
+          {
+            "index": 5,
+            "emotion": "devotion",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [],
+            "visual_motifs": [
+              "A couple beginning a journey together"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "নব উদয়",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "যুগল",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

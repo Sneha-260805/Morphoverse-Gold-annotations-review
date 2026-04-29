@@ -1,0 +1,481 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1196",
+  "poem_title": "Aakashacha Paay",
+  "language": "Marathi",
+  "original_poem": "आकाशाचा पाय  \nखोलातुन आवाज येतो,  \nआभाळाच्या काठावर,  \nधरणा धरून उभा आहे,  \nआसमानातच आहे माणूस.",
+  "translated_poem": "Feet of the sky,  \nA voice rises from deep,  \nOn the edge of the heavens,  \nStanding firm,  \nHumans dwell in the sky.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "आकाशाचा पाय",
+          "खोलातुन आवाज येतो,",
+          "आभाळाच्या काठावर,",
+          "धरणा धरून उभा आहे,",
+          "आसमानातच आहे माणूस."
+        ],
+        "translated_lines": [
+          "Feet of the sky,",
+          "A voice rises from deep,",
+          "On the edge of the heavens,",
+          "Standing firm,",
+          "Humans dwell in the sky."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "A quiet, grounded wonder at human existence suspended between earth and sky, moving from depth to height.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "आकाशाचा पाय",
+          "खोलातुन आवाज येतो,",
+          "आभाळाच्या काठावर,",
+          "धरणा धरून उभा आहे,",
+          "आसमानातच आहे माणूस."
+        ],
+        "translated_lines": [
+          "Feet of the sky,",
+          "A voice rises from deep,",
+          "On the edge of the heavens,",
+          "Standing firm,",
+          "Humans dwell in the sky."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "धरणा धरून implies a protest-sit or stubborn holding-ground stance lost in 'standing firm'.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "आकाशाचा पाय",
+            "abstract_meaning": "the sky's lowest reach touching human existence",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "धरणा धरून उभा आहे",
+            "abstract_meaning": "humanity's stubborn, unyielding claim on its place in the cosmos",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "आभाळाच्या काठावर",
+            "abstract_meaning": "the threshold between mortal ground and infinite expanse",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "आसमानातच आहे माणूस",
+            "abstract_meaning": "human existence placed within the cosmic expanse",
+            "agreement": "medium",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a figure standing at the rim of the sky with feet planted on the edge of clouds",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a figure standing firm at the edge of the sky",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a voice rising from deep below",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a voice rising upward from deep below the earth toward the heavens",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "feet of the sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "humans dwelling within the open heavens",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "standing firm on the edge of the heavens",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "voice rising from the deep",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[धरणा].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"reflective\",\n  \"emotional_arc\": \"A quiet, grounded wonder at human existence suspended between earth and sky, moving from depth to height.\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"resilience\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"धरणा धरून implies a protest-sit or stubborn holding-ground stance lost in 'standing firm'.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"आकाशाचा पाय\",\n          \"abstract_meaning\": \"the sky's lowest reach touching human existence\"\n        },\n        {\n          \"source_term\": \"धरणा धरून उभा आहे\",\n          \"abstract_meaning\": \"humanity's stubborn, unyielding claim on its place in the cosmos\"\n        },\n        {\n          \"source_term\": \"आभाळाच्या काठावर\",\n          \"abstract_meaning\": \"the threshold between mortal ground and infinite expanse\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"a figure standing at the rim of the sky with feet planted on the edge of clouds\",\n        \"a voice rising upward from deep below the earth toward the heavens\"\n      ]\n    }\n  ],\n  \"cultural_entities\": []\n}\n```",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A quiet, grounded wonder at human existence suspended between earth and sky, moving from depth to height.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "धरणा धरून implies a protest-sit or stubborn holding-ground stance lost in 'standing firm'.",
+            "metaphor_spans": [
+              {
+                "source_term": "आकाशाचा पाय",
+                "abstract_meaning": "the sky's lowest reach touching human existence"
+              },
+              {
+                "source_term": "धरणा धरून उभा आहे",
+                "abstract_meaning": "humanity's stubborn, unyielding claim on its place in the cosmos"
+              },
+              {
+                "source_term": "आभाळाच्या काठावर",
+                "abstract_meaning": "the threshold between mortal ground and infinite expanse"
+              }
+            ],
+            "visual_motifs": [
+              "a figure standing at the rim of the sky with feet planted on the edge of clouds",
+              "a voice rising upward from deep below the earth toward the heavens"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "आकाशाचा पाय",
+              "धरणा धरून उभा आहे",
+              "आभाळाच्या काठावर"
+            ],
+            "visual_motifs": [
+              "a figure standing at the rim of the sky with feet planted on the edge of clouds",
+              "a voice rising upward from deep below the earth toward the heavens"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"from a deep, resonant call to a contemplative vision of human existence poised at the edge of the sky\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The Marathi image 'आकाशाचा पाय' is rendered awkwardly and remains semantically unclear in English.\",\"metaphor_spans\":[{\"source_term\":\"आकाशाचा पाय\",\"abstract_meaning\":\"a grounding point for the vast sky\"},{\"source_term\":\"आभाळाच्या काठावर\",\"abstract_meaning\":\"at the threshold of the limitless\"},{\"source_term\":\"आसमानातच आहे माणूस\",\"abstract_meaning\":\"human existence placed within the cosmic expanse\"}],\"visual_motifs\":[\"a voice rising from deep below\",\"a figure standing firm at the edge of the sky\",\"humans dwelling within the open heavens\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "from a deep, resonant call to a contemplative vision of human existence poised at the edge of the sky",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The Marathi image 'आकाशाचा पाय' is rendered awkwardly and remains semantically unclear in English.",
+            "metaphor_spans": [
+              {
+                "source_term": "आकाशाचा पाय",
+                "abstract_meaning": "a grounding point for the vast sky"
+              },
+              {
+                "source_term": "आभाळाच्या काठावर",
+                "abstract_meaning": "at the threshold of the limitless"
+              },
+              {
+                "source_term": "आसमानातच आहे माणूस",
+                "abstract_meaning": "human existence placed within the cosmic expanse"
+              }
+            ],
+            "visual_motifs": [
+              "a voice rising from deep below",
+              "a figure standing firm at the edge of the sky",
+              "humans dwelling within the open heavens"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "आकाशाचा पाय",
+              "आभाळाच्या काठावर",
+              "आसमानातच आहे माणूस"
+            ],
+            "visual_motifs": [
+              "a voice rising from deep below",
+              "a figure standing firm at the edge of the sky",
+              "humans dwelling within the open heavens"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From deep grounding to cosmic elevation\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation loses the lexical variation of the three words used for sky (आकाश, आभाळ, आसमान) and the cultural nuance of 'धरणा धरून' (holding ground/firm).\",\"metaphor_spans\":[{\"source_term\":\"आकाशाचा पाय\",\"abstract_meaning\":\"The grounding or foundation of the vast cosmos\"},{\"source_term\":\"आसमानातच आहे माणूस\",\"abstract_meaning\":\"The elevated, limitless nature of human existence and ambition\"}],\"visual_motifs\":[\"feet of the sky\",\"voice rising from the deep\",\"standing firm on the edge of the heavens\"]}],\"cultural_entities\":[{\"term\":\"धरणा\",\"romanization\":\"Dharna\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated simply as 'Standing firm', losing the cultural connotation of 'Dharna', which implies a stubborn holding of ground or a sit-in protest.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From deep grounding to cosmic elevation",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation loses the lexical variation of the three words used for sky (आकाश, आभाळ, आसमान) and the cultural nuance of 'धरणा धरून' (holding ground/firm).",
+            "metaphor_spans": [
+              {
+                "source_term": "आकाशाचा पाय",
+                "abstract_meaning": "The grounding or foundation of the vast cosmos"
+              },
+              {
+                "source_term": "आसमानातच आहे माणूस",
+                "abstract_meaning": "The elevated, limitless nature of human existence and ambition"
+              }
+            ],
+            "visual_motifs": [
+              "feet of the sky",
+              "voice rising from the deep",
+              "standing firm on the edge of the heavens"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "धरणा",
+            "romanization": "Dharna",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated simply as 'Standing firm', losing the cultural connotation of 'Dharna', which implies a stubborn holding of ground or a sit-in protest."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "आकाशाचा पाय",
+              "आसमानातच आहे माणूस"
+            ],
+            "visual_motifs": [
+              "feet of the sky",
+              "voice rising from the deep",
+              "standing firm on the edge of the heavens"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "धरणा",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"आकाशाचा पाय\",\"abstract_meaning\":\"The grounding or foundation of the infinite cosmic expanse.\"},{\"source_term\":\"आभाळाच्या काठावर\",\"abstract_meaning\":\"The threshold between the earthly realm and the celestial consciousness.\"},{\"source_term\":\"आसमानातच आहे माणूस\",\"abstract_meaning\":\"The realization that human existence is inherently part of the divine or infinite.\"}],\"visual_motifs\":[\"Feet of the sky\",\"Edge of the heavens\",\"Human standing firm\"]}],\"cultural_entities\":[{\"term\":\"आकाश\",\"romanization\":\"Aakash\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"In Marathi philosophical traditions, Aakash represents the fifth element (ether) and the infinite space of consciousness.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "आकाशाचा पाय",
+                "abstract_meaning": "The grounding or foundation of the infinite cosmic expanse."
+              },
+              {
+                "source_term": "आभाळाच्या काठावर",
+                "abstract_meaning": "The threshold between the earthly realm and the celestial consciousness."
+              },
+              {
+                "source_term": "आसमानातच आहे माणूस",
+                "abstract_meaning": "The realization that human existence is inherently part of the divine or infinite."
+              }
+            ],
+            "visual_motifs": [
+              "Feet of the sky",
+              "Edge of the heavens",
+              "Human standing firm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "आकाश",
+            "romanization": "Aakash",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "In Marathi philosophical traditions, Aakash represents the fifth element (ether) and the infinite space of consciousness."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "आकाशाचा पाय",
+              "आभाळाच्या काठावर",
+              "आसमानातच आहे माणूस"
+            ],
+            "visual_motifs": [
+              "Feet of the sky",
+              "Edge of the heavens",
+              "Human standing firm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "आकाश",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

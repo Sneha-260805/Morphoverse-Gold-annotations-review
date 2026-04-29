@@ -1,0 +1,774 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0084",
+  "poem_title": "Sitaron Se Aage Jahan",
+  "language": "Hindi",
+  "original_poem": "सितारों से आगे जहाँ और भी हैं,  \nअब तक तेरा ही नाम लूँ,  \nइस राह के हर मोड़ पर,  \nतेरे ही ख़्वाब सजाऊं।  \n\nजिन्हें ख़ुदा ने हमें दिया है,  \nउनसे बड़ा एक और जहाँ है,  \nजहाँ जा कर सजे हैं सपने,  \nअसीमित हो ये आसमान।",
+  "translated_poem": "A world beyond the stars exists,  \nYet, I still call out your name,  \nAt every bend of this path,  \nI weave your dreams anew.  \n\nWhat God has bestowed upon us,  \nIs but a glimpse of another realm,  \nWhere dreams are adorned,  \nIn an infinite sky's embrace.",
+  "status": "completed",
+  "agreement": "medium",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": false,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "सितारों से आगे जहाँ और भी हैं,",
+          "अब तक तेरा ही नाम लूँ,",
+          "इस राह के हर मोड़ पर,",
+          "तेरे ही ख़्वाब सजाऊं।"
+        ],
+        "translated_lines": [
+          "A world beyond the stars exists,",
+          "Yet, I still call out your name,",
+          "At every bend of this path,",
+          "I weave your dreams anew."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "जिन्हें ख़ुदा ने हमें दिया है,",
+          "उनसे बड़ा एक और जहाँ है,",
+          "जहाँ जा कर सजे हैं सपने,",
+          "असीमित हो ये आसमान।"
+        ],
+        "translated_lines": [
+          "What God has bestowed upon us,",
+          "Is but a glimpse of another realm,",
+          "Where dreams are adorned,",
+          "In an infinite sky's embrace."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "begins with personal longing anchored in a beloved's name and expands into cosmic wonder at an infinite realm beyond the known world",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.75,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "सितारों से आगे जहाँ और भी हैं,",
+          "अब तक तेरा ही नाम लूँ,",
+          "इस राह के हर मोड़ पर,",
+          "तेरे ही ख़्वाब सजाऊं।"
+        ],
+        "translated_lines": [
+          "A world beyond the stars exists,",
+          "Yet, I still call out your name,",
+          "At every bend of this path,",
+          "I weave your dreams anew."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "सितारों से आगे जहाँ",
+            "abstract_meaning": "a transcendent realm that lies beyond the limits of the visible cosmos",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "इस राह के हर मोड़ पर",
+            "abstract_meaning": "each turning point in the speaker's life journey where the beloved's presence is felt",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "तेरे ही ख़्वाब सजाऊं",
+            "abstract_meaning": "the act of adorning one's inner world exclusively with the beloved's image",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "इस राह के हर मोड़",
+            "abstract_meaning": "each turning point in life's journey",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "राह के हर मोड़",
+            "abstract_meaning": "life's transitions and journey",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "ख़्वाब सजाऊं",
+            "abstract_meaning": "nurturing hopes and memories",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a lone figure standing beneath a star-filled sky calling out a name",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a realm beyond the stars",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a winding path with bends",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a winding road with the beloved's dreams woven like decorations at each bend",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "bend of a path",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "someone adorning dreams of the beloved",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "world beyond the stars",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "जिन्हें ख़ुदा ने हमें दिया है,",
+          "उनसे बड़ा एक और जहाँ है,",
+          "जहाँ जा कर सजे हैं सपने,",
+          "असीमित हो ये आसमान।"
+        ],
+        "translated_lines": [
+          "What God has bestowed upon us,",
+          "Is but a glimpse of another realm,",
+          "Where dreams are adorned,",
+          "In an infinite sky's embrace."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "असीमित हो ये आसमान carries a wish or aspiration that the sky become infinite, which the translation softens into a descriptive phrase.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "उनसे बड़ा एक और जहाँ है",
+            "abstract_meaning": "a higher divine realm that surpasses all that God has already granted to humanity",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "असीमित हो ये आसमान",
+            "abstract_meaning": "the longing for the sky to expand without boundary as a vessel for limitless dreaming",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "एक और जहाँ",
+            "abstract_meaning": "a higher realm beyond what is already given",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "जहाँ जा कर सजे हैं सपने",
+            "abstract_meaning": "a place where aspirations find fulfillment",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a vast boundless sky arching over a world where human gifts appear small",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a vast infinite sky",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "adorned dreams",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "dreams adorned in another realm",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "dreams adorned like ornaments suspended in an infinite open sky",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "infinite sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ख़ुदा",
+        "romanization": {
+          "value": "khuda",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "stanza_index": 2,
+        "preserved": {
+          "value": true,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "Khuda is rendered as God, which preserves the monotheistic devotional register adequately.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 2,
+      "low_entity_count": 0,
+      "review_item_count": 0,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"begins with personal longing anchored in a beloved's name and expands into cosmic wonder at an infinite realm beyond the known world\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सितारों से आगे जहाँ\",\"abstract_meaning\":\"a transcendent realm that lies beyond the limits of the visible cosmos\"},{\"source_term\":\"इस राह के हर मोड़ पर\",\"abstract_meaning\":\"each turning point in the speaker's life journey where the beloved's presence is felt\"},{\"source_term\":\"तेरे ही ख़्वाब सजाऊं\",\"abstract_meaning\":\"the act of adorning one's inner world exclusively with the beloved's image\"}],\"visual_motifs\":[\"a lone figure standing beneath a star-filled sky calling out a name\",\"a winding road with the beloved's dreams woven like decorations at each bend\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"असीमित हो ये आसमान carries a wish or aspiration that the sky become infinite, which the translation softens into a descriptive phrase.\",\"metaphor_spans\":[{\"source_term\":\"उनसे बड़ा एक और जहाँ है\",\"abstract_meaning\":\"a higher divine realm that surpasses all that God has already granted to humanity\"},{\"source_term\":\"असीमित हो ये आसमान\",\"abstract_meaning\":\"the longing for the sky to expand without boundary as a vessel for limitless dreaming\"}],\"visual_motifs\":[\"dreams adorned like ornaments suspended in an infinite open sky\",\"a vast boundless sky arching over a world where human gifts appear small\"]}],\"cultural_entities\":[{\"term\":\"ख़ुदा\",\"romanization\":\"khuda\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"Khuda is rendered as God, which preserves the monotheistic devotional register adequately.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "begins with personal longing anchored in a beloved's name and expands into cosmic wonder at an infinite realm beyond the known world",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सितारों से आगे जहाँ",
+                "abstract_meaning": "a transcendent realm that lies beyond the limits of the visible cosmos"
+              },
+              {
+                "source_term": "इस राह के हर मोड़ पर",
+                "abstract_meaning": "each turning point in the speaker's life journey where the beloved's presence is felt"
+              },
+              {
+                "source_term": "तेरे ही ख़्वाब सजाऊं",
+                "abstract_meaning": "the act of adorning one's inner world exclusively with the beloved's image"
+              }
+            ],
+            "visual_motifs": [
+              "a lone figure standing beneath a star-filled sky calling out a name",
+              "a winding road with the beloved's dreams woven like decorations at each bend"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "असीमित हो ये आसमान carries a wish or aspiration that the sky become infinite, which the translation softens into a descriptive phrase.",
+            "metaphor_spans": [
+              {
+                "source_term": "उनसे बड़ा एक और जहाँ है",
+                "abstract_meaning": "a higher divine realm that surpasses all that God has already granted to humanity"
+              },
+              {
+                "source_term": "असीमित हो ये आसमान",
+                "abstract_meaning": "the longing for the sky to expand without boundary as a vessel for limitless dreaming"
+              }
+            ],
+            "visual_motifs": [
+              "dreams adorned like ornaments suspended in an infinite open sky",
+              "a vast boundless sky arching over a world where human gifts appear small"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "romanization": "khuda",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "Khuda is rendered as God, which preserves the monotheistic devotional register adequately."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सितारों से आगे जहाँ",
+              "इस राह के हर मोड़ पर",
+              "तेरे ही ख़्वाब सजाऊं"
+            ],
+            "visual_motifs": [
+              "a lone figure standing beneath a star-filled sky calling out a name",
+              "a winding road with the beloved's dreams woven like decorations at each bend"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "उनसे बड़ा एक और जहाँ है",
+              "असीमित हो ये आसमान"
+            ],
+            "visual_motifs": [
+              "dreams adorned like ornaments suspended in an infinite open sky",
+              "a vast boundless sky arching over a world where human gifts appear small"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From intimate longing for the beloved across life's path to expansive wonder before a larger, infinite realm.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सितारों से आगे जहाँ\",\"abstract_meaning\":\"a transcendent realm beyond ordinary limits\"},{\"source_term\":\"इस राह के हर मोड़\",\"abstract_meaning\":\"each turning point in life's journey\"},{\"source_term\":\"तेरे ही ख़्वाब सजाऊं\",\"abstract_meaning\":\"to shape life around the beloved's imagined presence\"}],\"visual_motifs\":[\"a realm beyond the stars\",\"a winding path with bends\",\"someone adorning dreams of the beloved\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"एक और जहाँ\",\"abstract_meaning\":\"a higher realm beyond what is already given\"},{\"source_term\":\"जहाँ जा कर सजे हैं सपने\",\"abstract_meaning\":\"a place where aspirations find fulfillment\"},{\"source_term\":\"असीमित हो ये आसमान\",\"abstract_meaning\":\"limitless spiritual or existential possibility\"}],\"visual_motifs\":[\"a vast infinite sky\",\"dreams adorned in another realm\"]}],\"cultural_entities\":[{\"term\":\"ख़ुदा\",\"romanization\":\"khuda\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From intimate longing for the beloved across life's path to expansive wonder before a larger, infinite realm.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सितारों से आगे जहाँ",
+                "abstract_meaning": "a transcendent realm beyond ordinary limits"
+              },
+              {
+                "source_term": "इस राह के हर मोड़",
+                "abstract_meaning": "each turning point in life's journey"
+              },
+              {
+                "source_term": "तेरे ही ख़्वाब सजाऊं",
+                "abstract_meaning": "to shape life around the beloved's imagined presence"
+              }
+            ],
+            "visual_motifs": [
+              "a realm beyond the stars",
+              "a winding path with bends",
+              "someone adorning dreams of the beloved"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "एक और जहाँ",
+                "abstract_meaning": "a higher realm beyond what is already given"
+              },
+              {
+                "source_term": "जहाँ जा कर सजे हैं सपने",
+                "abstract_meaning": "a place where aspirations find fulfillment"
+              },
+              {
+                "source_term": "असीमित हो ये आसमान",
+                "abstract_meaning": "limitless spiritual or existential possibility"
+              }
+            ],
+            "visual_motifs": [
+              "a vast infinite sky",
+              "dreams adorned in another realm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "romanization": "khuda",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सितारों से आगे जहाँ",
+              "इस राह के हर मोड़",
+              "तेरे ही ख़्वाब सजाऊं"
+            ],
+            "visual_motifs": [
+              "a realm beyond the stars",
+              "a winding path with bends",
+              "someone adorning dreams of the beloved"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "एक और जहाँ",
+              "जहाँ जा कर सजे हैं सपने",
+              "असीमित हो ये आसमान"
+            ],
+            "visual_motifs": [
+              "a vast infinite sky",
+              "dreams adorned in another realm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"longing to peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"राह के हर मोड़\",\"abstract_meaning\":\"life's transitions and journey\"},{\"source_term\":\"ख़्वाब सजाऊं\",\"abstract_meaning\":\"nurturing hopes and memories\"}],\"visual_motifs\":[\"world beyond the stars\",\"bend of a path\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation adds 'glimpse' and softens the direct comparative 'उनसे बड़ा' (bigger than them).\",\"metaphor_spans\":[{\"source_term\":\"असीमित हो ये आसमान\",\"abstract_meaning\":\"boundless freedom and ultimate reality\"}],\"visual_motifs\":[\"adorned dreams\",\"infinite sky\"]}],\"cultural_entities\":[{\"term\":\"ख़ुदा\",\"romanization\":\"Khuda\",\"category\":\"DEITY\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"Translated as 'God', preserving the divine reference.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "longing to peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "राह के हर मोड़",
+                "abstract_meaning": "life's transitions and journey"
+              },
+              {
+                "source_term": "ख़्वाब सजाऊं",
+                "abstract_meaning": "nurturing hopes and memories"
+              }
+            ],
+            "visual_motifs": [
+              "world beyond the stars",
+              "bend of a path"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation adds 'glimpse' and softens the direct comparative 'उनसे बड़ा' (bigger than them).",
+            "metaphor_spans": [
+              {
+                "source_term": "असीमित हो ये आसमान",
+                "abstract_meaning": "boundless freedom and ultimate reality"
+              }
+            ],
+            "visual_motifs": [
+              "adorned dreams",
+              "infinite sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "romanization": "Khuda",
+            "category": "DEITY",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "Translated as 'God', preserving the divine reference."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "राह के हर मोड़",
+              "ख़्वाब सजाऊं"
+            ],
+            "visual_motifs": [
+              "world beyond the stars",
+              "bend of a path"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "असीमित हो ये आसमान"
+            ],
+            "visual_motifs": [
+              "adorned dreams",
+              "infinite sky"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "category": "DEITY",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem moves from a personal commitment to devotion and persistence amidst life's journey to a broader spiritual realization of an infinite, divine realm where aspirations find their ultimate fulfillment.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सितारों से आगे जहाँ\",\"abstract_meaning\":\"The existence of metaphysical or spiritual realms beyond the physical world.\"},{\"source_term\":\"राह के हर मोड़\",\"abstract_meaning\":\"The various challenges and transitions encountered during the journey of life.\"}],\"visual_motifs\":[\"A world beyond the stars\",\"A winding path with sharp bends\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"असीमित हो ये आसमान\",\"abstract_meaning\":\"The boundless and infinite nature of the divine or the spiritual horizon.\"}],\"visual_motifs\":[\"An infinite sky\",\"Dreams adorned in a celestial realm\"]}],\"cultural_entities\":[{\"term\":\"ख़ुदा\",\"romanization\":\"Khuda\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"A Persian-derived term for God commonly used in Hindustani poetry to signify the Almighty or the Divine.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem moves from a personal commitment to devotion and persistence amidst life's journey to a broader spiritual realization of an infinite, divine realm where aspirations find their ultimate fulfillment.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सितारों से आगे जहाँ",
+                "abstract_meaning": "The existence of metaphysical or spiritual realms beyond the physical world."
+              },
+              {
+                "source_term": "राह के हर मोड़",
+                "abstract_meaning": "The various challenges and transitions encountered during the journey of life."
+              }
+            ],
+            "visual_motifs": [
+              "A world beyond the stars",
+              "A winding path with sharp bends"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "असीमित हो ये आसमान",
+                "abstract_meaning": "The boundless and infinite nature of the divine or the spiritual horizon."
+              }
+            ],
+            "visual_motifs": [
+              "An infinite sky",
+              "Dreams adorned in a celestial realm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "romanization": "Khuda",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": "A Persian-derived term for God commonly used in Hindustani poetry to signify the Almighty or the Divine."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सितारों से आगे जहाँ",
+              "राह के हर मोड़"
+            ],
+            "visual_motifs": [
+              "A world beyond the stars",
+              "A winding path with sharp bends"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "असीमित हो ये आसमान"
+            ],
+            "visual_motifs": [
+              "An infinite sky",
+              "Dreams adorned in a celestial realm"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ख़ुदा",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

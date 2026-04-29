@@ -1,0 +1,673 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1434",
+  "poem_title": "Anumantha Vamsam",
+  "language": "Telugu",
+  "original_poem": "అనుమంత వంశం దారి తీస్తున్నది, \nఅంతులేని శక్తి, పితామహుల నుండి. \nసముద్రాన్ని చీల్చి వెళ్ళిన\nవీరుల వేర్లు ఈ నేలలో గాఢం,\nఅదిగో వాటి చిహ్నాలు.",
+  "translated_poem": "The ancestral line leads the way, \nUnfathomable strength, passed down from forefathers. \nRoots of heroes who crossed the ocean, \nDeeply embedded in this soil, \nThere lie their marks.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "అనుమంత వంశం దారి తీస్తున్నది,",
+          "అంతులేని శక్తి, పితామహుల నుండి.",
+          "సముద్రాన్ని చీల్చి వెళ్ళిన",
+          "వీరుల వేర్లు ఈ నేలలో గాఢం,",
+          "అదిగో వాటి చిహ్నాలు."
+        ],
+        "translated_lines": [
+          "The ancestral line leads the way,",
+          "Unfathomable strength, passed down from forefathers.",
+          "Roots of heroes who crossed the ocean,",
+          "Deeply embedded in this soil,",
+          "There lie their marks."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "declarative",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "begins with ancestral pride and builds toward grounded resilience through the image of heroic roots embedded in the soil",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "అనుమంత వంశం దారి తీస్తున్నది,",
+          "అంతులేని శక్తి, పితామహుల నుండి.",
+          "సముద్రాన్ని చీల్చి వెళ్ళిన",
+          "వీరుల వేర్లు ఈ నేలలో గాఢం,",
+          "అదిగో వాటి చిహ్నాలు."
+        ],
+        "translated_lines": [
+          "The ancestral line leads the way,",
+          "Unfathomable strength, passed down from forefathers.",
+          "Roots of heroes who crossed the ocean,",
+          "Deeply embedded in this soil,",
+          "There lie their marks."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+            "abstract_meaning": "ancestral heroic legacy as deep roots inseparably bound to the homeland",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+            "abstract_meaning": "forebears overcoming impossible barriers through extraordinary collective strength",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "అనుమంత వంశం దారి తీస్తున్నది",
+            "abstract_meaning": "ancestral lineage guiding the present",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "అదిగో వాటి చిహ్నాలు",
+            "abstract_meaning": "visible traces of ancestral legacy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "దారి తీస్తున్నది",
+            "abstract_meaning": "Ancestral heritage providing guidance for the present",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "ancient marks or signs left on the earth by a warrior lineage",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "deep roots embedded in the soil",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "deep roots of heroes embedded in dark soil",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "heroes crossing the ocean",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "marks of ancestry visible on the land",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "roots of heroes deeply embedded in the soil",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "అనుమంత వంశం",
+        "romanization": {
+          "value": "Anumantha Vamsam",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Translated as 'ancestral line', losing the specific clan identity encoded in the name Anumantha.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+        "romanization": {
+          "value": "samudranni cheelchi vellina",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "MYTHOLOGICAL_EVENT",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "The ocean-crossing heroic act is retained in translation.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "అనుమంత",
+        "romanization": {
+          "value": "Anumantha",
+          "agreement": "low",
+          "source_model": "gemini",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "DEITY",
+          "agreement": "low",
+          "source_model": "gemini",
+          "resolution_basis": "majority_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "low",
+          "source_model": "gemini",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "Translated generically as 'ancestral', losing the direct reference to the Hindu deity Hanuman.",
+          "agreement": "low",
+          "source_model": "gemini",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "low"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 6,
+      "review_item_count": 6,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[అనుమంత వంశం].category",
+      "agreement": "low",
+      "resolved_value": "REGIONAL_SYMBOL",
+      "claude_value": "REGIONAL_SYMBOL",
+      "gpt_value": "DEVOTIONAL_CONCEPT",
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[అనుమంత వంశం].preserved",
+      "agreement": "low",
+      "resolved_value": true,
+      "claude_value": true,
+      "gpt_value": false,
+      "gemini_value": "",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[పితామహుల].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    },
+    {
+      "field_path": "annotation.cultural_entities[అనుమంత].presence",
+      "agreement": "low",
+      "resolved_value": "included",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/3; explicit_deity_preserved"
+    },
+    {
+      "field_path": "annotation.cultural_entities[అనుమంత].category",
+      "agreement": "low",
+      "resolved_value": "DEITY",
+      "claude_value": "",
+      "gpt_value": "",
+      "gemini_value": "DEITY",
+      "note": "majority_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[అనుమంత].preserved",
+      "agreement": "low",
+      "resolved_value": false,
+      "claude_value": "",
+      "gpt_value": "",
+      "gemini_value": false,
+      "note": "majority_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"declarative\",\n  \"emotional_arc\": \"begins with ancestral pride and builds toward grounded resilience through the image of heroic roots embedded in the soil\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"resilience\",\n      \"tone\": \"declaration\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"వీరుల వేర్లు ఈ నేలలో గాఢం\",\n          \"abstract_meaning\": \"ancestral heroic legacy as deep roots inseparably bound to the homeland\"\n        },\n        {\n          \"source_term\": \"సముద్రాన్ని చీల్చి వెళ్ళిన\",\n          \"abstract_meaning\": \"forebears overcoming impossible barriers through extraordinary collective strength\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"deep roots of heroes embedded in dark soil\",\n        \"ancient marks or signs left on the earth by a warrior lineage\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"అనుమంత వంశం\",\n      \"romanization\": \"Anumantha Vamsam\",\n      \"category\": \"REGIONAL_SYMBOL\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"Translated as 'ancestral line', losing the specific clan identity encoded in the name Anumantha.\"\n    },\n    {\n      \"term\": \"పితామహుల\",\n      \"romanization\": \"pitāmahula\",\n      \"category\": \"SOCIAL_CUSTOM\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"Rendered as 'forefathers'; the Telugu term specifically invokes the patrilineal grandfather-ancestor tradition.\"\n    }\n  ]\n}\n```",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "begins with ancestral pride and builds toward grounded resilience through the image of heroic roots embedded in the soil",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+                "abstract_meaning": "ancestral heroic legacy as deep roots inseparably bound to the homeland"
+              },
+              {
+                "source_term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+                "abstract_meaning": "forebears overcoming impossible barriers through extraordinary collective strength"
+              }
+            ],
+            "visual_motifs": [
+              "deep roots of heroes embedded in dark soil",
+              "ancient marks or signs left on the earth by a warrior lineage"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత వంశం",
+            "romanization": "Anumantha Vamsam",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'ancestral line', losing the specific clan identity encoded in the name Anumantha."
+          },
+          {
+            "term": "పితామహుల",
+            "romanization": "pitāmahula",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Rendered as 'forefathers'; the Telugu term specifically invokes the patrilineal grandfather-ancestor tradition."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "వీరుల వేర్లు ఈ నేలలో గాఢం",
+              "సముద్రాన్ని చీల్చి వెళ్ళిన"
+            ],
+            "visual_motifs": [
+              "deep roots of heroes embedded in dark soil",
+              "ancient marks or signs left on the earth by a warrior lineage"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత వంశం",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "పితామహుల",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"A firm assertion of inherited strength and heroic ancestry rooted in the land.\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"అనుమంత వంశం దారి తీస్తున్నది\",\"abstract_meaning\":\"ancestral lineage guiding the present\"},{\"source_term\":\"వీరుల వేర్లు ఈ నేలలో గాఢం\",\"abstract_meaning\":\"heroic ancestry deeply rooted in the homeland\"},{\"source_term\":\"అదిగో వాటి చిహ్నాలు\",\"abstract_meaning\":\"visible traces of ancestral legacy\"}],\"visual_motifs\":[\"heroes crossing the ocean\",\"deep roots embedded in the soil\",\"marks of ancestry visible on the land\"]}],\"cultural_entities\":[{\"term\":\"అనుమంత వంశం\",\"romanization\":\"Anumantha vamsham\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered generically as ancestral line, losing the specific named lineage.\"},{\"term\":\"సముద్రాన్ని చీల్చి వెళ్ళిన\",\"romanization\":\"samudranni cheelchi vellina\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The ocean-crossing heroic act is retained in translation.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "A firm assertion of inherited strength and heroic ancestry rooted in the land.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "అనుమంత వంశం దారి తీస్తున్నది",
+                "abstract_meaning": "ancestral lineage guiding the present"
+              },
+              {
+                "source_term": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+                "abstract_meaning": "heroic ancestry deeply rooted in the homeland"
+              },
+              {
+                "source_term": "అదిగో వాటి చిహ్నాలు",
+                "abstract_meaning": "visible traces of ancestral legacy"
+              }
+            ],
+            "visual_motifs": [
+              "heroes crossing the ocean",
+              "deep roots embedded in the soil",
+              "marks of ancestry visible on the land"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత వంశం",
+            "romanization": "Anumantha vamsham",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered generically as ancestral line, losing the specific named lineage."
+          },
+          {
+            "term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+            "romanization": "samudranni cheelchi vellina",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The ocean-crossing heroic act is retained in translation."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "అనుమంత వంశం దారి తీస్తున్నది",
+              "వీరుల వేర్లు ఈ నేలలో గాఢం",
+              "అదిగో వాటి చిహ్నాలు"
+            ],
+            "visual_motifs": [
+              "heroes crossing the ocean",
+              "deep roots embedded in the soil",
+              "marks of ancestry visible on the land"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత వంశం",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"resilience\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation generalizes 'అనుమంత వంశం' (Anumantha Vamsam) as 'The ancestral line', losing the specific mythological reference to Lord Hanuman's lineage.\",\"metaphor_spans\":[{\"source_term\":\"వీరుల వేర్లు ఈ నేలలో గాఢం\",\"abstract_meaning\":\"Deeply established ancestral legacy and enduring strength\"},{\"source_term\":\"దారి తీస్తున్నది\",\"abstract_meaning\":\"Ancestral heritage providing guidance for the present\"}],\"visual_motifs\":[\"roots of heroes deeply embedded in the soil\",\"heroes crossing the ocean\"]}],\"cultural_entities\":[{\"term\":\"అనుమంత\",\"romanization\":\"Anumantha\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated generically as 'ancestral', losing the direct reference to the Hindu deity Hanuman.\"},{\"term\":\"సముద్రాన్ని చీల్చి వెళ్ళిన\",\"romanization\":\"samudranni chilchi vellina\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the mythological event of crossing the ocean to Lanka in the Ramayana epic.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "resilience",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The translation generalizes 'అనుమంత వంశం' (Anumantha Vamsam) as 'The ancestral line', losing the specific mythological reference to Lord Hanuman's lineage.",
+            "metaphor_spans": [
+              {
+                "source_term": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+                "abstract_meaning": "Deeply established ancestral legacy and enduring strength"
+              },
+              {
+                "source_term": "దారి తీస్తున్నది",
+                "abstract_meaning": "Ancestral heritage providing guidance for the present"
+              }
+            ],
+            "visual_motifs": [
+              "roots of heroes deeply embedded in the soil",
+              "heroes crossing the ocean"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత",
+            "romanization": "Anumantha",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated generically as 'ancestral', losing the direct reference to the Hindu deity Hanuman."
+          },
+          {
+            "term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+            "romanization": "samudranni chilchi vellina",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the mythological event of crossing the ocean to Lanka in the Ramayana epic."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "వీరుల వేర్లు ఈ నేలలో గాఢం",
+              "దారి తీస్తున్నది"
+            ],
+            "visual_motifs": [
+              "roots of heroes deeply embedded in the soil",
+              "heroes crossing the ocean"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత",
+            "category": "DEITY",
+            "preserved": false
+          },
+          {
+            "term": "సముద్రాన్ని చీల్చి వెళ్ళిన",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"resilience\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"వీరుల వేర్లు\",\"abstract_meaning\":\"The enduring legacy and foundational strength of ancestors.\"}],\"visual_motifs\":[\"A vast ocean being split\",\"Roots deeply embedded in the earth\"]}],\"cultural_entities\":[{\"term\":\"అనుమంత\",\"romanization\":\"Anumantha\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to Hanuman, the deity known for his strength and crossing the ocean to Lanka.\"},{\"term\":\"వంశం\",\"romanization\":\"Vamsam\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to lineage or ancestral line, central to identity in Indian society.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "resilience",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "వీరుల వేర్లు",
+                "abstract_meaning": "The enduring legacy and foundational strength of ancestors."
+              }
+            ],
+            "visual_motifs": [
+              "A vast ocean being split",
+              "Roots deeply embedded in the earth"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత",
+            "romanization": "Anumantha",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to Hanuman, the deity known for his strength and crossing the ocean to Lanka."
+          },
+          {
+            "term": "వంశం",
+            "romanization": "Vamsam",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to lineage or ancestral line, central to identity in Indian society."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "వీరుల వేర్లు"
+            ],
+            "visual_motifs": [
+              "A vast ocean being split",
+              "Roots deeply embedded in the earth"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "అనుమంత",
+            "category": "DEITY",
+            "preserved": true
+          },
+          {
+            "term": "వంశం",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

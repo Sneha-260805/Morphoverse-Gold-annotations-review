@@ -1,0 +1,530 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0006",
+  "poem_title": "Jibon",
+  "language": "Assamese",
+  "original_poem": "জীৱন\nজীৱন, তুমি এক বুৰঞ্জী\nঅতি বেয়া মেঘৰ মাজত,\nসপোনৰ মৰমত দিয়া\nহৃদয়ৰ চেনেহৰ বাঁহী।",
+  "translated_poem": "Life\nLife, you are a history\nAmidst the darkest clouds,\nGifted in the love of dreams,\nThe flute of the heart's affection.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "জীৱন",
+          "জীৱন, তুমি এক বুৰঞ্জী",
+          "অতি বেয়া মেঘৰ মাজত,",
+          "সপোনৰ মৰমত দিয়া",
+          "হৃদয়ৰ চেনেহৰ বাঁহী।"
+        ],
+        "translated_lines": [
+          "Life",
+          "Life, you are a history",
+          "Amidst the darkest clouds,",
+          "Gifted in the love of dreams,",
+          "The flute of the heart's affection."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "The poem opens with a direct address to life as a vast historical record, moves through darkness and suffering, and resolves in the tender image of a heart-flute gifted through dreams, tracing a quiet arc from weight to warmth.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.5,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "জীৱন",
+          "জীৱন, তুমি এক বুৰঞ্জী",
+          "অতি বেয়া মেঘৰ মাজত,",
+          "সপোনৰ মৰমত দিয়া",
+          "হৃদয়ৰ চেনেহৰ বাঁহী।"
+        ],
+        "translated_lines": [
+          "Life",
+          "Life, you are a history",
+          "Amidst the darkest clouds,",
+          "Gifted in the love of dreams,",
+          "The flute of the heart's affection."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "বুৰঞ্জী carries the specific Assamese sense of chronicle or historical annals, richer than the generic 'history'.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "বুৰঞ্জী",
+            "abstract_meaning": "life as an accumulated chronicle of lived experience",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "হৃদয়ৰ চেনেহৰ বাঁহী",
+            "abstract_meaning": "affection as a flute that gives voice to the heart's deepest feeling",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "তুমি এক বুৰঞ্জী",
+            "abstract_meaning": "life as a layered human history",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "বেয়া মেঘ",
+            "abstract_meaning": "hardships, sorrows, or difficult periods in life",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "চেনেহৰ বাঁহী",
+            "abstract_meaning": "the soothing, melodic expression of inner love and comfort",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a flute held in the hands of a dreaming heart amid dark clouds",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a flute of the heart's affection",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a flute playing affection",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "dark clouds gathering",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "dark clouds surrounding life",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "বুৰঞ্জী",
+        "romanization": {
+          "value": "Buranji",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "Rendered as 'history' but Buranji specifically denotes the Ahom-era Assamese historical chronicles.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 1,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[বাঁহী].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem opens with a direct address to life as a vast historical record, moves through darkness and suffering, and resolves in the tender image of a heart-flute gifted through dreams, tracing a quiet arc from weight to warmth.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"বুৰঞ্জী carries the specific Assamese sense of chronicle or historical annals, richer than the generic 'history'.\",\"metaphor_spans\":[{\"source_term\":\"বুৰঞ্জী\",\"abstract_meaning\":\"life as an accumulated chronicle of lived experience\"},{\"source_term\":\"হৃদয়ৰ চেনেহৰ বাঁহী\",\"abstract_meaning\":\"affection as a flute that gives voice to the heart's deepest feeling\"}],\"visual_motifs\":[\"a flute held in the hands of a dreaming heart amid dark clouds\"]}],\"cultural_entities\":[{\"term\":\"বুৰঞ্জী\",\"romanization\":\"Buranji\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as 'history' but Buranji specifically denotes the Ahom-era Assamese historical chronicles.\"},{\"term\":\"বাঁহী\",\"romanization\":\"Baahi\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as 'flute', which preserves the instrument but loses its Vaishnavite devotional resonance in Assamese poetry.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem opens with a direct address to life as a vast historical record, moves through darkness and suffering, and resolves in the tender image of a heart-flute gifted through dreams, tracing a quiet arc from weight to warmth.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "বুৰঞ্জী carries the specific Assamese sense of chronicle or historical annals, richer than the generic 'history'.",
+            "metaphor_spans": [
+              {
+                "source_term": "বুৰঞ্জী",
+                "abstract_meaning": "life as an accumulated chronicle of lived experience"
+              },
+              {
+                "source_term": "হৃদয়ৰ চেনেহৰ বাঁহী",
+                "abstract_meaning": "affection as a flute that gives voice to the heart's deepest feeling"
+              }
+            ],
+            "visual_motifs": [
+              "a flute held in the hands of a dreaming heart amid dark clouds"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "romanization": "Buranji",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as 'history' but Buranji specifically denotes the Ahom-era Assamese historical chronicles."
+          },
+          {
+            "term": "বাঁহী",
+            "romanization": "Baahi",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'flute', which preserves the instrument but loses its Vaishnavite devotional resonance in Assamese poetry."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "বুৰঞ্জী",
+              "হৃদয়ৰ চেনেহৰ বাঁহী"
+            ],
+            "visual_motifs": [
+              "a flute held in the hands of a dreaming heart amid dark clouds"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "বাঁহী",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem reflects on life as a burdened yet tender force, moving from darkness toward inward affection.\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তুমি এক বুৰঞ্জী\",\"abstract_meaning\":\"life as a layered human history\"},{\"source_term\":\"হৃদয়ৰ চেনেহৰ বাঁহী\",\"abstract_meaning\":\"inner affection sounding through suffering\"}],\"visual_motifs\":[\"dark clouds surrounding life\",\"a flute of the heart's affection\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem reflects on life as a burdened yet tender force, moving from darkness toward inward affection.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তুমি এক বুৰঞ্জী",
+                "abstract_meaning": "life as a layered human history"
+              },
+              {
+                "source_term": "হৃদয়ৰ চেনেহৰ বাঁহী",
+                "abstract_meaning": "inner affection sounding through suffering"
+              }
+            ],
+            "visual_motifs": [
+              "dark clouds surrounding life",
+              "a flute of the heart's affection"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তুমি এক বুৰঞ্জী",
+              "হৃদয়ৰ চেনেহৰ বাঁহী"
+            ],
+            "visual_motifs": [
+              "dark clouds surrounding life",
+              "a flute of the heart's affection"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From acknowledging life's hardships to finding solace in love and dreams\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The word 'বুৰঞ্জী' (Buranji) refers specifically to traditional Assamese historical chronicles, which is flattened to the generic 'history'.\",\"metaphor_spans\":[{\"source_term\":\"বুৰঞ্জী\",\"abstract_meaning\":\"the accumulated, recorded experiences and memories of a lifetime\"},{\"source_term\":\"বেয়া মেঘ\",\"abstract_meaning\":\"hardships, sorrows, or difficult periods in life\"},{\"source_term\":\"চেনেহৰ বাঁহী\",\"abstract_meaning\":\"the soothing, melodic expression of inner love and comfort\"}],\"visual_motifs\":[\"dark clouds gathering\",\"a flute playing affection\"]}],\"cultural_entities\":[{\"term\":\"বুৰঞ্জী\",\"romanization\":\"Buranji\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated generically as 'history', losing the specific cultural reference to the Ahom historical chronicles unique to Assam.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From acknowledging life's hardships to finding solace in love and dreams",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The word 'বুৰঞ্জী' (Buranji) refers specifically to traditional Assamese historical chronicles, which is flattened to the generic 'history'.",
+            "metaphor_spans": [
+              {
+                "source_term": "বুৰঞ্জী",
+                "abstract_meaning": "the accumulated, recorded experiences and memories of a lifetime"
+              },
+              {
+                "source_term": "বেয়া মেঘ",
+                "abstract_meaning": "hardships, sorrows, or difficult periods in life"
+              },
+              {
+                "source_term": "চেনেহৰ বাঁহী",
+                "abstract_meaning": "the soothing, melodic expression of inner love and comfort"
+              }
+            ],
+            "visual_motifs": [
+              "dark clouds gathering",
+              "a flute playing affection"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "romanization": "Buranji",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated generically as 'history', losing the specific cultural reference to the Ahom historical chronicles unique to Assam."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "বুৰঞ্জী",
+              "বেয়া মেঘ",
+              "চেনেহৰ বাঁহী"
+            ],
+            "visual_motifs": [
+              "dark clouds gathering",
+              "a flute playing affection"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"resilience\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"জীৱন, তুমি এক বুৰঞ্জী\",\"abstract_meaning\":\"Life as a continuous narrative or a recorded legacy of experiences.\"},{\"source_term\":\"অতি বেয়া মেঘ\",\"abstract_meaning\":\"Periods of intense adversity, sorrow, or existential darkness.\"},{\"source_term\":\"হৃদয়ৰ চেনেহৰ বাঁহী\",\"abstract_meaning\":\"The manifestation of inner love and hope as a melodic, guiding force.\"}],\"visual_motifs\":[\"dark clouds\",\"flute\"]}],\"cultural_entities\":[{\"term\":\"বুৰঞ্জী\",\"romanization\":\"Buranji\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers specifically to the historical chronicles of the Ahom kingdom, suggesting life is a formal record of events.\"},{\"term\":\"বাঁহী\",\"romanization\":\"Bahi\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The flute is a significant instrument in Assamese folk and devotional music, often symbolizing the soul's call.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "resilience",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "জীৱন, তুমি এক বুৰঞ্জী",
+                "abstract_meaning": "Life as a continuous narrative or a recorded legacy of experiences."
+              },
+              {
+                "source_term": "অতি বেয়া মেঘ",
+                "abstract_meaning": "Periods of intense adversity, sorrow, or existential darkness."
+              },
+              {
+                "source_term": "হৃদয়ৰ চেনেহৰ বাঁহী",
+                "abstract_meaning": "The manifestation of inner love and hope as a melodic, guiding force."
+              }
+            ],
+            "visual_motifs": [
+              "dark clouds",
+              "flute"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "romanization": "Buranji",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers specifically to the historical chronicles of the Ahom kingdom, suggesting life is a formal record of events."
+          },
+          {
+            "term": "বাঁহী",
+            "romanization": "Bahi",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The flute is a significant instrument in Assamese folk and devotional music, often symbolizing the soul's call."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "জীৱন, তুমি এক বুৰঞ্জী",
+              "অতি বেয়া মেঘ",
+              "হৃদয়ৰ চেনেহৰ বাঁহী"
+            ],
+            "visual_motifs": [
+              "dark clouds",
+              "flute"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুৰঞ্জী",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "বাঁহী",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

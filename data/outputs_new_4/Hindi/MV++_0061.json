@@ -1,0 +1,816 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0061",
+  "poem_title": "Agnibeena",
+  "language": "Hindi",
+  "original_poem": "वीणा वादिनी, वर दे!  \nप्रिय स्वतंत्र-रवी, वर दे!\nउज्ज्वल गगन का छोर, चीर  \nअग्नि-बाण सा सब ओर वीर  \nविकट प्रलय का कर नाद,  \nखोल दे अब मृतिका के जाल।\n\nधधकता रहे, यह ह्रदय  \nप्रज्वलित प्राणों में, फिर से  \nगाए यह जीवन वीणा,  \nप्रलय में भी अमर हो जाना।",
+  "translated_poem": "O Lute of Fire, grant us your boon!  \nBless us, dear light of freedom's noon!  \nPierce the radiant sky, like flame,  \nA hero’s call, fearless in name,  \nRoar with a fury, with thunder’s might,  \nBreak the chains of death’s endless night.\n\nLet this heart burn, with passion aglow,  \nAnd through all lives, let courage grow,  \nLet the lute of life sing on,  \nEven through the storm, let it live on.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "वीणा वादिनी, वर दे!",
+          "प्रिय स्वतंत्र-रवी, वर दे!",
+          "उज्ज्वल गगन का छोर, चीर",
+          "अग्नि-बाण सा सब ओर वीर",
+          "विकट प्रलय का कर नाद,",
+          "खोल दे अब मृतिका के जाल।"
+        ],
+        "translated_lines": [
+          "O Lute of Fire, grant us your boon!",
+          "Bless us, dear light of freedom's noon!",
+          "Pierce the radiant sky, like flame,",
+          "A hero’s call, fearless in name,",
+          "Roar with a fury, with thunder’s might,",
+          "Break the chains of death’s endless night."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "धधकता रहे, यह ह्रदय",
+          "प्रज्वलित प्राणों में, फिर से",
+          "गाए यह जीवन वीणा,",
+          "प्रलय में भी अमर हो जाना।"
+        ],
+        "translated_lines": [
+          "Let this heart burn, with passion aglow,",
+          "And through all lives, let courage grow,",
+          "Let the lute of life sing on,",
+          "Even through the storm, let it live on."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "declarative",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "majority_vote"
+    },
+    "emotional_arc": {
+      "value": "Opens with a fierce invocation for freedom's fire to pierce the sky and shatter death's chains, then deepens into a vow of undying passion and immortal song even through destruction",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 0.75,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 6,
+        "source_lines": [
+          "वीणा वादिनी, वर दे!",
+          "प्रिय स्वतंत्र-रवी, वर दे!",
+          "उज्ज्वल गगन का छोर, चीर",
+          "अग्नि-बाण सा सब ओर वीर",
+          "विकट प्रलय का कर नाद,",
+          "खोल दे अब मृतिका के जाल।"
+        ],
+        "translated_lines": [
+          "O Lute of Fire, grant us your boon!",
+          "Bless us, dear light of freedom's noon!",
+          "Pierce the radiant sky, like flame,",
+          "A hero’s call, fearless in name,",
+          "Roar with a fury, with thunder’s might,",
+          "Break the chains of death’s endless night."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "prayer",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "मृतिका के जाल loses its specific earthy connotation of clay-bound mortality; rendered generically as death's chains.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "अग्नि-बाण",
+            "abstract_meaning": "freedom's call as a flaming arrow piercing oppressive darkness",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "मृतिका के जाल",
+            "abstract_meaning": "the entrapment of mortal, clay-bound existence that must be broken",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "वीणा वादिनी",
+            "abstract_meaning": "invoked divine source of inspired speech and power",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "स्वतंत्र-रवी",
+            "abstract_meaning": "freedom imagined as a radiant sun",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "अग्नि-बाण सा",
+            "abstract_meaning": "revolutionary force shooting across all directions",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a blazing arrow tearing across the bright sky",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a cataclysmic roar breaking earthen nets",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a flaming arrow shooting across a radiant open sky in all directions",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a hero's figure roaring amid thunderous storm clouds",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a veena-bearing invoked feminine figure",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "breaking webs of clay",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "chains of clay shattering under a blazing light",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "hero shooting fire-arrows",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "piercing the radiant sky",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "धधकता रहे, यह ह्रदय",
+          "प्रज्वलित प्राणों में, फिर से",
+          "गाए यह जीवन वीणा,",
+          "प्रलय में भी अमर हो जाना।"
+        ],
+        "translated_lines": [
+          "Let this heart burn, with passion aglow,",
+          "And through all lives, let courage grow,",
+          "Let the lute of life sing on,",
+          "Even through the storm, let it live on."
+        ],
+        "emotion": {
+          "value": "resilience",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "declaration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "जीवन वीणा",
+            "abstract_meaning": "the soul's song of courage that persists through catastrophic destruction",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "प्रलय में भी अमर हो जाना",
+            "abstract_meaning": "achieving immortality precisely through the act of enduring total annihilation",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "धधकता रहे, यह ह्रदय",
+            "abstract_meaning": "the self kept in a state of fierce inner ardor",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a burning heart glowing with inner fire",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a burning heart glowing within the chest",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a life-veena singing amid flames",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a lute playing on amid a raging storm and flood",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "an undying presence standing through cosmic destruction",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "burning heart",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "playing the lute of life amidst destruction",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "वीणा वादिनी",
+        "romanization": {
+          "value": "veena vadini",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEITY",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": false,
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "Epithet of Saraswati, goddess of music and learning, rendered as Lute of Fire losing the deity reference.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      },
+      {
+        "term": "प्रलय",
+        "romanization": {
+          "value": "pralaya",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "MYTHOLOGICAL_EVENT",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 2,
+        "preserved": {
+          "value": false,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "Second use of pralaya as cosmic annihilation rendered as generic storm, losing eschatological weight.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 2,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 3,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[वीणा].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "present",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"Opens with a fierce invocation for freedom's fire to pierce the sky and shatter death's chains, then deepens into a vow of undying passion and immortal song even through destruction\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"defiance\",\"translation_quality\":\"partial\",\"loss_note\":\"मृतिका के जाल loses its specific earthy connotation of clay-bound mortality; rendered generically as death's chains.\",\"metaphor_spans\":[{\"source_term\":\"अग्नि-बाण\",\"abstract_meaning\":\"freedom's call as a flaming arrow piercing oppressive darkness\"},{\"source_term\":\"मृतिका के जाल\",\"abstract_meaning\":\"the entrapment of mortal, clay-bound existence that must be broken\"}],\"visual_motifs\":[\"a flaming arrow shooting across a radiant open sky in all directions\",\"a hero's figure roaring amid thunderous storm clouds\",\"chains of clay shattering under a blazing light\"]},{\"index\":2,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"जीवन वीणा\",\"abstract_meaning\":\"the soul's song of courage that persists through catastrophic destruction\"},{\"source_term\":\"प्रलय में भी अमर हो जाना\",\"abstract_meaning\":\"achieving immortality precisely through the act of enduring total annihilation\"}],\"visual_motifs\":[\"a burning heart glowing with inner fire\",\"a lute playing on amid a raging storm and flood\"]}],\"cultural_entities\":[{\"term\":\"वीणा वादिनी\",\"romanization\":\"veena vadini\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Epithet of Saraswati, goddess of music and learning, rendered as Lute of Fire losing the deity reference.\"},{\"term\":\"प्रलय\",\"romanization\":\"pralaya\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Pralaya is the cosmic dissolution in Hindu cosmology, reduced to generic thunder's might in translation.\"},{\"term\":\"प्रलय\",\"romanization\":\"pralaya\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Second use of pralaya as cosmic annihilation rendered as generic storm, losing eschatological weight.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "Opens with a fierce invocation for freedom's fire to pierce the sky and shatter death's chains, then deepens into a vow of undying passion and immortal song even through destruction",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "defiance",
+            "translation_quality": "partial",
+            "loss_note": "मृतिका के जाल loses its specific earthy connotation of clay-bound mortality; rendered generically as death's chains.",
+            "metaphor_spans": [
+              {
+                "source_term": "अग्नि-बाण",
+                "abstract_meaning": "freedom's call as a flaming arrow piercing oppressive darkness"
+              },
+              {
+                "source_term": "मृतिका के जाल",
+                "abstract_meaning": "the entrapment of mortal, clay-bound existence that must be broken"
+              }
+            ],
+            "visual_motifs": [
+              "a flaming arrow shooting across a radiant open sky in all directions",
+              "a hero's figure roaring amid thunderous storm clouds",
+              "chains of clay shattering under a blazing light"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "जीवन वीणा",
+                "abstract_meaning": "the soul's song of courage that persists through catastrophic destruction"
+              },
+              {
+                "source_term": "प्रलय में भी अमर हो जाना",
+                "abstract_meaning": "achieving immortality precisely through the act of enduring total annihilation"
+              }
+            ],
+            "visual_motifs": [
+              "a burning heart glowing with inner fire",
+              "a lute playing on amid a raging storm and flood"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "romanization": "veena vadini",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Epithet of Saraswati, goddess of music and learning, rendered as Lute of Fire losing the deity reference."
+          },
+          {
+            "term": "प्रलय",
+            "romanization": "pralaya",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Pralaya is the cosmic dissolution in Hindu cosmology, reduced to generic thunder's might in translation."
+          },
+          {
+            "term": "प्रलय",
+            "romanization": "pralaya",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Second use of pralaya as cosmic annihilation rendered as generic storm, losing eschatological weight."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "defiance",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "अग्नि-बाण",
+              "मृतिका के जाल"
+            ],
+            "visual_motifs": [
+              "a flaming arrow shooting across a radiant open sky in all directions",
+              "a hero's figure roaring amid thunderous storm clouds",
+              "chains of clay shattering under a blazing light"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "जीवन वीणा",
+              "प्रलय में भी अमर हो जाना"
+            ],
+            "visual_motifs": [
+              "a burning heart glowing with inner fire",
+              "a lute playing on amid a raging storm and flood"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "category": "DEITY",
+            "preserved": true
+          },
+          {
+            "term": "प्रलय",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": false
+          },
+          {
+            "term": "प्रलय",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"declarative\",\"emotional_arc\":\"from invoked fiery awakening to enduring inner resilience through destruction\",\"stanzas\":[{\"index\":1,\"emotion\":\"resilience\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"वीणा वादिनी and मृतिका के जाल are simplified, losing invocation and earth-bound entrapment nuance.\",\"metaphor_spans\":[{\"source_term\":\"वीणा वादिनी\",\"abstract_meaning\":\"invoked divine source of inspired speech and power\"},{\"source_term\":\"स्वतंत्र-रवी\",\"abstract_meaning\":\"freedom imagined as a radiant sun\"},{\"source_term\":\"अग्नि-बाण सा\",\"abstract_meaning\":\"revolutionary force shooting across all directions\"},{\"source_term\":\"मृतिका के जाल\",\"abstract_meaning\":\"stifling earthly bonds to be torn open\"}],\"visual_motifs\":[\"a veena-bearing invoked feminine figure\",\"a blazing arrow tearing across the bright sky\",\"a cataclysmic roar breaking earthen nets\"]},{\"index\":2,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"धधकता रहे, यह ह्रदय\",\"abstract_meaning\":\"the self kept in a state of fierce inner ardor\"},{\"source_term\":\"जीवन वीणा\",\"abstract_meaning\":\"life imagined as an instrument of awakened song\"},{\"source_term\":\"प्रलय में भी अमर हो जाना\",\"abstract_meaning\":\"spirit surviving even total destruction\"}],\"visual_motifs\":[\"a burning heart glowing within the chest\",\"a life-veena singing amid flames\",\"an undying presence standing through cosmic destruction\"]}],\"cultural_entities\":[{\"term\":\"वीणा वादिनी\",\"romanization\":\"veena vadini\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as Lute of Fire, losing the likely goddess invocation.\"},{\"term\":\"वीणा\",\"romanization\":\"veena\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"\"},{\"term\":\"प्रलय\",\"romanization\":\"pralaya\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as fury/thunder, losing cosmic dissolution sense.\"},{\"term\":\"प्रलय\",\"romanization\":\"pralaya\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":2,\"preserved\":false,\"translation_note\":\"Storm weakens the mythic sense of world-ending dissolution.\"}]}",
+      "parsed": {
+        "recitation_style": "declarative",
+        "emotional_arc": "from invoked fiery awakening to enduring inner resilience through destruction",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "वीणा वादिनी and मृतिका के जाल are simplified, losing invocation and earth-bound entrapment nuance.",
+            "metaphor_spans": [
+              {
+                "source_term": "वीणा वादिनी",
+                "abstract_meaning": "invoked divine source of inspired speech and power"
+              },
+              {
+                "source_term": "स्वतंत्र-रवी",
+                "abstract_meaning": "freedom imagined as a radiant sun"
+              },
+              {
+                "source_term": "अग्नि-बाण सा",
+                "abstract_meaning": "revolutionary force shooting across all directions"
+              },
+              {
+                "source_term": "मृतिका के जाल",
+                "abstract_meaning": "stifling earthly bonds to be torn open"
+              }
+            ],
+            "visual_motifs": [
+              "a veena-bearing invoked feminine figure",
+              "a blazing arrow tearing across the bright sky",
+              "a cataclysmic roar breaking earthen nets"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "धधकता रहे, यह ह्रदय",
+                "abstract_meaning": "the self kept in a state of fierce inner ardor"
+              },
+              {
+                "source_term": "जीवन वीणा",
+                "abstract_meaning": "life imagined as an instrument of awakened song"
+              },
+              {
+                "source_term": "प्रलय में भी अमर हो जाना",
+                "abstract_meaning": "spirit surviving even total destruction"
+              }
+            ],
+            "visual_motifs": [
+              "a burning heart glowing within the chest",
+              "a life-veena singing amid flames",
+              "an undying presence standing through cosmic destruction"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "romanization": "veena vadini",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as Lute of Fire, losing the likely goddess invocation."
+          },
+          {
+            "term": "वीणा",
+            "romanization": "veena",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 2,
+            "preserved": true,
+            "translation_note": ""
+          },
+          {
+            "term": "प्रलय",
+            "romanization": "pralaya",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as fury/thunder, losing cosmic dissolution sense."
+          },
+          {
+            "term": "प्रलय",
+            "romanization": "pralaya",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 2,
+            "preserved": false,
+            "translation_note": "Storm weakens the mythic sense of world-ending dissolution."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "declarative",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "resilience",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "वीणा वादिनी",
+              "स्वतंत्र-रवी",
+              "अग्नि-बाण सा",
+              "मृतिका के जाल"
+            ],
+            "visual_motifs": [
+              "a veena-bearing invoked feminine figure",
+              "a blazing arrow tearing across the bright sky",
+              "a cataclysmic roar breaking earthen nets"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "धधकता रहे, यह ह्रदय",
+              "जीवन वीणा",
+              "प्रलय में भी अमर हो जाना"
+            ],
+            "visual_motifs": [
+              "a burning heart glowing within the chest",
+              "a life-veena singing amid flames",
+              "an undying presence standing through cosmic destruction"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "category": "DEITY",
+            "preserved": false
+          },
+          {
+            "term": "वीणा",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          },
+          {
+            "term": "प्रलय",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": false
+          },
+          {
+            "term": "प्रलय",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"devotion to resilience\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"Veena Vadini (Goddess Saraswati) is mistranslated as 'Lute of Fire'. 'Mritika ke jaal' (web of clay) is translated as 'chains of death'.\",\"metaphor_spans\":[{\"source_term\":\"स्वतंत्र-रवी\",\"abstract_meaning\":\"The dawn and guiding light of independence\"},{\"source_term\":\"मृतिका के जाल\",\"abstract_meaning\":\"Earthly bondage and mortal limitations\"}],\"visual_motifs\":[\"piercing the radiant sky\",\"hero shooting fire-arrows\",\"breaking webs of clay\"]},{\"index\":2,\"emotion\":\"resilience\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"'Pralay' refers to cosmic dissolution, which is diluted to 'storm' in English.\",\"metaphor_spans\":[{\"source_term\":\"जीवन वीणा\",\"abstract_meaning\":\"The continuous, resonant flow of human spirit and existence\"}],\"visual_motifs\":[\"burning heart\",\"playing the lute of life amidst destruction\"]}],\"cultural_entities\":[{\"term\":\"वीणा वादिनी\",\"romanization\":\"Veena Vadini\",\"category\":\"DEITY\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Mistranslated as 'Lute of Fire' instead of Goddess Saraswati, the player of the Veena.\"},{\"term\":\"प्रलय\",\"romanization\":\"Pralay\",\"category\":\"MYTHOLOGICAL_EVENT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated generically as 'fury' and 'storm', losing the Hindu cosmological reference to the ultimate destruction of the universe.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "devotion to resilience",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "Veena Vadini (Goddess Saraswati) is mistranslated as 'Lute of Fire'. 'Mritika ke jaal' (web of clay) is translated as 'chains of death'.",
+            "metaphor_spans": [
+              {
+                "source_term": "स्वतंत्र-रवी",
+                "abstract_meaning": "The dawn and guiding light of independence"
+              },
+              {
+                "source_term": "मृतिका के जाल",
+                "abstract_meaning": "Earthly bondage and mortal limitations"
+              }
+            ],
+            "visual_motifs": [
+              "piercing the radiant sky",
+              "hero shooting fire-arrows",
+              "breaking webs of clay"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "'Pralay' refers to cosmic dissolution, which is diluted to 'storm' in English.",
+            "metaphor_spans": [
+              {
+                "source_term": "जीवन वीणा",
+                "abstract_meaning": "The continuous, resonant flow of human spirit and existence"
+              }
+            ],
+            "visual_motifs": [
+              "burning heart",
+              "playing the lute of life amidst destruction"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "romanization": "Veena Vadini",
+            "category": "DEITY",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Mistranslated as 'Lute of Fire' instead of Goddess Saraswati, the player of the Veena."
+          },
+          {
+            "term": "प्रलय",
+            "romanization": "Pralay",
+            "category": "MYTHOLOGICAL_EVENT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated generically as 'fury' and 'storm', losing the Hindu cosmological reference to the ultimate destruction of the universe."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "स्वतंत्र-रवी",
+              "मृतिका के जाल"
+            ],
+            "visual_motifs": [
+              "piercing the radiant sky",
+              "hero shooting fire-arrows",
+              "breaking webs of clay"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "resilience",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "जीवन वीणा"
+            ],
+            "visual_motifs": [
+              "burning heart",
+              "playing the lute of life amidst destruction"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "वीणा वादिनी",
+            "category": "DEITY",
+            "preserved": false
+          },
+          {
+            "term": "प्रलय",
+            "category": "MYTHOLOGICAL_EVENT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting value: line 1 column 1 (char 0)",
+      "prompt_kind": "repair",
+      "is_voting_model": false
+    }
+  }
+}

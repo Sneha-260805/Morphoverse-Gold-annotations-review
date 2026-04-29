@@ -1,0 +1,1154 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0011",
+  "poem_title": "O Amar Desher Mati",
+  "language": "Bengali",
+  "original_poem": "ও আমার দেশের মাটি,\nতোমার কল্যাণে চাহি,\nপ্রাণে প্রাণে মিলে যেতে,\nগানের সুরে চাহি।\n\nস্নেহের বৃষ্টি নামে,\nবৃষ্টি মাথার উপর।\nজীবনের পথ চলে,\nশান্তির আলো তোলে।\n\nসৃষ্টির খোঁজে যাই,\nতুমি আমার শিকড়।\nদেশের মাটির সুরে,\nপেতে চাই তোমার টান।\n\nও আমার দেশের মাটি,\nঅশ্রুর নদী flows,\nমা তুমি, মাটি তুমি,\nসুখে থাকুক সারা জীবন।",
+  "translated_poem": "O soil of my country,\nIn your welfare, I seek,\nTo blend together in life,\nIn the melody of songs.\n\nThe rains of affection fall,\nRaining upon my head.\nThe path of life travels,\nBringing forth the light of peace.\n\nI go in search of creation,\nYou are my roots.\nIn the tune of the soil,\nI long for your embrace.\n\nO soil of my country,\nThe river of tears flows,\nMother, you are the land,\nMay you be happy all your life.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "reduced_2_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 4,
+    "source_stanza_count": 4,
+    "translated_stanza_count": 4,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "তোমার কল্যাণে চাহি,",
+          "প্রাণে প্রাণে মিলে যেতে,",
+          "গানের সুরে চাহি।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "In your welfare, I seek,",
+          "To blend together in life,",
+          "In the melody of songs."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "স্নেহের বৃষ্টি নামে,",
+          "বৃষ্টি মাথার উপর।",
+          "জীবনের পথ চলে,",
+          "শান্তির আলো তোলে।"
+        ],
+        "translated_lines": [
+          "The rains of affection fall,",
+          "Raining upon my head.",
+          "The path of life travels,",
+          "Bringing forth the light of peace."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সৃষ্টির খোঁজে যাই,",
+          "তুমি আমার শিকড়।",
+          "দেশের মাটির সুরে,",
+          "পেতে চাই তোমার টান।"
+        ],
+        "translated_lines": [
+          "I go in search of creation,",
+          "You are my roots.",
+          "In the tune of the soil,",
+          "I long for your embrace."
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "অশ্রুর নদী flows,",
+          "মা তুমি, মাটি তুমি,",
+          "সুখে থাকুক সারা জীবন।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "The river of tears flows,",
+          "Mother, you are the land,",
+          "May you be happy all your life."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "devotional",
+      "agreement": "medium",
+      "source_model": "gpt",
+      "resolution_basis": "reduced_2_vote"
+    },
+    "emotional_arc": {
+      "value": "The poem moves from intimate patriotic devotion to gentle peace, then deepens into rooted longing and closes with sorrowful maternal reverence.",
+      "agreement": "low",
+      "source_model": "gpt",
+      "resolution_basis": "fallback_free_text"
+    },
+    "translation_fidelity_score": 0.75,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "তোমার কল্যাণে চাহি,",
+          "প্রাণে প্রাণে মিলে যেতে,",
+          "গানের সুরে চাহি।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "In your welfare, I seek,",
+          "To blend together in life,",
+          "In the melody of songs."
+        ],
+        "emotion": {
+          "value": "devotion",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "prayer",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "The wish to merge life with life is simplified in translation.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "দেশের মাটি",
+            "abstract_meaning": "homeland as sacred ground of belonging",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "প্রাণে প্রাণে মিলে যেতে",
+            "abstract_meaning": "complete inner union with the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "গানের সুরে",
+            "abstract_meaning": "song as a medium of collective attachment",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "blending lives",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "soil",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the speaker addressing the soil of the homeland",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "voices joining in song over the land",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "স্নেহের বৃষ্টি নামে,",
+          "বৃষ্টি মাথার উপর।",
+          "জীবনের পথ চলে,",
+          "শান্তির আলো তোলে।"
+        ],
+        "translated_lines": [
+          "The rains of affection fall,",
+          "Raining upon my head.",
+          "The path of life travels,",
+          "Bringing forth the light of peace."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "স্নেহের বৃষ্টি",
+            "abstract_meaning": "the homeland's affection descending like rain",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "শান্তির আলো তোলে",
+            "abstract_meaning": "peace appearing as rising light",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "শান্তির আলো",
+            "abstract_meaning": "serenity and guidance",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a life-path lit by peaceful light",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "falling rain",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "light",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "path",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "rain falling on the speaker's head",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সৃষ্টির খোঁজে যাই,",
+          "তুমি আমার শিকড়।",
+          "দেশের মাটির সুরে,",
+          "পেতে চাই তোমার টান।"
+        ],
+        "translated_lines": [
+          "I go in search of creation,",
+          "You are my roots.",
+          "In the tune of the soil,",
+          "I long for your embrace."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "তুমি আমার শিকড়",
+            "abstract_meaning": "the homeland as the speaker's origin and grounding",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "দেশের মাটির সুরে",
+            "abstract_meaning": "the land imagined as carrying its own music",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "তোমার টান",
+            "abstract_meaning": "the homeland's pull as an irresistible emotional force",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "শিকড়",
+            "abstract_meaning": "cultural and ancestral origins",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "মাটির সুরে",
+            "abstract_meaning": "the inherent cultural rhythm and spirit of the land",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "roots",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "roots beneath native soil",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "the speaker drawn by the music of the land",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      },
+      {
+        "stanza_index": 4,
+        "line_count": 4,
+        "source_lines": [
+          "ও আমার দেশের মাটি,",
+          "অশ্রুর নদী flows,",
+          "মা তুমি, মাটি তুমি,",
+          "সুখে থাকুক সারা জীবন।"
+        ],
+        "translated_lines": [
+          "O soil of my country,",
+          "The river of tears flows,",
+          "Mother, you are the land,",
+          "May you be happy all your life."
+        ],
+        "emotion": {
+          "value": "grief",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "tone": {
+          "value": "lament",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_quality": {
+          "value": "partial",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "loss_note": {
+          "value": "The English leaves an untranslated English word and weakens the direct identification of mother and soil.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "অশ্রুর নদী",
+            "abstract_meaning": "grief overflowing across the homeland",
+            "agreement": "medium",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "মা তুমি, মাটি তুমি",
+            "abstract_meaning": "the land revered as mother",
+            "agreement": "medium",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a river of tears flowing",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "mother",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "river of tears",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "soil",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the homeland addressed as mother and soil",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "দেশের মাটি",
+        "romanization": {
+          "value": "desher mati",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 3,
+        "preserved": {
+          "value": false,
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "preferred_model_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Rendered as soil of the land, losing the compact cultural resonance of desher mati.",
+          "agreement": "low",
+          "source_model": "gpt",
+          "resolution_basis": "fallback_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 2,
+      "low_stanza_count": 3,
+      "medium_stanza_count": 1,
+      "low_entity_count": 3,
+      "review_item_count": 8,
+      "vote_basis": "reduced_2_vote",
+      "valid_models_total": 3,
+      "effective_voting_sources": {
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].translation_quality",
+      "agreement": "low",
+      "resolved_value": "partial",
+      "claude_value": "",
+      "gpt_value": "partial",
+      "gemini_value": "faithful",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[3].tone",
+      "agreement": "low",
+      "resolved_value": "tenderness",
+      "claude_value": "",
+      "gpt_value": "tenderness",
+      "gemini_value": "declaration",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[3].translation_quality",
+      "agreement": "low",
+      "resolved_value": "faithful",
+      "claude_value": "",
+      "gpt_value": "faithful",
+      "gemini_value": "partial",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[4].emotion",
+      "agreement": "low",
+      "resolved_value": "grief",
+      "claude_value": "",
+      "gpt_value": "grief",
+      "gemini_value": "devotion",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.stanzas[4].tone",
+      "agreement": "low",
+      "resolved_value": "lament",
+      "claude_value": "",
+      "gpt_value": "lament",
+      "gemini_value": "prayer",
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[দেশের মাটি].preserved",
+      "agreement": "low",
+      "resolved_value": false,
+      "claude_value": "",
+      "gpt_value": false,
+      "gemini_value": true,
+      "note": "preferred_model_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[মা].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "present",
+      "gemini_value": "absent",
+      "note": "presence_count=1/2"
+    },
+    {
+      "field_path": "annotation.cultural_entities[মা তুমি, মাটি তুমি].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/2"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "parse_failed",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"Opens with devotional longing for the homeland soil, deepens into affectionate surrender under rain, intensifies into a search for rootedness, and resolves in tearful maternal invocation and blessing\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"দেশের মাটি\",\"abstract_meaning\":\"the homeland as a sacred living entity worthy of devotion\"},{\"source_term\":\"গানের সুরে\",\"abstract_meaning\":\"music as the medium of spiritual and communal union\"}],\"visual_motifs\":[\"a supplicant pressing palms together over dark fertile earth\",\"voices merging into a single melodic thread rising from the ground\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"স্নেহের বৃষ্টি\",\"abstract_meaning\":\"emotional nurturing experienced as physical rainfall\"},{\"source_term\":\"শান্তির আলো\",\"abstract_meaning\":\"inner peace manifested as visible light emerging on a road\"}],\"visual_motifs\":[\"rain falling gently on an upturned face in an open field\",\"a narrow earthen path lit by soft diffuse light stretching forward\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তুমি আমার শিকড়\",\"abstract_meaning\":\"the homeland soil as the biological and spiritual origin of selfhood\"},{\"source_term\":\"দেশের মাটির সুরে\",\"abstract_meaning\":\"the land itself as a musical source that calls the wanderer back\"}],\"visual_motifs\":[\"a figure walking away then pausing to look back at cracked brown earth\",\"exposed tree roots gripping soil as an image of inseparable belonging\"]},{\"index\":4,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"Code-switching with English 'flows' breaks the Bengali register and weakens the elegiac tone of the original\",\"metaphor_spans\":[{\"source_term\":\"অশ্রুর নদী\",\"abstract_meaning\":\"accumulated collective sorrow flowing as an unstoppable natural force\"},{\"source_term\":\"মা তুমি, মাটি তুমি\",\"abstract_meaning\":\"the land addressed simultaneously as biological mother and sacred ground\"}],\"visual_motifs\":[\"a river swollen with tears winding through a flat delta landscape\",\"a woman kneeling with both hands pressed flat against wet soil under an open sky\"]}],\"cultural_entities\":[{\"term\":\"দেশের মাটি\",\"romanization\":\"desher mati\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Rendered as 'soil of my country' which captures the literal sense but loses the Bengali emotional weight of mati as both earth and motherland\"},{\"term\":\"গানের সুরে\",\"romanization\":\"ganer sure\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"'Melody of songs' is adequate but flattens the specific resonance of sur as a raga-inflected tonal concept in Bengali devotional music\"},{\"term\":\"স্নেহের বৃষ্টি\",\"romanization\":\"sneher brishti\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":2,\"preserved\":true,\"translation_note\":\"'Rains of affection' faithfully conveys the compound but sneha carries a deeper connotation of maternal tenderness beyond generic affection\"},{\"term\":\"শিকড়\",\"romanization\":\"shikor\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":true,\"translation_note\":\"Translated as 'roots' which is accurate; the term in Bengali folk and Baul contexts also implies ancestral lineage tied to the land\"},{\"term\":\"মা\",\"romanization\":\"ma\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":4,\"preserved\":true,\"translation_note\":\"Translated as 'Mother' which is correct; in Bengali devotional tradition ma simultaneously invokes the biological mother and the goddess Durga as land-prot",
+      "parsed": null,
+      "discard_reason": "JSON parse failed: Expecting ',' delimiter: line 1 column 3493 (char 3492)",
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"The poem moves from intimate patriotic devotion to gentle peace, then deepens into rooted longing and closes with sorrowful maternal reverence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"The wish to merge life with life is simplified in translation.\",\"metaphor_spans\":[{\"source_term\":\"দেশের মাটি\",\"abstract_meaning\":\"homeland as sacred ground of belonging\"},{\"source_term\":\"প্রাণে প্রাণে মিলে যেতে\",\"abstract_meaning\":\"complete inner union with the homeland\"},{\"source_term\":\"গানের সুরে\",\"abstract_meaning\":\"song as a medium of collective attachment\"}],\"visual_motifs\":[\"the speaker addressing the soil of the homeland\",\"voices joining in song over the land\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"স্নেহের বৃষ্টি\",\"abstract_meaning\":\"the homeland's affection descending like rain\"},{\"source_term\":\"শান্তির আলো তোলে\",\"abstract_meaning\":\"peace appearing as rising light\"}],\"visual_motifs\":[\"rain falling on the speaker's head\",\"a life-path lit by peaceful light\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তুমি আমার শিকড়\",\"abstract_meaning\":\"the homeland as the speaker's origin and grounding\"},{\"source_term\":\"দেশের মাটির সুরে\",\"abstract_meaning\":\"the land imagined as carrying its own music\"},{\"source_term\":\"তোমার টান\",\"abstract_meaning\":\"the homeland's pull as an irresistible emotional force\"}],\"visual_motifs\":[\"roots beneath native soil\",\"the speaker drawn by the music of the land\"]},{\"index\":4,\"emotion\":\"grief\",\"tone\":\"lament\",\"translation_quality\":\"partial\",\"loss_note\":\"The English leaves an untranslated English word and weakens the direct identification of mother and soil.\",\"metaphor_spans\":[{\"source_term\":\"অশ্রুর নদী\",\"abstract_meaning\":\"grief overflowing across the homeland\"},{\"source_term\":\"মা তুমি, মাটি তুমি\",\"abstract_meaning\":\"the land revered as mother\"}],\"visual_motifs\":[\"a river of tears flowing\",\"the homeland addressed as mother and soil\"]}],\"cultural_entities\":[{\"term\":\"দেশের মাটি\",\"romanization\":\"desher mati\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"},{\"term\":\"দেশের মাটি\",\"romanization\":\"desher mati\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":3,\"preserved\":false,\"translation_note\":\"Rendered as soil of the land, losing the compact cultural resonance of desher mati.\"},{\"term\":\"মা\",\"romanization\":\"ma\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":4,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "The poem moves from intimate patriotic devotion to gentle peace, then deepens into rooted longing and closes with sorrowful maternal reverence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The wish to merge life with life is simplified in translation.",
+            "metaphor_spans": [
+              {
+                "source_term": "দেশের মাটি",
+                "abstract_meaning": "homeland as sacred ground of belonging"
+              },
+              {
+                "source_term": "প্রাণে প্রাণে মিলে যেতে",
+                "abstract_meaning": "complete inner union with the homeland"
+              },
+              {
+                "source_term": "গানের সুরে",
+                "abstract_meaning": "song as a medium of collective attachment"
+              }
+            ],
+            "visual_motifs": [
+              "the speaker addressing the soil of the homeland",
+              "voices joining in song over the land"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "স্নেহের বৃষ্টি",
+                "abstract_meaning": "the homeland's affection descending like rain"
+              },
+              {
+                "source_term": "শান্তির আলো তোলে",
+                "abstract_meaning": "peace appearing as rising light"
+              }
+            ],
+            "visual_motifs": [
+              "rain falling on the speaker's head",
+              "a life-path lit by peaceful light"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তুমি আমার শিকড়",
+                "abstract_meaning": "the homeland as the speaker's origin and grounding"
+              },
+              {
+                "source_term": "দেশের মাটির সুরে",
+                "abstract_meaning": "the land imagined as carrying its own music"
+              },
+              {
+                "source_term": "তোমার টান",
+                "abstract_meaning": "the homeland's pull as an irresistible emotional force"
+              }
+            ],
+            "visual_motifs": [
+              "roots beneath native soil",
+              "the speaker drawn by the music of the land"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "loss_note": "The English leaves an untranslated English word and weakens the direct identification of mother and soil.",
+            "metaphor_spans": [
+              {
+                "source_term": "অশ্রুর নদী",
+                "abstract_meaning": "grief overflowing across the homeland"
+              },
+              {
+                "source_term": "মা তুমি, মাটি তুমি",
+                "abstract_meaning": "the land revered as mother"
+              }
+            ],
+            "visual_motifs": [
+              "a river of tears flowing",
+              "the homeland addressed as mother and soil"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "romanization": "desher mati",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          },
+          {
+            "term": "দেশের মাটি",
+            "romanization": "desher mati",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 3,
+            "preserved": false,
+            "translation_note": "Rendered as soil of the land, losing the compact cultural resonance of desher mati."
+          },
+          {
+            "term": "মা",
+            "romanization": "ma",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 4,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "দেশের মাটি",
+              "প্রাণে প্রাণে মিলে যেতে",
+              "গানের সুরে"
+            ],
+            "visual_motifs": [
+              "the speaker addressing the soil of the homeland",
+              "voices joining in song over the land"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "স্নেহের বৃষ্টি",
+              "শান্তির আলো তোলে"
+            ],
+            "visual_motifs": [
+              "rain falling on the speaker's head",
+              "a life-path lit by peaceful light"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তুমি আমার শিকড়",
+              "দেশের মাটির সুরে",
+              "তোমার টান"
+            ],
+            "visual_motifs": [
+              "roots beneath native soil",
+              "the speaker drawn by the music of the land"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "grief",
+            "tone": "lament",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "অশ্রুর নদী",
+              "মা তুমি, মাটি তুমি"
+            ],
+            "visual_motifs": [
+              "a river of tears flowing",
+              "the homeland addressed as mother and soil"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "দেশের মাটি",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "মা",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 1,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"Moves from a prayerful devotion to the motherland, through peaceful reflection on its grace, to a deep longing for connection, culminating in a reverent blessing acknowledging both sorrow and maternal divinity.\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"দেশের মাটি\",\"abstract_meaning\":\"the motherland and its foundational essence\"}],\"visual_motifs\":[\"soil\",\"blending lives\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"স্নেহের বৃষ্টি\",\"abstract_meaning\":\"unconditional love and nurturing grace\"},{\"source_term\":\"শান্তির আলো\",\"abstract_meaning\":\"serenity and guidance\"}],\"visual_motifs\":[\"falling rain\",\"path\",\"light\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"declaration\",\"translation_quality\":\"partial\",\"loss_note\":\"The Bengali word 'টান' implies a deep, almost magnetic pull or yearning, which is slightly flattened by the translation 'embrace'.\",\"metaphor_spans\":[{\"source_term\":\"শিকড়\",\"abstract_meaning\":\"cultural and ancestral origins\"},{\"source_term\":\"মাটির সুরে\",\"abstract_meaning\":\"the inherent cultural rhythm and spirit of the land\"}],\"visual_motifs\":[\"roots\"]},{\"index\":4,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation captures the literal meaning, but the profound cultural equation of 'মা' (Mother) and 'মাটি' (Soil) as a single divine entity (Deshmata) loses its spiritual resonance in English.\",\"metaphor_spans\":[{\"source_term\":\"অশ্রুর নদী\",\"abstract_meaning\":\"collective historical sorrow and struggle\"},{\"source_term\":\"মা তুমি, মাটি তুমি\",\"abstract_meaning\":\"the personification of the nation as a mother goddess\"}],\"visual_motifs\":[\"river of tears\",\"mother\",\"soil\"]}],\"cultural_entities\":[{\"term\":\"দেশের মাটি\",\"romanization\":\"desher mati\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated literally as 'soil of my country', but culturally represents the sacred motherland.\"},{\"term\":\"মা তুমি, মাটি তুমি\",\"romanization\":\"ma tumi, mati tumi\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":4,\"preserved\":false,\"translation_note\":\"The translation 'Mother, you are the land' misses the deep theological connection in Bengali culture where the land is worshipped as the Mother Goddess (Deshmata).\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "Moves from a prayerful devotion to the motherland, through peaceful reflection on its grace, to a deep longing for connection, culminating in a reverent blessing acknowledging both sorrow and maternal divinity.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "দেশের মাটি",
+                "abstract_meaning": "the motherland and its foundational essence"
+              }
+            ],
+            "visual_motifs": [
+              "soil",
+              "blending lives"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "স্নেহের বৃষ্টি",
+                "abstract_meaning": "unconditional love and nurturing grace"
+              },
+              {
+                "source_term": "শান্তির আলো",
+                "abstract_meaning": "serenity and guidance"
+              }
+            ],
+            "visual_motifs": [
+              "falling rain",
+              "path",
+              "light"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "loss_note": "The Bengali word 'টান' implies a deep, almost magnetic pull or yearning, which is slightly flattened by the translation 'embrace'.",
+            "metaphor_spans": [
+              {
+                "source_term": "শিকড়",
+                "abstract_meaning": "cultural and ancestral origins"
+              },
+              {
+                "source_term": "মাটির সুরে",
+                "abstract_meaning": "the inherent cultural rhythm and spirit of the land"
+              }
+            ],
+            "visual_motifs": [
+              "roots"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The translation captures the literal meaning, but the profound cultural equation of 'মা' (Mother) and 'মাটি' (Soil) as a single divine entity (Deshmata) loses its spiritual resonance in English.",
+            "metaphor_spans": [
+              {
+                "source_term": "অশ্রুর নদী",
+                "abstract_meaning": "collective historical sorrow and struggle"
+              },
+              {
+                "source_term": "মা তুমি, মাটি তুমি",
+                "abstract_meaning": "the personification of the nation as a mother goddess"
+              }
+            ],
+            "visual_motifs": [
+              "river of tears",
+              "mother",
+              "soil"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "romanization": "desher mati",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated literally as 'soil of my country', but culturally represents the sacred motherland."
+          },
+          {
+            "term": "মা তুমি, মাটি তুমি",
+            "romanization": "ma tumi, mati tumi",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 4,
+            "preserved": false,
+            "translation_note": "The translation 'Mother, you are the land' misses the deep theological connection in Bengali culture where the land is worshipped as the Mother Goddess (Deshmata)."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "দেশের মাটি"
+            ],
+            "visual_motifs": [
+              "soil",
+              "blending lives"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "স্নেহের বৃষ্টি",
+              "শান্তির আলো"
+            ],
+            "visual_motifs": [
+              "falling rain",
+              "path",
+              "light"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "declaration",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "শিকড়",
+              "মাটির সুরে"
+            ],
+            "visual_motifs": [
+              "roots"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "অশ্রুর নদী",
+              "মা তুমি, মাটি তুমি"
+            ],
+            "visual_motifs": [
+              "river of tears",
+              "mother",
+              "soil"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "মা তুমি, মাটি তুমি",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "repair",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"devotion to peace to longing to devotion\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"দেশের মাটি\",\"abstract_meaning\":\"spiritual foundation of identity\"}],\"visual_motifs\":[\"soil of the country\",\"melody of songs\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"স্নেহের বৃষ্টি\",\"abstract_meaning\":\"divine or maternal grace\"}],\"visual_motifs\":[\"falling rain\",\"light of peace\"]},{\"index\":3,\"emotion\":\"longing\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"শিকড়\",\"abstract_meaning\":\"ancestral and cultural origin\"}],\"visual_motifs\":[\"roots in the earth\",\"tune of the soil\"]},{\"index\":4,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"partial\",\"loss_note\":\"The source text contains an English word 'flows' mixed with Bengali.\",\"metaphor_spans\":[{\"source_term\":\"অশ্রুর নদী\",\"abstract_meaning\":\"collective sorrow or deep empathy\"},{\"source_term\":\"মা তুমি\",\"abstract_meaning\":\"motherland as a divine maternal figure\"}],\"visual_motifs\":[\"river of tears\",\"motherland as a person\"]}],\"cultural_entities\":[{\"term\":\"দেশের মাটি\",\"romanization\":\"Desher Mati\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The soil of the motherland is a central symbol in Bengali patriotic literature representing identity and belonging.\"},{\"term\":\"মা\",\"romanization\":\"Ma\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":4,\"preserved\":true,\"translation_note\":\"The personification of the land as a mother is a core concept in Indian nationalism and devotional poetry.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "devotion to peace to longing to devotion",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "দেশের মাটি",
+                "abstract_meaning": "spiritual foundation of identity"
+              }
+            ],
+            "visual_motifs": [
+              "soil of the country",
+              "melody of songs"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "স্নেহের বৃষ্টি",
+                "abstract_meaning": "divine or maternal grace"
+              }
+            ],
+            "visual_motifs": [
+              "falling rain",
+              "light of peace"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "শিকড়",
+                "abstract_meaning": "ancestral and cultural origin"
+              }
+            ],
+            "visual_motifs": [
+              "roots in the earth",
+              "tune of the soil"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "loss_note": "The source text contains an English word 'flows' mixed with Bengali.",
+            "metaphor_spans": [
+              {
+                "source_term": "অশ্রুর নদী",
+                "abstract_meaning": "collective sorrow or deep empathy"
+              },
+              {
+                "source_term": "মা তুমি",
+                "abstract_meaning": "motherland as a divine maternal figure"
+              }
+            ],
+            "visual_motifs": [
+              "river of tears",
+              "motherland as a person"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "romanization": "Desher Mati",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The soil of the motherland is a central symbol in Bengali patriotic literature representing identity and belonging."
+          },
+          {
+            "term": "মা",
+            "romanization": "Ma",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 4,
+            "preserved": true,
+            "translation_note": "The personification of the land as a mother is a core concept in Indian nationalism and devotional poetry."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "দেশের মাটি"
+            ],
+            "visual_motifs": [
+              "soil of the country",
+              "melody of songs"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "স্নেহের বৃষ্টি"
+            ],
+            "visual_motifs": [
+              "falling rain",
+              "light of peace"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "longing",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "শিকড়"
+            ],
+            "visual_motifs": [
+              "roots in the earth",
+              "tune of the soil"
+            ]
+          },
+          {
+            "index": 4,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "অশ্রুর নদী",
+              "মা তুমি"
+            ],
+            "visual_motifs": [
+              "river of tears",
+              "motherland as a person"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "দেশের মাটি",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "মা",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

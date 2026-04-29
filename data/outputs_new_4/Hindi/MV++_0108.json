@@ -1,0 +1,905 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0108",
+  "poem_title": "Tumhare Haath Ki Chudiyan",
+  "language": "Hindi",
+  "original_poem": "तुम्हारे हाथ की चूड़ियां  \nतुम्हारे हाथ में कैसे खनकती हैं।  \nजैसे फूलों से महक उठी हो कोई हवा,  \nजैसे सावन में बज उठे हो कहीं घुंघरू।\n\nइन चूड़ियों की खनक में  \nतुम्हारी हंसी का एहसास है,  \nऔर ये खनकती हैं यूँ  \nजैसे तुम पास ही हो कहीं।",
+  "translated_poem": "The bangles on your hand,  \nHow they tinkle and chime.  \nLike the breeze carries the scent of flowers,  \nLike anklets jingling in the monsoon time.\n\nIn the melody of these bangles,  \nI feel the echo of your laughter.  \nAnd they tinkle in such a way,  \nAs if you're nearby, right after.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 2,
+    "source_stanza_count": 2,
+    "translated_stanza_count": 2,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "तुम्हारे हाथ की चूड़ियां",
+          "तुम्हारे हाथ में कैसे खनकती हैं।",
+          "जैसे फूलों से महक उठी हो कोई हवा,",
+          "जैसे सावन में बज उठे हो कहीं घुंघरू।"
+        ],
+        "translated_lines": [
+          "The bangles on your hand,",
+          "How they tinkle and chime.",
+          "Like the breeze carries the scent of flowers,",
+          "Like anklets jingling in the monsoon time."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "इन चूड़ियों की खनक में",
+          "तुम्हारी हंसी का एहसास है,",
+          "और ये खनकती हैं यूँ",
+          "जैसे तुम पास ही हो कहीं।"
+        ],
+        "translated_lines": [
+          "In the melody of these bangles,",
+          "I feel the echo of your laughter.",
+          "And they tinkle in such a way,",
+          "As if you're nearby, right after."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "From sensory delight in the sound of bangles to a tender ache of longing for an absent beloved",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "तुम्हारे हाथ की चूड़ियां",
+          "तुम्हारे हाथ में कैसे खनकती हैं।",
+          "जैसे फूलों से महक उठी हो कोई हवा,",
+          "जैसे सावन में बज उठे हो कहीं घुंघरू।"
+        ],
+        "translated_lines": [
+          "The bangles on your hand,",
+          "How they tinkle and chime.",
+          "Like the breeze carries the scent of flowers,",
+          "Like anklets jingling in the monsoon time."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "फूलों से महक उठी हो कोई हवा",
+            "abstract_meaning": "the bangle's sound carries an invisible but unmistakable presence, like fragrance on a breeze",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "सावन में बज उठे हो कहीं घुंघरू",
+            "abstract_meaning": "the tinkling evokes festive, rain-soaked joy that is felt before it is seen",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "जैसे फूलों से महक उठी हो कोई हवा",
+            "abstract_meaning": "the bangles' sound feels softly fragrant and enlivening",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "जैसे सावन में बज उठे हो कहीं घुंघरू",
+            "abstract_meaning": "the bangles' chime feels festive and seasonally musical",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a breeze made fragrant by flowers",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "anklets jingling during the monsoon",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "anklets jingling in monsoon rain",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "anklets ringing somewhere in the monsoon",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bangles chiming on a woman's hand",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bangles chiming on an outstretched hand",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "bangles tinkling on a hand",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "fragrant breeze blowing",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "इन चूड़ियों की खनक में",
+          "तुम्हारी हंसी का एहसास है,",
+          "और ये खनकती हैं यूँ",
+          "जैसे तुम पास ही हो कहीं।"
+        ],
+        "translated_lines": [
+          "In the melody of these bangles,",
+          "I feel the echo of your laughter.",
+          "And they tinkle in such a way,",
+          "As if you're nearby, right after."
+        ],
+        "emotion": {
+          "value": "longing",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "चूड़ियों की खनक में तुम्हारी हंसी का एहसास",
+            "abstract_meaning": "the sound of bangles becomes a phantom trace of the beloved's laughter",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "खनकती हैं यूँ जैसे तुम पास ही हो",
+            "abstract_meaning": "the recurring sound collapses the distance between absence and nearness",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "इन चूड़ियों की खनक में तुम्हारी हंसी का एहसास है",
+            "abstract_meaning": "the bangles' sound carries the beloved's remembered laughter",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "जैसे तुम पास ही हो कहीं",
+            "abstract_meaning": "the chime creates an illusion of the beloved's nearness",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "bangles tinkling as if the beloved were nearby",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bangles tinkling in an empty room as if their wearer is still present",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "the sound of bangles evoking a smiling absent beloved",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "tinkling bangles evoking a sense of proximity",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "चूड़ियां",
+        "romanization": {
+          "value": "chudiyan",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "SOCIAL_CUSTOM",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "Bangles as a marker of married or adorned womanhood carries social weight not fully surfaced in translation.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      },
+      {
+        "term": "सावन",
+        "romanization": {
+          "value": "sawan",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "FESTIVAL",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "Sawan is the monsoon month associated with longing, Teej, and festivity; 'monsoon time' is approximate.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "घुंघरू",
+        "romanization": {
+          "value": "ghunghru",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "MUSICAL_TRADITION",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_note": {
+          "value": "Ghunghru are ankle bells tied for classical dance or festive wear; 'anklets' loses the performative resonance.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 2,
+      "low_entity_count": 2,
+      "review_item_count": 2,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[सावन].category",
+      "agreement": "low",
+      "resolved_value": "FESTIVAL",
+      "claude_value": "FESTIVAL",
+      "gpt_value": "",
+      "gemini_value": "REGIONAL_SYMBOL",
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[सावन].preserved",
+      "agreement": "low",
+      "resolved_value": true,
+      "claude_value": true,
+      "gpt_value": "",
+      "gemini_value": false,
+      "note": "claude_tiebreak_no_third_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From sensory delight in the sound of bangles to a tender ache of longing for an absent beloved\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"फूलों से महक उठी हो कोई हवा\",\"abstract_meaning\":\"the bangle's sound carries an invisible but unmistakable presence, like fragrance on a breeze\"},{\"source_term\":\"सावन में बज उठे हो कहीं घुंघरू\",\"abstract_meaning\":\"the tinkling evokes festive, rain-soaked joy that is felt before it is seen\"}],\"visual_motifs\":[\"bangles chiming on an outstretched hand\",\"anklets jingling in monsoon rain\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"partial\",\"loss_note\":\"'एहसास' carries a deeper felt-sense of presence than 'echo' conveys.\",\"metaphor_spans\":[{\"source_term\":\"चूड़ियों की खनक में तुम्हारी हंसी का एहसास\",\"abstract_meaning\":\"the sound of bangles becomes a phantom trace of the beloved's laughter\"},{\"source_term\":\"खनकती हैं यूँ जैसे तुम पास ही हो\",\"abstract_meaning\":\"the recurring sound collapses the distance between absence and nearness\"}],\"visual_motifs\":[\"bangles tinkling in an empty room as if their wearer is still present\"]}],\"cultural_entities\":[{\"term\":\"चूड़ियां\",\"romanization\":\"chudiyan\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Bangles as a marker of married or adorned womanhood carries social weight not fully surfaced in translation.\"},{\"term\":\"सावन\",\"romanization\":\"sawan\",\"category\":\"FESTIVAL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Sawan is the monsoon month associated with longing, Teej, and festivity; 'monsoon time' is approximate.\"},{\"term\":\"घुंघरू\",\"romanization\":\"ghunghru\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Ghunghru are ankle bells tied for classical dance or festive wear; 'anklets' loses the performative resonance.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From sensory delight in the sound of bangles to a tender ache of longing for an absent beloved",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "फूलों से महक उठी हो कोई हवा",
+                "abstract_meaning": "the bangle's sound carries an invisible but unmistakable presence, like fragrance on a breeze"
+              },
+              {
+                "source_term": "सावन में बज उठे हो कहीं घुंघरू",
+                "abstract_meaning": "the tinkling evokes festive, rain-soaked joy that is felt before it is seen"
+              }
+            ],
+            "visual_motifs": [
+              "bangles chiming on an outstretched hand",
+              "anklets jingling in monsoon rain"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "'एहसास' carries a deeper felt-sense of presence than 'echo' conveys.",
+            "metaphor_spans": [
+              {
+                "source_term": "चूड़ियों की खनक में तुम्हारी हंसी का एहसास",
+                "abstract_meaning": "the sound of bangles becomes a phantom trace of the beloved's laughter"
+              },
+              {
+                "source_term": "खनकती हैं यूँ जैसे तुम पास ही हो",
+                "abstract_meaning": "the recurring sound collapses the distance between absence and nearness"
+              }
+            ],
+            "visual_motifs": [
+              "bangles tinkling in an empty room as if their wearer is still present"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चूड़ियां",
+            "romanization": "chudiyan",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Bangles as a marker of married or adorned womanhood carries social weight not fully surfaced in translation."
+          },
+          {
+            "term": "सावन",
+            "romanization": "sawan",
+            "category": "FESTIVAL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Sawan is the monsoon month associated with longing, Teej, and festivity; 'monsoon time' is approximate."
+          },
+          {
+            "term": "घुंघरू",
+            "romanization": "ghunghru",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Ghunghru are ankle bells tied for classical dance or festive wear; 'anklets' loses the performative resonance."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "फूलों से महक उठी हो कोई हवा",
+              "सावन में बज उठे हो कहीं घुंघरू"
+            ],
+            "visual_motifs": [
+              "bangles chiming on an outstretched hand",
+              "anklets jingling in monsoon rain"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "चूड़ियों की खनक में तुम्हारी हंसी का एहसास",
+              "खनकती हैं यूँ जैसे तुम पास ही हो"
+            ],
+            "visual_motifs": [
+              "bangles tinkling in an empty room as if their wearer is still present"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चूड़ियां",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "सावन",
+            "category": "FESTIVAL",
+            "preserved": true
+          },
+          {
+            "term": "घुंघरू",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From delighted admiration of the bangles' sound to intimate longing through their association with the beloved's laughter and presence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"जैसे फूलों से महक उठी हो कोई हवा\",\"abstract_meaning\":\"the bangles' sound feels softly fragrant and enlivening\"},{\"source_term\":\"जैसे सावन में बज उठे हो कहीं घुंघरू\",\"abstract_meaning\":\"the bangles' chime feels festive and seasonally musical\"}],\"visual_motifs\":[\"bangles chiming on a woman's hand\",\"a breeze made fragrant by flowers\",\"anklets ringing somewhere in the monsoon\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"इन चूड़ियों की खनक में तुम्हारी हंसी का एहसास है\",\"abstract_meaning\":\"the bangles' sound carries the beloved's remembered laughter\"},{\"source_term\":\"जैसे तुम पास ही हो कहीं\",\"abstract_meaning\":\"the chime creates an illusion of the beloved's nearness\"}],\"visual_motifs\":[\"the sound of bangles evoking a smiling absent beloved\",\"bangles tinkling as if the beloved were nearby\"]}],\"cultural_entities\":[{\"term\":\"चूड़ियां\",\"romanization\":\"chudiyan\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"},{\"term\":\"घुंघरू\",\"romanization\":\"ghunghru\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Rendered as anklets, losing the specific jingling bells.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From delighted admiration of the bangles' sound to intimate longing through their association with the beloved's laughter and presence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "जैसे फूलों से महक उठी हो कोई हवा",
+                "abstract_meaning": "the bangles' sound feels softly fragrant and enlivening"
+              },
+              {
+                "source_term": "जैसे सावन में बज उठे हो कहीं घुंघरू",
+                "abstract_meaning": "the bangles' chime feels festive and seasonally musical"
+              }
+            ],
+            "visual_motifs": [
+              "bangles chiming on a woman's hand",
+              "a breeze made fragrant by flowers",
+              "anklets ringing somewhere in the monsoon"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "इन चूड़ियों की खनक में तुम्हारी हंसी का एहसास है",
+                "abstract_meaning": "the bangles' sound carries the beloved's remembered laughter"
+              },
+              {
+                "source_term": "जैसे तुम पास ही हो कहीं",
+                "abstract_meaning": "the chime creates an illusion of the beloved's nearness"
+              }
+            ],
+            "visual_motifs": [
+              "the sound of bangles evoking a smiling absent beloved",
+              "bangles tinkling as if the beloved were nearby"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चूड़ियां",
+            "romanization": "chudiyan",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          },
+          {
+            "term": "घुंघरू",
+            "romanization": "ghunghru",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Rendered as anklets, losing the specific jingling bells."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "जैसे फूलों से महक उठी हो कोई हवा",
+              "जैसे सावन में बज उठे हो कहीं घुंघरू"
+            ],
+            "visual_motifs": [
+              "bangles chiming on a woman's hand",
+              "a breeze made fragrant by flowers",
+              "anklets ringing somewhere in the monsoon"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "इन चूड़ियों की खनक में तुम्हारी हंसी का एहसास है",
+              "जैसे तुम पास ही हो कहीं"
+            ],
+            "visual_motifs": [
+              "the sound of bangles evoking a smiling absent beloved",
+              "bangles tinkling as if the beloved were nearby"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "चूड़ियां",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "घुंघरू",
+            "category": "MUSICAL_TRADITION",
+            "preserved": false
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"From admiring the sensory beauty of the bangles to a deep longing for the beloved's physical presence.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation of 'सावन' (Sawan) as 'monsoon time' loses the deep cultural and romantic associations of the Hindu month of Shravan.\",\"metaphor_spans\":[{\"source_term\":\"सावन में बज उठे हो कहीं घुंघरू\",\"abstract_meaning\":\"the joyous and rhythmic resonance of the beloved's presence\"}],\"visual_motifs\":[\"bangles tinkling on a hand\",\"fragrant breeze blowing\",\"anklets jingling during the monsoon\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चूड़ियों की खनक में तुम्हारी हंसी का एहसास\",\"abstract_meaning\":\"the auditory memory and emotional warmth of the beloved's laughter\"}],\"visual_motifs\":[\"tinkling bangles evoking a sense of proximity\"]}],\"cultural_entities\":[{\"term\":\"सावन\",\"romanization\":\"Sawan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated generically as 'monsoon time', losing the specific romantic and cultural significance of the Shravan month in Indian poetry.\"},{\"term\":\"चूड़ियां\",\"romanization\":\"Chudiyan\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated accurately as 'bangles', though the deep cultural association with femininity and romance is implicit.\"},{\"term\":\"घुंघरू\",\"romanization\":\"Ghunghroo\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated as 'anklets', which captures the literal meaning but slightly dilutes the specific association with Indian classical dance and musical rhythm.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "From admiring the sensory beauty of the bangles to a deep longing for the beloved's physical presence.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "The translation of 'सावन' (Sawan) as 'monsoon time' loses the deep cultural and romantic associations of the Hindu month of Shravan.",
+            "metaphor_spans": [
+              {
+                "source_term": "सावन में बज उठे हो कहीं घुंघरू",
+                "abstract_meaning": "the joyous and rhythmic resonance of the beloved's presence"
+              }
+            ],
+            "visual_motifs": [
+              "bangles tinkling on a hand",
+              "fragrant breeze blowing",
+              "anklets jingling during the monsoon"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चूड़ियों की खनक में तुम्हारी हंसी का एहसास",
+                "abstract_meaning": "the auditory memory and emotional warmth of the beloved's laughter"
+              }
+            ],
+            "visual_motifs": [
+              "tinkling bangles evoking a sense of proximity"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "सावन",
+            "romanization": "Sawan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated generically as 'monsoon time', losing the specific romantic and cultural significance of the Shravan month in Indian poetry."
+          },
+          {
+            "term": "चूड़ियां",
+            "romanization": "Chudiyan",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated accurately as 'bangles', though the deep cultural association with femininity and romance is implicit."
+          },
+          {
+            "term": "घुंघरू",
+            "romanization": "Ghunghroo",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated as 'anklets', which captures the literal meaning but slightly dilutes the specific association with Indian classical dance and musical rhythm."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "सावन में बज उठे हो कहीं घुंघरू"
+            ],
+            "visual_motifs": [
+              "bangles tinkling on a hand",
+              "fragrant breeze blowing",
+              "anklets jingling during the monsoon"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चूड़ियों की खनक में तुम्हारी हंसी का एहसास"
+            ],
+            "visual_motifs": [
+              "tinkling bangles evoking a sense of proximity"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "सावन",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": false
+          },
+          {
+            "term": "चूड़ियां",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          },
+          {
+            "term": "घुंघरू",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem transitions from a sensory appreciation of the sound of bangles to a deep emotional realization of the beloved's presence through auditory memory.\",\"stanzas\":[{\"index\":1,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"फूलों से महक उठी हो कोई हवा\",\"abstract_meaning\":\"The auditory beauty of the bangles is equated to the pleasant sensory experience of a floral breeze.\"},{\"source_term\":\"सावन में बज उठे हो कहीं घुंघरू\",\"abstract_meaning\":\"The rhythmic sound of bangles evokes the festive and romantic atmosphere of monsoon anklets.\"}],\"visual_motifs\":[\"bangles tinkling on a hand\",\"breeze carrying flower scent\",\"anklets jingling in monsoon rain\"]},{\"index\":2,\"emotion\":\"longing\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"चूड़ियों की खनक में तुम्हारी हंसी का एहसास\",\"abstract_meaning\":\"The sound of the bangles serves as a sensory trigger for the memory of the beloved's laughter.\"}],\"visual_motifs\":[\"tinkling bangles\",\"the invisible presence of a beloved\"]}],\"cultural_entities\":[{\"term\":\"सावन\",\"romanization\":\"Sawan\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the monsoon month associated with romance and longing in Indian literature.\"},{\"term\":\"घुंघरू\",\"romanization\":\"Ghungroo\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Traditional musical anklets used in Indian classical dance.\"},{\"term\":\"चूड़ियां\",\"romanization\":\"Chudiyan\",\"category\":\"SOCIAL_CUSTOM\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Glass bangles, a symbol of femininity and marital status in South Asia.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem transitions from a sensory appreciation of the sound of bangles to a deep emotional realization of the beloved's presence through auditory memory.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "फूलों से महक उठी हो कोई हवा",
+                "abstract_meaning": "The auditory beauty of the bangles is equated to the pleasant sensory experience of a floral breeze."
+              },
+              {
+                "source_term": "सावन में बज उठे हो कहीं घुंघरू",
+                "abstract_meaning": "The rhythmic sound of bangles evokes the festive and romantic atmosphere of monsoon anklets."
+              }
+            ],
+            "visual_motifs": [
+              "bangles tinkling on a hand",
+              "breeze carrying flower scent",
+              "anklets jingling in monsoon rain"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "चूड़ियों की खनक में तुम्हारी हंसी का एहसास",
+                "abstract_meaning": "The sound of the bangles serves as a sensory trigger for the memory of the beloved's laughter."
+              }
+            ],
+            "visual_motifs": [
+              "tinkling bangles",
+              "the invisible presence of a beloved"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "सावन",
+            "romanization": "Sawan",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the monsoon month associated with romance and longing in Indian literature."
+          },
+          {
+            "term": "घुंघरू",
+            "romanization": "Ghungroo",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Traditional musical anklets used in Indian classical dance."
+          },
+          {
+            "term": "चूड़ियां",
+            "romanization": "Chudiyan",
+            "category": "SOCIAL_CUSTOM",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Glass bangles, a symbol of femininity and marital status in South Asia."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "फूलों से महक उठी हो कोई हवा",
+              "सावन में बज उठे हो कहीं घुंघरू"
+            ],
+            "visual_motifs": [
+              "bangles tinkling on a hand",
+              "breeze carrying flower scent",
+              "anklets jingling in monsoon rain"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "longing",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "चूड़ियों की खनक में तुम्हारी हंसी का एहसास"
+            ],
+            "visual_motifs": [
+              "tinkling bangles",
+              "the invisible presence of a beloved"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "सावन",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "घुंघरू",
+            "category": "MUSICAL_TRADITION",
+            "preserved": true
+          },
+          {
+            "term": "चूड़ियां",
+            "category": "SOCIAL_CUSTOM",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

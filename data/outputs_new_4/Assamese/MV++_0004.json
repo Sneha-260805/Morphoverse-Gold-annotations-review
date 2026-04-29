@@ -1,0 +1,510 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0004",
+  "poem_title": "Brahmaputra",
+  "language": "Assamese",
+  "original_poem": "ব্ৰহ্মপুত্ৰ\nব্ৰহ্মপুত্ৰ, তোমাৰ স্রোত\nহৃদয়ৰ গভীৰতাত বয়,\nমোৰ চিন্তাৰ সঙ্গীতত\nবহা তোমাৰ গতি।",
+  "translated_poem": "The Brahmaputra\nO Brahmaputra, your flow\nMoves in the depths of the heart,\nIn the melody of my thoughts\nFlows your rhythm.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ব্ৰহ্মপুত্ৰ",
+          "ব্ৰহ্মপুত্ৰ, তোমাৰ স্রোত",
+          "হৃদয়ৰ গভীৰতাত বয়,",
+          "মোৰ চিন্তাৰ সঙ্গীতত",
+          "বহা তোমাৰ গতি।"
+        ],
+        "translated_lines": [
+          "The Brahmaputra",
+          "O Brahmaputra, your flow",
+          "Moves in the depths of the heart,",
+          "In the melody of my thoughts",
+          "Flows your rhythm."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "The poem opens in quiet contemplation and deepens into an intimate merging of the river's flow with the speaker's inner life, settling into meditative peace.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "ব্ৰহ্মপুত্ৰ",
+          "ব্ৰহ্মপুত্ৰ, তোমাৰ স্রোত",
+          "হৃদয়ৰ গভীৰতাত বয়,",
+          "মোৰ চিন্তাৰ সঙ্গীতত",
+          "বহা তোমাৰ গতি।"
+        ],
+        "translated_lines": [
+          "The Brahmaputra",
+          "O Brahmaputra, your flow",
+          "Moves in the depths of the heart,",
+          "In the melody of my thoughts",
+          "Flows your rhythm."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "whisper",
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "হৃদয়ৰ গভীৰতাত বয়",
+            "abstract_meaning": "the Brahmaputra's current as the hidden movement of the speaker's inner consciousness",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "চিন্তাৰ সঙ্গীতত",
+            "abstract_meaning": "thought rendered as a musical current that mirrors the river's rhythm",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়",
+            "abstract_meaning": "the river's presence is felt as an inner current of emotion",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "মোৰ চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি",
+            "abstract_meaning": "the river's movement becomes the rhythm shaping the speaker's thoughts",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a great river's current flowing through the unseen depths of a human heart",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "rhythmic movement of water",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "river flowing through the depths of a heart",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the Brahmaputra flowing through the depths of the heart",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "the rhythm of flowing water synchronised with the cadence of silent thought",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "the river's rhythm moving within the melody of thought",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "ব্ৰহ্মপুত্ৰ",
+        "romanization": {
+          "value": "Brahmaputra",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "SACRED_RIVER",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_note": {
+          "value": "",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "high"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 1,
+      "medium_stanza_count": 0,
+      "low_entity_count": 0,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.stanzas[1].tone",
+      "agreement": "low",
+      "resolved_value": "whisper",
+      "claude_value": "whisper",
+      "gpt_value": "wonder",
+      "gemini_value": "prayer",
+      "note": "majority_vote"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem opens in quiet contemplation and deepens into an intimate merging of the river's flow with the speaker's inner life, settling into meditative peace.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"whisper\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ৰ গভীৰতাত বয়\",\"abstract_meaning\":\"the Brahmaputra's current as the hidden movement of the speaker's inner consciousness\"},{\"source_term\":\"চিন্তাৰ সঙ্গীতত\",\"abstract_meaning\":\"thought rendered as a musical current that mirrors the river's rhythm\"}],\"visual_motifs\":[\"a great river's current flowing through the unseen depths of a human heart\",\"the rhythm of flowing water synchronised with the cadence of silent thought\"]}],\"cultural_entities\":[{\"term\":\"ব্ৰহ্মপুত্ৰ\",\"romanization\":\"Brahmaputra\",\"category\":\"SACRED_RIVER\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem opens in quiet contemplation and deepens into an intimate merging of the river's flow with the speaker's inner life, settling into meditative peace.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ৰ গভীৰতাত বয়",
+                "abstract_meaning": "the Brahmaputra's current as the hidden movement of the speaker's inner consciousness"
+              },
+              {
+                "source_term": "চিন্তাৰ সঙ্গীতত",
+                "abstract_meaning": "thought rendered as a musical current that mirrors the river's rhythm"
+              }
+            ],
+            "visual_motifs": [
+              "a great river's current flowing through the unseen depths of a human heart",
+              "the rhythm of flowing water synchronised with the cadence of silent thought"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "romanization": "Brahmaputra",
+            "category": "SACRED_RIVER",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "whisper",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ৰ গভীৰতাত বয়",
+              "চিন্তাৰ সঙ্গীতত"
+            ],
+            "visual_motifs": [
+              "a great river's current flowing through the unseen depths of a human heart",
+              "the rhythm of flowing water synchronised with the cadence of silent thought"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "category": "SACRED_RIVER",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem moves inward, identifying the Brahmaputra's flow with the speaker's inner feeling and thought.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়\",\"abstract_meaning\":\"the river's presence is felt as an inner current of emotion\"},{\"source_term\":\"মোৰ চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি\",\"abstract_meaning\":\"the river's movement becomes the rhythm shaping the speaker's thoughts\"}],\"visual_motifs\":[\"the Brahmaputra flowing through the depths of the heart\",\"the river's rhythm moving within the melody of thought\"]}],\"cultural_entities\":[{\"term\":\"ব্ৰহ্মপুত্ৰ\",\"romanization\":\"Brahmaputra\",\"category\":\"SACRED_RIVER\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem moves inward, identifying the Brahmaputra's flow with the speaker's inner feeling and thought.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়",
+                "abstract_meaning": "the river's presence is felt as an inner current of emotion"
+              },
+              {
+                "source_term": "মোৰ চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি",
+                "abstract_meaning": "the river's movement becomes the rhythm shaping the speaker's thoughts"
+              }
+            ],
+            "visual_motifs": [
+              "the Brahmaputra flowing through the depths of the heart",
+              "the river's rhythm moving within the melody of thought"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "romanization": "Brahmaputra",
+            "category": "SACRED_RIVER",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়",
+              "মোৰ চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি"
+            ],
+            "visual_motifs": [
+              "the Brahmaputra flowing through the depths of the heart",
+              "the river's rhythm moving within the melody of thought"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "category": "SACRED_RIVER",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peaceful reflection\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"হৃদয়ৰ গভীৰতাত বয়\",\"abstract_meaning\":\"Internalization of the river's physical flow as deep emotional resonance\"},{\"source_term\":\"চিন্তাৰ সঙ্গীতত\",\"abstract_meaning\":\"The harmonious and rhythmic nature of the poet's contemplation\"}],\"visual_motifs\":[\"river flowing through the depths of a heart\",\"rhythmic movement of water\"]}],\"cultural_entities\":[{\"term\":\"ব্ৰহ্মপুত্ৰ\",\"romanization\":\"Brahmaputra\",\"category\":\"SACRED_RIVER\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated directly as Brahmaputra, preserving its identity as the central river of Assam.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peaceful reflection",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "হৃদয়ৰ গভীৰতাত বয়",
+                "abstract_meaning": "Internalization of the river's physical flow as deep emotional resonance"
+              },
+              {
+                "source_term": "চিন্তাৰ সঙ্গীতত",
+                "abstract_meaning": "The harmonious and rhythmic nature of the poet's contemplation"
+              }
+            ],
+            "visual_motifs": [
+              "river flowing through the depths of a heart",
+              "rhythmic movement of water"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "romanization": "Brahmaputra",
+            "category": "SACRED_RIVER",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Translated directly as Brahmaputra, preserving its identity as the central river of Assam."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "হৃদয়ৰ গভীৰতাত বয়",
+              "চিন্তাৰ সঙ্গীতত"
+            ],
+            "visual_motifs": [
+              "river flowing through the depths of a heart",
+              "rhythmic movement of water"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "category": "SACRED_RIVER",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"devotion\",\"stanzas\":[{\"index\":1,\"emotion\":\"devotion\",\"tone\":\"prayer\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়\",\"abstract_meaning\":\"The river's physical flow as an internal spiritual presence\"},{\"source_term\":\"চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি\",\"abstract_meaning\":\"The river's rhythm as the structure of human thought\"}],\"visual_motifs\":[\"flowing river\",\"depths of the heart\"]}],\"cultural_entities\":[{\"term\":\"ব্ৰহ্মপুত্ৰ\",\"romanization\":\"Brahmaputra\",\"category\":\"SACRED_RIVER\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The primary river of Assam, central to its identity and spiritual life\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "devotion",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়",
+                "abstract_meaning": "The river's physical flow as an internal spiritual presence"
+              },
+              {
+                "source_term": "চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি",
+                "abstract_meaning": "The river's rhythm as the structure of human thought"
+              }
+            ],
+            "visual_motifs": [
+              "flowing river",
+              "depths of the heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "romanization": "Brahmaputra",
+            "category": "SACRED_RIVER",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The primary river of Assam, central to its identity and spiritual life"
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "devotion",
+            "tone": "prayer",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "তোমাৰ স্রোত হৃদয়ৰ গভীৰতাত বয়",
+              "চিন্তাৰ সঙ্গীতত বহা তোমাৰ গতি"
+            ],
+            "visual_motifs": [
+              "flowing river",
+              "depths of the heart"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "ব্ৰহ্মপুত্ৰ",
+            "category": "SACRED_RIVER",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

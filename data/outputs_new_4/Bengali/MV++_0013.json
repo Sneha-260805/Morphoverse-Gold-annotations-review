@@ -1,0 +1,1094 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_0013",
+  "poem_title": "Anondolokey",
+  "language": "Bengali",
+  "original_poem": "আনন্দলোকেতে অঙ্গন ফল।\nবুলবুলের গানে গাইছে,\nজাদুর খেলা মূর্ছনাতে,\nসেথা প্রেমের পরশ।\n\nআনন্দলোকেতে অঙ্গন ফল।\nমেঘের বুকে খেলে যায়,\nজলের প্রবাহে ভাসে,\nসেথা প্রেমের পরশ।\n\nসন্ধ্যাবেলা পাখির গান,\nনদীর তীরে মনের গান।\nআনন্দলোকেতে অঙ্গন ফল,\nবুলবুলের গানে গাইছে।",
+  "translated_poem": "In the land of joy, the courtyard is full of fruits.\nThe bulbul sings,\nIn the enchantment of magic,\nThere, the touch of love.\n\nIn the land of joy, the courtyard is full of fruits.\nIt plays on the back of the clouds,\nFloats in the flow of water,\nThere, the touch of love.\n\nIn the evening, the bird sings,\nOn the riverbank, the song of the heart.\nIn the land of joy, the courtyard is full,\nThe bulbul sings.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 3,
+    "source_stanza_count": 3,
+    "translated_stanza_count": 3,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "celebratory",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "Opens in joyful abundance and enchantment, deepens into fluid cosmic play, and settles into quiet evening tenderness by the river",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "বুলবুলের গানে গাইছে,",
+          "জাদুর খেলা মূর্ছনাতে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "The bulbul sings,",
+          "In the enchantment of magic,",
+          "There, the touch of love."
+        ],
+        "emotion": {
+          "value": "celebration",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "প্রেমের পরশ",
+            "abstract_meaning": "love as a tangible, transforming touch pervading the joyful realm",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "জাদুর খেলা মূর্ছনাতে",
+            "abstract_meaning": "musical enchantment as a spell that dissolves ordinary reality",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "আনন্দলোকেতে",
+            "abstract_meaning": "an imagined realm of pure joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "জাদুর খেলা",
+            "abstract_meaning": "the captivating and transformative power of love and music",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a bulbul singing",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a fruit-filled courtyard in the land of joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "an enchanted musical atmosphere",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bulbul singing amid the enchantment",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "courtyard full of fruits",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "fruit-laden courtyard in the land of joy",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "singing bulbul bird",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "the touch of love descending on the scene",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      },
+      {
+        "stanza_index": 2,
+        "line_count": 4,
+        "source_lines": [
+          "আনন্দলোকেতে অঙ্গন ফল।",
+          "মেঘের বুকে খেলে যায়,",
+          "জলের প্রবাহে ভাসে,",
+          "সেথা প্রেমের পরশ।"
+        ],
+        "translated_lines": [
+          "In the land of joy, the courtyard is full of fruits.",
+          "It plays on the back of the clouds,",
+          "Floats in the flow of water,",
+          "There, the touch of love."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "মেঘের বুকে খেলে যায়",
+            "abstract_meaning": "love's presence drifting freely across the expanse of sky",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "জলের প্রবাহে ভাসে",
+            "abstract_meaning": "love carried effortlessly by the current of existence",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "আনন্দলোকেতে",
+            "abstract_meaning": "an imagined realm of pure joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "source_term": "প্রেমের পরশ",
+            "abstract_meaning": "love felt as a transforming touch",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a fruit-filled courtyard in the land of joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a presence floating on the flowing water",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "floating in flowing water",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "fruit-laden courtyard recurring as refrain image",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "playing on the clouds",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "something floating in the flow of water",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "something playing across the breast of clouds",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "something playing across the chest of clouds",
+            "agreement": "low",
+            "source_model": "claude"
+          }
+        ]
+      },
+      {
+        "stanza_index": 3,
+        "line_count": 4,
+        "source_lines": [
+          "সন্ধ্যাবেলা পাখির গান,",
+          "নদীর তীরে মনের গান।",
+          "আনন্দলোকেতে অঙ্গন ফল,",
+          "বুলবুলের গানে গাইছে।"
+        ],
+        "translated_lines": [
+          "In the evening, the bird sings,",
+          "On the riverbank, the song of the heart.",
+          "In the land of joy, the courtyard is full,",
+          "The bulbul sings."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "tenderness",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "medium",
+          "source_model": "gpt",
+          "resolution_basis": "majority_vote"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "মনের গান",
+            "abstract_meaning": "the innermost longing of the self expressed as song at dusk",
+            "agreement": "high",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "আনন্দলোকেতে",
+            "abstract_meaning": "an imagined realm of pure joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a bulbul singing",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a fruit-filled courtyard in the land of joy",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "a riverbank at dusk",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "bird singing at dusk on the riverbank",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "birds singing in the evening",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "bulbul singing in the fruit-filled courtyard at evening",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "evening birds singing",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "riverbank at dusk",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "বুলবুল",
+        "romanization": {
+          "value": "bulbul",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "The bulbul is a culturally resonant songbird in Bengali and broader South Asian poetic tradition, often symbolising the lover-poet; the translation retains the term.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      },
+      {
+        "term": "আনন্দলোক",
+        "romanization": {
+          "value": "Anondolok",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "DEVOTIONAL_CONCEPT",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "low",
+          "source_model": "claude",
+          "resolution_basis": "claude_tiebreak_no_third_vote"
+        },
+        "translation_note": {
+          "value": "'Anondolok' (realm of bliss) carries Tagore-inflected Brahmo-Vedantic resonance as a transcendent spiritual domain, rendered as 'land of joy' which is approximate.",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 2,
+      "low_entity_count": 2,
+      "review_item_count": 2,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[আনন্দলোক].preserved",
+      "agreement": "low",
+      "resolved_value": true,
+      "claude_value": true,
+      "gpt_value": "",
+      "gemini_value": false,
+      "note": "claude_tiebreak_no_third_vote"
+    },
+    {
+      "field_path": "annotation.cultural_entities[মূর্ছনাতে].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "absent",
+      "gpt_value": "absent",
+      "gemini_value": "present",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "```json\n{\n  \"recitation_style\": \"celebratory\",\n  \"emotional_arc\": \"Opens in joyful abundance and enchantment, deepens into fluid cosmic play, and settles into quiet evening tenderness by the river\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"celebration\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"প্রেমের পরশ\",\n          \"abstract_meaning\": \"love as a tangible, transforming touch pervading the joyful realm\"\n        },\n        {\n          \"source_term\": \"জাদুর খেলা মূর্ছনাতে\",\n          \"abstract_meaning\": \"musical enchantment as a spell that dissolves ordinary reality\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"fruit-laden courtyard in the land of joy\",\n        \"bulbul singing amid the enchantment\",\n        \"the touch of love descending on the scene\"\n      ]\n    },\n    {\n      \"index\": 2,\n      \"emotion\": \"peace\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"faithful\",\n      \"loss_note\": \"\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"মেঘের বুকে খেলে যায়\",\n          \"abstract_meaning\": \"love's presence drifting freely across the expanse of sky\"\n        },\n        {\n          \"source_term\": \"জলের প্রবাহে ভাসে\",\n          \"abstract_meaning\": \"love carried effortlessly by the current of existence\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"something playing across the chest of clouds\",\n        \"a presence floating on the flowing water\",\n        \"fruit-laden courtyard recurring as refrain image\"\n      ]\n    },\n    {\n      \"index\": 3,\n      \"emotion\": \"peace\",\n      \"tone\": \"tenderness\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"'মনের গান' carries an inward, soul-deep resonance that 'song of the heart' only partially conveys.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"মনের গান\",\n          \"abstract_meaning\": \"the innermost longing of the self expressed as song at dusk\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"bird singing at dusk on the riverbank\",\n        \"bulbul singing in the fruit-filled courtyard at evening\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"বুলবুল\",\n      \"romanization\": \"bulbul\",\n      \"category\": \"REGIONAL_SYMBOL\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"The bulbul is a culturally resonant songbird in Bengali and broader South Asian poetic tradition, often symbolising the lover-poet; the translation retains the term.\"\n    },\n    {\n      \"term\": \"আনন্দলোক\",\n      \"romanization\": \"Anondolok\",\n      \"category\": \"DEVOTIONAL_CONCEPT\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"'Anondolok' (realm of bliss) carries Tagore-inflected Brahmo-Vedantic resonance as a transcendent spiritual domain, rendered as 'land of joy' which is approximate.\"\n    }\n  ]\n}\n```",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "Opens in joyful abundance and enchantment, deepens into fluid cosmic play, and settles into quiet evening tenderness by the river",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "প্রেমের পরশ",
+                "abstract_meaning": "love as a tangible, transforming touch pervading the joyful realm"
+              },
+              {
+                "source_term": "জাদুর খেলা মূর্ছনাতে",
+                "abstract_meaning": "musical enchantment as a spell that dissolves ordinary reality"
+              }
+            ],
+            "visual_motifs": [
+              "fruit-laden courtyard in the land of joy",
+              "bulbul singing amid the enchantment",
+              "the touch of love descending on the scene"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "মেঘের বুকে খেলে যায়",
+                "abstract_meaning": "love's presence drifting freely across the expanse of sky"
+              },
+              {
+                "source_term": "জলের প্রবাহে ভাসে",
+                "abstract_meaning": "love carried effortlessly by the current of existence"
+              }
+            ],
+            "visual_motifs": [
+              "something playing across the chest of clouds",
+              "a presence floating on the flowing water",
+              "fruit-laden courtyard recurring as refrain image"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "loss_note": "'মনের গান' carries an inward, soul-deep resonance that 'song of the heart' only partially conveys.",
+            "metaphor_spans": [
+              {
+                "source_term": "মনের গান",
+                "abstract_meaning": "the innermost longing of the self expressed as song at dusk"
+              }
+            ],
+            "visual_motifs": [
+              "bird singing at dusk on the riverbank",
+              "bulbul singing in the fruit-filled courtyard at evening"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুলবুল",
+            "romanization": "bulbul",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The bulbul is a culturally resonant songbird in Bengali and broader South Asian poetic tradition, often symbolising the lover-poet; the translation retains the term."
+          },
+          {
+            "term": "আনন্দলোক",
+            "romanization": "Anondolok",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "'Anondolok' (realm of bliss) carries Tagore-inflected Brahmo-Vedantic resonance as a transcendent spiritual domain, rendered as 'land of joy' which is approximate."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "প্রেমের পরশ",
+              "জাদুর খেলা মূর্ছনাতে"
+            ],
+            "visual_motifs": [
+              "fruit-laden courtyard in the land of joy",
+              "bulbul singing amid the enchantment",
+              "the touch of love descending on the scene"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "মেঘের বুকে খেলে যায়",
+              "জলের প্রবাহে ভাসে"
+            ],
+            "visual_motifs": [
+              "something playing across the chest of clouds",
+              "a presence floating on the flowing water",
+              "fruit-laden courtyard recurring as refrain image"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "মনের গান"
+            ],
+            "visual_motifs": [
+              "bird singing at dusk on the riverbank",
+              "bulbul singing in the fruit-filled courtyard at evening"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "বুলবুল",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "আনন্দলোক",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"joyful celebration expands into flowing wonder and settles into peaceful evening reflection.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"আনন্দলোকেতে\",\"abstract_meaning\":\"an imagined realm of pure joy\"},{\"source_term\":\"প্রেমের পরশ\",\"abstract_meaning\":\"love felt as a transforming touch\"}],\"visual_motifs\":[\"a fruit-filled courtyard in the land of joy\",\"a bulbul singing\",\"an enchanted musical atmosphere\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"আনন্দলোকেতে\",\"abstract_meaning\":\"an imagined realm of pure joy\"},{\"source_term\":\"মেঘের বুকে খেলে যায়\",\"abstract_meaning\":\"joy moving freely across the sky\"},{\"source_term\":\"প্রেমের পরশ\",\"abstract_meaning\":\"love felt as a transforming touch\"}],\"visual_motifs\":[\"a fruit-filled courtyard in the land of joy\",\"something playing across the breast of clouds\",\"something floating in the flow of water\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"মনের গান\",\"abstract_meaning\":\"inner feeling voiced as song\"},{\"source_term\":\"আনন্দলোকেতে\",\"abstract_meaning\":\"an imagined realm of pure joy\"}],\"visual_motifs\":[\"evening birds singing\",\"a riverbank at dusk\",\"a fruit-filled courtyard in the land of joy\",\"a bulbul singing\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "joyful celebration expands into flowing wonder and settles into peaceful evening reflection.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "আনন্দলোকেতে",
+                "abstract_meaning": "an imagined realm of pure joy"
+              },
+              {
+                "source_term": "প্রেমের পরশ",
+                "abstract_meaning": "love felt as a transforming touch"
+              }
+            ],
+            "visual_motifs": [
+              "a fruit-filled courtyard in the land of joy",
+              "a bulbul singing",
+              "an enchanted musical atmosphere"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "আনন্দলোকেতে",
+                "abstract_meaning": "an imagined realm of pure joy"
+              },
+              {
+                "source_term": "মেঘের বুকে খেলে যায়",
+                "abstract_meaning": "joy moving freely across the sky"
+              },
+              {
+                "source_term": "প্রেমের পরশ",
+                "abstract_meaning": "love felt as a transforming touch"
+              }
+            ],
+            "visual_motifs": [
+              "a fruit-filled courtyard in the land of joy",
+              "something playing across the breast of clouds",
+              "something floating in the flow of water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "মনের গান",
+                "abstract_meaning": "inner feeling voiced as song"
+              },
+              {
+                "source_term": "আনন্দলোকেতে",
+                "abstract_meaning": "an imagined realm of pure joy"
+              }
+            ],
+            "visual_motifs": [
+              "evening birds singing",
+              "a riverbank at dusk",
+              "a fruit-filled courtyard in the land of joy",
+              "a bulbul singing"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "আনন্দলোকেতে",
+              "প্রেমের পরশ"
+            ],
+            "visual_motifs": [
+              "a fruit-filled courtyard in the land of joy",
+              "a bulbul singing",
+              "an enchanted musical atmosphere"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "আনন্দলোকেতে",
+              "মেঘের বুকে খেলে যায়",
+              "প্রেমের পরশ"
+            ],
+            "visual_motifs": [
+              "a fruit-filled courtyard in the land of joy",
+              "something playing across the breast of clouds",
+              "something floating in the flow of water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "মনের গান",
+              "আনন্দলোকেতে"
+            ],
+            "visual_motifs": [
+              "evening birds singing",
+              "a riverbank at dusk",
+              "a fruit-filled courtyard in the land of joy",
+              "a bulbul singing"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"From joyful enchantment in a magical realm to a serene, musical connection with nature.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"'মূর্ছনাতে' (murchhanate) specifically refers to a musical cadence or swoon in Indian classical music, which is lost in the generic 'enchantment'.\",\"metaphor_spans\":[{\"source_term\":\"জাদুর খেলা\",\"abstract_meaning\":\"the captivating and transformative power of love and music\"}],\"visual_motifs\":[\"courtyard full of fruits\",\"singing bulbul bird\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"মেঘের বুকে খেলে যায়\",\"abstract_meaning\":\"the boundless and free nature of joy\"}],\"visual_motifs\":[\"playing on the clouds\",\"floating in flowing water\"]},{\"index\":3,\"emotion\":\"peace\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"মনের গান\",\"abstract_meaning\":\"inner harmony and emotional expression\"}],\"visual_motifs\":[\"birds singing in the evening\",\"riverbank at dusk\"]}],\"cultural_entities\":[{\"term\":\"আনন্দলোক\",\"romanization\":\"Anondolok\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated literally as 'land of joy', missing the philosophical and spiritual connotations of Tagore's divine realm of bliss.\"},{\"term\":\"মূর্ছনাতে\",\"romanization\":\"murchhanate\",\"category\":\"MUSICAL_TRADITION\",\"stanza_index\":1,\"preserved\":false,\"translation_note\":\"Translated as 'enchantment', losing the specific reference to a microtonal glide or musical cadence in Indian classical music.\"},{\"term\":\"বুলবুল\",\"romanization\":\"bulbul\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The bird is preserved in translation, retaining its cultural association with romantic and pastoral poetry.\"}]}",
+      "parsed": {
+        "recitation_style": "celebratory",
+        "emotional_arc": "From joyful enchantment in a magical realm to a serene, musical connection with nature.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "loss_note": "'মূর্ছনাতে' (murchhanate) specifically refers to a musical cadence or swoon in Indian classical music, which is lost in the generic 'enchantment'.",
+            "metaphor_spans": [
+              {
+                "source_term": "জাদুর খেলা",
+                "abstract_meaning": "the captivating and transformative power of love and music"
+              }
+            ],
+            "visual_motifs": [
+              "courtyard full of fruits",
+              "singing bulbul bird"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "মেঘের বুকে খেলে যায়",
+                "abstract_meaning": "the boundless and free nature of joy"
+              }
+            ],
+            "visual_motifs": [
+              "playing on the clouds",
+              "floating in flowing water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "মনের গান",
+                "abstract_meaning": "inner harmony and emotional expression"
+              }
+            ],
+            "visual_motifs": [
+              "birds singing in the evening",
+              "riverbank at dusk"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আনন্দলোক",
+            "romanization": "Anondolok",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated literally as 'land of joy', missing the philosophical and spiritual connotations of Tagore's divine realm of bliss."
+          },
+          {
+            "term": "মূর্ছনাতে",
+            "romanization": "murchhanate",
+            "category": "MUSICAL_TRADITION",
+            "stanza_index": 1,
+            "preserved": false,
+            "translation_note": "Translated as 'enchantment', losing the specific reference to a microtonal glide or musical cadence in Indian classical music."
+          },
+          {
+            "term": "বুলবুল",
+            "romanization": "bulbul",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The bird is preserved in translation, retaining its cultural association with romantic and pastoral poetry."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "celebratory",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "partial",
+            "metaphor_terms": [
+              "জাদুর খেলা"
+            ],
+            "visual_motifs": [
+              "courtyard full of fruits",
+              "singing bulbul bird"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "মেঘের বুকে খেলে যায়"
+            ],
+            "visual_motifs": [
+              "playing on the clouds",
+              "floating in flowing water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "peace",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "মনের গান"
+            ],
+            "visual_motifs": [
+              "birds singing in the evening",
+              "riverbank at dusk"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আনন্দলোক",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": false
+          },
+          {
+            "term": "মূর্ছনাতে",
+            "category": "MUSICAL_TRADITION",
+            "preserved": false
+          },
+          {
+            "term": "বুলবুল",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"devotional\",\"emotional_arc\":\"The poem begins with a celebratory vision of a blissful realm, transitions into observing divine presence in nature, and concludes with a peaceful, reflective connection between the heart and the environment.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"Anondoloke\",\"abstract_meaning\":\"A spiritual or celestial realm of eternal bliss and divine presence\"},{\"source_term\":\"Jadur khela\",\"abstract_meaning\":\"The enchanting and illusory nature of divine creation\"}],\"visual_motifs\":[\"Courtyard full of fruits\",\"Bulbul singing\"]},{\"index\":2,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"Megher buke\",\"abstract_meaning\":\"The expansive and nurturing aspect of the celestial sky\"}],\"visual_motifs\":[\"Playing on the back of clouds\",\"Floating in the flow of water\"]},{\"index\":3,\"emotion\":\"devotion\",\"tone\":\"tenderness\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"Moner gaan\",\"abstract_meaning\":\"The internal resonance of spiritual joy and personal devotion\"}],\"visual_motifs\":[\"Bird singing at evening\",\"Riverbank at dusk\"]}],\"cultural_entities\":[{\"term\":\"আনন্দলোকে\",\"romanization\":\"Anondoloke\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Refers to the 'Abode of Joy', a central concept in Bengali devotional literature representing a state of spiritual enlightenment.\"},{\"term\":\"বুলবুল\",\"romanization\":\"Bulbul\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The nightingale, a common motif in South Asian poetry symbolizing the soul's longing or the beauty of nature's voice.\"}]}",
+      "parsed": {
+        "recitation_style": "devotional",
+        "emotional_arc": "The poem begins with a celebratory vision of a blissful realm, transitions into observing divine presence in nature, and concludes with a peaceful, reflective connection between the heart and the environment.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "Anondoloke",
+                "abstract_meaning": "A spiritual or celestial realm of eternal bliss and divine presence"
+              },
+              {
+                "source_term": "Jadur khela",
+                "abstract_meaning": "The enchanting and illusory nature of divine creation"
+              }
+            ],
+            "visual_motifs": [
+              "Courtyard full of fruits",
+              "Bulbul singing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "Megher buke",
+                "abstract_meaning": "The expansive and nurturing aspect of the celestial sky"
+              }
+            ],
+            "visual_motifs": [
+              "Playing on the back of clouds",
+              "Floating in the flow of water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "Moner gaan",
+                "abstract_meaning": "The internal resonance of spiritual joy and personal devotion"
+              }
+            ],
+            "visual_motifs": [
+              "Bird singing at evening",
+              "Riverbank at dusk"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আনন্দলোকে",
+            "romanization": "Anondoloke",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Refers to the 'Abode of Joy', a central concept in Bengali devotional literature representing a state of spiritual enlightenment."
+          },
+          {
+            "term": "বুলবুল",
+            "romanization": "Bulbul",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The nightingale, a common motif in South Asian poetry symbolizing the soul's longing or the beauty of nature's voice."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "devotional",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "celebration",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "Anondoloke",
+              "Jadur khela"
+            ],
+            "visual_motifs": [
+              "Courtyard full of fruits",
+              "Bulbul singing"
+            ]
+          },
+          {
+            "index": 2,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "Megher buke"
+            ],
+            "visual_motifs": [
+              "Playing on the back of clouds",
+              "Floating in the flow of water"
+            ]
+          },
+          {
+            "index": 3,
+            "emotion": "devotion",
+            "tone": "tenderness",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "Moner gaan"
+            ],
+            "visual_motifs": [
+              "Bird singing at evening",
+              "Riverbank at dusk"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "আনন্দলোকে",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          },
+          {
+            "term": "বুলবুল",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}

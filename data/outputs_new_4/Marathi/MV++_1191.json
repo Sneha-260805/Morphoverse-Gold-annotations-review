@@ -1,0 +1,512 @@
+{
+  "schema_version": 4,
+  "prompt_version": 5,
+  "poem_id": "MV++_1191",
+  "poem_title": "Gandhi Mala Bhetla",
+  "language": "Marathi",
+  "original_poem": "गांधी मला भेटला  \nसप्तरंगाच्या इंद्रधनुष्याच्या  \nएकेका कणात तो होता,  \nस्वप्नांच्या त्या सरितेच्या  \nकाठावर तो उभा होता.",
+  "translated_poem": "I met Gandhi  \nIn every grain  \nOf the seven-colored rainbow,  \nHe stood  \nOn the shore  \nOf that river of dreams.",
+  "status": "completed",
+  "agreement": "low",
+  "vote_basis": "full_3_vote",
+  "needs_human_review": true,
+  "preprocessing": {
+    "stanza_count": 1,
+    "source_stanza_count": 1,
+    "translated_stanza_count": 1,
+    "alignment_status": "aligned",
+    "alignment_note": "Source and translation stanza counts match.",
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "गांधी मला भेटला",
+          "सप्तरंगाच्या इंद्रधनुष्याच्या",
+          "एकेका कणात तो होता,",
+          "स्वप्नांच्या त्या सरितेच्या",
+          "काठावर तो उभा होता."
+        ],
+        "translated_lines": [
+          "I met Gandhi",
+          "In every grain",
+          "Of the seven-colored rainbow,",
+          "He stood",
+          "On the shore",
+          "Of that river of dreams."
+        ]
+      }
+    ]
+  },
+  "annotation": {
+    "recitation_style": {
+      "value": "reflective",
+      "agreement": "high",
+      "source_model": "claude",
+      "resolution_basis": "full_3_vote_unanimous"
+    },
+    "emotional_arc": {
+      "value": "A quiet, wonder-filled encounter with Gandhi's presence diffused across a rainbow and a dreamlike riverbank, moving from intimate meeting to visionary stillness.",
+      "agreement": "medium",
+      "source_model": "claude",
+      "resolution_basis": "claude_free_text"
+    },
+    "translation_fidelity_score": 1.0,
+    "stanzas": [
+      {
+        "stanza_index": 1,
+        "line_count": 5,
+        "source_lines": [
+          "गांधी मला भेटला",
+          "सप्तरंगाच्या इंद्रधनुष्याच्या",
+          "एकेका कणात तो होता,",
+          "स्वप्नांच्या त्या सरितेच्या",
+          "काठावर तो उभा होता."
+        ],
+        "translated_lines": [
+          "I met Gandhi",
+          "In every grain",
+          "Of the seven-colored rainbow,",
+          "He stood",
+          "On the shore",
+          "Of that river of dreams."
+        ],
+        "emotion": {
+          "value": "peace",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "tone": {
+          "value": "wonder",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "translation_quality": {
+          "value": "faithful",
+          "agreement": "high",
+          "source_model": "claude",
+          "resolution_basis": "full_3_vote_unanimous"
+        },
+        "loss_note": {
+          "value": "",
+          "agreement": "high",
+          "source_model": null,
+          "resolution_basis": "blanked_for_faithful_quality"
+        },
+        "metaphor_spans": [
+          {
+            "source_term": "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+            "abstract_meaning": "Gandhi's ideals dispersed into every fragment of the visible world's spectrum",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "स्वप्नांच्या त्या सरितेच्या काठावर",
+            "abstract_meaning": "the threshold between lived reality and the nation's unrealized aspirations",
+            "agreement": "medium",
+            "source_model": "claude"
+          },
+          {
+            "source_term": "स्वप्नांच्या त्या सरितेच्या",
+            "abstract_meaning": "the continuous flow of ideals and visionary thoughts",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "source_term": "इंद्रधनुष्याच्या एकेका कणात",
+            "abstract_meaning": "omnipresence within hope and natural beauty",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ],
+        "visual_motifs": [
+          {
+            "motif": "a seven-colored rainbow whose every grain holds a human figure",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "a solitary figure standing on the bank of a river of dreams",
+            "agreement": "low",
+            "source_model": "claude"
+          },
+          {
+            "motif": "figure standing on the shore of a river",
+            "agreement": "low",
+            "source_model": "gemini"
+          },
+          {
+            "motif": "Gandhi in every grain of a seven-colored rainbow",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "Gandhi standing on the shore of a river of dreams",
+            "agreement": "low",
+            "source_model": "gpt"
+          },
+          {
+            "motif": "seven-colored rainbow",
+            "agreement": "low",
+            "source_model": "gemini"
+          }
+        ]
+      }
+    ],
+    "cultural_entities": [
+      {
+        "term": "गांधी",
+        "romanization": {
+          "value": "Gandhi",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "category": {
+          "value": "REGIONAL_SYMBOL",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "stanza_index": 1,
+        "preserved": {
+          "value": true,
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "reduced_2_vote"
+        },
+        "translation_note": {
+          "value": "",
+          "agreement": "medium",
+          "source_model": "claude",
+          "resolution_basis": "claude_free_text"
+        },
+        "presence_agreement": "medium"
+      }
+    ],
+    "agreement_stats": {
+      "selected_models": [
+        "claude",
+        "gpt",
+        "gemini",
+        "gemini-3-flash"
+      ],
+      "voting_models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "valid_voting_models": 3,
+      "low_stanza_count": 0,
+      "medium_stanza_count": 0,
+      "low_entity_count": 1,
+      "review_item_count": 1,
+      "vote_basis": "full_3_vote",
+      "valid_models_total": 4,
+      "effective_voting_sources": {
+        "claude": "claude",
+        "gpt": "gpt",
+        "gemini": "gemini"
+      }
+    }
+  },
+  "review_items": [
+    {
+      "field_path": "annotation.cultural_entities[इंद्रधनुष्य].presence",
+      "agreement": "low",
+      "resolved_value": "excluded",
+      "claude_value": "present",
+      "gpt_value": "absent",
+      "gemini_value": "absent",
+      "note": "presence_count=1/3"
+    }
+  ],
+  "_votes": {
+    "claude": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"A quiet, wonder-filled encounter with Gandhi's presence diffused across a rainbow and a dreamlike riverbank, moving from intimate meeting to visionary stillness.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात\",\"abstract_meaning\":\"Gandhi's ideals dispersed into every fragment of the visible world's spectrum\"},{\"source_term\":\"स्वप्नांच्या त्या सरितेच्या काठावर\",\"abstract_meaning\":\"the threshold between lived reality and the nation's unrealized aspirations\"}],\"visual_motifs\":[\"a seven-colored rainbow whose every grain holds a human figure\",\"a solitary figure standing on the bank of a river of dreams\"]}],\"cultural_entities\":[{\"term\":\"इंद्रधनुष्य\",\"romanization\":\"Indradhanushya\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The Marathi term literally means Indra's bow; translated as rainbow, losing the mythological resonance of Indra.\"},{\"term\":\"गांधी\",\"romanization\":\"Gandhi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "A quiet, wonder-filled encounter with Gandhi's presence diffused across a rainbow and a dreamlike riverbank, moving from intimate meeting to visionary stillness.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+                "abstract_meaning": "Gandhi's ideals dispersed into every fragment of the visible world's spectrum"
+              },
+              {
+                "source_term": "स्वप्नांच्या त्या सरितेच्या काठावर",
+                "abstract_meaning": "the threshold between lived reality and the nation's unrealized aspirations"
+              }
+            ],
+            "visual_motifs": [
+              "a seven-colored rainbow whose every grain holds a human figure",
+              "a solitary figure standing on the bank of a river of dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "इंद्रधनुष्य",
+            "romanization": "Indradhanushya",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "The Marathi term literally means Indra's bow; translated as rainbow, losing the mythological resonance of Indra."
+          },
+          {
+            "term": "गांधी",
+            "romanization": "Gandhi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+              "स्वप्नांच्या त्या सरितेच्या काठावर"
+            ],
+            "visual_motifs": [
+              "a seven-colored rainbow whose every grain holds a human figure",
+              "a solitary figure standing on the bank of a river of dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "इंद्रधनुष्य",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          },
+          {
+            "term": "गांधी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gpt": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The poem moves from a personal encounter to a visionary, hopeful presence diffused through color and dreams.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात\",\"abstract_meaning\":\"Gandhi present in every shade of hope and plurality\"},{\"source_term\":\"स्वप्नांच्या त्या सरितेच्या काठावर\",\"abstract_meaning\":\"Gandhi standing at the edge of collective aspiration\"}],\"visual_motifs\":[\"Gandhi in every grain of a seven-colored rainbow\",\"Gandhi standing on the shore of a river of dreams\"]}],\"cultural_entities\":[{\"term\":\"गांधी\",\"romanization\":\"Gandhi\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The poem moves from a personal encounter to a visionary, hopeful presence diffused through color and dreams.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+                "abstract_meaning": "Gandhi present in every shade of hope and plurality"
+              },
+              {
+                "source_term": "स्वप्नांच्या त्या सरितेच्या काठावर",
+                "abstract_meaning": "Gandhi standing at the edge of collective aspiration"
+              }
+            ],
+            "visual_motifs": [
+              "Gandhi in every grain of a seven-colored rainbow",
+              "Gandhi standing on the shore of a river of dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "गांधी",
+            "romanization": "Gandhi",
+            "category": "REGIONAL_SYMBOL",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": ""
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+              "स्वप्नांच्या त्या सरितेच्या काठावर"
+            ],
+            "visual_motifs": [
+              "Gandhi in every grain of a seven-colored rainbow",
+              "Gandhi standing on the shore of a river of dreams"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "गांधी",
+            "category": "REGIONAL_SYMBOL",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"स्वप्नांच्या त्या सरितेच्या\",\"abstract_meaning\":\"the continuous flow of ideals and visionary thoughts\"},{\"source_term\":\"इंद्रधनुष्याच्या एकेका कणात\",\"abstract_meaning\":\"omnipresence within hope and natural beauty\"}],\"visual_motifs\":[\"seven-colored rainbow\",\"figure standing on the shore of a river\"]}],\"cultural_entities\":[]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "peace",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "स्वप्नांच्या त्या सरितेच्या",
+                "abstract_meaning": "the continuous flow of ideals and visionary thoughts"
+              },
+              {
+                "source_term": "इंद्रधनुष्याच्या एकेका कणात",
+                "abstract_meaning": "omnipresence within hope and natural beauty"
+              }
+            ],
+            "visual_motifs": [
+              "seven-colored rainbow",
+              "figure standing on the shore of a river"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "स्वप्नांच्या त्या सरितेच्या",
+              "इंद्रधनुष्याच्या एकेका कणात"
+            ],
+            "visual_motifs": [
+              "seven-colored rainbow",
+              "figure standing on the shore of a river"
+            ]
+          }
+        ],
+        "cultural_entities": []
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": true
+    },
+    "gemini-3-flash": {
+      "status": "valid",
+      "retry_count": 0,
+      "raw_text": "{\"recitation_style\":\"reflective\",\"emotional_arc\":\"The speaker experiences a spiritual realization of Gandhi's omnipresence within nature and the realm of ideals.\",\"stanzas\":[{\"index\":1,\"emotion\":\"peace\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात\",\"abstract_meaning\":\"The omnipresence of Gandhi's philosophy within the diverse beauty of the world.\"},{\"source_term\":\"स्वप्नांच्या त्या सरितेच्या\",\"abstract_meaning\":\"The continuous flow of idealistic aspirations and the subconscious search for truth.\"}],\"visual_motifs\":[\"A seven-colored rainbow\",\"A river of dreams\",\"A figure standing on a riverbank\"]}],\"cultural_entities\":[{\"term\":\"गांधी\",\"romanization\":\"Gandhi\",\"category\":\"DEVOTIONAL_CONCEPT\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Mahatma Gandhi is invoked here not just as a historical figure but as a 'Mahatma' (Great Soul), a transcendent spiritual guide.\"}]}",
+      "parsed": {
+        "recitation_style": "reflective",
+        "emotional_arc": "The speaker experiences a spiritual realization of Gandhi's omnipresence within nature and the realm of ideals.",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "loss_note": "",
+            "metaphor_spans": [
+              {
+                "source_term": "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+                "abstract_meaning": "The omnipresence of Gandhi's philosophy within the diverse beauty of the world."
+              },
+              {
+                "source_term": "स्वप्नांच्या त्या सरितेच्या",
+                "abstract_meaning": "The continuous flow of idealistic aspirations and the subconscious search for truth."
+              }
+            ],
+            "visual_motifs": [
+              "A seven-colored rainbow",
+              "A river of dreams",
+              "A figure standing on a riverbank"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "गांधी",
+            "romanization": "Gandhi",
+            "category": "DEVOTIONAL_CONCEPT",
+            "stanza_index": 1,
+            "preserved": true,
+            "translation_note": "Mahatma Gandhi is invoked here not just as a historical figure but as a 'Mahatma' (Great Soul), a transcendent spiritual guide."
+          }
+        ]
+      },
+      "discard_reason": "",
+      "comparison": {
+        "recitation_style": "reflective",
+        "stanzas": [
+          {
+            "index": 1,
+            "emotion": "peace",
+            "tone": "wonder",
+            "translation_quality": "faithful",
+            "metaphor_terms": [
+              "सप्तरंगाच्या इंद्रधनुष्याच्या एकेका कणात",
+              "स्वप्नांच्या त्या सरितेच्या"
+            ],
+            "visual_motifs": [
+              "A seven-colored rainbow",
+              "A river of dreams",
+              "A figure standing on a riverbank"
+            ]
+          }
+        ],
+        "cultural_entities": [
+          {
+            "term": "गांधी",
+            "category": "DEVOTIONAL_CONCEPT",
+            "preserved": true
+          }
+        ]
+      },
+      "prompt_kind": "primary",
+      "is_voting_model": false
+    }
+  }
+}
