@@ -1,0 +1,678 @@
+{
+  "review_id": "MV++_1433__review_02",
+  "poem_id": "MV++_1433",
+  "language": "Telugu",
+  "title": "Vasanta Rutu",
+  "review_status": "approved_with_corrections",
+  "reviewer_id": "review_02",
+  "reviewer_confidence": "medium",
+  "reviewed_at": "2026-04-30T01:43:24+05:30",
+  "original_poem": "వసంత ఋతువు వచ్చె,\nముగ్గురిపిల్లల నడుమ\nమల్లెలు విరియ వేలు వెళ్ళియ, \nవెన్నెలవెలుగు జారె,\nరెండు కళ్లు వెన్నెలవెలుగునొలకలె\nనింగి నిలుపును తాకి, \nపచ్చని అడవి సవాలు వేస్తే.",
+  "english_translation": "The season of spring arrives,\nAmong three playful children\nThe jasmine blooms and the breeze sways, \nThe moonlight spreads softly,\nTwo eyes glow with the light of the moon,\nReaching to touch the sky, \nThe green forest throws a challenge.",
+  "source_annotation_file": "..\\..\\outputs_new_4\\outputs_new_4\\Telugu\\MV++_1433.json",
+  "final_annotations": {
+    "culture_entities": [],
+    "metaphor_spans": [
+      {
+        "source_text": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+        "literal_meaning": "",
+        "abstract_meaning": "eyes brimming with moonlight as vessels of spring's luminous wonder",
+        "visual_hint": "",
+        "stanza_index": 1.0,
+        "confidence": "high",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "source_text": "పచ్చని అడవి సవాలు వేస్తే",
+        "literal_meaning": "",
+        "abstract_meaning": "the green forest asserting its vitality as a rival to spring's arrival",
+        "visual_hint": "",
+        "stanza_index": 1.0,
+        "confidence": "high",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "source_text": "మల్లెలు విరియ వేలు వెళ్ళియ",
+        "literal_meaning": "",
+        "abstract_meaning": "Beauty or happiness spreading all around",
+        "visual_hint": "",
+        "stanza_index": 1.0,
+        "confidence": "",
+        "review_action": "add",
+        "reviewer_comment": "This is a metaphor missed"
+      },
+      {
+        "source_text": "నింగి నిలుపును తాకి",
+        "literal_meaning": "",
+        "abstract_meaning": "Suggests elevation, dream, or aspiration",
+        "visual_hint": "",
+        "stanza_index": 1.0,
+        "confidence": "",
+        "review_action": "add",
+        "reviewer_comment": "This is a metaphor missed"
+      }
+    ],
+    "stanza_emotions": [
+      {
+        "stanza_index": 1,
+        "emotion": "celebration",
+        "tone": "wonder",
+        "translation_quality": "partial",
+        "loss_note": "వెన్నెలవెలుగునొలకలె carries a sense of moonlight overflowing or spilling from the eyes, which 'glow with the light of the moon' only partially captures.",
+        "confidence": "high",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      }
+    ],
+    "visual_motifs": [
+      {
+        "motif": "a lush green forest standing in bold challenge",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "eyes glowing with moonlight reaching the sky",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "green forest reaching toward the sky",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "green forest throwing a challenge",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": false,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": "It is a metaphor. You can't see this happen visually."
+      },
+      {
+        "motif": "jasmine blooming among playful children",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "jasmine blooming in spring",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "jasmine blooms swaying in the breeze among three playful children",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "moonlight spreading softly across the scene",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "soft moonlight spreading",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "softly spreading moonlight",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "two eyes glowing with moonlight",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      },
+      {
+        "motif": "two eyes overflowing with moonlight reaching toward the sky",
+        "stanza_index": 1,
+        "importance": "",
+        "keep_for_image_generation": true,
+        "confidence": "low",
+        "review_action": "keep",
+        "reviewer_comment": ""
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "decision": "approved_with_corrections",
+    "reason": "added 2 metaphors and removed a visual motif which is \"green forest throwing a challenge\"."
+  },
+  "raw_llm_annotation_snapshot": {
+    "schema_version": 4,
+    "prompt_version": 5,
+    "poem_id": "MV++_1433",
+    "poem_title": "Vasanta Rutu",
+    "language": "Telugu",
+    "original_poem": "వసంత ఋతువు వచ్చె,\nముగ్గురిపిల్లల నడుమ\nమల్లెలు విరియ వేలు వెళ్ళియ, \nవెన్నెలవెలుగు జారె,\nరెండు కళ్లు వెన్నెలవెలుగునొలకలె\nనింగి నిలుపును తాకి, \nపచ్చని అడవి సవాలు వేస్తే.",
+    "translated_poem": "The season of spring arrives,\nAmong three playful children\nThe jasmine blooms and the breeze sways, \nThe moonlight spreads softly,\nTwo eyes glow with the light of the moon,\nReaching to touch the sky, \nThe green forest throws a challenge.",
+    "status": "completed",
+    "agreement": "low",
+    "vote_basis": "full_3_vote",
+    "needs_human_review": true,
+    "preprocessing": {
+      "stanza_count": 1,
+      "source_stanza_count": 1,
+      "translated_stanza_count": 1,
+      "alignment_status": "aligned",
+      "alignment_note": "Source and translation stanza counts match.",
+      "stanzas": [
+        {
+          "stanza_index": 1,
+          "line_count": 7,
+          "source_lines": [
+            "వసంత ఋతువు వచ్చె,",
+            "ముగ్గురిపిల్లల నడుమ",
+            "మల్లెలు విరియ వేలు వెళ్ళియ,",
+            "వెన్నెలవెలుగు జారె,",
+            "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+            "నింగి నిలుపును తాకి,",
+            "పచ్చని అడవి సవాలు వేస్తే."
+          ],
+          "translated_lines": [
+            "The season of spring arrives,",
+            "Among three playful children",
+            "The jasmine blooms and the breeze sways,",
+            "The moonlight spreads softly,",
+            "Two eyes glow with the light of the moon,",
+            "Reaching to touch the sky,",
+            "The green forest throws a challenge."
+          ]
+        }
+      ]
+    },
+    "annotation": {
+      "recitation_style": {
+        "value": "celebratory",
+        "agreement": "high",
+        "source_model": "claude",
+        "resolution_basis": "full_3_vote_unanimous"
+      },
+      "emotional_arc": {
+        "value": "A gentle arrival of spring builds through sensory delight—jasmine, moonlight, glowing eyes—before culminating in the green forest's bold, playful challenge",
+        "agreement": "medium",
+        "source_model": "claude",
+        "resolution_basis": "claude_free_text"
+      },
+      "translation_fidelity_score": 0.5,
+      "stanzas": [
+        {
+          "stanza_index": 1,
+          "line_count": 7,
+          "source_lines": [
+            "వసంత ఋతువు వచ్చె,",
+            "ముగ్గురిపిల్లల నడుమ",
+            "మల్లెలు విరియ వేలు వెళ్ళియ,",
+            "వెన్నెలవెలుగు జారె,",
+            "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+            "నింగి నిలుపును తాకి,",
+            "పచ్చని అడవి సవాలు వేస్తే."
+          ],
+          "translated_lines": [
+            "The season of spring arrives,",
+            "Among three playful children",
+            "The jasmine blooms and the breeze sways,",
+            "The moonlight spreads softly,",
+            "Two eyes glow with the light of the moon,",
+            "Reaching to touch the sky,",
+            "The green forest throws a challenge."
+          ],
+          "emotion": {
+            "value": "celebration",
+            "agreement": "high",
+            "source_model": "claude",
+            "resolution_basis": "full_3_vote_unanimous"
+          },
+          "tone": {
+            "value": "wonder",
+            "agreement": "high",
+            "source_model": "claude",
+            "resolution_basis": "full_3_vote_unanimous"
+          },
+          "translation_quality": {
+            "value": "partial",
+            "agreement": "high",
+            "source_model": "claude",
+            "resolution_basis": "full_3_vote_unanimous"
+          },
+          "loss_note": {
+            "value": "వెన్నెలవెలుగునొలకలె carries a sense of moonlight overflowing or spilling from the eyes, which 'glow with the light of the moon' only partially captures.",
+            "agreement": "medium",
+            "source_model": "claude",
+            "resolution_basis": "claude_free_text"
+          },
+          "metaphor_spans": [
+            {
+              "source_term": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+              "abstract_meaning": "eyes brimming with moonlight as vessels of spring's luminous wonder",
+              "agreement": "high",
+              "source_model": "claude"
+            },
+            {
+              "source_term": "పచ్చని అడవి సవాలు వేస్తే",
+              "abstract_meaning": "the green forest asserting its vitality as a rival to spring's arrival",
+              "agreement": "high",
+              "source_model": "claude"
+            }
+          ],
+          "visual_motifs": [
+            {
+              "motif": "a lush green forest standing in bold challenge",
+              "agreement": "low",
+              "source_model": "claude"
+            },
+            {
+              "motif": "eyes glowing with moonlight reaching the sky",
+              "agreement": "low",
+              "source_model": "gemini"
+            },
+            {
+              "motif": "green forest reaching toward the sky",
+              "agreement": "low",
+              "source_model": "gpt"
+            },
+            {
+              "motif": "green forest throwing a challenge",
+              "agreement": "low",
+              "source_model": "gemini"
+            },
+            {
+              "motif": "jasmine blooming among playful children",
+              "agreement": "low",
+              "source_model": "gemini"
+            },
+            {
+              "motif": "jasmine blooming in spring",
+              "agreement": "low",
+              "source_model": "gpt"
+            },
+            {
+              "motif": "jasmine blooms swaying in the breeze among three playful children",
+              "agreement": "low",
+              "source_model": "claude"
+            },
+            {
+              "motif": "moonlight spreading softly across the scene",
+              "agreement": "low",
+              "source_model": "claude"
+            },
+            {
+              "motif": "soft moonlight spreading",
+              "agreement": "low",
+              "source_model": "gpt"
+            },
+            {
+              "motif": "softly spreading moonlight",
+              "agreement": "low",
+              "source_model": "gemini"
+            },
+            {
+              "motif": "two eyes glowing with moonlight",
+              "agreement": "low",
+              "source_model": "gpt"
+            },
+            {
+              "motif": "two eyes overflowing with moonlight reaching toward the sky",
+              "agreement": "low",
+              "source_model": "claude"
+            }
+          ]
+        }
+      ],
+      "cultural_entities": [],
+      "agreement_stats": {
+        "selected_models": [
+          "claude",
+          "gpt",
+          "gemini",
+          "gemini-3-flash"
+        ],
+        "voting_models": [
+          "claude",
+          "gpt",
+          "gemini"
+        ],
+        "valid_voting_models": 3,
+        "low_stanza_count": 0,
+        "medium_stanza_count": 0,
+        "low_entity_count": 1,
+        "review_item_count": 1,
+        "vote_basis": "full_3_vote",
+        "valid_models_total": 4,
+        "effective_voting_sources": {
+          "claude": "claude",
+          "gpt": "gpt",
+          "gemini": "gemini"
+        }
+      }
+    },
+    "review_items": [
+      {
+        "field_path": "annotation.cultural_entities[మల్లెలు].presence",
+        "agreement": "low",
+        "resolved_value": "excluded",
+        "claude_value": "present",
+        "gpt_value": "absent",
+        "gemini_value": "absent",
+        "note": "presence_count=1/3"
+      }
+    ],
+    "_votes": {
+      "claude": {
+        "status": "valid",
+        "retry_count": 0,
+        "raw_text": "```json\n{\n  \"recitation_style\": \"celebratory\",\n  \"emotional_arc\": \"A gentle arrival of spring builds through sensory delight—jasmine, moonlight, glowing eyes—before culminating in the green forest's bold, playful challenge\",\n  \"stanzas\": [\n    {\n      \"index\": 1,\n      \"emotion\": \"celebration\",\n      \"tone\": \"wonder\",\n      \"translation_quality\": \"partial\",\n      \"loss_note\": \"వెన్నెలవెలుగునొలకలె carries a sense of moonlight overflowing or spilling from the eyes, which 'glow with the light of the moon' only partially captures.\",\n      \"metaphor_spans\": [\n        {\n          \"source_term\": \"రెండు కళ్లు వెన్నెలవెలుగునొలకలె\",\n          \"abstract_meaning\": \"eyes brimming with moonlight as vessels of spring's luminous wonder\"\n        },\n        {\n          \"source_term\": \"పచ్చని అడవి సవాలు వేస్తే\",\n          \"abstract_meaning\": \"the green forest asserting its vitality as a rival to spring's arrival\"\n        }\n      ],\n      \"visual_motifs\": [\n        \"jasmine blooms swaying in the breeze among three playful children\",\n        \"moonlight spreading softly across the scene\",\n        \"two eyes overflowing with moonlight reaching toward the sky\",\n        \"a lush green forest standing in bold challenge\"\n      ]\n    }\n  ],\n  \"cultural_entities\": [\n    {\n      \"term\": \"మల్లెలు\",\n      \"romanization\": \"mallelu\",\n      \"category\": \"REGIONAL_SYMBOL\",\n      \"stanza_index\": 1,\n      \"preserved\": true,\n      \"translation_note\": \"Jasmine (mallelu) is a culturally specific Telugu regional symbol associated with spring, femininity, and festivity, not merely a generic flower.\"\n    }\n  ]\n}\n```",
+        "parsed": {
+          "recitation_style": "celebratory",
+          "emotional_arc": "A gentle arrival of spring builds through sensory delight—jasmine, moonlight, glowing eyes—before culminating in the green forest's bold, playful challenge",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "loss_note": "వెన్నెలవెలుగునొలకలె carries a sense of moonlight overflowing or spilling from the eyes, which 'glow with the light of the moon' only partially captures.",
+              "metaphor_spans": [
+                {
+                  "source_term": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                  "abstract_meaning": "eyes brimming with moonlight as vessels of spring's luminous wonder"
+                },
+                {
+                  "source_term": "పచ్చని అడవి సవాలు వేస్తే",
+                  "abstract_meaning": "the green forest asserting its vitality as a rival to spring's arrival"
+                }
+              ],
+              "visual_motifs": [
+                "jasmine blooms swaying in the breeze among three playful children",
+                "moonlight spreading softly across the scene",
+                "two eyes overflowing with moonlight reaching toward the sky",
+                "a lush green forest standing in bold challenge"
+              ]
+            }
+          ],
+          "cultural_entities": [
+            {
+              "term": "మల్లెలు",
+              "romanization": "mallelu",
+              "category": "REGIONAL_SYMBOL",
+              "stanza_index": 1,
+              "preserved": true,
+              "translation_note": "Jasmine (mallelu) is a culturally specific Telugu regional symbol associated with spring, femininity, and festivity, not merely a generic flower."
+            }
+          ]
+        },
+        "discard_reason": "",
+        "comparison": {
+          "recitation_style": "celebratory",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "metaphor_terms": [
+                "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                "పచ్చని అడవి సవాలు వేస్తే"
+              ],
+              "visual_motifs": [
+                "jasmine blooms swaying in the breeze among three playful children",
+                "moonlight spreading softly across the scene",
+                "two eyes overflowing with moonlight reaching toward the sky",
+                "a lush green forest standing in bold challenge"
+              ]
+            }
+          ],
+          "cultural_entities": [
+            {
+              "term": "మల్లెలు",
+              "category": "REGIONAL_SYMBOL",
+              "preserved": true
+            }
+          ]
+        },
+        "prompt_kind": "primary",
+        "is_voting_model": true
+      },
+      "gpt": {
+        "status": "valid",
+        "retry_count": 0,
+        "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"spring unfolds from gentle natural beauty into an expansive, challenging vitality.\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"ముగ్గురిపిల్లల is unclear in translation and వేలు వెళ్ళియ is rendered loosely.\",\"metaphor_spans\":[{\"source_term\":\"రెండు కళ్లు వెన్నెలవెలుగునొలకలె\",\"abstract_meaning\":\"eyes shining with moonlike radiance\"},{\"source_term\":\"పచ్చని అడవి సవాలు వేస్తే\",\"abstract_meaning\":\"the forest appears as a bold force testing the viewer\"}],\"visual_motifs\":[\"jasmine blooming in spring\",\"soft moonlight spreading\",\"two eyes glowing with moonlight\",\"green forest reaching toward the sky\"]}],\"cultural_entities\":[]}",
+        "parsed": {
+          "recitation_style": "celebratory",
+          "emotional_arc": "spring unfolds from gentle natural beauty into an expansive, challenging vitality.",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "loss_note": "ముగ్గురిపిల్లల is unclear in translation and వేలు వెళ్ళియ is rendered loosely.",
+              "metaphor_spans": [
+                {
+                  "source_term": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                  "abstract_meaning": "eyes shining with moonlike radiance"
+                },
+                {
+                  "source_term": "పచ్చని అడవి సవాలు వేస్తే",
+                  "abstract_meaning": "the forest appears as a bold force testing the viewer"
+                }
+              ],
+              "visual_motifs": [
+                "jasmine blooming in spring",
+                "soft moonlight spreading",
+                "two eyes glowing with moonlight",
+                "green forest reaching toward the sky"
+              ]
+            }
+          ],
+          "cultural_entities": []
+        },
+        "discard_reason": "",
+        "comparison": {
+          "recitation_style": "celebratory",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "metaphor_terms": [
+                "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                "పచ్చని అడవి సవాలు వేస్తే"
+              ],
+              "visual_motifs": [
+                "jasmine blooming in spring",
+                "soft moonlight spreading",
+                "two eyes glowing with moonlight",
+                "green forest reaching toward the sky"
+              ]
+            }
+          ],
+          "cultural_entities": []
+        },
+        "prompt_kind": "primary",
+        "is_voting_model": true
+      },
+      "gemini": {
+        "status": "valid",
+        "retry_count": 0,
+        "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"peace to celebration\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"partial\",\"loss_note\":\"The translation simplifies the compound 'వెన్నెలవెలుగునొలకలె' (overflowing moonlight) to 'glow with the light of the moon'.\",\"metaphor_spans\":[{\"source_term\":\"రెండు కళ్లు వెన్నెలవెలుగునొలకలె\",\"abstract_meaning\":\"eyes reflecting pure joy and brightness\"},{\"source_term\":\"పచ్చని అడవి సవాలు వేస్తే\",\"abstract_meaning\":\"the overwhelming, vibrant energy of nature demanding attention\"}],\"visual_motifs\":[\"jasmine blooming among playful children\",\"softly spreading moonlight\",\"eyes glowing with moonlight reaching the sky\",\"green forest throwing a challenge\"]}],\"cultural_entities\":[{\"term\":\"వసంత ఋతువు\",\"romanization\":\"Vasanta Rutuvu\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Translated literally as 'season of spring', capturing the literal meaning but missing the deep poetic associations of Vasanta in Indian literature.\"}]}",
+        "parsed": {
+          "recitation_style": "celebratory",
+          "emotional_arc": "peace to celebration",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "loss_note": "The translation simplifies the compound 'వెన్నెలవెలుగునొలకలె' (overflowing moonlight) to 'glow with the light of the moon'.",
+              "metaphor_spans": [
+                {
+                  "source_term": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                  "abstract_meaning": "eyes reflecting pure joy and brightness"
+                },
+                {
+                  "source_term": "పచ్చని అడవి సవాలు వేస్తే",
+                  "abstract_meaning": "the overwhelming, vibrant energy of nature demanding attention"
+                }
+              ],
+              "visual_motifs": [
+                "jasmine blooming among playful children",
+                "softly spreading moonlight",
+                "eyes glowing with moonlight reaching the sky",
+                "green forest throwing a challenge"
+              ]
+            }
+          ],
+          "cultural_entities": []
+        },
+        "discard_reason": "",
+        "comparison": {
+          "recitation_style": "celebratory",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "partial",
+              "metaphor_terms": [
+                "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                "పచ్చని అడవి సవాలు వేస్తే"
+              ],
+              "visual_motifs": [
+                "jasmine blooming among playful children",
+                "softly spreading moonlight",
+                "eyes glowing with moonlight reaching the sky",
+                "green forest throwing a challenge"
+              ]
+            }
+          ],
+          "cultural_entities": []
+        },
+        "prompt_kind": "primary",
+        "is_voting_model": true
+      },
+      "gemini-3-flash": {
+        "status": "valid",
+        "retry_count": 0,
+        "raw_text": "{\"recitation_style\":\"celebratory\",\"emotional_arc\":\"peace\",\"stanzas\":[{\"index\":1,\"emotion\":\"celebration\",\"tone\":\"wonder\",\"translation_quality\":\"faithful\",\"loss_note\":\"\",\"metaphor_spans\":[{\"source_term\":\"పచ్చని అడవి సవాలు వేస్తే\",\"abstract_meaning\":\"the assertive and overwhelming presence of nature's growth during spring\"},{\"source_term\":\"రెండు కళ్లు వెన్నెలవెలుగునొలకలె\",\"abstract_meaning\":\"the reflection of celestial serenity and clarity in human perception\"}],\"visual_motifs\":[\"blooming jasmine flowers\",\"soft moonlight spreading\",\"vibrant green forest\",\"playful children in nature\"]}],\"cultural_entities\":[{\"term\":\"వసంత ఋతువు\",\"romanization\":\"Vasanta Rutu\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"The spring season in the traditional Indian calendar, symbolizing rejuvenation and the start of the lunar new year.\"},{\"term\":\"మల్లెలు\",\"romanization\":\"Mallelu\",\"category\":\"REGIONAL_SYMBOL\",\"stanza_index\":1,\"preserved\":true,\"translation_note\":\"Jasmine flowers, which are culturally iconic in South India for their fragrance and use in festive decorations and hair adornment.\"}]}",
+        "parsed": {
+          "recitation_style": "celebratory",
+          "emotional_arc": "peace",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "faithful",
+              "loss_note": "",
+              "metaphor_spans": [
+                {
+                  "source_term": "పచ్చని అడవి సవాలు వేస్తే",
+                  "abstract_meaning": "the assertive and overwhelming presence of nature's growth during spring"
+                },
+                {
+                  "source_term": "రెండు కళ్లు వెన్నెలవెలుగునొలకలె",
+                  "abstract_meaning": "the reflection of celestial serenity and clarity in human perception"
+                }
+              ],
+              "visual_motifs": [
+                "blooming jasmine flowers",
+                "soft moonlight spreading",
+                "vibrant green forest",
+                "playful children in nature"
+              ]
+            }
+          ],
+          "cultural_entities": [
+            {
+              "term": "మల్లెలు",
+              "romanization": "Mallelu",
+              "category": "REGIONAL_SYMBOL",
+              "stanza_index": 1,
+              "preserved": true,
+              "translation_note": "Jasmine flowers, which are culturally iconic in South India for their fragrance and use in festive decorations and hair adornment."
+            }
+          ]
+        },
+        "discard_reason": "",
+        "comparison": {
+          "recitation_style": "celebratory",
+          "stanzas": [
+            {
+              "index": 1,
+              "emotion": "celebration",
+              "tone": "wonder",
+              "translation_quality": "faithful",
+              "metaphor_terms": [
+                "పచ్చని అడవి సవాలు వేస్తే",
+                "రెండు కళ్లు వెన్నెలవెలుగునొలకలె"
+              ],
+              "visual_motifs": [
+                "blooming jasmine flowers",
+                "soft moonlight spreading",
+                "vibrant green forest",
+                "playful children in nature"
+              ]
+            }
+          ],
+          "cultural_entities": [
+            {
+              "term": "మల్లెలు",
+              "category": "REGIONAL_SYMBOL",
+              "preserved": true
+            }
+          ]
+        },
+        "prompt_kind": "primary",
+        "is_voting_model": false
+      }
+    },
+    "_source_file": "..\\..\\outputs_new_4\\outputs_new_4\\Telugu\\MV++_1433.json",
+    "_language_folder": "Telugu"
+  }
+}
