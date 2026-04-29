@@ -360,8 +360,8 @@ def poem_option_label(raw: Dict[str, Any], reviewed_index: Dict[str, Dict[str, A
 
 def review_action_column() -> st.column_config.SelectboxColumn:
     return st.column_config.SelectboxColumn(
-        "review_action (dropdown)",
-        help="Click this cell and choose: keep, modify, remove, or add.",
+        "Action - click to choose",
+        help="Dropdown: keep = correct, modify = corrected, remove = exclude from final annotations, add = new reviewer row.",
         options=REVIEW_ACTIONS,
         required=True,
     )
@@ -404,6 +404,18 @@ def df_editor_culture(df: pd.DataFrame, key: str) -> pd.DataFrame:
         use_container_width=True,
         hide_index=True,
         num_rows="dynamic",
+        column_order=[
+            "review_action",
+            "text",
+            "category",
+            "preserved",
+            "english_gloss",
+            "romanization",
+            "translation_note",
+            "stanza_index",
+            "confidence",
+            "reviewer_comment",
+        ],
         column_config={
             "category": st.column_config.SelectboxColumn("category (dropdown)", options=ALLOWED_CULTURE_CATEGORIES),
             "review_action": review_action_column(),
@@ -419,6 +431,16 @@ def df_editor_metaphor(df: pd.DataFrame, key: str) -> pd.DataFrame:
         use_container_width=True,
         hide_index=True,
         num_rows="dynamic",
+        column_order=[
+            "review_action",
+            "source_text",
+            "abstract_meaning",
+            "literal_meaning",
+            "visual_hint",
+            "stanza_index",
+            "confidence",
+            "reviewer_comment",
+        ],
         column_config={
             "review_action": review_action_column(),
             "abstract_meaning": st.column_config.TextColumn("abstract_meaning", width="large"),
@@ -435,6 +457,16 @@ def df_editor_emotion(df: pd.DataFrame, key: str) -> pd.DataFrame:
         use_container_width=True,
         hide_index=True,
         num_rows="dynamic",
+        column_order=[
+            "review_action",
+            "stanza_index",
+            "emotion",
+            "tone",
+            "translation_quality",
+            "loss_note",
+            "confidence",
+            "reviewer_comment",
+        ],
         column_config={
             "emotion": st.column_config.SelectboxColumn("emotion (dropdown)", options=ALLOWED_EMOTIONS),
             "review_action": review_action_column(),
@@ -450,6 +482,15 @@ def df_editor_motif(df: pd.DataFrame, key: str) -> pd.DataFrame:
         use_container_width=True,
         hide_index=True,
         num_rows="dynamic",
+        column_order=[
+            "review_action",
+            "motif",
+            "keep_for_image_generation",
+            "importance",
+            "stanza_index",
+            "confidence",
+            "reviewer_comment",
+        ],
         column_config={
             "keep_for_image_generation": st.column_config.CheckboxColumn("keep_for_image_generation"),
             "review_action": review_action_column(),
@@ -629,8 +670,8 @@ with poem_right:
 
 st.markdown("### Review annotations")
 st.info(
-    "Edit directly in the tables below. In the `review_action (dropdown)` column, click the cell and choose: "
-    "`keep` for correct rows, `modify` for corrected rows, `remove` for wrong rows, and `add` for new rows."
+    "Edit directly in the tables below. The first column is `Action - click to choose`; click any action cell "
+    "to open the dropdown and choose `keep`, `modify`, `remove`, or `add`."
 )
 
 with st.expander(f"Culture entities ({row_count(culture_df)})", expanded=row_count(culture_df) > 0):
